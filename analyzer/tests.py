@@ -34,35 +34,27 @@ class ZeroShotClassifierTest(TestCase):
     @patch('analyzer.zero.AutoModelForSequenceClassification.from_pretrained')
     def test_predict_method(self, mock_model_cls, mock_tokenizer_cls, mock_inference, mock_softmax):
         """Test the predict method returns probabilities"""
-        # Mock the inference context manager
         mock_inference.return_value.__enter__ = MagicMock()
         mock_inference.return_value.__exit__ = MagicMock()
         
-        # Mock tokenizer and model classes
         mock_tokenizer = MagicMock()
         mock_model = MagicMock()
         mock_tokenizer_cls.return_value = mock_tokenizer
-        mock_model_cls.return_value = mock_model
-        
-        # Create classifier with mocked dependencies
+
         classifier = ZeroShotClassifier()
         
-        # Configure mocks
         mock_model.device = 'cpu'
         mock_model.config.label2id = {'entailment': 0, 'neutral': 1, 'contradiction': 2}
-        
-        # Mock tokenizer output
+
         mock_tokens = MagicMock()
         mock_tokens.to.return_value = mock_tokens
         mock_tokenizer.return_value = mock_tokens
-        
-        # Mock model output
+
         mock_logits = MagicMock()
         mock_model_output = MagicMock()
         mock_model_output.logits = mock_logits
         mock_model.return_value = mock_model_output
-        
-        # Mock softmax probabilities
+
         import numpy as np
         mock_proba_tensor = MagicMock()
         mock_proba_tensor.cpu.return_value.numpy.return_value = np.array([0.7, 0.3])
@@ -126,18 +118,15 @@ class TasksTest(TestCase):
     @patch('analyzer.tasks.classifier')
     def test_process_task_success(self, mock_classifier, mock_scrappers):
         """Test successful task processing"""
-        # Mock news scraper
         mock_scrapper = MagicMock()
         mock_scrapper.get_news.return_value = [
             "Test news article 1",
             "Test news article 2"
         ]
         mock_scrappers.__getitem__.return_value = mock_scrapper
-        
-        # Mock classifier
+
         mock_classifier.predict.return_value = [0.6, 0.4]
-        
-        # Create test task manually (without async processing)
+
         test_data = {
             'pairs': [
                 {'class1': 'positive', 'class2': 'negative'}
@@ -151,10 +140,8 @@ class TasksTest(TestCase):
             'error': None
         }
         
-        # Process task
         process_task(task_id, test_data)
-        
-        # Check results
+
         self.assertIsNotNone(tasks[task_id]['result'])
         self.assertIn('news_results', tasks[task_id]['result'])
         self.assertIn('summary', tasks[task_id]['result'])
@@ -162,7 +149,6 @@ class TasksTest(TestCase):
     @patch('analyzer.tasks.scrappers')
     def test_process_task_empty_news(self, mock_scrappers):
         """Test task processing with no news"""
-        # Mock empty news scraper
         mock_scrapper = MagicMock()
         mock_scrapper.get_news.return_value = []
         mock_scrappers.__getitem__.return_value = mock_scrapper
@@ -176,11 +162,9 @@ class TasksTest(TestCase):
             'result': None,
             'error': None
         }
-        
-        # Process task
+
         process_task(task_id, test_data)
-        
-        # Check error
+
         self.assertEqual(tasks[task_id]['error'], "Parsing error")
 
 
@@ -202,8 +186,7 @@ class APIViewsTest(APITestCase):
                 {'class1': 'positive', 'class2': 'negative'}
             ]
         }
-        
-        # We'll need to mock the serializer validation
+
         with patch('analyzer.models.BaseClassificationSerializer') as mock_serializer:
             mock_serializer_instance = MagicMock()
             mock_serializer_instance.is_valid.return_value = True
@@ -217,7 +200,6 @@ class APIViewsTest(APITestCase):
     @patch('analyzer.tasks.process_task_async')
     def test_task_status_view(self, mock_async):
         """Test TaskStatusView"""
-        # Create a test task
         test_data = {'pairs': []}
         task_id = create_task(test_data)
         
@@ -241,28 +223,23 @@ class IntegrationTest(TestCase):
     @patch('analyzer.tasks.process_task_async')
     def test_complete_workflow(self, mock_async, mock_classifier, mock_scrappers):
         """Test the complete workflow from task creation to completion"""
-        # Mock dependencies
         mock_scrapper = MagicMock()
         mock_scrapper.get_news.return_value = ["Test news"]
         mock_scrappers.__getitem__.return_value = mock_scrapper
         mock_classifier.predict.return_value = [0.7, 0.3]
-        
-        # Create task
+
         test_data = {
             'pairs': [
                 {'class1': 'positive', 'class2': 'negative'}
             ]
         }
         task_id = create_task(test_data)
-        
-        # Verify initial status
+
         status = get_task_status(task_id)
         self.assertEqual(status['status'], 'Pending')
-        
-        # Process task manually (not async)
+
         process_task(task_id, test_data)
-        
-        # Verify completion
+
         final_status = get_task_status(task_id)
         self.assertIsNotNone(final_status['result'])
         self.assertIsNone(final_status['error'])
@@ -277,15 +254,13 @@ class ModelTest(TestCase):
     def test_task_create_view_post_invalid_data(self):
         """Test TaskCreateView with invalid POST data"""
         view = TaskCreateView()
-        
-        # Test that the view class exists and has the right methods
+
         self.assertTrue(hasattr(view, 'post'))
         self.assertEqual(view.__class__.__name__, 'TaskCreateView')
 
     def test_task_status_view_get(self):
         """Test TaskStatusView GET method"""
         view = TaskStatusView()
-        
-        # Test that the view class exists and has the right methods
+
         self.assertTrue(hasattr(view, 'get'))
         self.assertEqual(view.__class__.__name__, 'TaskStatusView')
