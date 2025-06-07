@@ -42,7 +42,7 @@ jobs:
     - name: Run tests
       run: |
         export DJANGO_SETTINGS_MODULE=news_analyzer.settings
-        pytest --cov --cov-report=xml
+        pytest analyzer/tests.py --cov=analyzer --cov-report=xml --cov-report=term-missing -v
 
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
