@@ -15,7 +15,7 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 - **Backend**: Django 4.2+, Django REST Framework
 - **ML/NLP**: PyTorch, Transformers (RuBERT)
-- **Database**: PostgreSQL (production), SQLite (development)
+- **Database**: SQLite (simple file-based database)
 - **Containerization**: Docker, Docker Compose
 - **Testing**: Pytest, pytest-django
 - **CI/CD**: GitHub Actions
@@ -49,7 +49,6 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 1. **Prerequisites**
    - Python 3.9+
-   - PostgreSQL (optional, SQLite by default)
 
 2. **Install dependencies**
    ```bash
@@ -65,7 +64,7 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 4. **Database setup**
    ```bash
    python manage.py migrate
-   python manage.py createsuperuser
+   python manage.py createsuperuser  # Optional
    ```
 
 5. **Run development server**
@@ -78,7 +77,7 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 ### Create Analysis Task
 
 ```bash
-POST /api/tasks/
+POST /api/task/
 Content-Type: application/json
 
 {
@@ -98,7 +97,7 @@ Content-Type: application/json
 ### Check Task Status
 
 ```bash
-GET /api/tasks/{task_id}/
+GET /api/task/{task_id}/
 ```
 
 Response:
@@ -119,6 +118,7 @@ Response:
 
 ```bash
 # Run all tests
+export DJANGO_SETTINGS_MODULE=news_analyzer.settings
 pytest
 
 # Run with coverage
@@ -151,12 +151,6 @@ pytest -v
    # Set production environment variables
    export DEBUG=False
    export SECRET_KEY=your-production-secret-key
-   export DB_ENGINE=django.db.backends.postgresql
-   export DB_NAME=news_analyzer_prod
-   export DB_USER=your-db-user
-   export DB_PASSWORD=your-db-password
-   export DB_HOST=your-db-host
-   export DB_PORT=5432
    export ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
    ```
 
@@ -167,12 +161,6 @@ pytest -v
      -p 8000:8000 \
      -e DEBUG=False \
      -e SECRET_KEY=$SECRET_KEY \
-     -e DB_ENGINE=$DB_ENGINE \
-     -e DB_NAME=$DB_NAME \
-     -e DB_USER=$DB_USER \
-     -e DB_PASSWORD=$DB_PASSWORD \
-     -e DB_HOST=$DB_HOST \
-     -e DB_PORT=$DB_PORT \
      -e ALLOWED_HOSTS=$ALLOWED_HOSTS \
      news-analyzer:prod
    ```
@@ -227,17 +215,15 @@ news-zero-shot/
 | `SECRET_KEY` | Django secret key | Required |
 | `DEBUG` | Debug mode | `True` |
 | `ALLOWED_HOSTS` | Allowed host names | `localhost,127.0.0.1` |
-| `DB_ENGINE` | Database engine | `django.db.backends.sqlite3` |
-| `DB_NAME` | Database name | `db.sqlite3` |
-| `DB_USER` | Database user | `` |
-| `DB_PASSWORD` | Database password | `` |
-| `DB_HOST` | Database host | `` |
-| `DB_PORT` | Database port | `` |
 | `DJANGO_LOG_LEVEL` | Logging level | `INFO` |
 
 ### RuBERT Model
 
 The application uses the `cointegrated/rubert-base-cased-nli-threeway` model for Russian text NLI. The model is automatically downloaded on first use.
+
+### Database
+
+The application uses SQLite as a simple file-based database. No complex database setup is required.
 
 ## Contributing
 
