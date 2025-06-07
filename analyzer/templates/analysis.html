@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Style adjustments for a more presentable table */
+        /* Style adjustments for a more presentable table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .truncate {
+            max-width: 300px;  /* Adjust as needed */
+            white-space: normal;
+            overflow: visible;   
+            /* text-overflow: ellipsis; */
+        }
+    </style>
+{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Инструмент информационного прогнозирования</h2>
+    <div class="row mt-4">
+        <div class="col-12">
+            <p>Добавьте пары классификации (две обязательны):</p>
+            <div id="classification-pairs">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" placeholder="Класс 1" required>
+                    <input type="text" class="form-control" placeholder="Класс 2" required>
+                    <button type="button" class="btn btn-danger remove-class">Удалить</button>
+                </div>
+            </div>
+            <button id="add-class" class="btn btn-primary">Добавить пару</button>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <button class="btn btn-outline-success col-12" type="button" id="analyze">Анализировать</button>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div class="row mt-5 text-center" id="loading" style="display: none;">
+        <div class="col-12">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Загрузка...</p>
+        </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="row mt-5" id="summary">
+        <h4>Сводка по всем новостям</h4>
+        <table id="summary-table">
+            <!-- This will be dynamically populated -->
+        </table>
+    </div>
+
+    <!-- Results Table -->
+    <div class="row mt-4" id="results-section">
+        <h4>Результаты анализа</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr id="results-header">
+                    <th>Текст новости</th>
+                </tr>
+            </thead>
+            <tbody id="results-body"></tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const addClassButton = document.getElementById('add-class');
+        const pairsContainer = document.getElementById('classification-pairs');
+        const analyzeButton = document.getElementById('analyze');
+        const loadingIndicator = document.getElementById('loading');
+        const resultsBody = document.getElementById('results-body');
+        const summaryTable = document.getElementById('summary-table');
+        const resultsHeader = document.getElementById('results-header');
+
+        const NEUTRAL_THRESHOLD = 0.8;
+
+        // Add a new pair of classification inputs dynamically
+        addClassButton.addEventListener('click', function () {
+            const pairInputGroup = document.createElement('div');
+            pairInputGroup.className = 'input-group mb-2';
+            pairInputGroup.innerHTML = `
+                <input type="text" class="form-control" placeholder="Класс 1" required>
+                <input type="text" class="form-control" placeholder="Класс 2" required>
+                <button type="button" class="btn btn-danger remove-class">Удалить</button>
+            `;
+            pairsContainer.appendChild(pairInputGroup);
+
+            // Attach event listener to the new remove button
+            pairInputGroup.querySelector('.remove-class').addEventListener('click', function () {
+                pairInputGroup.remove();
+            });
+        });
+
+        // Polling function to check task status
+        function pollTaskStatus(taskId, pairs, delay = 2000) {
+            const intervalId = setInterval(() => {
+                fetch(`/api/task/${taskId}/`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'Complete') {
+                            clearInterval(intervalId);
+                            populateResults(data.result.news_results, pairs); // Fill results once completed
+                            populateSummary(data.result.summary); // Fill the summary table
+                        }
+                    })
+                    .catch(error => {
+                        clearInterval(intervalId);
+                        console.error('Error:', error);
+                    });
+            }, delay);
+        }
+
+        function populateResults(results, pairs) {
+            loadingIndicator.style.display = 'none'; // Hide loading indicator
+            resultsBody.innerHTML = ''; // Clear previous results
+            resultsHeader.innerHTML = `<th>Text</th>`; // Clear and reset the results header
+
+            pairs.forEach(pair => {
+                resultsHeader.innerHTML += `<th>${pair.class1} / ${pair.class2}</th>`;
+            });
+
+            if (Array.isArray(results)) {
+                results.forEach(newsItem => {
+                    const row = document.createElement('tr');
+                    // Truncate text and add a tooltip
+                    row.innerHTML = `<td class="truncate" title="${newsItem.text}">${newsItem.text}</td>`;
+
+                    // Process classifications
+                    newsItem.classification.forEach((classification, index) => {
+                        for (const [key, probabilities] of Object.entries(classification)) {
+                            const [prob1, prob2] = probabilities;
+
+                            // Determine the classification result
+                            let result;
+                            let tooltipText = `(${prob1.toFixed(2)} / ${prob2.toFixed(2)})`;
+                            if (prob1 < NEUTRAL_THRESHOLD && prob2 < NEUTRAL_THRESHOLD) {
+                                result = "Нейтрально";
+                            } else if (prob1 >= NEUTRAL_THRESHOLD) {
+                                result = `Скорее ${pairs[index].class1}`;
+                            } else {
+                                result = `Скорее ${pairs[index].class2}`;
+                            }
+
+                            // Render the results with probabilities hidden but included as a tooltip
+                            row.innerHTML += `<td title="${tooltipText}">${result}</td>`;
+                        }
+                    });
+
+                    resultsBody.appendChild(row);
+                });
+            } else {
+                resultsBody.innerHTML = '<tr><td colspan="2">No results found</td></tr>';
+            }
+        }
+
+
+        // Populate the summary table
+        function populateSummary(summary) {
+            summaryTable.innerHTML = '<tr><th>Пара классификации</th><th>Вероятность влияния на первый класс</th><th>Вероятность влияния на второй класс</th></tr>';
+            for (const [key, value] of Object.entries(summary)) {
+                summaryTable.innerHTML += `<tr><td>${key}</td><td>${value[0].toFixed(2)}</td><td>${value[1].toFixed(2)}</td></tr>`;
+            }
+        }
+
+        // Handle the "Analyze" button click event
+        analyzeButton.addEventListener('click', function () {
+            loadingIndicator.style.display = 'block'; // Show loading indicator
+
+            // Collect classification pairs from input fields
+            const pairs = [];
+            pairsContainer.querySelectorAll('.input-group').forEach((group) => {
+                const inputs = group.querySelectorAll('input');
+                pairs.push({ class1: inputs[0].value, class2: inputs[1].value });
+            });
+
+            // Send data to the server to create the task
+            fetch('/api/task/', {
+                method: 'POST',
+                body: JSON.stringify({ pairs }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                const taskId = data.task_id;
+                pollTaskStatus(taskId, pairs);
+            })
+            .catch(error => {
+                loadingIndicator.style.display = 'none'; // Hide loading indicator in case of an error
+                console.error('Error:', error);
+                resultsBody.innerHTML = '<tr><td colspan="2">An error occurred while creating the task.</td></tr>';
+            });
+        });
+    });
+</script>
+
+
+
+{% endblock content %}
