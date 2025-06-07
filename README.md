@@ -15,7 +15,6 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 - **Backend**: Django 4.2+, Django REST Framework
 - **ML/NLP**: PyTorch, Transformers (RuBERT)
-- **Database**: SQLite (simple file-based database)
 - **Containerization**: Docker, Docker Compose
 - **Testing**: Pytest, pytest-django
 - **CI/CD**: GitHub Actions
@@ -43,7 +42,6 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 4. **Access the application**
    - API: http://localhost:8000
-   - Admin: http://localhost:8000/admin
 
 ### Local Development Setup
 
@@ -61,13 +59,7 @@ A Django web application that performs Natural Language Inference (NLI) on news 
    # Configure your environment variables
    ```
 
-4. **Database setup**
-   ```bash
-   python manage.py migrate
-   python manage.py createsuperuser  # Optional
-   ```
-
-5. **Run development server**
+4. **Run development server**
    ```bash
    python manage.py runserver
    ```
@@ -220,10 +212,6 @@ news-zero-shot/
 ### RuBERT Model
 
 The application uses the `cointegrated/rubert-base-cased-nli-threeway` model for Russian text NLI. The model is automatically downloaded on first use.
-
-### Database
-
-The application uses SQLite as a simple file-based database. No complex database setup is required.
 
 ## Contributing
 
