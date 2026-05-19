@@ -26,7 +26,12 @@ SECRET_KEY = config('SECRET_KEY', default='uwi#llq=#bp5&q+o1+2lr^#glg%yi*sv-4vxu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=Csv())
+DEFAULT_ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=','.join(DEFAULT_ALLOWED_HOSTS), cast=Csv())
+if DEBUG:
+    for host in ('localhost', '127.0.0.1', '0.0.0.0', '::1', 'testserver'):
+        if host not in ALLOWED_HOSTS:
+            ALLOWED_HOSTS.append(host)
 
 
 # Application definition
@@ -75,15 +80,32 @@ WSGI_APPLICATION = 'news_analyzer.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-# Using SQLite for simplicity since the app doesn't heavily use the database
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+DATABASE_ENGINE = config('DATABASE_ENGINE', default='postgresql').strip().lower()
+
+if DATABASE_ENGINE in {'sqlite', 'sqlite3'}:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': config('SQLITE_DATABASE_PATH', default=os.path.join(BASE_DIR, 'db.sqlite3')),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': config('POSTGRES_DB', default='news_analyzer'),
+            'USER': config('POSTGRES_USER', default='news_analyzer'),
+            'PASSWORD': config('POSTGRES_PASSWORD', default='news_analyzer'),
+            'HOST': config('POSTGRES_HOST', default='localhost'),
+            'PORT': config('POSTGRES_PORT', default='5432'),
+            'CONN_MAX_AGE': config('POSTGRES_CONN_MAX_AGE', default=60, cast=int),
+            'OPTIONS': {
+                'connect_timeout': config('POSTGRES_CONNECT_TIMEOUT', default=10, cast=int),
+            },
+        }
+    }
 
 
 # Password validation
@@ -114,8 +136,6 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_L10N = True
-
 USE_TZ = True
 
 
@@ -125,12 +145,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'analyzer', 'static'),
-]
-
-# Use WhiteNoise for static files in production
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
 
 # REST Framework settings
 REST_FRAMEWORK = {
@@ -169,3 +191,6 @@ LOGGING = {
         },
     },
 }
+
+# Default primary key type
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

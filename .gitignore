@@ -139,7 +139,6 @@ GitHub.sublime-settings
 # Docker
 Dockerfile.prod
 docker-compose.prod.yml
-.dockerignore
 
 # Machine Learning Models
 *.pkl
@@ -166,6 +165,8 @@ transformers_cache/
 *.gif
 data/
 datasets/
+!analyzer/data/
+!analyzer/data/social_risk_seed.json
 
 # Static files
 staticfiles/
@@ -195,6 +196,8 @@ Thumbs.db
 # Temporary files
 temp/
 tmp/
+tmp-edge-profile*/
+tmp-ui-checks/
 *.tmp
 *.temp
 

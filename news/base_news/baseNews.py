@@ -10,9 +10,9 @@ class BaseClassificationSerializer(serializers.Serializer):
     pairs = serializers.ListField(
         child=ClassificationPairSerializer(
         ),
-        min_length=1,  # Require at least two pairs
+        min_length=1,
         error_messages={
-            'min_length': 'At least two classification pairs are required.'
+            'min_length': 'At least one classification pair is required.'
         }
     )
 

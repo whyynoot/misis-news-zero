@@ -9,6 +9,20 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_DB: news_analyzer_test
+          POSTGRES_USER: news_analyzer
+          POSTGRES_PASSWORD: news_analyzer
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U news_analyzer -d news_analyzer_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
     strategy:
       matrix:
         python-version: ["3.11"]
@@ -38,6 +52,12 @@ jobs:
       run: |
         echo "SECRET_KEY=test-secret-key-for-ci" >> $GITHUB_ENV
         echo "DEBUG=True" >> $GITHUB_ENV
+        echo "DATABASE_ENGINE=postgresql" >> $GITHUB_ENV
+        echo "POSTGRES_DB=news_analyzer_test" >> $GITHUB_ENV
+        echo "POSTGRES_USER=news_analyzer" >> $GITHUB_ENV
+        echo "POSTGRES_PASSWORD=news_analyzer" >> $GITHUB_ENV
+        echo "POSTGRES_HOST=localhost" >> $GITHUB_ENV
+        echo "POSTGRES_PORT=5432" >> $GITHUB_ENV
 
     - name: Run tests
       run: |

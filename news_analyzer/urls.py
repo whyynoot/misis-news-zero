@@ -15,26 +15,28 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.views.generic import TemplateView
 
-from analyzer.views import (
-    analysis_page,
-)
-
-from analyzer.models import (
+from analyzer.api import (
+    MonitoringDataView,
+    MonitoringHistoryRunView,
+    MonitoringRunView,
+    MonitoringSummaryView,
     TaskCreateView,
-    TaskStatusView
+    TaskStatusView,
 )
+from analyzer.views import analysis_page, monitoring_page
 
 
 urlpatterns = [
-    path("", analysis_page),
+    path("", monitoring_page),
+    path("analysis/", analysis_page, name="analysis"),
+    path("monitoring/", monitoring_page, name="monitoring"),
 
-    path('api/task/', TaskCreateView.as_view(), name='create_task'),
-    path('api/task/<str:task_id>/', TaskStatusView.as_view(), name='task_status'),
+    path("api/task/", TaskCreateView.as_view(), name="create_task"),
+    path("api/task/<str:task_id>/", TaskStatusView.as_view(), name="task_status"),
 
-    path('docs/', TemplateView.as_view(
-        template_name='swagger-ui.html',
-        extra_context={'schema_url': 'openapi-schema'}
-    ), name='swagger-ui'),
+    path("api/monitoring/", MonitoringDataView.as_view(), name="monitoring_data"),
+    path("api/monitoring/run/", MonitoringRunView.as_view(), name="monitoring_run"),
+    path("api/monitoring/history/run/", MonitoringHistoryRunView.as_view(), name="monitoring_history_run"),
+    path("api/monitoring/summary/", MonitoringSummaryView.as_view(), name="monitoring_summary"),
 ]

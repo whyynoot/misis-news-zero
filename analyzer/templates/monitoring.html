@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Мониторинг социальных рисков{% endblock %}
+
+{% block head %}
+<meta name="csrf-token" content="{{ csrf_token }}">
+{% endblock %}
+
+{% block content %}
+<section class="page monitoring-page">
+    <header class="page-header">
+        <div>
+            <div class="page-kicker">Ежедневная картина</div>
+            <h1 class="page-title">
+                <span class="title-line">Мониторинг</span>
+                <span class="title-line">социальных рисков</span>
+            </h1>
+            <p class="page-subtitle">
+                Панель показывает, как новости ТАСС и Интерфакса меняют тональность по ключевым социальным факторам.
+                История строится из архивного backfill и регулярных обновлений.
+            </p>
+        </div>
+        <div class="header-actions">
+            <label class="form-field compact-field">
+                <span class="form-label">Движок анализа</span>
+                <select id="engine-select" class="select">
+                    <option value="llm" selected>LLM</option>
+                    <option value="bert">BERT fallback</option>
+                </select>
+            </label>
+            <button id="refresh-now" class="button button-primary" type="button">Обновить новости сейчас</button>
+            <button id="history-backfill" class="button button-ghost" type="button">Заполнить историю за год</button>
+            <button id="reload-data" class="button button-ghost" type="button">Обновить экран</button>
+            <div id="action-status" class="action-status" role="status" aria-live="polite">Готово к запуску.</div>
+        </div>
+    </header>
+
+    <div class="callout monitoring-note">
+        LLM-анализ является новостным индикатором, а не прогнозом и не доказательством реального социального риска.
+    </div>
+
+    <section class="status-grid" aria-label="Ключевые показатели">
+        <article class="metric-card">
+            <div class="metric-label">Средняя тональность</div>
+            <div id="stat-sentiment" class="metric-value">--</div>
+            <div class="metric-note">Последний дневной срез по всем активным факторам.</div>
+        </article>
+        <article class="metric-card">
+            <div class="metric-label">Индекс давления</div>
+            <div id="stat-risk" class="metric-value">--</div>
+            <div class="metric-note">0 = спокойно, 1 = преобладает негативный сигнал.</div>
+        </article>
+        <article class="metric-card">
+            <div class="metric-label">Новости в окне</div>
+            <div id="stat-news" class="metric-value">--</div>
+            <div id="stat-window" class="metric-note">Окно наблюдения: 90 дней.</div>
+        </article>
+        <article class="metric-card">
+            <div class="metric-label">Последний запуск</div>
+            <div id="stat-run" class="metric-value">--</div>
+            <div id="stat-run-meta" class="metric-note">Ожидание данных.</div>
+        </article>
+    </section>
+
+    <section class="dashboard-grid">
+        <article class="panel panel-padded">
+            <div class="panel-header">
+                <div>
+                    <div class="eyebrow">Динамика</div>
+                    <h2 class="panel-title">Тональность и индекс давления по дням</h2>
+                    <p class="panel-subtitle">График помогает быстро увидеть общий фон и дни с ростом риска.</p>
+                </div>
+            </div>
+            <div class="chart-frame">
+                <canvas id="overviewChart" height="160"></canvas>
+            </div>
+        </article>
+
+        <article class="panel panel-padded">
+            <div class="panel-header">
+                <div>
+                    <div class="eyebrow">Факторы</div>
+                    <h2 class="panel-title">Последний срез</h2>
+                    <p class="panel-subtitle">Выберите фактор, чтобы открыть историю и новости.</p>
+                </div>
+            </div>
+            <div class="table-frame">
+                <div class="table-scroll">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Фактор</th>
+                                <th>Тон.</th>
+                                <th>Изм.</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="factor-body">
+                            <tr><td colspan="4" class="text-muted">Загрузка данных...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="panel panel-padded">
+        <div class="panel-header">
+            <div>
+                <div class="eyebrow">Детализация</div>
+                <h2 class="panel-title">История по выбранному фактору</h2>
+                <p id="factor-description" class="panel-subtitle">--</p>
+            </div>
+            <label class="form-field">
+                <span class="form-label">Фактор</span>
+                <select id="factor-select" class="select"></select>
+            </label>
+        </div>
+
+        <div class="factor-summary" aria-label="Сводка по фактору">
+            <article class="summary-tile">
+                <div class="summary-label">Последняя тональность</div>
+                <div id="factor-latest" class="summary-value">--</div>
+            </article>
+            <article class="summary-tile">
+                <div class="summary-label">Изменение ко вчера</div>
+                <div id="factor-delta" class="summary-value">--</div>
+            </article>
+            <article class="summary-tile">
+                <div class="summary-label">Сигнальные новости</div>
+                <div id="factor-signal" class="summary-value">--</div>
+            </article>
+            <article class="summary-tile">
+                <div class="summary-label">Позитив / негатив</div>
+                <div id="factor-balance" class="summary-value">--</div>
+            </article>
+        </div>
+
+        <div id="llm-summary-panel" class="summary-panel">
+            <div class="summary-panel-main">
+                <div class="eyebrow">LLM summary</div>
+                <h3 id="summary-title" class="summary-title">Краткая сводка за период</h3>
+                <p id="summary-text" class="summary-text">Выберите LLM-режим или сформируйте summary.</p>
+            </div>
+            <div class="summary-panel-meta">
+                <span id="summary-trend" class="badge">trend: --</span>
+                <span id="summary-risk" class="badge">risk: --</span>
+                <span id="summary-confidence" class="badge">confidence: --</span>
+            </div>
+            <ul id="summary-drivers" class="driver-list"></ul>
+        </div>
+
+        <div class="detail-grid">
+            <div class="chart-frame compact">
+                <canvas id="factorChart" height="150"></canvas>
+            </div>
+            <div class="table-frame">
+                <div class="table-scroll">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Тон.</th>
+                                <th>Изм.</th>
+                                <th>Сигнал</th>
+                            </tr>
+                        </thead>
+                        <tbody id="factor-history-body">
+                            <tr><td colspan="4" class="text-muted">Ожидание данных...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="two-column-grid">
+        <article class="panel panel-padded">
+            <div class="panel-header">
+                <div>
+                    <div class="eyebrow">Новости</div>
+                    <h2 class="panel-title">Последние сигнальные новости</h2>
+                </div>
+            </div>
+            <div class="table-frame">
+                <div class="table-scroll">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Новость</th>
+                                <th>Тон.</th>
+                            </tr>
+                        </thead>
+                        <tbody id="news-body">
+                            <tr><td colspan="3" class="text-muted">Нет данных.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+
+        <article class="panel panel-padded">
+            <div class="panel-header">
+                <div>
+                    <div class="eyebrow">Всплески</div>
+                    <h2 class="panel-title">Самые сильные изменения</h2>
+                </div>
+            </div>
+            <div class="table-frame">
+                <div class="table-scroll">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Фактор</th>
+                                <th>Изм.</th>
+                                <th>Новость</th>
+                            </tr>
+                        </thead>
+                        <tbody id="spike-body">
+                            <tr><td colspan="4" class="text-muted">Нет всплесков.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="{% static 'analyzer/js/monitoring.js' %}"></script>
+{% endblock %}

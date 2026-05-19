@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "source": "seed",
+      "external_id": "seed-2026-03-31-family-housing",
+      "url": "https://example.com/monitoring/2026-03-31-family-housing",
+      "title": "В регионе расширили семейную ипотеку и субсидии на первое жилье",
+      "summary": "Программу поддержки молодых семей продлили до конца года, а размер компенсации первоначального взноса увеличили.",
+      "published_at": "2026-03-31T09:15:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "birth_rate", "positive_probability": 0.82, "negative_probability": 0.18 },
+        { "factor_key": "housing_access", "positive_probability": 0.86, "negative_probability": 0.14 },
+        { "factor_key": "household_income", "positive_probability": 0.62, "negative_probability": 0.38 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-03-31-layoffs",
+      "url": "https://example.com/monitoring/2026-03-31-layoffs",
+      "title": "Крупный машиностроительный завод объявил о сокращениях",
+      "summary": "Предприятие перевело часть персонала на неполную занятость и предупредило о дальнейшем снижении штата.",
+      "published_at": "2026-03-31T16:40:00+03:00",
+      "category": "Экономика и бизнес",
+      "classifications": [
+        { "factor_key": "employment", "positive_probability": 0.14, "negative_probability": 0.86 },
+        { "factor_key": "household_income", "positive_probability": 0.20, "negative_probability": 0.80 },
+        { "factor_key": "poverty", "positive_probability": 0.18, "negative_probability": 0.82 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-01-clinics",
+      "url": "https://example.com/monitoring/2026-04-01-clinics",
+      "title": "В отдаленных районах запустили мобильные поликлиники",
+      "summary": "Новые бригады врачей будут выезжать в малые населенные пункты по расписанию дважды в неделю.",
+      "published_at": "2026-04-01T10:20:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "healthcare_access", "positive_probability": 0.83, "negative_probability": 0.17 },
+        { "factor_key": "life_expectancy", "positive_probability": 0.72, "negative_probability": 0.28 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-01-prices",
+      "url": "https://example.com/monitoring/2026-04-01-prices",
+      "title": "Рост цен на базовые продукты усилил нагрузку на малообеспеченные семьи",
+      "summary": "Социальные службы отмечают рост обращений за адресной помощью и компенсациями.",
+      "published_at": "2026-04-01T18:05:00+03:00",
+      "category": "Экономика и бизнес",
+      "classifications": [
+        { "factor_key": "household_income", "positive_probability": 0.19, "negative_probability": 0.81 },
+        { "factor_key": "poverty", "positive_probability": 0.15, "negative_probability": 0.85 },
+        { "factor_key": "family_stability", "positive_probability": 0.31, "negative_probability": 0.69 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-02-benefits",
+      "url": "https://example.com/monitoring/2026-04-02-benefits",
+      "title": "Пособия на детей проиндексировали выше инфляции",
+      "summary": "Минтруд сообщил о дополнительной индексации выплат для семей с детьми и беременных женщин.",
+      "published_at": "2026-04-02T08:50:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "birth_rate", "positive_probability": 0.78, "negative_probability": 0.22 },
+        { "factor_key": "family_stability", "positive_probability": 0.74, "negative_probability": 0.26 },
+        { "factor_key": "household_income", "positive_probability": 0.66, "negative_probability": 0.34 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-02-ambulance",
+      "url": "https://example.com/monitoring/2026-04-02-ambulance",
+      "title": "Жители сельских районов пожаловались на дефицит бригад скорой помощи",
+      "summary": "В нескольких районах время ожидания медицинской помощи выросло вдвое из-за кадрового дефицита.",
+      "published_at": "2026-04-02T14:10:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "healthcare_access", "positive_probability": 0.13, "negative_probability": 0.87 },
+        { "factor_key": "life_expectancy", "positive_probability": 0.24, "negative_probability": 0.76 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-03-rent-program",
+      "url": "https://example.com/monitoring/2026-04-03-rent-program",
+      "title": "Муниципалитет открыл программу доступной аренды для молодых семей",
+      "summary": "Часть арендной платы компенсируется из городского бюджета, а квартиры можно выкупить по льготной ставке.",
+      "published_at": "2026-04-03T09:40:00+03:00",
+      "category": "Недвижимость",
+      "classifications": [
+        { "factor_key": "housing_access", "positive_probability": 0.80, "negative_probability": 0.20 },
+        { "factor_key": "family_stability", "positive_probability": 0.68, "negative_probability": 0.32 },
+        { "factor_key": "birth_rate", "positive_probability": 0.63, "negative_probability": 0.37 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-03-monotown",
+      "url": "https://example.com/monitoring/2026-04-03-monotown",
+      "title": "В моногороде выросла безработица после консервации шахты",
+      "summary": "Часть работников уже обратилась за пособиями, а местные власти обсуждают антикризисную программу.",
+      "published_at": "2026-04-03T17:25:00+03:00",
+      "category": "Экономика и бизнес",
+      "classifications": [
+        { "factor_key": "employment", "positive_probability": 0.18, "negative_probability": 0.82 },
+        { "factor_key": "poverty", "positive_probability": 0.27, "negative_probability": 0.73 },
+        { "factor_key": "household_income", "positive_probability": 0.29, "negative_probability": 0.71 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-04-school-meals",
+      "url": "https://example.com/monitoring/2026-04-04-school-meals",
+      "title": "Программу бесплатного школьного питания расширили на новые районы",
+      "summary": "Мера распространяется на семьи с низкими доходами и многодетные домохозяйства.",
+      "published_at": "2026-04-04T11:30:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "family_stability", "positive_probability": 0.76, "negative_probability": 0.24 },
+        { "factor_key": "poverty", "positive_probability": 0.65, "negative_probability": 0.35 },
+        { "factor_key": "household_income", "positive_probability": 0.61, "negative_probability": 0.39 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-04-screening",
+      "url": "https://example.com/monitoring/2026-04-04-screening",
+      "title": "Регион сообщил о снижении смертности после расширения профилактических осмотров",
+      "summary": "Охват диспансеризацией вырос, в результате пациенты стали раньше получать помощь по сердечно-сосудистым рискам.",
+      "published_at": "2026-04-04T15:55:00+03:00",
+      "category": "Наука",
+      "classifications": [
+        { "factor_key": "life_expectancy", "positive_probability": 0.81, "negative_probability": 0.19 },
+        { "factor_key": "healthcare_access", "positive_probability": 0.73, "negative_probability": 0.27 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-05-salary-arrears",
+      "url": "https://example.com/monitoring/2026-04-05-salary-arrears",
+      "title": "Работникам бюджетной сферы досрочно погасили задержки по зарплатам",
+      "summary": "Региональное правительство перевело дополнительные средства на выплаты и компенсации.",
+      "published_at": "2026-04-05T10:05:00+03:00",
+      "category": "Экономика и бизнес",
+      "classifications": [
+        { "factor_key": "household_income", "positive_probability": 0.79, "negative_probability": 0.21 },
+        { "factor_key": "employment", "positive_probability": 0.64, "negative_probability": 0.36 },
+        { "factor_key": "poverty", "positive_probability": 0.67, "negative_probability": 0.33 }
+      ]
+    },
+    {
+      "source": "seed",
+      "external_id": "seed-2026-04-05-clinic-closures",
+      "url": "https://example.com/monitoring/2026-04-05-clinic-closures",
+      "title": "В нескольких районах закрыли акушерские кабинеты из-за нехватки персонала",
+      "summary": "Жителям приходится ехать в соседние муниципалитеты, а местные депутаты называют ситуацию критической.",
+      "published_at": "2026-04-05T19:20:00+03:00",
+      "category": "Общество",
+      "classifications": [
+        { "factor_key": "birth_rate", "positive_probability": 0.21, "negative_probability": 0.79 },
+        { "factor_key": "healthcare_access", "positive_probability": 0.17, "negative_probability": 0.83 },
+        { "factor_key": "family_stability", "positive_probability": 0.30, "negative_probability": 0.70 }
+      ]
+    }
+  ]
+}

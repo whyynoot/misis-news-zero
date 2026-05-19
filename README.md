@@ -1,20 +1,25 @@
-# News Analyzer - Django Project with RuBERT NLI
+# Social Risk Monitor
 
-A Django web application that performs Natural Language Inference (NLI) on news articles using the RuBERT model. The application scrapes news from various sources and classifies them based on user-defined class pairs.
+A Django application for monitoring social risks in Russian news flows. The primary analysis path is a local LLM through Ollama; RuBERT remains available as a fallback. The system stores factor-level sentiment history in PostgreSQL and lets you inspect the exact news items that caused spikes.
 
 ## Features
 
-- **News Scraping**: Automated news collection from various sources
-- **NLI Classification**: Zero-shot classification using RuBERT model
+- **News Scraping**: Automated news collection from TASS and Interfax
+- **Predefined Social Risk Factors**: A fixed factor catalog for repeatable monitoring
+- **Sentiment History**: Per-factor daily history with scores from `-1` to `1`
+- **News Drill-down**: Inspect the news item behind a positive or negative spike
 - **REST API**: RESTful endpoints for task management
 - **Async Processing**: Background task processing for news analysis
 - **Docker Support**: Containerized deployment
+- **Monitoring Dashboard**: Historical sentiment, spike review, recent signal-bearing news
+- **Historical Backfill**: Fetch archive-capable sources by date, store real news, classify them, and rebuild dashboard aggregates
 - **CI/CD Pipeline**: Automated testing and deployment with GitHub Actions
 
 ## Tech Stack
 
 - **Backend**: Django 4.2+, Django REST Framework
-- **ML/NLP**: PyTorch, Transformers (RuBERT)
+- **Database**: PostgreSQL for application/runtime storage
+- **ML/NLP**: Ollama LLM primary path, PyTorch/Transformers RuBERT fallback
 - **Containerization**: Docker, Docker Compose
 - **Testing**: Pytest, pytest-django
 - **CI/CD**: GitHub Actions
@@ -37,16 +42,18 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 3. **Run with Docker Compose**
    ```bash
-   docker-compose up --build
+   docker compose up -d --build db web scheduler
    ```
 
 4. **Access the application**
-   - API: http://localhost:8000
+   - Dashboard: http://localhost:8000
+   - PostgreSQL: localhost:5432 by default
 
 ### Local Development Setup
 
 1. **Prerequisites**
    - Python 3.9+
+   - PostgreSQL 14+ or `docker compose up db`
 
 2. **Install dependencies**
    ```bash
@@ -61,8 +68,42 @@ A Django web application that performs Natural Language Inference (NLI) on news 
 
 4. **Run development server**
    ```bash
+   python manage.py migrate
    python manage.py runserver
    ```
+
+### Monitoring Workflow
+
+- Run a real historical LLM backfill for the last year:
+
+```bash
+./scripts/backfill_history.ps1 -Days 365 -Sources interfax -LimitPerDay 8 -Engine llm -CleanSeed
+```
+
+- Run one live LLM update:
+
+```bash
+./scripts/run_live_update.ps1 -Limit 50 -Engine llm
+```
+
+- Start web + the 4-hour LLM scheduler:
+
+```bash
+./scripts/start_scheduler.ps1 -Build
+```
+
+- Direct Django commands are also available:
+
+```bash
+python manage.py backfill_news_history --days 365 --sources interfax --limit-per-day 8 --engine llm --clean-seed
+python manage.py run_monitoring --engine llm --summarize --period day --limit 50
+python manage.py run_monitoring_scheduler --interval-hours 4 --engine llm --summarize --period day
+```
+
+- Dashboard: http://localhost:8000/monitoring/  
+- Data API: `GET /api/monitoring/` (overview + factor detail), `POST /api/monitoring/run/` (manual live refresh), `POST /api/monitoring/history/run/` (historical archive backfill)
+
+On a fresh Docker start the web container runs migrations and syncs the factor catalog. The scheduler container then runs LLM live updates every 4 hours. Demo seed data is not loaded automatically.
 
 ## API Usage
 
@@ -109,18 +150,8 @@ Response:
 ### Run Tests
 
 ```bash
-# Run all tests
 export DJANGO_SETTINGS_MODULE=news_analyzer.settings
-pytest
-
-# Run with coverage
-pytest --cov
-
-# Run specific test file
-pytest analyzer/tests.py
-
-# Run with verbose output
-pytest -v
+pytest analyzer/tests.py --cov=analyzer --cov=news_analyzer --cov-report=term --cov-fail-under=80
 ```
 
 ### Test Categories
@@ -180,7 +211,8 @@ Configure these secrets in your GitHub repository:
 ```
 news-zero-shot/
 ├── analyzer/                 # Main Django app
-│   ├── models.py            # API views and models
+│   ├── models.py            # ORM models
+│   ├── api.py               # REST API views
 │   ├── tasks.py             # Background task processing
 │   ├── views.py             # Web views
 │   ├── zero.py              # RuBERT classifier
@@ -208,10 +240,30 @@ news-zero-shot/
 | `DEBUG` | Debug mode | `True` |
 | `ALLOWED_HOSTS` | Allowed host names | `localhost,127.0.0.1` |
 | `DJANGO_LOG_LEVEL` | Logging level | `INFO` |
+| `HF_CACHE_DIR` | Local Hugging Face cache path for Docker bind mount | `./.cache/huggingface` |
+| `HF_TOKEN` | Optional Hugging Face token for higher rate limits and more stable model warmup | empty |
+| `USE_CUDA` | Enable CUDA inference when available inside the container | `False` |
+| `MODEL_BATCH_SIZE` | Batch size for factor inference | `8` |
+| `LLM_ENABLED` | Enable local LLM analysis | `True` in Docker Compose |
+| `LLM_BASE_URL` | Local Ollama URL for non-Docker runs | `http://localhost:11434` |
+| `LLM_DOCKER_BASE_URL` | Ollama URL visible from Docker containers | `http://host.docker.internal:11434` |
+| `LLM_MODEL` | Ollama model name | `gemma4:e2b` |
+| `LLM_BATCH_NEWS_SIZE` | News items per LLM classification request | `2` |
+| `DATABASE_ENGINE` | `postgresql` or explicit `sqlite` fallback for tests/local diagnostics | `postgresql` |
+| `POSTGRES_DB` | PostgreSQL database name | `news_analyzer` |
+| `POSTGRES_USER` | PostgreSQL user | `news_analyzer` |
+| `POSTGRES_PASSWORD` | PostgreSQL password | `news_analyzer` |
+| `POSTGRES_HOST` | PostgreSQL host | `localhost` locally, `db` in Compose |
+| `POSTGRES_PORT` | PostgreSQL port | `5432` |
+| `NEWS_SOURCES` | Comma-separated live news sources | `tass,interfax` |
+| `INTERFAX_SECTIONS` | Interfax sections to scan | `russia,business,world` |
+| `MONITORING_HISTORY_SOURCES` | Archive-capable historical sources | `interfax` |
+| `MONITORING_HISTORY_LIMIT_PER_DAY` | Historical articles per day/source | `8` |
+| `MONITORING_UPDATE_INTERVAL_HOURS` | Scheduler interval | `4` |
 
-### RuBERT Model
+### Analysis Engines
 
-The application uses the `cointegrated/rubert-base-cased-nli-threeway` model for Russian text NLI. The model is automatically downloaded on first use.
+LLM/Ollama is the primary analytical engine. In Docker, the app connects to host Ollama through `host.docker.internal:11434`; Ollama itself is responsible for GPU execution. `ollama ps` should show the model running on GPU when a classification is active. RuBERT (`cointegrated/rubert-base-cased-nli-threeway`) is retained as a fallback and for deterministic tests.
 
 ## Contributing
 

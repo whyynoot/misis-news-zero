@@ -1,57 +1,71 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <title>Инструмент информационного прогнозирования</title>
-    {% block head %}
-    {% endblock %}
-    <style>
-        /* Custom styles */
-        body {
-            background-color: #f5f5f5;  /* Light grey for the background */
-        }
-        .navbar-custom {
-            background-color: #343a40;  /* Dark gray navbar */
-        }
-        .navbar-custom .nav-link {
-            color: #f8f9fa !important;  /* Light grey links */
-        }
-        .navbar-custom .navbar-brand {
-            color: #f8f9fa !important;  /* Light grey brand name */
-        }
-        .footer-custom {
-            background-color: #343a40;
-            color: #f8f9fa;
-            padding: 10px;
-            border-top: 2px solid #e67e22;  /* Orange divider for footer */
-        }
-    </style>
+    <title>{% block title %}Мониторинг социальных рисков{% endblock %}</title>
+    <script>
+        (() => {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+            document.documentElement.dataset.theme = savedTheme || (prefersLight ? 'light' : 'dark');
+        })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'analyzer/css/app.css' %}?v=20260518-llm">
+    {% block head %}{% endblock %}
 </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-custom">
-            <div class="container">
-                <a class="navbar-brand" href="#" style="overflow-wrap: break-word;">Инструмент информационного прогнозирования</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/analysis">Инструмент</a></li>
-                    </ul>
+<body>
+    <div class="app-shell">
+        <aside class="app-sidebar" aria-label="Основная навигация">
+            <a class="brand" href="/monitoring/" aria-label="На главную">
+                <span class="brand-mark">СР</span>
+                <span class="brand-copy">
+                    <span class="brand-title">Социальные риски</span>
+                    <span class="brand-subtitle">аналитическая панель</span>
+                </span>
+            </a>
+
+            <nav class="main-nav">
+                <a class="nav-link {% if request.path == '/' or '/monitoring' in request.path %}is-active{% endif %}" href="/monitoring/">
+                    <span class="nav-icon" aria-hidden="true">01</span>
+                    <span>Мониторинг</span>
+                </a>
+                <a class="nav-link {% if request.path == '/analysis/' %}is-active{% endif %}" href="/analysis/">
+                    <span class="nav-icon" aria-hidden="true">02</span>
+                    <span>Лаборатория</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-panel">
+                <span class="sidebar-label">Тема интерфейса</span>
+                <div class="theme-switch" role="group" aria-label="Тема интерфейса">
+                    <button class="theme-option" type="button" data-theme-value="dark">Темная</button>
+                    <button class="theme-option" type="button" data-theme-value="light">Белая</button>
                 </div>
             </div>
-        </nav>
+        </aside>
 
-        <main role="main" class="container py-4">
-            {% block content %}
-            {% endblock %}
-        </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
-    <footer class="footer text-center  myfooter fixed-bottom mt-auto footer-custom">
-        <p>© 2024 Инструмент информационного прогнозирования. Все права защищены.</p>
-    </footer>
+        <div class="app-main">
+            <header class="mobile-topbar">
+                <a class="mobile-brand" href="/monitoring/">Социальные риски</a>
+                <nav class="mobile-nav" aria-label="Навигация">
+                    <a class="{% if request.path == '/' or '/monitoring' in request.path %}is-active{% endif %}" href="/monitoring/">Мониторинг</a>
+                    <a class="{% if request.path == '/analysis/' %}is-active{% endif %}" href="/analysis/">Лаборатория</a>
+                </nav>
+                <button class="mobile-theme" type="button" data-theme-toggle>Тема</button>
+            </header>
+
+            <main class="app-content">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+
+    <script src="{% static 'analyzer/js/theme.js' %}"></script>
+    {% block scripts %}{% endblock %}
+</body>
 </html>

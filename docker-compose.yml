@@ -1,14 +1,107 @@
-version: '3.8'
-
 services:
+  db:
+    image: postgres:15-alpine
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-news_analyzer}
+      POSTGRES_USER: ${POSTGRES_USER:-news_analyzer}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-news_analyzer}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-news_analyzer} -d ${POSTGRES_DB:-news_analyzer}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
   web:
     build: .
     ports:
       - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
     volumes:
       - .:/app
+      - ${HF_CACHE_DIR:-./.cache/huggingface}:/home/app/.cache/huggingface
     environment:
-      - DEBUG=1
-      - SECRET_KEY=your-secret-key-here
+      DATABASE_ENGINE: postgresql
+      POSTGRES_DB: ${POSTGRES_DB:-news_analyzer}
+      POSTGRES_USER: ${POSTGRES_USER:-news_analyzer}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-news_analyzer}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      DEBUG: ${DEBUG:-True}
+      SECRET_KEY: ${SECRET_KEY:-your-secret-key-here}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1,0.0.0.0}
+      HF_TOKEN: ${HF_TOKEN:-}
+      USE_CUDA: ${USE_CUDA:-False}
+      MODEL_BATCH_SIZE: ${MODEL_BATCH_SIZE:-8}
+      LLM_ENABLED: ${LLM_ENABLED:-True}
+      LLM_BASE_URL: ${LLM_DOCKER_BASE_URL:-http://host.docker.internal:11434}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gemma4:e2b}
+      LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-180}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0}
+      LLM_MAX_TOKENS: ${LLM_MAX_TOKENS:-2048}
+      LLM_BATCH_NEWS_SIZE: ${LLM_BATCH_NEWS_SIZE:-1}
+      LLM_CONCURRENCY: ${LLM_CONCURRENCY:-1}
+      LLM_THINK: ${LLM_THINK:-False}
+      NEWS_SOURCES: ${NEWS_SOURCES:-tass,interfax}
+      INTERFAX_SECTIONS: ${INTERFAX_SECTIONS:-russia,business,world}
+      INTERFAX_HYDRATE_ARTICLES: ${INTERFAX_HYDRATE_ARTICLES:-True}
+      MONITORING_LIVE_NEWS_LIMIT: ${MONITORING_LIVE_NEWS_LIMIT:-50}
+      MONITORING_HISTORY_DAYS: ${MONITORING_HISTORY_DAYS:-365}
+      MONITORING_HISTORY_SOURCES: ${MONITORING_HISTORY_SOURCES:-interfax}
+      MONITORING_HISTORY_LIMIT_PER_DAY: ${MONITORING_HISTORY_LIMIT_PER_DAY:-8}
+      MONITORING_UPDATE_INTERVAL_HOURS: ${MONITORING_UPDATE_INTERVAL_HOURS:-4}
     command: >
-      sh -c "python manage.py runserver 0.0.0.0:8000" 
+      sh -c "python manage.py migrate --noinput && python manage.py sync_factor_catalog && python manage.py runserver 0.0.0.0:8000"
+
+  scheduler:
+    build: .
+    healthcheck:
+      disable: true
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+      - ${HF_CACHE_DIR:-./.cache/huggingface}:/home/app/.cache/huggingface
+    environment:
+      DATABASE_ENGINE: postgresql
+      POSTGRES_DB: ${POSTGRES_DB:-news_analyzer}
+      POSTGRES_USER: ${POSTGRES_USER:-news_analyzer}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-news_analyzer}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      DEBUG: ${DEBUG:-True}
+      SECRET_KEY: ${SECRET_KEY:-your-secret-key-here}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1,0.0.0.0}
+      HF_TOKEN: ${HF_TOKEN:-}
+      USE_CUDA: ${USE_CUDA:-False}
+      MODEL_BATCH_SIZE: ${MODEL_BATCH_SIZE:-8}
+      LLM_ENABLED: ${LLM_ENABLED:-True}
+      LLM_BASE_URL: ${LLM_DOCKER_BASE_URL:-http://host.docker.internal:11434}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gemma4:e2b}
+      LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-180}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-0}
+      LLM_MAX_TOKENS: ${LLM_MAX_TOKENS:-2048}
+      LLM_BATCH_NEWS_SIZE: ${LLM_BATCH_NEWS_SIZE:-1}
+      LLM_CONCURRENCY: ${LLM_CONCURRENCY:-1}
+      LLM_THINK: ${LLM_THINK:-False}
+      NEWS_SOURCES: ${NEWS_SOURCES:-tass,interfax}
+      INTERFAX_SECTIONS: ${INTERFAX_SECTIONS:-russia,business,world}
+      INTERFAX_HYDRATE_ARTICLES: ${INTERFAX_HYDRATE_ARTICLES:-True}
+      MONITORING_LIVE_NEWS_LIMIT: ${MONITORING_LIVE_NEWS_LIMIT:-50}
+      MONITORING_HISTORY_DAYS: ${MONITORING_HISTORY_DAYS:-365}
+      MONITORING_HISTORY_SOURCES: ${MONITORING_HISTORY_SOURCES:-interfax}
+      MONITORING_HISTORY_LIMIT_PER_DAY: ${MONITORING_HISTORY_LIMIT_PER_DAY:-8}
+      MONITORING_UPDATE_INTERVAL_HOURS: ${MONITORING_UPDATE_INTERVAL_HOURS:-4}
+    command: >
+      sh -c "python manage.py migrate --noinput && python manage.py sync_factor_catalog && python manage.py run_monitoring_scheduler --interval-hours ${MONITORING_UPDATE_INTERVAL_HOURS:-4} --engine llm --summarize --period day --limit ${MONITORING_LIVE_NEWS_LIMIT:-50}"
+
+volumes:
+  postgres_data:
