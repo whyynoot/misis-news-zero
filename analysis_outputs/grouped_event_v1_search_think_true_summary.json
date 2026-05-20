@@ -1,0 +1,88 @@
+{
+  "variant": "grouped_event_v1_search_think_true",
+  "dataset_path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv",
+  "split": "search",
+  "ids_count": 300,
+  "think": true,
+  "model": "gemma4:e2b",
+  "groups": {
+    "safety_mortality": [
+      "crime_count",
+      "mortality_rate",
+      "life_expectancy",
+      "infant_mortality"
+    ],
+    "healthcare": [
+      "hospitals",
+      "outpatient_clinics",
+      "qualified_doctors",
+      "abortions"
+    ],
+    "economy_income_prices": [
+      "consumer_price_index",
+      "per_capita_income",
+      "real_income_index",
+      "unemployment_rate",
+      "living_wage",
+      "child_living_wage"
+    ],
+    "family_children_support": [
+      "children_benefits",
+      "maternity_capital",
+      "childcare_allowance",
+      "preschool_coverage",
+      "large_families_housing"
+    ],
+    "production_enterprises_housing": [
+      "industrial_production_index",
+      "enterprises_count",
+      "housing_area_per_capita",
+      "primary_housing_price_index",
+      "secondary_housing_price_index"
+    ],
+    "ecology_utilities": [
+      "air_pollution",
+      "wastewater_discharge"
+    ],
+    "demography_migration": [
+      "population_size",
+      "birth_rate_per_1000",
+      "marriage_rate",
+      "divorce_rate",
+      "international_inflow",
+      "international_outflow",
+      "internal_arrivals",
+      "internal_departures",
+      "male_population",
+      "female_population"
+    ]
+  },
+  "example_pool_disjoint_from_eval": true,
+  "best_row": {
+    "variant": "grouped_event_v1_search_think_true",
+    "split": "search",
+    "mode": "threshold",
+    "threshold": 0.35,
+    "n_news": 300,
+    "true_positive_pairs": 307,
+    "pred_positive_pairs": 165,
+    "mean_pred_labels_per_news": 0.55,
+    "factor_micro_precision": 0.48484848484848486,
+    "factor_micro_recall": 0.26058631921824105,
+    "factor_micro_f1": 0.3389830508474576,
+    "factor_macro_f1_supported": 0.2778383810964693,
+    "sample_f1_empty_correct": 0.40706349206349207,
+    "any_relevant_precision": 0.9423076923076923,
+    "any_relevant_recall": 0.43171806167400884,
+    "any_relevant_f1": 0.5921450151057401,
+    "false_relevant_news": 6,
+    "missed_all_relevant_news": 129
+  },
+  "outputs": {
+    "predictions": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\grouped_event_v1_search_think_true.csv",
+    "metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\grouped_event_v1_search_think_true_metrics.csv",
+    "summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\grouped_event_v1_search_think_true_summary.json",
+    "factor_report": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\grouped_event_v1_search_think_true_factor_report.csv",
+    "raw": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\grouped_event_v1_search_think_true.raw.jsonl"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "label_stats": {
+    "rows": 1000,
+    "applicable": 725,
+    "not_relevant": 275,
+    "additional_nonempty": 182,
+    "multi_label_rows": 182,
+    "supported_primary_classes": 21
+  },
+  "metric_summary": {
+    "llm_primary_accuracy": 0.473,
+    "llm_primary_supported_macro_f1": 0.22042870422427444,
+    "llm_primary_macro_f1_all37": 0.12510818347864225,
+    "llm_top1_factor_set_accuracy": 0.514,
+    "single_label_penalty_cases": 41,
+    "factor_micro_precision": 0.6091269841269841,
+    "factor_micro_recall": 0.3355191256830601,
+    "factor_micro_f1": 0.43269908386187456,
+    "factor_macro_precision": 0.27406149341913233,
+    "factor_macro_recall": 0.15174022765750045,
+    "factor_macro_f1": 0.16557058854019363
+  },
+  "needs_manual_review": 380,
+  "priority_queue_rows": 380,
+  "top_review_flags": {
+    "": 620,
+    "has_additional_factors": 96,
+    "primary_factor_conflict": 78,
+    "manual_relevant_both_models_not_relevant": 52,
+    "manual_not_relevant_both_models_relevant;llm_high_relevance_against_not_relevant": 22,
+    "has_additional_factors;llm_hit_additional_not_primary;primary_factor_conflict": 19,
+    "has_additional_factors;primary_factor_conflict": 18,
+    "has_additional_factors;llm_hit_additional_not_primary;models_agree_against_manual;primary_factor_conflict": 14,
+    "manual_not_relevant_both_models_relevant": 13,
+    "has_additional_factors;manual_relevant_both_models_not_relevant": 11,
+    "llm_high_relevance_against_not_relevant": 9,
+    "models_agree_against_manual;primary_factor_conflict": 8,
+    "has_additional_factors;rare_primary_class": 8,
+    "manual_relevant_both_models_not_relevant;rare_primary_class": 6,
+    "has_additional_factors;rare_primary_class;primary_factor_conflict": 5,
+    "has_additional_factors;llm_hit_additional_not_primary;rare_primary_class;primary_factor_conflict": 4,
+    "has_additional_factors;llm_hit_additional_not_primary;models_agree_against_manual;rare_primary_class;primary_factor_conflict": 4,
+    "rare_primary_class;primary_factor_conflict": 4,
+    "rare_primary_class": 4,
+    "has_additional_factors;models_agree_against_manual;rare_primary_class;primary_factor_conflict": 2
+  },
+  "output_paths": {
+    "queue_all_rows": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_relabel_queue.csv",
+    "queue_priority_only": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_relabel_queue_priority_only.csv",
+    "summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_label_audit_summary.json"
+  }
+}

@@ -1,0 +1,2 @@
+{"dataset": "analysis_outputs\\FINAL_v4_clean_social_signal_dataset_965_normalized.csv", "prompt_file": "prompts\\v4_direct_search\\direct_core_targeted_v7.md", "n_eval_ids": 237, "gold_pairs": 681, "mean_gold_labels": 2.8734177215189876, "model": "qwen3.5:9b", "think": true, "batch_size": 1, "timeout": 7200.0, "max_tokens": 131072, "num_ctx": 131072, "text_limit": 6000}
+v4_prompt: completed=0, pending=237

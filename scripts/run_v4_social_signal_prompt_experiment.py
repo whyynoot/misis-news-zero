@@ -287,12 +287,34 @@ def main() -> None:
     final_path = OUTPUT_DIR / f"v4_social_signal_experiment_{suffix}.csv"
     partial_path = OUTPUT_DIR / f"v4_social_signal_experiment_{suffix}.partial.csv"
     raw_path = OUTPUT_DIR / f"v4_social_signal_experiment_{suffix}.raw.jsonl"
+    raw_response_path = OUTPUT_DIR / f"v4_social_signal_experiment_{suffix}.ollama_response.jsonl"
     metrics_path = OUTPUT_DIR / f"v4_social_signal_experiment_metrics_{suffix}.csv"
 
     if args.force:
-        for path in [final_path, partial_path, raw_path, metrics_path]:
+        for path in [final_path, partial_path, raw_path, raw_response_path, metrics_path]:
             if path.exists():
                 path.unlink()
+
+    def response_debug_payload(client: LLMClient, batch_ids: list[int], status: str, **extra: Any) -> dict[str, Any]:
+        data = getattr(client, "last_response_data", None) or {}
+        message = data.get("message") if isinstance(data, dict) else {}
+        if not isinstance(message, dict):
+            message = {}
+        content = message.get("content") or data.get("response") if isinstance(data, dict) else ""
+        thinking = message.get("thinking") or ""
+        return {
+            "ids": batch_ids,
+            "status": status,
+            "content_chars": len(str(content or "")),
+            "thinking_chars": len(str(thinking or "")),
+            "done_reason": data.get("done_reason") if isinstance(data, dict) else None,
+            "total_duration": data.get("total_duration") if isinstance(data, dict) else None,
+            "load_duration": data.get("load_duration") if isinstance(data, dict) else None,
+            "prompt_eval_count": data.get("prompt_eval_count") if isinstance(data, dict) else None,
+            "eval_count": data.get("eval_count") if isinstance(data, dict) else None,
+            "raw_response": data,
+            **extra,
+        }
 
     def normalize_rows(response: dict[str, Any], batch_news: list[SimpleNamespace], raw_text: str, status: str) -> list[dict[str, Any]]:
         raw_by_id = {item_id(raw_item): raw_item for raw_item in response.get("items", []) if isinstance(raw_item, dict)}
@@ -346,6 +368,7 @@ def main() -> None:
         user_prompt = build_prompt(prompt_text, news_payload(batch_news))
         try:
             raw_text = client.complete(CLASSIFICATION_SYSTEM_PROMPT, user_prompt)
+            append_jsonl(raw_response_path, response_debug_payload(client, batch_ids, "ok"))
             response = normalize_response_shape(parse_llm_json(raw_text), batch_ids)
             validate_response_schema(response, batch_ids)
             rows = normalize_rows(response, batch_news, raw_text, status)
@@ -363,6 +386,17 @@ def main() -> None:
                 return good_rows + fallback_rows, fallback_errors
             return rows, []
         except Exception as exc:
+            append_jsonl(
+                raw_response_path,
+                response_debug_payload(
+                    client,
+                    batch_ids,
+                    "error",
+                    error_type=type(exc).__name__,
+                    error=str(exc),
+                    raw_text=locals().get("raw_text", ""),
+                ),
+            )
             append_jsonl(
                 raw_path,
                 {

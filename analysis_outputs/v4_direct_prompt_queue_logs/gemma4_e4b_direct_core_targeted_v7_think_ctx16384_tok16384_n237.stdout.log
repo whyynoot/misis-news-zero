@@ -1,0 +1,267 @@
+{"dataset": "analysis_outputs\\FINAL_v4_clean_social_signal_dataset_965_normalized.csv", "prompt_file": "prompts\\v4_direct_search\\direct_core_targeted_v7.md", "n_eval_ids": 237, "gold_pairs": 681, "mean_gold_labels": 2.8734177215189876, "model": "gemma4:e4b", "think": true, "batch_size": 1, "timeout": 900.0, "max_tokens": 16384, "num_ctx": 16384, "text_limit": 2200}
+v4_prompt: completed=0, pending=237
+v4_prompt:    1/237 news; elapsed=6.5s; errors=0
+v4_prompt:    2/237 news; elapsed=8.7s; errors=0
+v4_prompt:    3/237 news; elapsed=10.2s; errors=0
+v4_prompt:    4/237 news; elapsed=11.8s; errors=0
+v4_prompt:    5/237 news; elapsed=14.7s; errors=0
+v4_prompt:    6/237 news; elapsed=17.3s; errors=0
+v4_prompt:    7/237 news; elapsed=20.4s; errors=0
+v4_prompt:    8/237 news; elapsed=22.9s; errors=0
+v4_prompt:    9/237 news; elapsed=24.3s; errors=0
+v4_prompt:   10/237 news; elapsed=25.9s; errors=0
+v4_prompt:   11/237 news; elapsed=27.4s; errors=0
+v4_prompt:   12/237 news; elapsed=28.8s; errors=0
+v4_prompt:   13/237 news; elapsed=31.0s; errors=0
+v4_prompt:   14/237 news; elapsed=32.5s; errors=0
+v4_prompt:   15/237 news; elapsed=33.9s; errors=0
+v4_prompt:   16/237 news; elapsed=34.5s; errors=0
+v4_prompt:   17/237 news; elapsed=35.9s; errors=0
+v4_prompt:   18/237 news; elapsed=38.0s; errors=0
+v4_prompt:   19/237 news; elapsed=39.5s; errors=0
+v4_prompt:   20/237 news; elapsed=41.2s; errors=0
+v4_prompt:   21/237 news; elapsed=42.6s; errors=0
+v4_prompt:   22/237 news; elapsed=44.1s; errors=0
+v4_prompt:   23/237 news; elapsed=45.5s; errors=0
+v4_prompt:   24/237 news; elapsed=48.2s; errors=0
+v4_prompt:   25/237 news; elapsed=48.9s; errors=0
+v4_prompt:   26/237 news; elapsed=51.1s; errors=0
+v4_prompt:   27/237 news; elapsed=53.7s; errors=0
+v4_prompt:   28/237 news; elapsed=55.9s; errors=0
+v4_prompt:   29/237 news; elapsed=58.4s; errors=0
+v4_prompt:   30/237 news; elapsed=60.0s; errors=0
+v4_prompt:   31/237 news; elapsed=62.4s; errors=0
+v4_prompt:   32/237 news; elapsed=64.7s; errors=0
+v4_prompt:   33/237 news; elapsed=66.1s; errors=0
+v4_prompt:   34/237 news; elapsed=67.7s; errors=0
+v4_prompt:   35/237 news; elapsed=70.8s; errors=0
+v4_prompt:   36/237 news; elapsed=73.1s; errors=0
+v4_prompt:   37/237 news; elapsed=75.5s; errors=0
+v4_prompt:   38/237 news; elapsed=77.0s; errors=0
+v4_prompt:   39/237 news; elapsed=78.3s; errors=0
+v4_prompt:   40/237 news; elapsed=80.7s; errors=0
+v4_prompt:   41/237 news; elapsed=82.1s; errors=0
+v4_prompt:   42/237 news; elapsed=84.5s; errors=0
+v4_prompt:   43/237 news; elapsed=87.0s; errors=0
+v4_prompt:   44/237 news; elapsed=89.3s; errors=0
+v4_prompt:   45/237 news; elapsed=92.8s; errors=0
+v4_prompt:   46/237 news; elapsed=94.3s; errors=0
+v4_prompt:   47/237 news; elapsed=96.5s; errors=0
+v4_prompt:   48/237 news; elapsed=98.5s; errors=0
+v4_prompt:   49/237 news; elapsed=100.8s; errors=0
+v4_prompt:   50/237 news; elapsed=103.3s; errors=0
+v4_prompt:   51/237 news; elapsed=104.8s; errors=0
+v4_prompt:   52/237 news; elapsed=107.1s; errors=0
+v4_prompt:   53/237 news; elapsed=108.7s; errors=0
+v4_prompt:   54/237 news; elapsed=110.2s; errors=0
+v4_prompt:   55/237 news; elapsed=111.8s; errors=0
+v4_prompt:   56/237 news; elapsed=113.9s; errors=0
+v4_prompt:   57/237 news; elapsed=115.3s; errors=0
+v4_prompt:   58/237 news; elapsed=116.8s; errors=0
+v4_prompt:   59/237 news; elapsed=118.3s; errors=0
+v4_prompt:   60/237 news; elapsed=119.7s; errors=0
+v4_prompt:   61/237 news; elapsed=121.1s; errors=0
+v4_prompt:   62/237 news; elapsed=122.6s; errors=0
+v4_prompt:   63/237 news; elapsed=124.2s; errors=0
+v4_prompt:   64/237 news; elapsed=126.7s; errors=0
+v4_prompt:   65/237 news; elapsed=129.2s; errors=0
+v4_prompt:   66/237 news; elapsed=130.7s; errors=0
+v4_prompt:   67/237 news; elapsed=132.2s; errors=0
+v4_prompt:   68/237 news; elapsed=134.6s; errors=0
+v4_prompt:   69/237 news; elapsed=135.8s; errors=0
+v4_prompt:   70/237 news; elapsed=139.3s; errors=0
+v4_prompt:   71/237 news; elapsed=142.8s; errors=0
+v4_prompt:   72/237 news; elapsed=144.3s; errors=0
+v4_prompt:   73/237 news; elapsed=146.5s; errors=0
+v4_prompt:   74/237 news; elapsed=148.1s; errors=0
+v4_prompt:   75/237 news; elapsed=149.8s; errors=0
+v4_prompt:   76/237 news; elapsed=151.5s; errors=0
+v4_prompt:   77/237 news; elapsed=153.6s; errors=0
+v4_prompt:   78/237 news; elapsed=154.3s; errors=0
+v4_prompt:   79/237 news; elapsed=155.8s; errors=0
+v4_prompt:   80/237 news; elapsed=157.4s; errors=0
+v4_prompt:   81/237 news; elapsed=157.9s; errors=0
+v4_prompt:   82/237 news; elapsed=158.6s; errors=0
+v4_prompt:   83/237 news; elapsed=161.4s; errors=0
+v4_prompt:   84/237 news; elapsed=164.7s; errors=0
+v4_prompt:   85/237 news; elapsed=167.0s; errors=0
+v4_prompt:   86/237 news; elapsed=169.5s; errors=0
+v4_prompt:   87/237 news; elapsed=171.1s; errors=0
+v4_prompt:   88/237 news; elapsed=172.5s; errors=0
+v4_prompt:   89/237 news; elapsed=173.8s; errors=0
+v4_prompt:   90/237 news; elapsed=175.9s; errors=0
+v4_prompt:   91/237 news; elapsed=177.3s; errors=0
+v4_prompt:   92/237 news; elapsed=178.8s; errors=0
+v4_prompt:   93/237 news; elapsed=180.3s; errors=0
+v4_prompt:   94/237 news; elapsed=183.6s; errors=0
+v4_prompt:   95/237 news; elapsed=186.1s; errors=0
+v4_prompt:   96/237 news; elapsed=187.7s; errors=0
+v4_prompt:   97/237 news; elapsed=189.3s; errors=0
+v4_prompt:   98/237 news; elapsed=191.7s; errors=0
+v4_prompt:   99/237 news; elapsed=192.2s; errors=0
+v4_prompt:  100/237 news; elapsed=193.7s; errors=0
+v4_prompt:  101/237 news; elapsed=195.3s; errors=0
+v4_prompt:  102/237 news; elapsed=197.5s; errors=0
+v4_prompt:  103/237 news; elapsed=199.3s; errors=1
+v4_prompt:  104/237 news; elapsed=201.1s; errors=1
+v4_prompt:  105/237 news; elapsed=203.7s; errors=1
+v4_prompt:  106/237 news; elapsed=206.5s; errors=1
+v4_prompt:  107/237 news; elapsed=209.0s; errors=1
+v4_prompt:  108/237 news; elapsed=211.4s; errors=1
+v4_prompt:  109/237 news; elapsed=213.6s; errors=1
+v4_prompt:  110/237 news; elapsed=216.0s; errors=1
+v4_prompt:  111/237 news; elapsed=218.5s; errors=1
+v4_prompt:  112/237 news; elapsed=220.6s; errors=1
+v4_prompt:  113/237 news; elapsed=222.1s; errors=1
+v4_prompt:  114/237 news; elapsed=223.7s; errors=1
+v4_prompt:  115/237 news; elapsed=227.4s; errors=1
+v4_prompt:  116/237 news; elapsed=229.7s; errors=1
+v4_prompt:  117/237 news; elapsed=231.2s; errors=1
+v4_prompt:  118/237 news; elapsed=233.8s; errors=1
+v4_prompt:  119/237 news; elapsed=236.1s; errors=1
+v4_prompt:  120/237 news; elapsed=237.6s; errors=1
+v4_prompt:  121/237 news; elapsed=239.2s; errors=1
+v4_prompt:  122/237 news; elapsed=240.9s; errors=1
+v4_prompt:  123/237 news; elapsed=242.5s; errors=1
+v4_prompt:  124/237 news; elapsed=244.0s; errors=1
+v4_prompt:  125/237 news; elapsed=244.7s; errors=1
+v4_prompt:  126/237 news; elapsed=246.3s; errors=1
+v4_prompt:  127/237 news; elapsed=247.7s; errors=1
+v4_prompt:  128/237 news; elapsed=249.3s; errors=1
+v4_prompt:  129/237 news; elapsed=251.6s; errors=1
+v4_prompt:  130/237 news; elapsed=253.8s; errors=1
+v4_prompt:  131/237 news; elapsed=255.3s; errors=1
+v4_prompt:  132/237 news; elapsed=258.3s; errors=1
+v4_prompt:  133/237 news; elapsed=259.9s; errors=1
+v4_prompt:  134/237 news; elapsed=261.5s; errors=1
+v4_prompt:  135/237 news; elapsed=262.8s; errors=1
+v4_prompt:  136/237 news; elapsed=265.1s; errors=1
+v4_prompt:  137/237 news; elapsed=268.0s; errors=1
+v4_prompt:  138/237 news; elapsed=269.4s; errors=1
+v4_prompt:  139/237 news; elapsed=271.8s; errors=1
+v4_prompt:  140/237 news; elapsed=273.2s; errors=1
+v4_prompt:  141/237 news; elapsed=275.3s; errors=1
+v4_prompt:  142/237 news; elapsed=277.1s; errors=1
+v4_prompt:  143/237 news; elapsed=280.1s; errors=1
+v4_prompt:  144/237 news; elapsed=280.8s; errors=1
+v4_prompt:  145/237 news; elapsed=282.4s; errors=1
+v4_prompt:  146/237 news; elapsed=283.9s; errors=1
+v4_prompt:  147/237 news; elapsed=285.4s; errors=1
+v4_prompt:  148/237 news; elapsed=287.2s; errors=1
+v4_prompt:  149/237 news; elapsed=290.0s; errors=1
+v4_prompt:  150/237 news; elapsed=293.0s; errors=1
+v4_prompt:  151/237 news; elapsed=294.6s; errors=1
+v4_prompt:  152/237 news; elapsed=296.2s; errors=1
+v4_prompt:  153/237 news; elapsed=297.7s; errors=1
+v4_prompt:  154/237 news; elapsed=300.2s; errors=1
+v4_prompt:  155/237 news; elapsed=301.7s; errors=1
+v4_prompt:  156/237 news; elapsed=303.3s; errors=1
+v4_prompt:  157/237 news; elapsed=305.7s; errors=1
+v4_prompt:  158/237 news; elapsed=307.3s; errors=1
+v4_prompt:  159/237 news; elapsed=308.8s; errors=1
+v4_prompt:  160/237 news; elapsed=310.3s; errors=1
+v4_prompt:  161/237 news; elapsed=313.5s; errors=1
+v4_prompt:  162/237 news; elapsed=316.3s; errors=1
+v4_prompt:  163/237 news; elapsed=318.7s; errors=1
+v4_prompt:  164/237 news; elapsed=320.2s; errors=1
+v4_prompt:  165/237 news; elapsed=321.6s; errors=1
+v4_prompt:  166/237 news; elapsed=323.1s; errors=1
+v4_prompt:  167/237 news; elapsed=324.5s; errors=1
+v4_prompt:  168/237 news; elapsed=326.0s; errors=1
+v4_prompt:  169/237 news; elapsed=328.4s; errors=1
+v4_prompt:  170/237 news; elapsed=330.5s; errors=1
+v4_prompt:  171/237 news; elapsed=332.1s; errors=1
+v4_prompt:  172/237 news; elapsed=333.4s; errors=1
+v4_prompt:  173/237 news; elapsed=335.9s; errors=1
+v4_prompt:  174/237 news; elapsed=337.4s; errors=1
+v4_prompt:  175/237 news; elapsed=339.8s; errors=1
+v4_prompt:  176/237 news; elapsed=341.0s; errors=2
+v4_prompt:  177/237 news; elapsed=342.5s; errors=2
+v4_prompt:  178/237 news; elapsed=344.0s; errors=2
+v4_prompt:  179/237 news; elapsed=345.5s; errors=2
+v4_prompt:  180/237 news; elapsed=347.0s; errors=2
+v4_prompt:  181/237 news; elapsed=349.3s; errors=2
+v4_prompt:  182/237 news; elapsed=352.5s; errors=2
+v4_prompt:  183/237 news; elapsed=354.0s; errors=2
+v4_prompt:  184/237 news; elapsed=355.4s; errors=2
+v4_prompt:  185/237 news; elapsed=357.0s; errors=2
+v4_prompt:  186/237 news; elapsed=358.5s; errors=2
+v4_prompt:  187/237 news; elapsed=360.7s; errors=2
+v4_prompt:  188/237 news; elapsed=364.1s; errors=2
+v4_prompt:  189/237 news; elapsed=364.8s; errors=2
+v4_prompt:  190/237 news; elapsed=367.8s; errors=2
+v4_prompt:  191/237 news; elapsed=369.4s; errors=2
+v4_prompt:  192/237 news; elapsed=371.8s; errors=2
+v4_prompt:  193/237 news; elapsed=374.4s; errors=2
+v4_prompt:  194/237 news; elapsed=376.0s; errors=2
+v4_prompt:  195/237 news; elapsed=377.5s; errors=2
+v4_prompt:  196/237 news; elapsed=381.0s; errors=2
+v4_prompt:  197/237 news; elapsed=383.3s; errors=2
+v4_prompt:  198/237 news; elapsed=385.7s; errors=2
+v4_prompt:  199/237 news; elapsed=386.3s; errors=2
+v4_prompt:  200/237 news; elapsed=387.9s; errors=2
+v4_prompt:  201/237 news; elapsed=389.3s; errors=2
+v4_prompt:  202/237 news; elapsed=390.8s; errors=2
+v4_prompt:  203/237 news; elapsed=392.5s; errors=2
+v4_prompt:  204/237 news; elapsed=395.0s; errors=2
+v4_prompt:  205/237 news; elapsed=396.5s; errors=2
+v4_prompt:  206/237 news; elapsed=399.4s; errors=2
+v4_prompt:  207/237 news; elapsed=400.9s; errors=2
+v4_prompt:  208/237 news; elapsed=403.1s; errors=2
+v4_prompt:  209/237 news; elapsed=404.9s; errors=2
+v4_prompt:  210/237 news; elapsed=406.3s; errors=2
+v4_prompt:  211/237 news; elapsed=407.6s; errors=2
+v4_prompt:  212/237 news; elapsed=409.7s; errors=2
+v4_prompt:  213/237 news; elapsed=412.1s; errors=2
+v4_prompt:  214/237 news; elapsed=413.6s; errors=2
+v4_prompt:  215/237 news; elapsed=415.7s; errors=2
+v4_prompt:  216/237 news; elapsed=418.0s; errors=3
+v4_prompt:  217/237 news; elapsed=420.2s; errors=3
+v4_prompt:  218/237 news; elapsed=421.7s; errors=3
+v4_prompt:  219/237 news; elapsed=423.3s; errors=3
+v4_prompt:  220/237 news; elapsed=426.6s; errors=3
+v4_prompt:  221/237 news; elapsed=428.1s; errors=3
+v4_prompt:  222/237 news; elapsed=429.5s; errors=3
+v4_prompt:  223/237 news; elapsed=431.7s; errors=3
+v4_prompt:  224/237 news; elapsed=433.5s; errors=3
+v4_prompt:  225/237 news; elapsed=436.5s; errors=3
+v4_prompt:  226/237 news; elapsed=438.6s; errors=3
+v4_prompt:  227/237 news; elapsed=440.4s; errors=3
+v4_prompt:  228/237 news; elapsed=444.5s; errors=3
+v4_prompt:  229/237 news; elapsed=446.8s; errors=3
+v4_prompt:  230/237 news; elapsed=448.4s; errors=3
+v4_prompt:  231/237 news; elapsed=449.8s; errors=3
+v4_prompt:  232/237 news; elapsed=452.0s; errors=3
+v4_prompt:  233/237 news; elapsed=453.6s; errors=3
+v4_prompt:  234/237 news; elapsed=454.3s; errors=3
+v4_prompt:  235/237 news; elapsed=455.8s; errors=3
+v4_prompt:  236/237 news; elapsed=458.2s; errors=3
+v4_prompt:  237/237 news; elapsed=460.3s; errors=3
+saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv
+  variant threshold  n_news  gold_positive_pairs  pred_positive_pairs  pred_mean_labels  micro_precision  micro_recall  micro_f1  macro_f1_supported  sample_f1_empty_correct  any_relevant_precision  any_relevant_recall  any_relevant_f1  false_relevant_news  missed_all_relevant_news  excluded_news  error_rows
+v4_prompt   default     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.05     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.10     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.20     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.30     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.40     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.45     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.50     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.60     237                  681                  351            1.4810           0.8148         0.420    0.5543              0.3325                   0.5498                     1.0               0.9367           0.9673                    0                        15              0         108
+v4_prompt      0.70     237                  681                  348            1.4684           0.8161         0.417    0.5520              0.2946                   0.5481                     1.0               0.9367           0.9673                    0                        15              0         108
+metrics saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\v4_social_signal_experiment_metrics_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv
+runs=10
+saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\v4_strength_metrics.csv
+                                                                                                              run_id                                                                                                                file_name      model                      prompt  n_news  n_rows  complete_36x_rows  json_errors threshold  scope  gold_pairs  pred_pairs  tp_pairs  fp_pairs_vs_scope  fn_pairs  mean_pred_labels  micro_precision  micro_recall  micro_f1  macro_f1_supported  sample_f1  any_precision  any_recall  any_f1  gold_news  pred_any_news  missed_all_scope_news  false_relevant_news
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.85 direct         221         226       130                 96        91            0.9536           0.5752        0.5882    0.5817              0.4101     0.5715         0.7342      0.8000  0.7657        145            158                     29                   42
+      v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237       v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237.csv gemma4:e4b       direct_core_recall_v2     237    8532               True            2      0.85 direct         221         225       129                 96        92            0.9494           0.5733        0.5837    0.5785              0.3593     0.5513         0.7110      0.8483  0.7736        145            173                     22                   50
+      v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237       v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237.csv gemma4:e4b       direct_core_recall_v2     237    8532               True            2      0.75 direct         221         242       133                109        88            1.0211           0.5496        0.6018    0.5745              0.3506     0.5475         0.7086      0.8552  0.7750        145            175                     21                   51
+      v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237       v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237.csv gemma4:e4b       direct_core_recall_v2     237    8532               True            2      0.80 direct         221         239       132                107        89            1.0084           0.5523        0.5973    0.5739              0.3511     0.5481         0.7086      0.8552  0.7750        145            175                     21                   51
+v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_gold_fewshot_v5_think_ctx16384_tok16384_n237 v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_gold_fewshot_v5_think_ctx16384_tok16384_n237.csv gemma4:e4b direct_core_gold_fewshot_v5     237    8532               True            1      0.90 direct         221         183       114                 69       107            0.7722           0.6230        0.5158    0.5644              0.3373     0.5882         0.7655      0.7655  0.7655        145            145                     34                   34
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.80 direct         221         288       143                145        78            1.2152           0.4965        0.6471    0.5619              0.4511     0.4930         0.6616      0.9034  0.7638        145            198                     14                   67
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.75 direct         221         315       150                165        71            1.3291           0.4762        0.6787    0.5597              0.4375     0.4797         0.6522      0.9310  0.7670        145            207                     10                   72
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.90 direct         221         173       110                 63       111            0.7300           0.6358        0.4977    0.5584              0.3865     0.5921         0.7794      0.7310  0.7544        145            136                     39                   30
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_filtered_v3_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_filtered_v3_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_filtered_v3     237    8532               True            0      0.80 direct         221         226       124                102        97            0.9536           0.5487        0.5611    0.5548              0.3541     0.5274         0.6988      0.8000  0.7460        145            166                     29                   50
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.65 direct         221         348       156                192        65            1.4684           0.4483        0.7059    0.5483              0.4994     0.4625         0.6396      0.9793  0.7738        145            222                      3                   80
+    v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237     v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_targeted_v7_think_ctx16384_tok16384_n237.csv gemma4:e4b     direct_core_targeted_v7     237    8532               True            3      0.70 direct         221         348       156                192        65            1.4684           0.4483        0.7059    0.5483              0.4994     0.4625         0.6396      0.9793  0.7738        145            222                      3                   80
+      v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237       v4_social_signal_experiment_v4_prompt_think_true_gemma4_e4b_direct_core_recall_v2_think_ctx16384_tok16384_n237.csv gemma4:e4b       direct_core_recall_v2     237    8532               True            2      0.65 direct         221         298       142                156        79            1.2574           0.4765        0.6425    0.5472              0.3500     0.4808         0.6634      0.9379  0.7771        145            205                      9                   69

@@ -1,0 +1,8 @@
+accuracy,balanced_accuracy,precision,recall_relevant,specificity_not_relevant,f1,mcc,tn,fp,fn,tp,section,metric_group,value,n
+0.513,0.6246394984326018,0.8863636363636364,0.37655172413793103,0.8727272727272727,0.5285575992255567,0.24109745889738388,240.0,35.0,452.0,273.0,applicability,,,
+,,,,,,,,,,,primary_factor,primary_factor_top1_accuracy,0.17103448275862068,725.0
+,,,,,,,,,,,primary_factor,primary_factor_top3_hit_rate,0.2731034482758621,725.0
+,,,,,,,,,,,primary_factor,primary_factor_top5_hit_rate,0.2731034482758621,725.0
+,,,,,,,,,,,primary_factor,primary_factor_macro_f1,0.11667504092638013,725.0
+,,,,,,,,,,,signal,signal_on_true_factor_accuracy,0.16689655172413792,725.0
+,,,,,,,,,,,signal,signal_on_true_factor_macro_f1,0.18692053896657476,725.0

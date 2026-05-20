@@ -1,0 +1,1001 @@
+﻿dataset_row_id,title,true_factors,pred_factors,tp_factors,fp_factors,fn_factors,true_count,pred_count,sample_f1,sample_jaccard,needs_review
+21,В Херсонской области в результате обстрела ранены водитель и врач скорой помощи,crime_count;hospitals;qualified_doctors,,,,crime_count;hospitals;qualified_doctors,3,0,0.0,0.0,True
+7,Женщина погибла в результате атаки беспилотников ВСУ на населенный пункт Вахрушево в ЛНР,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+16,Состояние пострадавших при ЧП в Курской области сотрудников РЖД удовлетворительное,life_expectancy;mortality_rate,hospitals,,hospitals,life_expectancy;mortality_rate,2,1,0.0,0.0,True
+39,"В Турции заявили, что танкер Virat подвергся повторной атаке в Черном море",air_pollution;crime_count,international_outflow,,international_outflow,air_pollution;crime_count,2,1,0.0,0.0,True
+53,"Что произошло за день: понедельник, 1 декабря",international_inflow;life_expectancy,crime_count,,crime_count,international_inflow;life_expectancy,2,1,0.0,0.0,True
+121,Проект о передаче под контроль ЦБ регулирования сервисов покупок в рассрочку принят в I чтении,per_capita_income;real_income_index,consumer_price_index,,consumer_price_index,per_capita_income;real_income_index,2,1,0.0,0.0,True
+129,"Что произошло за день: вторник, 13 мая",air_pollution;crime_count,international_inflow,,international_inflow,air_pollution;crime_count,2,1,0.0,0.0,True
+140,"Что произошло за день: четверг, 3 апреля",consumer_price_index;mortality_rate,crime_count;industrial_production_index,,crime_count;industrial_production_index,consumer_price_index;mortality_rate,2,2,0.0,0.0,True
+145,Госдума утвердила отчет об исполнении бюджетов ФОМС и Социального фонда за 2024 год,children_benefits;hospitals,,,,children_benefits;hospitals,2,0,0.0,0.0,True
+159,"""АвтоВАЗ"" возобновил производство после корпоративного отпуска и майских праздников",industrial_production_index;unemployment_rate,enterprises_count,,enterprises_count,industrial_production_index;unemployment_rate,2,1,0.0,0.0,True
+166,"Bloomberg сообщил, что ЕС может ограничить экспорт в США",enterprises_count;industrial_production_index,international_inflow,,international_inflow,enterprises_count;industrial_production_index,2,1,0.0,0.0,True
+173,"Роснедра заявили, что РФ выполняет обязательства по работе на дне Мирового океана",air_pollution;industrial_production_index,,,,air_pollution;industrial_production_index,2,0,0.0,0.0,True
+180,Нидерланды намерены продлить срок службы АЭС после 2033 года,air_pollution;industrial_production_index,,,,air_pollution;industrial_production_index,2,0,0.0,0.0,True
+195,"В МИД РФ заявили о рисках для АЭС ""Бушер"" на фоне конфликта Ирана и Израиля",air_pollution;crime_count,international_inflow,,international_inflow,air_pollution;crime_count,2,1,0.0,0.0,True
+199,Потери бюджета из-за нелегального табака оценены в 150 млрд рублей в год,crime_count;per_capita_income,consumer_price_index,,consumer_price_index,crime_count;per_capita_income,2,1,0.0,0.0,True
+200,Тяжело раненная в среду при обстреле Лисичанска девочка скончалась в больнице,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+202,Военные нанесли удары по украинским аэродромам и сбили более 70 дронов ВСУ,crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+211,Число жертв ударов США и Израиля по Ирану выросло до 787 человек,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+238,В Курской области в результате удара по энергообъекту есть погибший и раненые,crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+250,Гросси готов взаимодействовать с Израилем и Ираном для обеспечения безопасности ядерных объектов,air_pollution;crime_count,,,,air_pollution;crime_count,2,0,0.0,0.0,True
+252,Пять человек спасены при пожаре в Москве,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+265,Хакеры могут спровоцировать в японской рознице дефицит самого популярного пива,consumer_price_index;enterprises_count,industrial_production_index,,industrial_production_index,consumer_price_index;enterprises_count,2,1,0.0,0.0,True
+270,"Законопроект о ""периоде охлаждения"" в потребительском кредитовании прошел I чтение",per_capita_income;real_income_index,consumer_price_index,,consumer_price_index,per_capita_income;real_income_index,2,1,0.0,0.0,True
+278,Себестоимость строительства многоквартирных домов вырастет в 2025 году более чем на 6%,housing_area_per_capita;primary_housing_price_index,consumer_price_index,,consumer_price_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+281,Путин отметил снижение кредитного портфеля банков в первом квартале,enterprises_count;per_capita_income,industrial_production_index,,industrial_production_index,enterprises_count;per_capita_income,2,1,0.0,0.0,True
+299,Обнаружены пропавшие в горах на севере Пермского края туристы,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+317,Владельцы пострадавших от атаки БПЛА домов в Анапе получат помощь властей,housing_area_per_capita;per_capita_income,crime_count,,crime_count,housing_area_per_capita;per_capita_income,2,1,0.0,0.0,True
+321,"Более 18,7 трлн рублей направят в 2026 г. на обеспечение мер поддержки и выплату пенсий",children_benefits;per_capita_income,consumer_price_index,,consumer_price_index,children_benefits;per_capita_income,2,1,0.0,0.0,True
+361,"РФ может направить часть замороженных активов на восстановление территорий, пострадавших в ходе СВО",housing_area_per_capita;per_capita_income,industrial_production_index,,industrial_production_index,housing_area_per_capita;per_capita_income,2,1,0.0,0.0,True
+399,"СКР проводит выемку документов в авиакомпании ""Ангара"" после крушения Ан-24",crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+418,В США ставки по ипотеке находятся на минимуме за год,housing_area_per_capita;primary_housing_price_index,consumer_price_index,,consumer_price_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+420,В Израиле 16 человек пострадали в результате ракетного удара Ирана,crime_count;life_expectancy,,,,crime_count;life_expectancy,2,0,0.0,0.0,True
+424,Белый дом хочет задействовать 200 агентов Иммиграционной и таможенной полиции против нелегалов в Чикаго,international_inflow;international_outflow,crime_count,,crime_count,international_inflow;international_outflow,2,1,0.0,0.0,True
+453,Три человека погибли и один пострадал при пожаре на базе отдыха в Хакасии,life_expectancy;mortality_rate,crime_count,,crime_count,life_expectancy;mortality_rate,2,1,0.0,0.0,True
+461,В Брянской области в результате атаки БПЛА сгорели жилой дом и семь машин,crime_count;housing_area_per_capita,air_pollution,,air_pollution,crime_count;housing_area_per_capita,2,1,0.0,0.0,True
+517,Президент заявил о сложной ситуации в жилищном строительстве в РФ,housing_area_per_capita;primary_housing_price_index,industrial_production_index,,industrial_production_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+528,Нефтепродукты загорелись в Воронежской области после атаки беспилотников,air_pollution;crime_count,industrial_production_index,,industrial_production_index,air_pollution;crime_count,2,1,0.0,0.0,True
+573,Глава Роспотребнадзора рассказала про зарубежный интерес к противоэпидемическим разработкам РФ,life_expectancy;qualified_doctors,international_inflow,,international_inflow,life_expectancy;qualified_doctors,2,1,0.0,0.0,True
+578,Четырех человек спасли во время пожара в многоквартирном доме во Владивостоке,life_expectancy;mortality_rate,,,,life_expectancy;mortality_rate,2,0,0.0,0.0,True
+636,G7 планирует объявить о готовности к работе над усилением санкционного давления на РФ,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+666,Пять домов повреждены в Краснодарском крае после падения обломков сбитых дронов,crime_count;housing_area_per_capita,,,,crime_count;housing_area_per_capita,2,0,0.0,0.0,True
+720,Кремль принял к сведению заявление сенатора Грэма по санкциям против РФ,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+732,Нежилая многоэтажка и частный дом повреждены в Липецкой области после атаки БПЛА,crime_count;housing_area_per_capita,air_pollution,,air_pollution,crime_count;housing_area_per_capita,2,1,0.0,0.0,True
+790,Зерноград в Ростовской области остался без воды из-за аварии,housing_area_per_capita;wastewater_discharge,,,,housing_area_per_capita;wastewater_discharge,2,0,0.0,0.0,True
+799,Окна жилых домов повреждены обломками БПЛА в Курске,crime_count;housing_area_per_capita,,,,crime_count;housing_area_per_capita,2,0,0.0,0.0,True
+805,КС РФ допустил взыскание компенсации морального вреда с наследников обвиняемого,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+809,ЛЭП и здание предприятия повреждены атаками ВСУ в Белгородской области,housing_area_per_capita;industrial_production_index,,,,housing_area_per_capita;industrial_production_index,2,0,0.0,0.0,True
+841,"ФАС возбудила дело о картеле на 4,6 млрд рублей при закупках средств очистки воды",crime_count;wastewater_discharge,air_pollution,,air_pollution,crime_count;wastewater_discharge,2,1,0.0,0.0,True
+855,В России ожидают осуждения мировыми лидерами удара по селу в Херсонской области,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+868,"Режим ЧС введен на месте пожара в Каменске-Шахтинском, где сгорели дома",housing_area_per_capita;life_expectancy,crime_count,,crime_count,housing_area_per_capita;life_expectancy,2,1,0.0,0.0,True
+876,Бренд Loro Piana помещен под судебный контроль из-за обвинений в трудовых нарушениях,crime_count;unemployment_rate,enterprises_count,,enterprises_count,crime_count;unemployment_rate,2,1,0.0,0.0,True
+892,"Премьер Эстонии заявил, что НАТО увеличит свое присутствие в Балтийском море",crime_count;industrial_production_index,international_inflow,,international_inflow,crime_count;industrial_production_index,2,1,0.0,0.0,True
+897,"Подведена дорога к севшему на мель танкеру ""Волгонефть 239"" в Керченском проливе",air_pollution;wastewater_discharge,industrial_production_index,,industrial_production_index,air_pollution;wastewater_discharge,2,1,0.0,0.0,True
+918,"Рынок БАДов в России за пять лет вырос в 2,5 раза",enterprises_count;life_expectancy,consumer_price_index,,consumer_price_index,enterprises_count;life_expectancy,2,1,0.0,0.0,True
+942,Этот январь в Москве станет самым теплым за всю историю метеонаблюдений,air_pollution;life_expectancy,,,,air_pollution;life_expectancy,2,0,0.0,0.0,True
+949,В результате ДТП в Египте погибла российская туристка,life_expectancy;mortality_rate,,,,life_expectancy;mortality_rate,2,0,0.0,0.0,True
+954,Министр коммерции КНР обвинил США в препятствовании развитию мировой торговли,enterprises_count;industrial_production_index,international_inflow,,international_inflow,enterprises_count;industrial_production_index,2,1,0.0,0.0,True
+985,В соглашении с Киевом оговорен контроль США над инвестициями в природные ресурсы,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+986,Котельные Пятигорска могут временно приостановить работу из-за отсутствия воды,housing_area_per_capita;wastewater_discharge,air_pollution;industrial_production_index,,air_pollution;industrial_production_index,housing_area_per_capita;wastewater_discharge,2,2,0.0,0.0,True
+1,Путин поручил разработать план подъема двух затонувших в Черном море танкеров,air_pollution,industrial_production_index,,industrial_production_index,air_pollution,1,1,0.0,0.0,True
+13,Колокольцев указал на ухудшение обстановки в мире на фоне смягчения наркоконтроля в ряде стран,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+17,Работающие россияне смогут получить налоговый вычет за оплату спортивных занятий родителям,per_capita_income,child_living_wage,,child_living_wage,per_capita_income,1,1,0.0,0.0,True
+23,Сорвалась очередная ротация экспертов МАГАТЭ на Запорожской АЭС,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+24,Авария на водоканале оставила без воды около пяти тысяч жителей Саратова,wastewater_discharge,,,,wastewater_discharge,1,0,0.0,0.0,True
+31,"Что произошло за день: вторник, 17 июня",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+47,"СД ""Полюса"" рекомендовал финальные дивиденды за 2024 год в 730 руб. на акцию",enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+50,"Потребрасходы во Франции в декабре выросли на 0,7%, лучше прогноза",real_income_index,consumer_price_index,,consumer_price_index,real_income_index,1,1,0.0,0.0,True
+55,"ГК ""Абрау-Дюрсо"" планирует производить винные напитки в Индии",industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+59,Brookfield за пять лет инвестирует 20 млрд евро в ЦОД и ИИ-инфраструктуру во Франции,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+61,Глава комитета Госдумы Боярский призвал РКН не допустить распространения видео и фото с трагедией в Одинцове,crime_count,,,,crime_count,1,0,0.0,0.0,True
+63,"Авианосец ВМС США ""Карл Винсон"" находится вблизи Ирана с почти 50 истребителями",crime_count,,,,crime_count,1,0,0.0,0.0,True
+65,Жители двух белгородских сел остались без света после атаки дронов ВСУ,crime_count,,,,crime_count,1,0,0.0,0.0,True
+75,Введение уголовного наказания за отрицание геноцида советского народа одобрено в I чтении,crime_count,,,,crime_count,1,0,0.0,0.0,True
+81,Роспотребнадзор не исключил роста заболеваемости геморрагической лихорадкой в РФ,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+82,"Палата представителей США одобрила законопроект, прекращающий шатдаун",unemployment_rate,industrial_production_index,,industrial_production_index,unemployment_rate,1,1,0.0,0.0,True
+84,Три человека погибли в аварии в Орловской области,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+90,Трамп объявил о заключении торгового соглашения с Южной Кореей,consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+91,На подлете к Севастополю сбито три воздушные цели,crime_count,air_pollution,,air_pollution,crime_count,1,1,0.0,0.0,True
+104,В Литву прибыли 52 освобожденных в Белоруссии заключенных,international_inflow,crime_count,,crime_count,international_inflow,1,1,0.0,0.0,True
+117,"Бенефициар ""Облкоммунэнерго"" Алексей Бобров задержан в Екатеринбурге",crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+131,На поддержку российской анимации предложено передавать 10% от сборов иностранной,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+135,Ассоциация садоводов сообщила о возможности запрета импорта в РФ плодовых саженцев,industrial_production_index,international_outflow,,international_outflow,industrial_production_index,1,1,0.0,0.0,True
+136,Дума во вторник рассмотрит обращение по вопросу эскалации у границ Венесуэлы,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+147,"ЕС расширил санкции против платежных сервисов, в том числе СБП и карт ""Мир""",enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+148,В Эстонии заявили о готовности направить военных на Украину,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+165,Лидеры США и Австралии обсудили по телефону пошлины,consumer_price_index,international_inflow,,international_inflow,consumer_price_index,1,1,0.0,0.0,True
+176,Пожар в бизнес-центре во Владивостоке потушен,mortality_rate,industrial_production_index,,industrial_production_index,mortality_rate,1,1,0.0,0.0,True
+177,"FT узнала, что Иран в случае удара США намерен начать полноценную контратаку",crime_count,,,,crime_count,1,0,0.0,0.0,True
+181,Минобороны РФ заявило о продвижении войск после взятия под контроль Песчаного в Харьковской области,crime_count,,,,crime_count,1,0,0.0,0.0,True
+182,Трамп потребовал от ХАМАС вернуть всех израильских заложников,crime_count,,,,crime_count,1,0,0.0,0.0,True
+184,Израиль нанес удар по району расположения офиса Хаменеи,crime_count,,,,crime_count,1,0,0.0,0.0,True
+186,Booking во II квартале сократил чистую прибыль на 41%,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+190,Минобороны сообщило о поражении в течение суток более 170 беспилотников ВСУ,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+193,Наследный принц Саудовской Аравии запустил ИИ-компанию при суверенном фонде страны,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+198,Чрезвычайное положение на юге Израиля снято впервые за два года,crime_count,,,,crime_count,1,0,0.0,0.0,True
+203,В РФ не зарегистрированы случаи заболевания парапоксвирусной инфекцией,life_expectancy,air_pollution,,air_pollution,life_expectancy,1,1,0.0,0.0,True
+204,Китай в ноябре неожиданно снизил импорт газа на фоне подорожания СПГ,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+212,Закон об особенностях продажи БАДов в РФ подписан президентом РФ,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+224,"Глава Роснедр уверен, что главным бенефициаром развития зеленой энергетики в мире станет медь",industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+226,В Армении завершились совместные с США военные учения,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+236,Москва выразила протест Токио в связи с военными учениями близ российских рубежей,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+241,"Трамп намерен вернуться к идее сокращения ядерных арсеналов США, РФ и Китая",crime_count,,,,crime_count,1,0,0.0,0.0,True
+243,ЦБ не ждет проблем на валютном рынке из-за санкций против крупнейших экспортеров,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+255,Представители России и Киргизии подписали изменения в протокол о развитии ВТС,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+261,"США, страны Европы, Украина создали рабочую группу для разработки гарантий безопасности Киеву",crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+262,"Военные РФ заявили, что комплексом ""Искандер"" нанесен удар ВСУ в Сумской области",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+264,ОАЭ отрицают обвинения Эр-Рияда в попытках обострения конфликта в Йемене,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+266,"Военные РФ сообщили, что Купянск находится под их контролем",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+269,Пепловый шлейф от камчатского вулкана Шивелуч протянулся на 40 км,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+275,"Прокуратура подтвердила отмену возбуждения уголовных дел по ЖК ""СПб Реновация""",housing_area_per_capita,crime_count,,crime_count,housing_area_per_capita,1,1,0.0,0.0,True
+280,"Отклонена апелляция структуры Rio Tinto на взыскание в пользу ""Русала"" 105 млрд рублей",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+283,Иран готов рассмотреть новые предложения о сотрудничестве от МАГАТЭ,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+285,В Свердловской области объявлен режим ракетной опасности,crime_count,,,,crime_count,1,0,0.0,0.0,True
+286,Беспилотник атаковал гражданский автомобиль в Курской области,crime_count,,,,crime_count,1,0,0.0,0.0,True
+297,Эрдоган и Трамп обсудят поставки истребителей F-35,crime_count,,,,crime_count,1,0,0.0,0.0,True
+315,Генерал Дэн Кейн заявил о полном превосходстве США над Ираном в воздухе,crime_count,,,,crime_count,1,0,0.0,0.0,True
+318,Вашингтон разрешил поставки в Китай ИИ-чипов Nvidia H200 с рядом условий,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+320,Глава ХДС призвал власти ФРГ повысить траты на оборону как минимум до 2% от ВВП,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+331,"Китай считает, что все стороны должны способствовать украинскому урегулированию",crime_count,,,,crime_count,1,0,0.0,0.0,True
+333,КНДР запустила несколько баллистических ракет малой дальности,crime_count,,,,crime_count,1,0,0.0,0.0,True
+334,В Минздраве увидели необходимость профилактики покупки некачественных БАДов из-за рубежа,life_expectancy,consumer_price_index,,consumer_price_index,life_expectancy,1,1,0.0,0.0,True
+348,Силы самообороны Тринидада и Тобаго привели в состояние повышенной боеготовности,crime_count,international_outflow,,international_outflow,crime_count,1,1,0.0,0.0,True
+350,Законопроект о скидке для родственников при удостоверении договора дарения внесен в ГД,per_capita_income,,,,per_capita_income,1,0,0.0,0.0,True
+352,Дюмин предложил пересмотреть некоторые механизмы поддержки участников СВО,per_capita_income,international_inflow,,international_inflow,per_capita_income,1,1,0.0,0.0,True
+353,Три украинских дрона были сбиты над Мурманской областью,crime_count,,,,crime_count,1,0,0.0,0.0,True
+359,"В ЕС призвали гарантировать Киеву отсутствие ограничений на военную поддержку, численность ВСУ",crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+360,Мишустин пообещал помочь Амурской области в борьбе с пожарами и паводками,air_pollution,industrial_production_index,,industrial_production_index,air_pollution,1,1,0.0,0.0,True
+363,"ЕС намерен ввести санкции против ""Северных потоков"" и снизить ""потолок"" цен на нефть из РФ",industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+364,В Бразилии локализовали пожар на климатической конференции COP30,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+370,"Российские дальние бомбардировщики Ту-22М3 нанесли удар в ходе учения ""Запад-2025""",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+374,The Miami Herald сообщила о решении США нанести удары по военным объектам Венесуэлы,crime_count,,,,crime_count,1,0,0.0,0.0,True
+377,Три человека погибли от отравления угарным газом в Дагестане,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+383,"Нефть ускорила рост, Brent подорожала до $65,72 за баррель",consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+392,"Мурашко сообщил, что ожирением в РФ страдают 480 тыс. школьников",life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+393,"""Уральские авиалинии"" в I полугодии увеличили чистую прибыль по РСБУ в 1,8 раза",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+395,Лула да Силва предложил использовать возможности ООН в украинском урегулировании,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+401,Селевые потоки сошли в нескольких районах Киргизии,mortality_rate,air_pollution;wastewater_discharge,,air_pollution;wastewater_discharge,mortality_rate,1,2,0.0,0.0,True
+403,Фермерская продукция в РФ получила собственный ГОСТ,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+407,Военные РФ уничтожили пусковые установки РСЗО HIMARS и ЗРК Patriot ВСУ,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+417,Инспекторы МАГАТЭ покидают Иран,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+421,"""Европлан"" может выплатить дивиденды за 9 месяцев в размере около 7 млрд руб.",enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+423,Песков заявил о готовности РФ содействовать переговорам по иранскому ядерному досье,crime_count,,,,crime_count,1,0,0.0,0.0,True
+425,"Ростехнадзор не выявил недостатков, влияющих на эксплуатацию энергоблока №1 ЗАЭС",air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+427,DuPont ускорит выделение электронного бизнеса и отказалась выделять водный,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+429,Renault увеличил квартальную выручку чуть хуже прогноза,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+435,В РФ планируют сделать распорядок дня школьников более сбалансированным,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+441,Минобороны сообщило о трех сбитых дронах над Крымом,crime_count,,,,crime_count,1,0,0.0,0.0,True
+444,Новые истцы вступили в дело о взыскании холдинга КДВ в доход РФ,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+448,"Судебный процесс по возврату в госсобственность ""Саянскхимпласта"" начнется 13 мая",enterprises_count,crime_count,,crime_count,enterprises_count,1,1,0.0,0.0,True
+459,Заявления Трампа по Газе могут повлиять на ход переговоров Израиля и ХАМАС,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+460,"Microsoft оштрафован на 3,5 млн рублей за нарушение законодательства России",crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+462,ВМС КНР вытеснили американский эсминец из спорной акватории в Южно-Китайском море,crime_count,,,,crime_count,1,0,0.0,0.0,True
+463,"Трамп 13 января приказал готовиться к удару по Ирану, но передумал из-за возражений",crime_count,,,,crime_count,1,0,0.0,0.0,True
+464,"РФ за 11 месяцев увеличила импорт рыбы из Чили на 40%, до $327 млн",industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+465,Нефтегазовая Sinopec в I полугодии сократила чистую прибыль на 36%,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+473,Вэнс заявил о недопустимости создания Ираном ядерного оружия,crime_count,,,,crime_count,1,0,0.0,0.0,True
+478,"""Аэрофлот"" при открытии аэропортов юга мог бы перевезти в 2025 г. около 60 млн человек",enterprises_count,international_inflow,,international_inflow,enterprises_count,1,1,0.0,0.0,True
+479,"Россияне в 2024 г. подали 606 тыс. заявлений на шенгенские визы, доля отказов - 7,5%",international_outflow,international_inflow,,international_inflow,international_outflow,1,1,0.0,0.0,True
+483,Законопроект о заочной сделке с недвижимостью по биометрии принят в I чтении,housing_area_per_capita,enterprises_count,,enterprises_count,housing_area_per_capita,1,1,0.0,0.0,True
+484,"В Кремле надеются, что заявления о ядерных испытаниях не скажутся на отношениях с США",crime_count,,,,crime_count,1,0,0.0,0.0,True
+497,В США в I квартале производительность труда упала сильнее прогноза,industrial_production_index,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,industrial_production_index,1,2,0.0,0.0,True
+502,Белый дом назвал продуктивными переговоры США и Украины в Саудовской Аравии,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+507,Чистая прибыль S7 в 2024 году упала на 34% при небольшом росте выручки и сокращении затрат,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+511,Беспилотник уничтожен в Ленинградской области,crime_count,,,,crime_count,1,0,0.0,0.0,True
+512,На платформе подтверждения ИТ-компетенций получены уже более 36 тыс. сертификатов,unemployment_rate,,,,unemployment_rate,1,0,0.0,0.0,True
+516,Роспотребнадзор не выявил в образцах рыбы из Черного моря несоответствия гигиеническим нормам,life_expectancy,air_pollution;wastewater_discharge,,air_pollution;wastewater_discharge,life_expectancy,1,2,0.0,0.0,True
+519,В пострадавшем от взрыва газа доме под Тулой восстановили газоснабжение,housing_area_per_capita,crime_count,,crime_count,housing_area_per_capita,1,1,0.0,0.0,True
+520,"Путин сообщил, что ВСУ пытаются двигаться в сторону российской границы",crime_count,,,,crime_count,1,0,0.0,0.0,True
+530,"В Германии могут внести поправки, позволяющие сбивать неидентифицированные дроны",crime_count,,,,crime_count,1,0,0.0,0.0,True
+534,Банк Японии допустил негативное влияние тарифной политики США на рост японской экономики,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+535,"Землетрясение магнитудой 5,9 произошло в Индонезии",mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+536,В Ростовской области отразили атаку беспилотников,crime_count,,,,crime_count,1,0,0.0,0.0,True
+538,Россия не будет менять преференции для отечественных компаний при возвращении иностранных,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+549,"""Газпром"" зафиксировал объем размещения флоатера на уровне 40 млрд рублей",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+553,"Международный аэропорт Каракаса и военная база ""Форт-Тиуна"" подверглись атакам",crime_count,,,,crime_count,1,0,0.0,0.0,True
+555,Президент РФ назвал пиратством атаки Украины на суда в Черном море,crime_count,,,,crime_count,1,0,0.0,0.0,True
+557,Совет государств Персидского залива принял решение об общих оборонительных мерах,crime_count,,,,crime_count,1,0,0.0,0.0,True
+562,Трамп с Си Цзиньпином обсудили украинское урегулирование,crime_count,,,,crime_count,1,0,0.0,0.0,True
+569,Суд заменил девелоперу Худояну неотбытый срок в колонии исправительными работами,crime_count,,,,crime_count,1,0,0.0,0.0,True
+572,В Роспотребнадзоре назвали стабильной ситуацию с менингококковой инфекцией в РФ,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+574,"Землетрясение магнитудой 5,6 зарегистрировано на Соломоновых островах",mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+575,"Совфед одобрил закон, регламентирующий порядок изъятия криптовалюты в уголовных делах",crime_count,,,,crime_count,1,0,0.0,0.0,True
+576,"В Роспотребнадзоре заявили, что не выявили никаких ""ужасающих"" мутаций COVID-19",life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+580,"""Аэрофлот"" вернулся к штатному расписанию после ограничений из-за беспилотников",enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+592,Прямые иностранные инвестиции в мире упали на 11% в 2024 году,enterprises_count,international_inflow,,international_inflow,enterprises_count,1,1,0.0,0.0,True
+612,В Токио заявили об опасных маневрах истребителей КНР над Тихим океаном,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+614,Российские военные сообщили об отражении двух контратак ВСУ в районе Купянска,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+617,Аэропорт Саратова возобновил работу,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+618,СМИ связали возможность отправки Британией и Францией военных на Украину с поддержкой США,crime_count,,,,crime_count,1,0,0.0,0.0,True
+619,"Аэропорт ""Жуковский"" временно не принимает и не отправляет рейсы",industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+622,Главы МИД РФ и Венгрии обсудили двустороннюю повестку,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+623,Четыре человека погибли при пожаре в жилом комплексе в Гонконге,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+629,"""Новабев Групп"" в 2024 году снизила отгрузки алкогольной продукции на 4,2%",industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+633,"Путин заявил, что РФ и Китай практически не используют в торговле евро и доллар",industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+637,Число жертв авиаударов США по Йемену выросло до 19 человек,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+638,Четыре БПЛА уничтожены над Орловской областью,crime_count,,,,crime_count,1,0,0.0,0.0,True
+639,Военные с 12:00 до 17:40 уничтожили 37 дронов ВСУ над шестью регионами,crime_count,,,,crime_count,1,0,0.0,0.0,True
+646,Рефрижераторы с телами погибших военных для передачи Украине находятся под Брянском,mortality_rate,international_inflow,,international_inflow,mortality_rate,1,1,0.0,0.0,True
+649,В ближайшие дни на 85-90% территории России будет теплее нормы,life_expectancy,air_pollution,,air_pollution,life_expectancy,1,1,0.0,0.0,True
+657,Поиски пропавшего вертолета возобновились в Хабаровском крае,life_expectancy,crime_count,,crime_count,life_expectancy,1,1,0.0,0.0,True
+662,Суд запретил в РФ деятельность разработчика игры World of Tanks,crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+670,Трамп и Рамафоса поспорили о ситуации с белыми землевладельцами в ЮАР,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+673,В США министра внутренней безопасности проверят после убийств в Миннесоте,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+675,ЦБ РФ обсудит с банками создание помощников на базе ИИ для сложных продуктов,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+696,В Минфине сравнили состояние фондового рынка России со сжатой пружиной,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+697,Выездной туризм из России на майские праздники вырос на 30%,per_capita_income,international_inflow,,international_inflow,per_capita_income,1,1,0.0,0.0,True
+699,RTX в III квартале увеличила чистую прибыль на 30% и повысила прогноз на 2025 год,industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+702,Аэропортам хотят запретить компенсировать скидки авиакомпаниям за счет сборов с операторов,consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+706,Отчет о конкурсном производстве должны публиковать в течение 10 дней с момента решения суда о его завершении,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+721,Росреестр напомнил об изменении с марта порядка регистрации сделок с землей,housing_area_per_capita,,,,housing_area_per_capita,1,0,0.0,0.0,True
+723,Закон о штрафах до 500 тыс. руб. за продажу детям энергетиков принят Госдумой,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+728,Ограничения в аэропорту Калуги сняты,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+733,"Китай введет пошлины на поставки свинины из ЕС в размере до 62,4% с 10 сентября",consumer_price_index,international_inflow,,international_inflow,consumer_price_index,1,1,0.0,0.0,True
+736,Канадская Allied Gold продаст 12% акций и 50% в золотых рудниках Мали инвестору из ОАЭ,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+745,"Пошлина на экспорт пшеницы из РФ с 12 марта повысится на 12,2%",industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+747,Суд оставил в силе приговор и.о. вице-премьера Башкирии Марзаеву,crime_count,,,,crime_count,1,0,0.0,0.0,True
+750,HSBC сократил доналоговую прибыль во II квартале на 29%,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+753,"Politico сообщает, что в ЕС вряд ли откажутся от энергоносителей из РФ до 2027 г.",industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+754,Ограничения сняты в аэропорту Тамбова,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+755,МосБиржа в марте 2026 года изменит время клиринга на срочном рынке,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+756,Греф заявил о прекращении роста безналичных платежей из-за налоговых новаций,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+758,ВС Таиланда пообещали не допустить эскалации на границе с Камбоджей,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+764,Литва пригрозила Белоруссии повторным закрытием границы,international_inflow,international_outflow,,international_outflow,international_inflow,1,1,0.0,0.0,True
+765,РФ рассчитывает на расширение научно-технического сотрудничества с Индией в сфере АПК,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+767,Крупнейшая товарная биржа Индии столкнулась с самой продолжительной в своей истории приостановкой торгов,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+768,"Авария произошла на магистральной линии ""Ростелекома"" в Карелии",enterprises_count,international_outflow,,international_outflow,enterprises_count,1,1,0.0,0.0,True
+769,"В ""СИБУРе"" ждут удачного момента для проведения IPO",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+770,В Новошахтинске при пожаре в торговом центре погибли как минимум два человека,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+772,"Доля прибыльных хозяйств в растениеводстве и животноводстве в I квартале выросла до 79,4%",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+777,Трамп объявил о снятии блокады воздушного пространства Венесуэлы,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+778,Число сбитых на подлете к Москве БПЛА увеличилось до 19,crime_count,,,,crime_count,1,0,0.0,0.0,True
+781,Начальные классы перевели на дистант из-за морозов в Воронеже,preschool_coverage,,,,preschool_coverage,1,0,0.0,0.0,True
+783,Ставки по ипотеке в США слабо выросли впервые за четыре недели,primary_housing_price_index,consumer_price_index;real_income_index,,consumer_price_index;real_income_index,primary_housing_price_index,1,2,0.0,0.0,True
+785,Goldman Sachs понизил прогноз S&P 500 на конец года до 6200 с 6500 пунктов,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+788,Временные ограничения сняты в аэропорту Котласа,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+791,"Самозапрет на кредиты оформили на ""Госуслугах"" 13,5 млн россиян",per_capita_income,consumer_price_index,,consumer_price_index,per_capita_income,1,1,0.0,0.0,True
+797,Белоусов назвал главной угрозой Центральной Азии афганские радикальные группировки,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+801,"Сбербанк в ноябре нарастил корпоративные кредиты по РСБУ на 0,4%",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+804,Уолл-стрит закрылась в плюсе в пятницу,enterprises_count,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+806,В НАТО запросили от ФРГ 40 тыс. солдат для укрепления обороны альянса,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+810,"Банк Англии считает, что действия Трампа могут негативно повлиять на финстабильность в Британии",enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+811,"Минэнерго подало иск о приостановке корпправ у кипрского совладельца ""РН-Холдинга"" из перечня ЭЗО",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+813,Глава Минобрнауки отметил дефицит квалифицированных кадров в СМИ,unemployment_rate,qualified_doctors,,qualified_doctors,unemployment_rate,1,1,0.0,0.0,True
+814,"Китайская Anta Sports покупает 29% акций Puma за 1,5 млрд евро",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+816,Временные ограничения в аэропорту Нижнего Новгорода сняты,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+817,"Директор Нацразведки США видит угрозу в сотрудничестве КНР, России, Ирана и КНДР",crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+819,"Трамп считает, что низкие цены на нефть побудят РФ пойти на перемирие на Украине",consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+820,В Брянской области реактивный снаряд повредил мост,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+823,Венгрия не намерена участвовать в инициативах ЕС по использованию российских активов,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+824,Правительство Литвы не планирует снова закрывать границу с Белоруссией,international_inflow,international_outflow,,international_outflow,international_inflow,1,1,0.0,0.0,True
+825,"ЗАЭС потеряла внешнее электроснабжение из-за отключения линии ""Днепровская""",industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+827,"В России с 1 апреля на 4,5% проиндексируют размеры финансовой помощи пострадавшим в ЧС",per_capita_income,consumer_price_index,,consumer_price_index,per_capita_income,1,1,0.0,0.0,True
+828,Минобороны РФ сообщило о поражении утром 6 БПЛА над Брянской и Курской областями,crime_count,,,,crime_count,1,0,0.0,0.0,True
+830,"Рынок акций РФ открылся в основную сессию ростом индексов МосБиржи и РТС на 0,9%",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+831,Землетрясение произошло в Краснодарском крае,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+833,Аэропорт Саратова приостановил работу,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+834,"Главы МИД стран ""евротройки"" призвали прекратить угрозы в адрес главы МАГАТЭ",crime_count,,,,crime_count,1,0,0.0,0.0,True
+836,РФ может вновь продлить обязательную продажу части валютной выручки на год,enterprises_count,international_outflow,,international_outflow,enterprises_count,1,1,0.0,0.0,True
+840,Застрявшие в Белоруссии фуры начали выезжать в Литву,industrial_production_index,international_outflow,,international_outflow,industrial_production_index,1,1,0.0,0.0,True
+845,Фьючерс на Nasdaq подешевел на 3% вслед за акциями чипмейкеров,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+848,Фондовые индексы США завершили торги снижением,enterprises_count,secondary_housing_price_index;unemployment_rate,,secondary_housing_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+850,"Котировки Brent стабилизировались около $63,4 за баррель",consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+853,В США цены производителей в апреле упали максимально за 5 лет,consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+857,"Российские военные применили в ДНР против ВСУ роботизированный комплекс ""Крот""",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+861,Рынок акций РФ поднялся к 3020 п. по индексу МосБиржи после локальной коррекции,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+862,"Британские истребители присоединятся к операции НАТО ""Восточный страж"" в Польше",crime_count,,,,crime_count,1,0,0.0,0.0,True
+869,США перебросили в Европу два бомбардировщика B-52H,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+873,"Трамп считает, что Иран ответственен за обострение на Ближнем Востоке",crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+882,"Пошлина на экспорт пшеницы из РФ с 25 июня снижается в 2,3 раза",industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+885,Пленум ЦК КПК: эффективный рынок с деятельным правительством и снятие ряда генералов с должностей,industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+887,В ЕС предложили создать фонд добровольной военной помощи Украине,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+888,Европейские рынки акций не показали единой динамики во вторник,enterprises_count,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+890,Количество пострадавших в ДТП в Тульской области увеличилось до 14,life_expectancy,hospitals,,hospitals,life_expectancy,1,1,0.0,0.0,True
+893,"Суд изберет меру пресечения основателю и экс-директору холдинга ""Русагро""",crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+894,Калужский аэропорт временно не принимает самолеты,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+895,"Птицефабрика ""Окское"" в 2024 году увеличила чистую прибыль в 1,5 раза",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+910,Байден обвинил ХАМАС в препятствовании достижению соглашения по Газе,crime_count,,,,crime_count,1,0,0.0,0.0,True
+911,Индекс Мосбиржи опустился ниже 2800п из-за геополитической неопределенности,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+916,Военные КНДР провели учения по запуску дальнобойных крылатых ракет,crime_count,,,,crime_count,1,0,0.0,0.0,True
+919,Военные РФ сообщили об уничтожении за сутки 124 дронов ВСУ,crime_count,,,,crime_count,1,0,0.0,0.0,True
+920,В Екатеринбурге из-за сошедшего с рельсов трамвая образовался затор,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+922,"Минобороны России сообщило, что за сутки сбиты 370 дронов ВСУ",crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+925,Банк России сохранил прогноз роста ВВП в 2025 году в интервале 1-2%,industrial_production_index,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,industrial_production_index,1,2,0.0,0.0,True
+926,"Префы ""Татнефти"" подорожали на 4,3% на новости о рекомендации по дивидендам",enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+932,Минобороны РФ сообщило о взятии под контроль 24 зданий в Димитрове,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+934,"Курс биткойна достиг нового рекорда, превысив $118 тысяч",enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+938,Премьер Польши назвал задачей НАТО противостояние России,crime_count,,,,crime_count,1,0,0.0,0.0,True
+940,РСПП пока не ознакомлен с позицией правительства по деприватизации,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+941,Несколько украинских БПЛА уничтожены в Воронежской области,crime_count,air_pollution,,air_pollution,crime_count,1,1,0.0,0.0,True
+945,Уолл-стрит упала на новых ИИ-опасениях,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+950,Режим беспилотной опасности объявили в Челябинской области,crime_count,,,,crime_count,1,0,0.0,0.0,True
+956,Десятилетний максимум по числу магнитных бурь побит в 2025 году,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+958,"Аэропорты Внуково, Домодедово и Жуковский приостановили работу",industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+959,"Журналистка ""Дождя"" Монгайт стала фигурантом дела о фейках о ВС РФ",crime_count,,,,crime_count,1,0,0.0,0.0,True
+961,"Землетрясение магнитудой 5,9 произошло в Чили у границы с Аргентиной",life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+962,Акционеры МТС-банка утвердили дивиденды за 2024 год,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+964,Герасимов проинформировал Путина об освобождении 24 курских населенных пунктов,crime_count,,,,crime_count,1,0,0.0,0.0,True
+966,Сводный индекс Stoxx Europe 600 обновил исторический максимум,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+967,Аэропорт Волгограда вернулся к штатной работе,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+970,Количество задержанных поездов в Крым и обратно сократилось до четырех,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+974,"Четыре землетрясения магнитудой до 4,2 произошли у берегов Камчатки за сутки",life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+977,Иран ввел запрет на полеты на небольшой высоте над территорией страны,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+980,Рынок акций РФ поднялся до 2685п по индексу МосБиржи на геополитических надеждах,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+981,Число жертв землетрясения в Мьянме превысило 3 тыс. человек,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+982,Калужский аэропорт вновь закрыт для полетов,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+983,Аналитики Piper Sandler прогнозируют рост котировок Nvidia еще на 20%,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+987,МИД Израиля подверг критике Лондон за санкции против двух министров,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+988,ВСУ к концу месяца могут получить ракеты большой дальности по германо-украинскому проекту,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+990,"""ФосАгро"" во II квартале увеличила скорректированную EBITDA на 28% до 50 млрд руб.",enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+995,США облегчили компаниям условия поставки ПО для производства чипов в Китай,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+996,Минобороны РФ сообщило о поражении девяти беспилотников ВСУ,crime_count,,,,crime_count,1,0,0.0,0.0,True
+1000,Путин проводит совещание по развитию обстановки в зоне СВО,crime_count,,,,crime_count,1,0,0.0,0.0,True
+2,Мозамбик пригласил российские компании добывать газ в стране,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+5,Шторм в Великобритании и Ирландии привел к сбоям в работе транспортной системы,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+6,Консерватор Каст одержал победу на выборах президента Чили,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+8,"Скидки на нефть Urals и ESPO в мае упали на $0,6-1 за баррель к апрелю",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+11,Очереди из более чем 4 тысяч машин образовались перед Крымским мостом,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+18,Морской пассажирский транспорт возобновил работу в Севастополе,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+19,ЕГЭ по истории в ближайшие два года не планируют делать обязательным для поступления в вузы,,marriage_rate,,marriage_rate,,0,1,0.0,0.0,True
+20,"Ограничения сняты в аэропортах Казани, Нижнекамска, Оренбурга, Перми и Ижевска",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+27,Морской пассажирский транспорт приостановил работу в Севастополе,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+28,Судебные власти Франции разрешили Дурову на время переехать в Дубай,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+37,Песков отметил замедление в процессе нормализации отношений РФ и США,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+38,Рынок акций РФ в четверг сбавил темпы снижения благодаря заявлениям Путина,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+41,Россия и Китай проведут в начале августа военные учения в Японском море,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+45,"Уолтц уверен, что Зеленский скоро подпишет соглашение по редкоземельным металлам",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+51,"Трамп пригрозил принять меры против Делси Родригес, если она не будет сотрудничать",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+62,"Оверчук заявил, что открытие рынка Армении с ЕС будет означать его закрытие с ЕАЭС",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+66,Лукашенко обвинил Польшу в срыве обмена задержанными по обвинению в шпионаже,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+68,Больше тысячи машин скопилось в очереди на досмотр перед Крымским мостом со стороны Керчи,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+74,Дмитриев анонсировал новые российско-американские контакты на следующей неделе,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+76,Уиткофф и Кушнер в субботу отправятся в Израиль на встречу с Нетаньяху,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+80,Президент Сирии аш-Шараа прибыл в Россию,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+87,Американские эксперты сообщили об усилении защиты подземного объекта в Натанзе,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+96,Сложная погода прогнозируется в регионах Дальнего Востока,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+100,"Под британские санкции попало ООО ""Росатом Аддитивные технологии""",,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+101,Совет Федерации одобрил закон о параметрах размещения рекламы в космосе,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+103,Военно-Грузинскую дорогу открыли для всех видов транспорта,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+106,"Кремль отметил, что рассматривает Стамбул как место для продолжения переговоров с Киевом",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+108,В Кремле оценивают возможную продолжительность саммита РФ-США в 6-7 часов,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+110,Конституционный суд Болгарии утвердил отставку президента страны,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+112,Трамп заявил об успехах своей экономической политики,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+113,Очередь на Крымский мост со стороны Тамани выросла до 757 машин,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+115,Лавров 17 июня встретится в Москве с главой МИД Индонезии,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+116,Лавров едет с визитом в Узбекистан,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+120,"Каллас предложила меры против танкеров, перевозящих нефть РФ, вне санкционных пакетов",,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+122,Радиационная нагрузка на спутники увеличилась после солнечной вспышки высшего класса,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+124,Аэропорт Внуково вернулся к штатной работе,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+126,Запуск ракеты Atlas V с первой группой интернет-спутников Amazon отменен из-за непогоды,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+128,"Аэропорты Волгограда, Геленджика и Краснодара возобновили работу",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+130,Авиакомпания Qantas запустит 19-часовые беспосадочные рейсы в 2027 году,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+132,"Акции ""М.Видео"" заметно дорожают второй день подряд на слухах о продаже торговой сети",,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+134,"Рынок акций РФ просел к 3220 пунктам по индексу МосБиржи во главе с ""ВК""",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+137,Частные пилоты просят отложить создание отдельного воздушного пространства для дронов,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+143,ЦБ РФ хочет собирать с банков данные о числе клиентов для целей формирования списка СЗКО,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+153,Минпромторгу и Минцифры поручено проработать применение криптоалгоритмов для сетей 5G,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+156,Британский регулятор отметил слабость конкуренции в облачных сервисах из-за Microsoft и Amazon,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+167,Авиация НАТО проводит в Эстонии учения на малой высоте,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+169,В КНР предупредили об ответственности за следование мерам США против китайских чипов,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+172,Тигров не осталось в Ленинградском зоопарке,,mortality_rate,,mortality_rate,,0,1,0.0,0.0,True
+183,Аэропорт Волгограда возобновил работу,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+187,"Запрет на импорт в ЕС очищенных нефтепродуктов из нефти РФ не коснется США, Британии, Канады и Норвегии",,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+188,General Motors запускает обратный выкуп акций на $6 млрд,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+189,Главы МИД России и Турции подтвердили обоюдный настрой на дальнейшую координацию,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+208,"Лавров заявил, что видит Стамбул площадкой для второго раунда переговоров РФ и Украины",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+209,"Рынок акций открылся в основную сессию снижением индексов МосБиржи и РТС на 0,1%",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+210,"Что произошло за день: пятница, 28 марта",,crime_count,,crime_count,,0,1,0.0,0.0,True
+222,Авиарейсы задерживаются в аэропорту Хабаровска из-за последствий циклона,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+233,Инвесткомпания Permira собралась продать Neuraxpharm за 3-4 млрд евро,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+239,Из Конституционного суда Грузии отозван иск об отмене закона об иноагентах,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+258,Движение всех видов транспорта приостановлено на Военно-Грузинской дороге,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+263,Аэропорт Волгограда временно не обслуживает рейсы,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+279,Штрафы для иноагентов за неправильную маркировку одобрены к первому чтению,,crime_count,,crime_count,,0,1,0.0,0.0,True
+288,Поток автомобилей по Крымскому мосту вырос в 2025 году более чем на 20%,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+295,Эстония готова сдавать в аренду свои тюрьмы Швеции и Нидерландам,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+298,Падение S&P 500 на 10% с возвращения Трампа показало худший старт президентства с 2001 г.,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+301,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 1,1%",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+313,"Доходность размещения ФНБ в валюте и золоте в 2024 году составила 0,21%",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+319,Задержка движения поездов в Приамурье из-за схода вагона превысила девять часов,,internal_departures,,internal_departures,,0,1,0.0,0.0,True
+322,"Что случилось этой ночью: воскресенье, 14 сентября",,crime_count,,crime_count,,0,1,0.0,0.0,True
+340,Высшая квалификационная коллегия судей прекратила полномочия судьи Момотова,,crime_count,,crime_count,,0,1,0.0,0.0,True
+342,Глава ФРБ Атланты ждет лишь одного снижения ставки ФРС в этом году,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+345,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 0,2%",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+346,"Что произошло за день: вторник, 18 февраля",,international_inflow;international_outflow,,international_inflow;international_outflow,,0,2,0.0,0.0,True
+349,"США, Европа и Украина планируют выстроить общую позицию на переговорах с Путиным",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+356,Рынок акций открылся в основную сессию снижением индексов МосБиржи и РТС на 1%,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+357,Китай вывел на орбиту группу исследовательских спутников,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+358,Путин встретится с главой Сбербанка,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+362,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 0,9%",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+365,"Назначен новый гендиректор новосибирского аэропорта ""Толмачево""",,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+368,"В ""Союзмультфильме"" заявили, что соглашение с американской компанией о Чебурашке давно истекло",,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+373,"Минобрнауки сообщило, что от 15% до 40% студентов не завершают обучение в вузах",,unemployment_rate,,unemployment_rate,,0,1,0.0,0.0,True
+380,Рынок акций РФ в среду упал ниже 2700п по индексу МосБиржи на опасениях новых санкций,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+387,"WSJ узнала, что в США могут обязать банки собирать данные о гражданстве клиентов",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+391,Путин примет участие в саммите ОДКБ в Бишкеке,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+400,Запуск проверки наличия полисов ОСАГО через камеры могут отложить на 4 месяца,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+402,Температура на юге европейской части России понизится,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+408,ЦБ РФ продлил еще на полгода ограничения на перевод средств за рубеж,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+432,Крикалев выразил надежду на дальнейшее сотрудничество с США по космосу,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+440,Уолл-стрит закрылась практически без изменений в ожидании выступления Пауэлла,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+447,Трамп попросил президента Израиля помиловать премьера Нетаньяху,,crime_count,,crime_count,,0,1,0.0,0.0,True
+450,Каллас поедет в США с идеей участия Киева и ЕС в мирных переговорах по Украине,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+452,"Работа сайтов Coinbase, Signal, McDonald's и Disney нарушена из-за сбоя у AWS",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+454,Аэропорт Ярославля временно не обслуживает рейсы,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+456,"В Goldman Sachs считают, что цена золота может подскочить до $5 тыс. из-за ситуации с ФРС",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+468,Аэропорт Калуги возобновил работу,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+471,Аэропорт Волгограда возобновил работу,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+482,Военные США задержали в Индийском океане танкер,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+486,Аэропорт Самары возобновил прием и выпуск рейсов,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+488,Путин потребовал исключить чрезмерный набор платных студентов на ненужные специальности,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+490,Дума приняла в I чтении проект об информировании призывниками о переезде в течение всего года,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+503,Путин и Трамп провели телефонный разговор,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+504,В аэропорту Нижнего Новгорода отменили ограничения,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+506,ЦБ 2 сентября проведет пресс-конференцию Заботкина по проекту основных направлений ДКП,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+508,В Кремле в понедельник ждут доклада Дмитриева Путину о результатах переговоров в Майами,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+509,Уолл-стрит начала декабрь со снижения,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+515,Перенос на 2028 год валютных расчетов через казначейство одобрен в I чтении,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+521,"""Мосбиржа"" приостановила торги на срочном рынке",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+523,Лидеры БРИКС выступили за территориальную целостность Сирии,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+542,Минфин РФ 19 февраля проведет аукционы по размещению ОФЗ 26245 и 26247,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+543,"Аэропорт ""Домодедово"" возобновил работу",,crime_count,,crime_count,,0,1,0.0,0.0,True
+544,В Москве отреставрируют фасады Пречистенской аптеки XVIII века,,housing_area_per_capita,,housing_area_per_capita,,0,1,0.0,0.0,True
+546,Лавров проинформировал Минск об итогах консультаций с США в Саудовской Аравии,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+547,"Банк Англии ожидаемо сохранил ставку на уровне 4,25%",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+551,Дубай оказался местом проведения запрещенного судом РФ разбирательства Wintershall против России,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+556,"Рынки акций Европы закрылись в плюсе, кроме французского",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+559,Дело американца Татера будет рассмотрено судом в Москве в закрытом режиме,,crime_count,,crime_count,,0,1,0.0,0.0,True
+584,Goldman Sachs ухудшил прогноз для индекса акций европейских компаний Stoxx Europe 600,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+595,Тирасполь будет добиваться скорейших переговоров с Кишиневом,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+597,"Доллар США слабеет к евро, иене и фунту",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+598,"В аэропортах Нижнего Новгорода, Тамбова, Ярославля сняли ограничения",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+613,Выборы в Госдуму в 2026 году будут проходить по новой схеме одномандатных округов,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+651,Японские инвесторы продали иностранные облигации на $21 млрд за две недели,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+653,Лавров во вторник встретится с президентом Республики Сербской,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+658,"Главы МИД стран НАТО обсудят в Брюсселе вопросы обороны, Украину и партнерство с ЕС и АТР",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+660,Закон о создании национального мессенджера одобрен российскими сенаторами,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+665,"Крупнейшие банки в июле снизили долю покупок на аукционах ОФЗ до 58,7%",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+667,"Путин заявил, что цена газа для поставок по ""Силе Сибири 2"" рассчитывается по той же формуле, как и при поставках в Европу",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+685,"Что произошло за день: пятница, 1 августа",,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+687,РФ и Буркина-Фасо подпишут соглашение об основах отношений,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+709,Выплату в 400 тыс. руб. предложили распространить на контрактников за участие в КТО в трех областях РФ,,crime_count,,crime_count,,0,1,0.0,0.0,True
+711,Путин и Си Цзиньпин обсудили последние российско-американские контакты,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+714,Путин назвал бредом сообщения о планах России напасть на Европу,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+718,"В ЕС осудили решение Каракаса сократить дипперсонал посольств Нидерландов, Италии и Франции",,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+727,"Орбан посоветовал ЕС вкладывать деньги в свою экономику, а не тратить на Украину",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+742,Иран будет добиваться от США и Израиля компенсаций через ООН,,crime_count,,crime_count,,0,1,0.0,0.0,True
+744,"Словакия и Венгрия оспорят в суде план, предусматривающий отказ ЕС от газа РФ",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+760,"Уитакер заявил, что Трамп ищет способы надавить на Россию и Украину",,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+773,В Думе смягчили законопроект об обязанности букмекеров рекламировать альтернативы ставкам,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+774,"Котировки Brent замедлили рост до $81,34 за баррель",,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+794,Таможня РФ с 1 сентября получила полномочия по ветсанконтролю в ряде пропускных пунктов,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+822,Спикер парламента Армении возразил против слов о смене полюса в политике Еревана,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+829,Медсправки для водителей останутся в прежнем формате до 2027 года,,living_wage,,living_wage,,0,1,0.0,0.0,True
+842,В Москве не ждут последствий для отношений с Пекином из-за тарифных войн,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+846,"Что случилось этой ночью: суббота, 4 октября",,crime_count,,crime_count,,0,1,0.0,0.0,True
+856,В Армянской церкви назвали дело против католикоса политически мотивированным,,crime_count,,crime_count,,0,1,0.0,0.0,True
+889,Путин во вторник проведет большое заседание Совбеза РФ,,hospitals,,hospitals,,0,1,0.0,0.0,True
+896,Япония в следующем фингоду получит профицит бюджета впервые за 28 лет,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+905,Кремль заявил о поддержке предложения Путина возобновить переговоры с Украиной многими мировыми лидерами,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+913,Трамп назвал своей конечной целью встречу Путина и Зеленского,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+914,Обсуждаются планы визитов Ким Чен Ына в Москву и Лаврова в Пхеньян,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+927,Медведев сообщил о прибытии в воинские части в 2025 г. свыше 400 тыс. военных,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+933,Сайт Белого дома сменил оформление после инаугурации Трампа,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+953,Мерц призывает Си Цзиньпина поддержать усилия Запада по украинскому урегулированию,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+955,"Что произошло за день: суббота, 25 января",,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+989,Правительство внесло в Госдуму проект бюджета на трехлетку. Обобщение,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+30,"Что произошло за день: пятница, 3 октября",consumer_price_index;crime_count;mortality_rate,consumer_price_index;industrial_production_index,consumer_price_index,industrial_production_index,crime_count;mortality_rate,3,2,0.4,0.25,True
+149,"Что произошло за день: воскресенье, 2 февраля",crime_count;life_expectancy;mortality_rate,crime_count,crime_count,,life_expectancy;mortality_rate,3,1,0.5,0.3333333333333333,True
+168,Минстрой оценил в 415 млрд рублей просроченную задолженность за ЖКУ в РФ,consumer_price_index;living_wage;per_capita_income,consumer_price_index,consumer_price_index,,living_wage;per_capita_income,3,1,0.5,0.3333333333333333,True
+273,КТК сообщил о повреждении выносного причала N2 в результате террористической атаки,air_pollution;crime_count;industrial_production_index,air_pollution,air_pollution,,crime_count;industrial_production_index,3,1,0.5,0.3333333333333333,True
+306,"МИД РФ осудил атаку на танкеры, зафрахтованные для перевозки казахстанской нефти",air_pollution;crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution;crime_count,3,1,0.5,0.3333333333333333,True
+431,"Что произошло за день: вторник, 18 марта",crime_count;industrial_production_index;mortality_rate,industrial_production_index,industrial_production_index,,crime_count;mortality_rate,3,1,0.5,0.3333333333333333,True
+568,Правительство выделит 2 млрд рублей на системы здравоохранения регионов,hospitals;outpatient_clinics;qualified_doctors,hospitals,hospitals,,outpatient_clinics;qualified_doctors,3,1,0.5,0.3333333333333333,True
+290,"Квартальная выручка УК сети клиник ""Мать и дитя"" выросла на 40,3%",enterprises_count;hospitals,hospitals;outpatient_clinics,hospitals,outpatient_clinics,enterprises_count,2,2,0.5,0.3333333333333333,True
+343,"Семейную налоговую выплату в 2026 г. получат 7,3 млн работающих родителей двух и более детей",children_benefits;per_capita_income,child_living_wage;children_benefits,children_benefits,child_living_wage,per_capita_income,2,2,0.5,0.3333333333333333,True
+442,Власти Кузбасса обсуждают с банками отсрочку гашения кредитов для угольщиков,industrial_production_index;unemployment_rate,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,unemployment_rate,2,2,0.5,0.3333333333333333,True
+496,"Кузбасс в январе-августе сократил добычу угля на 6%, экспорт – на 3,4%",industrial_production_index;unemployment_rate,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,unemployment_rate,2,2,0.5,0.3333333333333333,True
+548,Белгородская область получила 400 млн рублей для пострадавшего от ВСУ бизнеса,crime_count;enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,crime_count,2,2,0.5,0.3333333333333333,True
+560,"Военные РФ сообщили, что ВСУ ночью атаковали энергообъект на Кубани, обеспечивающий перевалку нефти в КТК",crime_count;industrial_production_index,air_pollution;industrial_production_index,industrial_production_index,air_pollution,crime_count,2,2,0.5,0.3333333333333333,True
+837,ЕС продлил санкции против РФ на полгода,enterprises_count;industrial_production_index,industrial_production_index;international_outflow,industrial_production_index,international_outflow,enterprises_count,2,2,0.5,0.3333333333333333,True
+899,МЧС поставит в Белгородскую область 176 передвижных электростанций,housing_area_per_capita;industrial_production_index,air_pollution;industrial_production_index,industrial_production_index,air_pollution,housing_area_per_capita,2,2,0.5,0.3333333333333333,True
+874,"Продажи российских IT-продуктов и IT-услуг в 2024 году выросли до 3,6 трлн рублей",enterprises_count,consumer_price_index;enterprises_count;industrial_production_index,enterprises_count,consumer_price_index;industrial_production_index,,1,3,0.5,0.3333333333333333,True
+10,"""Москвич"" в 2025 году планирует начать сборку новой модели на базе китайского SAIC",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+15,Байден заблокировал сделку между US Steel и Nippon Steel,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+69,Росрыболовство назвало черноморскую рыбу в районе разлива мазута безопасной для здоровья,air_pollution;life_expectancy,air_pollution,air_pollution,,life_expectancy,2,1,0.6666666666666666,0.5,True
+70,Число алиментных соглашений в 2024 году увеличилось на 21%,children_benefits;divorce_rate,divorce_rate,divorce_rate,,children_benefits,2,1,0.6666666666666666,0.5,True
+83,В Петербурге легальным мигрантам запретили работать курьерами,international_inflow;unemployment_rate,international_inflow,international_inflow,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+99,Число пострадавших при взрыве на заводе в Копейске выросло до 29,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+119,"Минэнерго ждет снижения добычи угля в 2025 г. в Кузбассе на 5-6%, если ситуация не изменится",industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+151,Более 100 человек обратились в больницу с острой кишечной инфекцией в Дагестане,hospitals;life_expectancy,hospitals,hospitals,,life_expectancy,2,1,0.6666666666666666,0.5,True
+155,"""Автотор"" запустил семь новых заводов по выпуску электромобилей и автокомпонентов",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+161,"МВФ снизил прогноз роста ВВП РФ на 2025 год до 0,9%",industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+163,ФАС выявила действовавший более 10 лет сговор при поставке угля и дизеля на Камчатку,consumer_price_index;crime_count,consumer_price_index,consumer_price_index,,crime_count,2,1,0.6666666666666666,0.5,True
+164,Два человека ранены при атаках беспилотников под Белгородом,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+191,"РФ в январе сократила выпуск стального проката на 6,8% м/м и на 9,1% г/г",industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+192,В Омане порт Дукм подвергся атаке беспилотника,air_pollution;crime_count,air_pollution,air_pollution,,crime_count,2,1,0.6666666666666666,0.5,True
+194,Практику долгосрочных соглашений на поставку продукции могут распространить на маркетплейсы,consumer_price_index;enterprises_count,consumer_price_index,consumer_price_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+206,Арбитражный суд Петербурга передал в пользу государства имущество СПбГУП,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+216,"Судоверфь ""Звезда"" передала Совкомфлоту головной СПГ-газовоз ""Алексей Косыгин""",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+230,"Первый электромобиль ""Атом"" выпущен на конвейере ""Москвича"" в рамках подготовки серийного производства",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+231,Президент США намерен в ближайшие дни объявить о пошлинах в сфере автопрома,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+248,В результате обстрела пострадал житель Шебекина,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+274,"Индия может снизить пошлины на импорт, включая автомобили и химикаты",consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+276,Запасы газа в хранилищах Европы опустились ниже 30%,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+291,Песков назвал повышение пошлин на удобрения из России выстрелом ЕС себе в ногу,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+300,Восемь жителей Донецка пострадали при обстреле ВСУ,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+302,В Туле после гибели пяти человек в октябрьской аварии трамвая возбудили дело о халатности,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+308,Пять жителей Горловки пострадали в результате боевых действий со стороны Украины,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+312,Новак обсудил с министром торговли Турции перспективы экономического сотрудничества,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+314,Путин поручил проработать вопрос о целесообразности введения экспортных пошлин на рыбу,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+316,Stellantis во II квартале сократил продажи в США на 10%,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+337,Оренбургский губернатор сообщил о попытке атаки БПЛА на предприятие,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+338,"""Уралмашзавод"" за 9 месяцев увеличил чистую прибыль по РСБУ в 2,4 раза",enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+354,"Военные США преследуют нефтяной танкер, связанный с Венесуэлой",crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+355,Инвесторам в МТОР в ДФО компенсируют до 100% ставки ЦБ по инфраструктурным кредитам,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+378,"Cochilco повысила прогноз цен на медь до $4,45 за фунт в 2025 году и до $4,55 в 2026 году",consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+381,СК России возбудил уголовное дело по факту гибели подростка в Подмосковье,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+396,ФАС выявила сговор на торгах по поставке жизненно важных лекарств,consumer_price_index;crime_count,consumer_price_index,consumer_price_index,,crime_count,2,1,0.6666666666666666,0.5,True
+398,"Более 24 БПЛА сбито в Севастополе, ранен ребенок",crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+404,Российские производители мяса озабочены резким ростом импорта курятины из Китая,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+406,Жительница Грайворонского округа пострадала в результате атаки дрона,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+413,"МЧС уточнило, что при опрокидывании ""вахтовки"" в Якутии погибли 13 человек",crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+449,"Выручка ГК ""Русагро"" в IV квартале выросла на 19%, до 141,6 млрд руб., в 2024 г - на 20%, до 367 млрд руб.",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+451,Американская Exxon сократит 2 тыс. рабочих мест в рамках реорганизации,enterprises_count;unemployment_rate,enterprises_count,enterprises_count,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+457,В Кузбассе все шахты возобновили работу после энергоаварии,industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+466,"Фондовые рынки Европы выросли вслед за акциями оборонных компаний, Stoxx Europe 600 обновил рекорд",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+474,Toyota намерена инвестировать в Китай $2 млрд,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+476,Несколько электроподстанций повреждены при атаке БПЛА в Крыму,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+477,"Что произошло за день: среда, 22 октября",consumer_price_index;crime_count,crime_count,crime_count,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+480,В Грузии усилят борьбу с незаконной миграцией,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+492,Минпромторг предложил ограничить госзакупки импортных дизелей для поддержки двигателестроителей,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+498,"В компании ""УАЗ"" заявили, что пожар в индустриальном парке не повлиял на работу предприятий",air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+505,FT отметила быстрый рост возобновляемой энергетики на Ближнем Востоке,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+522,Операция против Ирана может помешать международным спортивным мероприятиям,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+529,"Совкомбанк получил суборд из ФНБ под проект ВСМ на 29,6 млрд рублей",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+533,США запускают серийное производство модернизированной мощной ядерной авиабомбы,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+537,"""РусГидро"" получило контроль в операторе геотермального проекта ""Зарубежнефти"" на Камчатке",air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+539,В больнице Видного остаются четверо пострадавших от атак БПЛА,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+581,Число пострадавших из-за атаки БПЛА в Курске увеличилось до десяти человек,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+587,Президент Ирана предложил перенести столицу из Тегерана,air_pollution;housing_area_per_capita,air_pollution,air_pollution,,housing_area_per_capita,2,1,0.6666666666666666,0.5,True
+591,Французская судоходная CMA CGM купила долю в американском производителе биогаза,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+593,Нефтяные компании передумали строить НПЗ в Ненецком автономном округе,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+600,"МИД Франции заявил, что наступление Израиля еще больше ухудшит ситуацию в Газе",crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+605,Индекс потребдоверия в США в апреле упал до минимума с июня 2022 года,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+611,"На Кубе миллион человек остаются две недели без света после урагана ""Мелисса""",housing_area_per_capita;industrial_production_index,industrial_production_index,industrial_production_index,,housing_area_per_capita,2,1,0.6666666666666666,0.5,True
+615,Лавров и Белоусов доложили Путину о несоблюдении Киевом моратория на удары по энергообъектам,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+625,Женщина ранена в Брянской области после атаки БПЛА,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+626,"Военные РФ нанесли удары по портовым сооружениям, энергоинфраструктуре и хранилищам горючего ВСУ",crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+648,"Brent подешевела до $64,31 за баррель",consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+674,На иностранцев в России за год составили более 3 млн административных протоколов,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+676,Премьер-министр Дании не исключает любых версий инцидента с дронами в аэропорту столицы,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+678,Десять человек стали жертвами стрельбы в школе в Канаде,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+679,Минздрав выдал разрешение для противоопухолевой мРНК-вакцины Центра Блохина,hospitals;life_expectancy,hospitals,hospitals,,life_expectancy,2,1,0.6666666666666666,0.5,True
+684,"УК сети клиник ""Мать и дитя"" ожидает в 2025 году роста выручки на 28%",enterprises_count;hospitals,enterprises_count,enterprises_count,,hospitals,2,1,0.6666666666666666,0.5,True
+689,Здание больницы в калужском Козельске повреждено в результате атаки БПЛА,crime_count;hospitals,crime_count,crime_count,,hospitals,2,1,0.6666666666666666,0.5,True
+701,Росприроднадзор допустил взыскание ущерба от утечки мазута в Керченском проливе через суд,air_pollution;wastewater_discharge,wastewater_discharge,wastewater_discharge,,air_pollution,2,1,0.6666666666666666,0.5,True
+710,"Нанесены удары по объектам ж/д инфраструктуры, по которым перебрасывали вооружения для ВСУ",crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+715,В Волгореченске после атаки БПЛА школы и детские сады закрыли на сутки,crime_count;preschool_coverage,crime_count,crime_count,,preschool_coverage,2,1,0.6666666666666666,0.5,True
+717,"Более 87% детей иностранцев, подавших заявки, не зачислены в российские школы в 2025",international_inflow;preschool_coverage,international_inflow,international_inflow,,preschool_coverage,2,1,0.6666666666666666,0.5,True
+726,Не менее 14 человек погибли в Мексике в столкновениях после гибели лидера наркокартеля,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+734,Индекс потребдоверия в США в августе упал сильнее прогноза,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+748,"Два человека стали жертвами обстрелов в Херсонской области, шестеро ранены",crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+752,Власти Болгарии ждут помощи ЕС в тушении сотен лесных пожаров,air_pollution;life_expectancy,air_pollution,air_pollution,,life_expectancy,2,1,0.6666666666666666,0.5,True
+771,"Патрушев предложил увеличить число портов в Арктике и на Дальнем Востоке, куда разрешен заход иностранных туристских судов",industrial_production_index;international_inflow,international_inflow,international_inflow,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+808,"Нанесён удар по заводу по производству БПЛА и энергообъектам, используемым в интересах ВПК Украины",crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+835,Минфин РФ оценил влияние повышения НДС на инфляцию в 1 процентный пункт,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+844,"Обжалован арест главы совета директоров ""Корпорации СТС"" Татьяны Черных",crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+867,"""АвтоВАЗ"" снизил план продаж Lada в феврале на 15%",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+871,"Иранское агентство ""Тасним"" сообщает, что в Тегеране вновь слышны взрывы",crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+872,Глава МАГАТЭ попросил о временном прекращении огня для устранения ущерба на ЗАЭС,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+877,"Герасимов заявил, что по объектам ВПК и энергетики Украины наносятся ответные массированные удары",crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+879,Семь американских военных получили ранения в ходе операции в Венесуэле,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+881,Отклонение экономики России вверх от траектории сбалансированного роста уменьшается,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+883,Иностранцев по прибытии в Россию предлагается проверять на гепатит С,international_inflow;life_expectancy,international_inflow,international_inflow,,life_expectancy,2,1,0.6666666666666666,0.5,True
+901,Два человека пострадали при ракетном ударе по Белгороду,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+902,Пилот разбившегося в 2024 году на Колыме вертолета предстанет перед судом,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+906,"Мурашко заявил, что 25,4% населения РФ к 2030 г. составят люди в возрасте 60 лет и старше",life_expectancy;population_size,life_expectancy,life_expectancy,,population_size,2,1,0.6666666666666666,0.5,True
+917,США представили первый построенный для Финляндии истребитель F-35A,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+929,Google будет закупать энергию с термоядерной электростанции в Вирджинии,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+931,В Манчестере в Йом Кипур совершено нападение на людей у синагоги,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+935,"В ""АвтоВАЗе"" заявили, что индексация цен на Lada в 2026 г. должна учитывать НДС и рост себестоимости",consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+939,В Орловской области после атаки БПЛА произошло возгорание на объектах ТЭК,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+946,"Суд запретил экс-предправления московского банка ""Легион"" Сокеркину выезжать из РФ",crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+969,Гросси не видит возможности выяснить происхождение найденных на ЗАЭС обломков БПЛА,crime_count;industrial_production_index,crime_count,crime_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+971,Генпрокуратура планирует взыскать в доход РФ нефтебазу семьи госсекретаря Дагестана,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+972,"Акции ""Группы Русагро"" упали на 15,6% на новостях об обысках в компании",crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+984,"Путин прибыл в Самару, где проведет совещание, посетит предприятие и встретится с губернатором",enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+998,Иркутская электросетевая компания в I квартале недополучила 800 млн руб. из-за запрета майнинга,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+388,Более 20 ученых будут искать эффективные методы утилизации мазута на Кубани,air_pollution,air_pollution;wastewater_discharge,air_pollution,wastewater_discharge,,1,2,0.6666666666666666,0.5,True
+419,В Китае в декабре рост розничных продаж и промпроизводства ускорился,industrial_production_index,industrial_production_index;unemployment_rate,industrial_production_index,unemployment_rate,,1,2,0.6666666666666666,0.5,True
+481,Пять выбросов мазута обнаружили на побережье Крыма за сутки,air_pollution,air_pollution;wastewater_discharge,air_pollution,wastewater_discharge,,1,2,0.6666666666666666,0.5,True
+531,"Чистая прибыль Калужского завода ""Кристалл"" в I квартале выросла на 37%",enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,,1,2,0.6666666666666666,0.5,True
+567,"Золоторудная компания ""Павлик"" открыла месторождение с запасами 43 т золота",industrial_production_index,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,,1,2,0.6666666666666666,0.5,True
+875,"Племянник Карапетяна заявил о давлении властей Армении на компании группы ""Ташир""",enterprises_count,crime_count;enterprises_count,enterprises_count,crime_count,,1,2,0.6666666666666666,0.5,True
+908,"Ford выделит 4,4 млрд евро на помощь германскому подразделению",enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,,1,2,0.6666666666666666,0.5,True
+963,"ВВП Германии во II квартале сократился на 0,1% кв/кв, как и ожидалось",industrial_production_index,consumer_price_index;industrial_production_index,industrial_production_index,consumer_price_index,,1,2,0.6666666666666666,0.5,True
+282,"ВЭБ и ПСБ выдадут синдицированный кредит на 24 млрд руб. на электромобиль ""Атом""",enterprises_count;industrial_production_index,enterprises_count;industrial_production_index,enterprises_count;industrial_production_index,,,2,2,1.0,1.0,False
+335,Мурманский губернатор предупредил о трудностях регионов Арктики после повышения МРОТ,living_wage;per_capita_income,living_wage;per_capita_income,living_wage;per_capita_income,,,2,2,1.0,1.0,False
+12,"Цены на бензин в РФ с 17 по 23 июня выросли на 0,22%",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+25,Польша открыла дополнительные пункты пропуска на границе с Белоруссией,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+26,В МИД РФ связали атаку беспилотников с визитом генсека ОБСЕ в Москву,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+32,Армия обороны Израиля сообщила о новой ракетной атаке Ирана,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+33,"Oersted спишет $1,7 млрд из-за роста ставок, обесценения земли и проблем в ветроэнергетике в США",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+34,"США разрешили Venture Globаl допэкспорт 0,5 млрд куб. м СПГ в год с проекта Calcasieu Pass",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+36,В Венгрии открыли новое месторождение нефти,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+40,"""Газпром"" и ""ЛУКОЙЛ"" ликвидируют сбытовое СП ""Газ-Ойл Трейдинг""",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+42,"РФ к концу 2025 года введет в оборот около 3 млн га по программе ""Земля""",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+43,США возобновили атаки на Йемен,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+44,Страны ОПЕК+ обсуждают увеличение добычи в ноябре на 137 тыс. б/с или более,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+46,"Чистая прибыль ""Интер РАО"" по МСФО в I полугодии выросла на 4,3%, до 82,9 млрд руб.",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+52,Глава Минпромторга сообщил о запросах из-за рубежа на поставки Ил-76,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+54,Срок предоставления рыбных инвестквот предлагается продлить с 15 до 20 лет,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+58,Миротворцы ООН обнаружили широкую сеть тоннелей с вооружением на юге Ливана,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+60,"Мировые цены на продовольствие в июле выросли на 1,6%",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+64,Отец и сын Васины арестованы по делу о покушении на генерала Алексеева,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+67,"Нефть усилила падение, Brent теряет 5,6% и торгуется у $70,8 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+71,"ОПЕК сохранила прогноз роста добычи нефти в странах не-ОПЕК+ в 2025 г. на 0,81 млн б/с",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+72,В правительстве заявили о готовности предложить Китаю поставки авиакомплектующих,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+73,"Суд по заявлению АСВ признал банкротом экс-предправления банка ""Холдинг-кредит"" Горош",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+77,"""Полюс"" увеличил EBITDA на 49% в 2024 году, до $5,7 млрд - лучше прогноза",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+78,Производитель электромобилей Lucid сократил квартальный чистый убыток,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+79,Mercedes-Benz в III квартале снизил продажи автомобилей на 12%,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+85,"В ""Южной"" группировке сообщили о поражении 63 пунктов дислокации и блиндажей ВСУ",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+86,Костин не увидел большого пространства для дальнейшего укрепления рубля,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+89,В РФ изменят процедуру контроля за соблюдением требований к проведению экзамена для мигрантов,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+92,"Суд по иску конкурсного управляющего российского ""Гугла"" взыскал с Google Ireland Limited 101,6 млрд руб.",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+93,"Минобороны РФ сообщило о продвижении группировки ""Восток"" в глубину обороны ВСУ",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+94,Газпромбанк увеличил годовую чистую прибыль по МСФО до 195 млрд рублей,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+95,Военные заявили о продвижении в Запорожской и Днепропетровской областях,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+97,Цивилев заявил об обсуждении вхождения Китая в СПГ-проекты в РФ на саммите в Кремле,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+98,Финская Gasum завершила первую бункеровку СПГ рядом с НПЗ Порвоо,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+102,По итогам 2024-2025 годов Индия вошла в топ-10 стран по въездному в РФ туризму,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+105,Инвестиции в нефтегазовый сектор Норвегии достигнут пика в 2025 г. и снизятся в 2026 г.,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+107,Россия в 2025 году увеличила выручку от экспорта чая на 11%,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+109,Штрафы за нарушение границы РФ предлагается увеличить,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+111,Рост цен на новые автомобили в США из-за пошлин может составить до $15 тысяч,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+114,"В Минске заявили, что дальнейшие переговоры с Литвой по границе будут идти на уровне МИД",international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+123,Palo Alto Networks покупает поставщика решений для кибербезопасности CyberArk,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+125,"Цены на хлеб в РФ в ноябре выросли на 0,7%, курятина подешевела на 0,2%",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+127,"ФНС сообщила, что активы российского бизнеса в ОАЭ превысили 1 трлн рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+133,Президент и госсекретарь США внимательно следят за конфликтом Таиланда и Камбоджи,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+138,Власти Севастополя национализировали имущество ряда компаний и физлиц,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+139,"Глава МАГАТЭ отметил, что уровень радиации в регионе Персидского залива в норме",air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+142,ЦБ задумался о смягчении требований по инвестпроектам с госдолей,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+150,"Путин заявил, что Часов Яр был взят под контроль несколько дней назад",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+152,"В Туле оцепили часть улицы, где найдены опасные обломки БПЛА",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+154,"NBC сообщил о задержании в США почти 1,2 тыс. нелегалов в воскресенье",international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+157,"""СПБ биржа"" сообщила о регуляторных сложностях с запуском торгов заблокированными акциями",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+158,Brent остается в минусе и торгуется у $69 за баррель,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+160,Украинец и россиянин осуждены за подготовку теракта против военнослужащего,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+162,В Британии рассчитывают справиться с разливом топлива в Северном море,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+170,В России проинфляционные риски по-прежнему преобладают над дезинфляционными,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+171,Польская PERN договорилась о подключении к трубопроводной системе НАТО,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+174,Глава Совета судей готов предоставить пояснения в суде по иску Генпрокуратуры,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+185,Под российский контроль перешло село Иванополье в ДНР,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+197,В Москве заявили о готовности принимать туристов из США при возобновлении авиасообщения,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+201,Путин сообщил о сотрудничестве с Индией в производстве вооружений,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+205,Производитель электрогрузовиков Nikola подал заявление о банкротстве,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+207,Более 160 тонн загрязненного мазутом грунта вывезли с пляжей Севастополя,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+215,В ОДКБ призвали к дипломатическому урегулированию афгано-пакистанского конфликта,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+217,"Экспорт продукции АПК из России в январе-июле снизился на 14,2%",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+218,ФАС изучит обоснованность закупок региональных госкомпаний у единственного поставщика,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+220,Число физлиц с брокерскими счетами на Мосбирже в марте выросло на 280 тыс.,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+223,"""Коммерсантъ"" сообщил о возможном повышении тарифов на передачу электроэнергии в 4 регионах",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+225,"Рост цен на бензин в РФ с 11 по 17 февраля ускорился до 0,21%",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+227,Промышленный PMI в Китае в июле неожиданно снизился,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+228,"Производство пива и пивных напитков в РФ в январе-феврале выросло на 5,7%",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+232,Восемь дронов ВСУ сбито над Крымом и Брянской областью,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+234,"РСТ заявил, что обострение конфликта между Таиландом и Камбоджей не повлияло на отдых россиян",international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+237,Китай в 2025 году снизил импорт нефти из РФ на 7%,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+240,"Оборот ювелирного холдинга Sokolov в 2024 году вырос на 34%, до 68,1 млрд рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+244,Российские военные отразили две атаки ВСУ с целью прорыва в Купянск,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+245,Решетников ожидает восстановления экономики РФ в конце этого года или в 2027 году,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+247,В I чтении принят проект об увеличении сроков геологоразведки для двух районов ХМАО,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+253,ЦБ РФ рассмотрит вопрос о ставке,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+254,"Прогноз по инфляции в РФ в 2025 году повышен с 4,5% до 7,6%",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+256,Китай в августе заметно сократил импорт нефти из РФ и Саудовской Аравии к июлю,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+259,ФАС не считает актуальным расширение порогов отклонения индикаторов в топливном демпфере,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+260,"JPMorgan увеличил выручку в I квартале на 8%, лучше прогнозов",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+268,Рост цен на огурцы в РФ ускорился в два раза,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+271,Экспорт пшеницы из России в 2025/26 сельхозгоду может вырасти до 44 млн т,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+277,Kraft Heinz рассматривает потенциальные стратегические сделки,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+287,Рубль в пятницу заметно опустился в паре с юанем,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+292,Минсельхоз призвал аграриев не сопротивляться использованию отечественных семян,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+293,В США назвали состоявшийся обмен заключенными жестом доброй воли со стороны России,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+294,Решетников сообщил об упрощении визового режима для иностранных туристов,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+303,Принят закон об ужесточении наказания за дезертирство,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+304,Хуситы сообщили о запуске баллистической ракеты по аэропорту Тель-Авива,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+305,"До 32 выросло число сбитых БПЛА, летевших на Москву в понедельник",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+311,Польша по-прежнему не будет принимать на границе с Белоруссией заявления на международную защиту,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+323,Google выплатит 326 млн евро для урегулирования налогового спора с Италией,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+324,"""Аэрофлот"" 1 марта отменяет рейсы в Дубай и Абу-Даби",international_outflow,international_outflow,international_outflow,,,1,1,1.0,1.0,False
+325,"Продажи чипов в мире в 2024 году выросли на 19,1% и достигли рекорда",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+326,Набиуллина связала ускорение недельной инфляции в РФ с волатильными компонентами,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+327,"Субхолдинг ""Софтлайна"" получил публичный статус в преддверии возможного IPO",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+328,"Военные РФ сбили пять дронов над Белгородской областью, Черным морем и Крымом",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+329,"Мужчине, пытавшемуся отравить 70 летчиков РФ, ужесточили приговор до пожизненного",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+330,Рубль в четверг незначительно снизился к юаню перед заседанием ЦБ РФ по ставке,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+341,Введение санкций США в отношении сербской энергокомпании NIS отложено на 30 дней,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+366,Казахстан уведомил ОПЕК об отсутствии планов сокращения добычи нефти,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+367,Госдума усилила ответственность за одобрение насилия и возбуждение вражды,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+369,ВТБ запланировал выйти в новые сегменты розничного банкинга,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+371,Paramount продлила срок предложения акционерам Warner Bros. Discovery до 20 февраля,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+375,Российские военные отразили две контратаки ВСУ в районе Купянска,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+376,Эквадор готов принять российских проверяющих для аудита производителей бананов,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+379,"Запасы нефти в США снизились на 1,02 млн баррелей за неделю",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+382,Лувр открылся после ограбления,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+384,Начальник инженерных войск РФ сообщил о создании специальных подразделений с роботами,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+385,"Рубль утром немного понижается в паре с юанем, несмотря на укрепление нефти",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+390,Росстат сможет получать от ФНС данные с кассовых аппаратов для расчета инфляции,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+397,ВС Израиля продолжают готовить масштабное наступление в Газе,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+409,"ФТС в 2025 г. пресекла контрабанду драгоценных металлов и камней на 1,2 млрд руб.",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+410,Мать и дочь получили в Севастополе по 12 лет колонии за госизмену,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+411,Кишинев передал Тирасполю предложения по преодолению энергокризиса,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+412,"Частный акционер остался во главе совета директоров ""Петербургского нефтетерминала""",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+415,"ФСБ сообщила о задержании москвича, готовившего диверсию на железной дороге",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+416,Эксперты Citi ждут продолжения роста цен на медь в 2026 году,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+426,"В США в IV квартале производительность труда выросла на 1,2%, слабее прогноза",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+428,"Малоликвидные акции ПАО ""Лензолото"" дешевеют на новостях о планах ликвидации компании",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+433,"Глава ГК ""Ташир"" Карапетян освобожден из-под стражи и помещен под домашний арест",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+434,"Объем грузоперевозок по сети РЖД снизился за 7 месяцев на 6,2%, до 739,3 млн т",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+436,Потребительские цены в Германии в июне выросли на 2%,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+437,"МИД Киргизии призвал своих граждан из ""черного списка"" в РФ легализовать правовой статус",international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+438,Хакеры атаковали сайты госструктур Бельгии,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+446,Финтех-подразделение Ozon размещает ЦФА на 3 млрд рублей,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+458,"Число сбитых БПЛА, летевших на Москву, увеличилось до 26",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+467,"""Аэрофлот"" в июле привлек 40 млрд рублей заемных средств",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+469,В Москве возбуждено дело об ограблении отделения почты почти на 5 млн рублей,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+470,Клинические исследования импортных ветеринарных препаратов будут возможны только в РФ,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+472,Жители Ингушетии получили 25 лет на двоих за подготовку к диверсии,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+475,Рубль утром немного дешевеет к юаню,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+487,Число сбитых на подлете к столице беспилотников достигло 25,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+489,"Орбан не видит препятствий для возобновления поставок нефти по ""Дружбе""",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+493,"В ""НОВАТЭКе"" посоветовали Европе сначала найти, на что заменить газ с ""Ямала СПГ""",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+494,Эстонские криптомошенники согласились вернуть $400 млн в США,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+495,"Площадь лесных пожаров в Якутии увеличилась до 21,4 тыс. га",air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+499,"""Мегафон"" в I полугодии нарастил выручку до 241,3 млрд рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+500,"Прирост запасов ""Сургутнефтегаза"" восполнил добычу в 2024 году",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+501,"Акционеры ""Полюса"" одобрили финальные дивиденды за 2024 год в 73 руб. на акцию",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+510,Росфинмониторинг и ЦБ обсуждают уточнение критериев подозрительных операций по линии незаконного оборота наркотиков,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+513,Страны ОТГ договорились активизировать усилия по сотрудничеству в оборонной промышленности,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+518,В Таганроге после ночной атаки обнаружены обломки БПЛА,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+527,Ритейлер Costco увеличил квартальную выручку сильнее прогнозов,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+532,"Нефть слабо дешевеет, Brent торгуется у $63,2 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+550,Саудовская Аравия нанесла удары по порту Эль-Мукалла в Йемене,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+554,Тридцать три беспилотника нейтрализованы с 09:00 до 16:00 над регионами России,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+558,Ведется опрос водителя фуры после атаки дронов в Иркутской области,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+563,"Владислав Бакальчук зарегистрировал компанию ""ВБ Тех"" в сфере разработки ПО",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+564,"Brent подешевела до $76,38 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+565,Российская армия взяла под контроль населенный пункт Липовое в ДНР,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+579,В Польше проведут заседание Комитета нацбезопасности после взрыва на железной дороге,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+582,Дума рассмотрит поправки о спецмерах для борьбы с терроризмом во II чтении 2 декабря,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+586,Бразилия предлагает создать Совет ООН по изменению климата на базе Генассамблеи,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+588,"Ирландский ЦБ оштрафовал Coinbase на 21,5 млн евро",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+590,"РФ остается крупнейшим поставщиком газа, нефти и нефтепродуктов в Турцию",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+594,Бывшего свердловского вице-губернатора Чемезова могут перевести под домашний арест,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+596,Цены на российских АЗС значительно выросли в новогодние каникулы,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+599,Рубль утром понижается в паре с юанем перед пятничным заседанием ЦБ РФ по ставке,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+601,Добыча ОПЕК+ в декабре отстала от плана на 780 тыс. б/с,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+602,Военно-Грузинскую дорогу закрыли из-за угрозы схода селей,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+603,"Глава ЕЦБ сообщила, что темп роста экономики еврозоны, вероятно, замедлится в III квартале",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+604,Китайская СNNC возглавит консорциум по строительству еще одной АЭС в Казахстане,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+606,"""Газпром"" и Минсельхоз подготовили пилот внедрения автономной генерации в АПК",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+607,"Проект закона о наказании для водителей за ""лекарственное опьянение"" принят в I чтении",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+616,Участок федеральной трассы Р-239 в Оренбуржье перекрыт из-за непогоды,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+621,Саудовская Аравия в феврале снизит цены на нефть для всех регионов,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+624,Аэропорты Иванова и Ярославля возобновили работу,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+627,Военно-Грузинскую дорогу открыли для легкового транспорта и автобусов,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+628,РФ в 2024 году увеличила экспорт макаронных изделий более чем на 10%,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+630,Герасимов доложил президенту о наступлении на всех направлениях в зоне СВО,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+631,"Moody's подтвердило рейтинги Китая на уровне ""A1"" с ""негативным"" прогнозом",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+634,Российские военные сбили 37 беспилотников ВСУ над тремя областями,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+643,Минэнерго России и Белоруссии обсудили формирование общих энергорынков,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+647,"Товарооборот между РФ и КНР в первом квартале 2025 года сократился на 6,6%",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+650,Superjet 100 с иностранными двигателями смогут летать до 2028-2029 годов,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+652,Amplats в 2024 году снизила выпуск платиноидов на 7%,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+654,Правительство сохранило статус государственных научных центров за 43 организациями,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+655,"Лондон продлил лицензию на операции с зарубежными дочками ""ЛУКОЙЛа"" до 25 августа",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+656,Матвиенко заявила об импортонезависимости от целого ряда важных позиций,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+659,Девелопер Glorax установил цену IPO в 64 рубля за акцию,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+661,В пяти регионах юга России более 50% детей мигрантов сдали тест по русскому,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+663,ЭКГ-рейтинг может быть расширен для внедрения в систему закупок госкомпаний,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+664,В КНР сообщили об опасных маневрах пограничных кораблей Филиппин в Южно-Китайском море,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+668,Рубль утром понижается в паре с юанем на фоне относительно стабильной нефти,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+671,Украинский военный осужден на 15 лет за преступления в курском приграничье,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+672,Anglo American начала переговоры с банками о возможном IPO De Beers,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+681,Суд РФ отменил обеспечительные меры по иску о запрете американской NCH Capital,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+682,"Венгерская MOL в 2,5 раза увеличит поставки нефти в Сербию",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+683,Глава ЦБ сообщила о продолжении обсуждения идеи субсидировать выход на рынок капитала,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+686,Нигерия планирует закупить у России сельхозтехнику на более чем 10 млрд рублей,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+688,"Что произошло за день: понедельник, 24 ноября",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+692,Минэнерго РФ настаивает на ускорении строительства Хабаровской ТЭЦ-4,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+693,"Стоимость порта ""Лавна"" превысила 87 млрд рублей",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+694,Мишустин пообещал стимулировать спрос на разработки в станкостроении для поддержки отрасли,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+700,ФАС продолжит донастройку дифференцированных тарифов в энергетике,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+703,"На ""Мосбирже"" рубль заметно подорожал к юаню",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+704,"Парламент Египта одобрил присуждение ""ЛУКОЙЛу"" двух концессий",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+707,"""Ростелеком"" предложил строить общие для крупных компаний электростанции под ЦОД для ИИ",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+708,"Цена размещения в рамках SPO МТС-банка составит 1380,5 руб./АО",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+712,В Севастополе возобновил работу морской пассажирский транспорт,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+713,Аэропорт Саратова временно не обслуживает рейсы,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+716,Китай ввел независимый таможенный режим для острова Хайнань,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+719,"Аэропорты в Ярославле, Нижнем Новгороде и Иванове возобновили работу",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+722,"В России повысились минимальные цены на водку, коньяк и бренди",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+724,Руандийская армия при поддержке повстанцев наступает на востоке Демократической Республики Конго,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+730,Доля продовольственной пшеницы в урожае-2025 в РФ остается на уровне прошлого года,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+731,"""Ростелеком"" размещает ЦФА на 2 млрд рублей на платформе Альфа-банка",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+737,Российские военные уничтожили за сутки 178 украинских беспилотников,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+738,"Несколько дронов ВСУ сбито в Белгородской области, пострадавших нет",crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+739,Поставку в Россию 40 кг кокаина из Латинской Америки пресекли в Петербурге,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+740,"""Мираторг"" сообщил о штатной работе предприятий в Брянской области после атак БПЛА",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+741,Продажи чипов в мире в 2026 году приблизятся к $1 трлн,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+743,Полиция Италии задержала 384 человека в рамках антинаркотической операции,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+749,Путин заявил о загрузке мощностей ОПК по максимуму,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+751,"""Малый порт"" в Приморье в январе увеличил перевалку угля на экспорт на 20%",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+757,БПЛА атаковал автомобиль председателя белгородского избиркома,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+759,ВТБ не исключает покупки других банков при благоприятных условиях,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+761,ВТБ вновь попытается получить согласие держателей валютных субордов на рублификацию выпусков,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+762,"""Яндекс Драйв"" за два года планирует запустить франшизу каршеринга в городах с населением от 500 тыс.",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+763,В Тегусигальпе произошли беспорядки из-за задержки итогов президентских выборов,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+766,SEC подала иск против Илона Маска в связи с обстоятельствами покупки им Twitter,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+776,Число заявок на пособие по безработице в США выросло больше прогнозов,unemployment_rate,unemployment_rate,unemployment_rate,,,1,1,1.0,1.0,False
+779,Австралийская Woodside и Hyundai оценят возможности СПГ-сотрудничества,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+780,"Brent подешевела до $68,24 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+782,В Евросоюзе число банкротств в I квартале снизилось,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+789,TSMC в III квартале увеличила чистую прибыль на 39% до рекорда,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+792,"Ритейлер ""О`Кей"" в IV кв. увеличил выручку на 5,3%, в целом за 2024 г. - на 5,5%",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+793,"""АБ Холдинг"" отсудил у кипрской ABH Financial ее пакет в Альфа-банке",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+795,Глава Банка Англии по-прежнему обеспокоен динамикой британского ВВП,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+802,Китай приостанавливает действие ограничений на экспорт некоторых РЗМ в США,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+803,Пензенский аэропорт вновь обслуживает рейсы,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+812,Disney отчитался о квартальной чистой прибыли,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+815,МВД Германии продлит пограничный контроль до сентября,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+821,"Прорабатывается возможность для россиян расплачиваться в Китае картами ""Мир"" и по QR-кодам",international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+826,Полиция Южной Кореи вновь не сумела обыскать офис службы безопасности Юн Сок Ёля,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+832,Поставки газа из РФ в Армению приостановлены из-за ремонта на газопроводе в Грузии,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+838,"Hyatt купит Playa Hotels за $2,6 млрд",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+839,Росфинмониторинг внес Леонида Гозмана в перечень террористов и экстремистов,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+843,"""Объединенные пивоварни"" сменили название на ""Пивоварни Бочкарев""",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+851,В случае непубличного признания компании ЭЗО ее владельца будут об этом информировать,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+858,В Удмуртии отменили введенный после атаки БПЛА в Ижевске режим ЧС,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+863,"Министры ОПЕК+ и ""восьмерки"" подтвердили ранее принятые решения об уровнях добычи на 2026 г. и I кв.",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+864,Госдума приняла закон о дистанционном открытии счетов в рамках ЭПР,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+865,"План ""Ковер"" действует в Пензенской области",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+866,"Нетаньяху заявил, что Израиль должен сам обеспечивать себя вооружениями",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+878,"В АПК доля российских семян сахарной свеклы в 2025 году выросла в 2,4 раза до 19%",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+880,Аэропорт Владикавказа возобновил работу,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+884,Военные РФ заявили об уничтожении 20 украинских дронов над Белгородской областью,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+886,Президент заявил о росте в РФ числа преступлений экстремистской направленности,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+891,"Грузооборот морских портов РФ в январе сократился на 7% г/г, до 67 млн тонн",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+898,"Финтех-подразделение Ozon разместит ЦФА на 1,5 млрд рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+903,ЦБ ужесточит требования к оценке банками финансового положения компаний,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+904,На комиссии в Госдуме заявили о трудностях с легализацией граждан Киргизии,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+909,ЦАХАЛ сообщил о новой волне ударов по Тегерану,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+912,В Пензенской области возбудили уголовное дело из-за нападения на главу района,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+915,"Brent подешевела до $60,99 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+921,Малому бизнесу профинансируют восстановление памятников на 9 млрд рублей,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+923,КНР проходит летний пик потребления газа на уровне прошлогодних значений,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+924,Движение по Крымскому мосту возобновлено,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+928,"Brent подешевела до $77,3 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+930,"Оборот ""Софтлайна"" в 2025 году вырос на 9% до 131,8 млрд рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+936,"Первые два причальных устройства КТК будут заменены на импортные, ВПУ-3 - на отечественный",industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+937,"Pfizer близок к покупке Metsera за сумму до $7,3 млрд",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+943,Аналитики прогнозируют сохранение ставки ЦБ РФ на уровне 21%,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+944,Неквалифицированным инвесторам откроют доступ к ЦФА через традиционные биржи,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+947,"Ритейлер Henderson в 2024 году увеличил выручку на 24,2%, до 20,8 млрд рублей",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+951,Рубль утром вырос к юаню на фоне активно дорожающей нефти,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+952,Аэропорт Пулково возобновил обслуживание рейсов,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+960,Участники рынка обсуждают запрет экспорта бензина для производителей на фоне роста цен,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+973,ГАИ будет проверять иностранцев по реестру контролируемых лиц перед экзаменами на права,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+975,Полиция в грузинском Батуми провела задержания на акции протеста,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+976,"Суд удовлетворил иск Сбера о взыскании с его бывшей британской ""дочки"" 12,5 млн фунтов",enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+978,"Brent торгуется у $65,84 за баррель",consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+979,Более 30 БПЛА уничтожено за сутки над Белгородской областью,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+991,Рубль утром слабеет в паре с юанем на фоне небольшого снижения цен на нефть,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+992,Арестован второй соответчик по иску к председателю Совета судей Момотову,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+993,Суд оштрафовал Apple и WhatsApp на миллионы рублей,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+994,Торги акциями LG Electronics India после IPO начнутся 14 октября,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+999,Объем закупок крупнейших госкомпаний у самозанятых за 9 месяцев вырос почти в 3 раза,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+3,Старт вечерней сессии на срочном рынке Мосбиржи задерживается,,,,,,0,0,1.0,1.0,False
+4,Аэропорты Волгограда и Краснодара приостановили работу,,,,,,0,0,1.0,1.0,False
+9,В посольстве РФ рассказали о планах Британии отказаться от российского урана к 2028 году,,,,,,0,0,1.0,1.0,False
+14,Президент РФ считает несправедливым перекладывание на сегодняшних немцев вины за прошлое,,,,,,0,0,1.0,1.0,False
+22,Памятник - символ идеи русской Свободы появится в Нижнем Новгороде,,,,,,0,0,1.0,1.0,False
+29,Парламент Эстонии принял закон о церквях и приходах вопреки рекомендациям президента,,,,,,0,0,1.0,1.0,False
+35,"Кремль не стал конкретизировать, какие документы привез Дмитриев после переговоров в Майами",,,,,,0,0,1.0,1.0,False
+48,Страны G7 обсудили введение дополнительных санкций в отношении России,,,,,,0,0,1.0,1.0,False
+49,Путин поздравил Лукашенко с днем рождения,,,,,,0,0,1.0,1.0,False
+56,Российские ледоколы помогают финским судам в Финском заливе,,,,,,0,0,1.0,1.0,False
+57,"Резкое понижение температуры произойдет в регионах Поволжья, Урала и запада Сибири",,,,,,0,0,1.0,1.0,False
+88,"Песков заявил, что Россия обдумает предложение о 30-дневном перемирии на Украине",,,,,,0,0,1.0,1.0,False
+118,Шеф Пентагона распорядился на 20% сократить число четырехзвездных генералов в армии,,,,,,0,0,1.0,1.0,False
+141,Лавров в понедельник проведет заседание комиссии по прикаспийскому сотрудничеству,,,,,,0,0,1.0,1.0,False
+144,Премьер Польши попросит парламент проголосовать о доверии его правительству,,,,,,0,0,1.0,1.0,False
+146,Минфин США разрешил операции с нефтью из Венесуэлы для американских юрлиц,,,,,,0,0,1.0,1.0,False
+175,"Си Цзиньпин приглашен в Москву на 9 мая, Путина ждут в сентябре в Пекине",,,,,,0,0,1.0,1.0,False
+178,Игорю Стрелкову не удалось обжаловать отказ суда смягчить наказание,,,,,,0,0,1.0,1.0,False
+179,"Международные резервы РФ в январе увеличились на 1,9% до $620,8 млрд",,,,,,0,0,1.0,1.0,False
+196,Синоптики спрогнозировали ночные заморозки в регионах европейской части РФ,,,,,,0,0,1.0,1.0,False
+213,Уиткофф заявил о намерении США получить бессрочное соглашение с Ираном по атому,,,,,,0,0,1.0,1.0,False
+214,РСА определил 10 регионов с максимальной долей судебных издержек по ОСАГО,,,,,,0,0,1.0,1.0,False
+219,"Трамп обещал назначить новым главой ФРС человека, выступающего за снижение ключевой ставки",,,,,,0,0,1.0,1.0,False
+221,"США хотят ликвидации ядерной программы Ирана, но готовы на компромиссы",,,,,,0,0,1.0,1.0,False
+229,На Солнце произошла самая крупная вспышка с 19 июня,,,,,,0,0,1.0,1.0,False
+235,"Песков назвал создание системы ПРО ""Золотой купол"" суверенным делом США",,,,,,0,0,1.0,1.0,False
+242,Сенатор Джонсон начинает расследование о состоянии здоровья Байдена во время его президентства,,,,,,0,0,1.0,1.0,False
+246,"Премьер Словакии заявил, что Зеленский не разрешил инспекцию нефтепровода ""Дружба""",,,,,,0,0,1.0,1.0,False
+249,Временные ограничения сняты в аэропортах Самары и Ульяновска,,,,,,0,0,1.0,1.0,False
+251,"Что случилось этой ночью: понедельник, 13 января",,,,,,0,0,1.0,1.0,False
+257,Песков заявил об отсутствии решений по Эр-Рияду как месту встречи Путина и Трампа,,,,,,0,0,1.0,1.0,False
+267,Доля крупнейших банков на аукционах ОФЗ в августе упала до минимума в 2025 г.,,,,,,0,0,1.0,1.0,False
+272,"Трамп заявил, что открыт к идее встречи с Путиным и Зеленским",,,,,,0,0,1.0,1.0,False
+284,Очереди автомашин перед Крымским мостом устранены,,,,,,0,0,1.0,1.0,False
+289,OFAC продлило лицензию для обязательных платежей в РФ на очередной квартал,,,,,,0,0,1.0,1.0,False
+296,"Лавров отметил необходимость понять, что стоит за словами Трампа о 50 днях на сделку по Украине",,,,,,0,0,1.0,1.0,False
+307,Президент Панамы назвал ложью слова о восстановлении контроля США над Панамским каналом,,,,,,0,0,1.0,1.0,False
+309,"SoftBank Group намерена привлечь $4,1 млрд от размещения бондов",,,,,,0,0,1.0,1.0,False
+310,Аэропорт Ижевска временно не обслуживает рейсы,,,,,,0,0,1.0,1.0,False
+332,"Что произошло за день: понедельник, 19 мая",,,,,,0,0,1.0,1.0,False
+336,Разработчик японского зонда назвал причину неудачной посадки на Луну,,,,,,0,0,1.0,1.0,False
+339,"Задержка поездов на КрасЖД из-за перебоев с энергоснабжением составила 2,5 часа",,,,,,0,0,1.0,1.0,False
+344,Сильное землетрясение произошло у тихоокеанского побережья Мексики,,,,,,0,0,1.0,1.0,False
+347,"Ушаков заявил, что ему неизвестно о запросах со стороны США на разговор Трампа и Путина",,,,,,0,0,1.0,1.0,False
+351,"ЦИК РФ введет ГАС ""Выборы"" версии 2.0 в постоянную эксплуатацию с 6 февраля",,,,,,0,0,1.0,1.0,False
+372,Ограничения в аэропорту Ижевска сняты,,,,,,0,0,1.0,1.0,False
+386,"Песков заявил, что разговор Путина и Трампа не запланирован, но может быть быстро организован",,,,,,0,0,1.0,1.0,False
+389,"""Репортеры без границ"" внесены в перечень нежелательных в России организаций",,,,,,0,0,1.0,1.0,False
+394,Ушаков назвал целью Зеленского в Европе срыв переговоров,,,,,,0,0,1.0,1.0,False
+405,Meta представила новые ИИ-очки,,,,,,0,0,1.0,1.0,False
+414,Минобороны Южной Кореи опровергло сообщение о переговорах по сокращению сил США в стране,,,,,,0,0,1.0,1.0,False
+422,Глава Пентагона исключил отправку американских военных на Украину,,,,,,0,0,1.0,1.0,False
+430,"Рубио заявил, что сроки и место возможной встречи Трампа и Путина не определены",,,,,,0,0,1.0,1.0,False
+439,Законопроект о долговых ЦФА внесен в Госдуму,,,,,,0,0,1.0,1.0,False
+443,"Ограничения сняты в петербургском аэропорту ""Пулково""",,,,,,0,0,1.0,1.0,False
+445,Суд рассмотрит прошение об освобождении Саркози из тюрьмы 10 ноября,,,,,,0,0,1.0,1.0,False
+455,Лавров встретился с главами МИД Кубы и Доминиканы,,,,,,0,0,1.0,1.0,False
+485,Переговоры Путина с эмиром Катара пройдут 17 апреля,,,,,,0,0,1.0,1.0,False
+491,На церемонии открытия Олимпиады в Милане зажгли олимпийский огонь,,,,,,0,0,1.0,1.0,False
+514,"Премьер Госсовета КНР уверен, что США и Китаю нужно сотрудничать, а не соперничать",,,,,,0,0,1.0,1.0,False
+524,Путин назвал отношения с Трампом деловыми и доверительными,,,,,,0,0,1.0,1.0,False
+525,Умер британский актер Теренс Стэмп,,,,,,0,0,1.0,1.0,False
+526,Путин в четверг встретится в Сочи с президентом Республики Сербской Додиком,,,,,,0,0,1.0,1.0,False
+540,Самыми популярными предметами для сдачи ЕГЭ-2026 стали профильная математика и физика,,,,,,0,0,1.0,1.0,False
+541,"Создатели ""Бруталиста"" и ""Конклава"" стали обладателями ""Золотых глобусов""",,,,,,0,0,1.0,1.0,False
+545,Умер сооснователь группы Beach Boys Брайан Уилсон,,,,,,0,0,1.0,1.0,False
+552,Крупнейший банк Италии впервые купил биткойны на спотовом рынке,,,,,,0,0,1.0,1.0,False
+561,Госдума утвердила состав делегации для переговоров с конгрессменами США,,,,,,0,0,1.0,1.0,False
+566,Москва рассчитывает на принятие важных документов на саммите ШОС,,,,,,0,0,1.0,1.0,False
+570,"Лавров отметил важность инициатив, запущенных в ходе председательств РФ и Бразилии в БРИКС",,,,,,0,0,1.0,1.0,False
+571,Совет ЕС и Европарламент согласовали бюджет Евросоюза на 2026 год,,,,,,0,0,1.0,1.0,False
+577,Морской пассажирский транспорт возобновил работу в Севастополе,,,,,,0,0,1.0,1.0,False
+583,Бельгия не поддержит идею использовать замороженные активы РФ без распределения рисков,,,,,,0,0,1.0,1.0,False
+585,"На ""Госуслугах"" может появиться сервис для подачи заявления в отряд космонавтов",,,,,,0,0,1.0,1.0,False
+589,Аэропорт Перми закрыт из-за снегопада,,,,,,0,0,1.0,1.0,False
+608,"Россия прекратит бои на Украине, когда переговоры дадут твердый результат",,,,,,0,0,1.0,1.0,False
+609,Путин напомнил о важности данных разведки для принятия решений властями РФ,,,,,,0,0,1.0,1.0,False
+610,Путин передал послание для аятоллы Хаменеи через главу иранского МИД,,,,,,0,0,1.0,1.0,False
+620,ХАМАС согласился передать сектор Газа под управление Палестинской национальной администрации,,,,,,0,0,1.0,1.0,False
+632,Путин в четверг примет главу ЦИК,,,,,,0,0,1.0,1.0,False
+635,Трамп передаст ВВС США подаренный Катаром Boeing-747-8,,,,,,0,0,1.0,1.0,False
+640,Россия призвала Японию признать итоги Второй мировой войны в полном объеме,,,,,,0,0,1.0,1.0,False
+641,Володин посетил Музей военной истории Вьетнама,,,,,,0,0,1.0,1.0,False
+642,Отряд кораблей Тихоокеанского флота прибыл в Камбоджу,,,,,,0,0,1.0,1.0,False
+644,Дефицит бюджета США в октябре вырос на 10%,,,,,,0,0,1.0,1.0,False
+645,В МИД Израиля обвинили Макрона в антиизраильской политике,,,,,,0,0,1.0,1.0,False
+669,К Шри-Ланке направился еще один иранский корабль,,,,,,0,0,1.0,1.0,False
+677,"Трамп заявил, что отправится в Рим на похороны папы римского",,,,,,0,0,1.0,1.0,False
+680,Лавров исключил иностранное военное присутствие на Украине в будущем,,,,,,0,0,1.0,1.0,False
+690,Совет Федерации назначил Калиновского и Тарибо судьями КС,,,,,,0,0,1.0,1.0,False
+691,Небольшое землетрясение произошло в Сочи,,,,,,0,0,1.0,1.0,False
+695,Си Цзиньпин провел телефонный разговор с Трампом,,,,,,0,0,1.0,1.0,False
+698,Ким Чен Ын посетил учения по отражению атак БПЛА,,,,,,0,0,1.0,1.0,False
+705,"Землетрясение магнитудой 5,2 зарегистрировано возле Камчатки",,,,,,0,0,1.0,1.0,False
+725,Президент Армении подписал закон о намерении страны вступить в ЕС,,,,,,0,0,1.0,1.0,False
+729,"Руководство ""Реала"" может продать миноритарную долю клуба сторонним инвесторам",,,,,,0,0,1.0,1.0,False
+735,"Что произошло за день: четверг, 5 февраля",,,,,,0,0,1.0,1.0,False
+746,Путин поддержал решение губернатора Пермского края переизбираться,,,,,,0,0,1.0,1.0,False
+775,В Кремле заявили о нежелании Киева продолжать переговоры,,,,,,0,0,1.0,1.0,False
+784,Премьер Канады назначит парламентские выборы на 28 апреля,,,,,,0,0,1.0,1.0,False
+786,Президент Чехии утвердил правительство во главе с Андреем Бабишем,,,,,,0,0,1.0,1.0,False
+787,Корабль Crew Dragon с четырьмя туристами состыковался с МКС,,,,,,0,0,1.0,1.0,False
+796,Путин подписал закон о ратификации договора между РФ и Белоруссией о гарантиях безопасности,,,,,,0,0,1.0,1.0,False
+798,"Спецпредставитель Трампа заявил, что конфликт на Украине был спровоцирован",,,,,,0,0,1.0,1.0,False
+800,Путин встретится с главой ДНР и проведет международный телефонный разговор,,,,,,0,0,1.0,1.0,False
+807,"Что произошло за день: среда, 12 февраля",,,,,,0,0,1.0,1.0,False
+818,Путин предложил назначить судьями КС Константина Калиновского и Евгения Тарибо,,,,,,0,0,1.0,1.0,False
+847,Президентский указ вводит государство в орган управления ДОСААФ,,,,,,0,0,1.0,1.0,False
+849,Ушаков и Уолтц накануне поговорили по телефону,,,,,,0,0,1.0,1.0,False
+852,Новый состав ЦИК России приступит к работе в конце марта,,,,,,0,0,1.0,1.0,False
+854,Кароль Навроцкий приведен к присяге в качестве президента Польши,,,,,,0,0,1.0,1.0,False
+859,"Россия задействовала авиацию и атомную подлодку на учении ""Запад-2025"" в Баренцевом море",,,,,,0,0,1.0,1.0,False
+860,Путин 8 мая проведет переговоры с Си Цзиньпином,,,,,,0,0,1.0,1.0,False
+870,В американскую библиотеку вернули книгу с опозданием в 82 года,,,,,,0,0,1.0,1.0,False
+900,Глава МИД Турции пока остался в зале переговоров между делегациями РФ и Украины,,,,,,0,0,1.0,1.0,False
+907,Что произошло в мире науки. Вечерний дайджест,,,,,,0,0,1.0,1.0,False
+948,В президентском указе русский язык назван одной из основ государственности,,,,,,0,0,1.0,1.0,False
+957,МОК отменил ограничения для молодых спортсменов из России и Белоруссии,,,,,,0,0,1.0,1.0,False
+965,"Трамп заявил, что США всегда будут вместе с НАТО",,,,,,0,0,1.0,1.0,False
+968,Моди приветствует стремление Трампа урегулировать украинский конфликт,,,,,,0,0,1.0,1.0,False
+997,Мусульмане отмечают Курбан-байрам,,,,,,0,0,1.0,1.0,False

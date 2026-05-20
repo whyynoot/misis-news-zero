@@ -1,0 +1,1001 @@
+﻿dataset_row_id,title,url,true_factors,pred_factors,tp_factors,fp_factors,fn_factors,true_count,pred_count,sample_f1,sample_jaccard,needs_review
+21,В Херсонской области в результате обстрела ранены водитель и врач скорой помощи,https://www.interfax.ru/russia/1047733,crime_count;hospitals;qualified_doctors,,,,crime_count;hospitals;qualified_doctors,3,0,0.0,0.0,True
+7,Женщина погибла в результате атаки беспилотников ВСУ на населенный пункт Вахрушево в ЛНР,https://www.interfax.ru/russia/1033570,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+16,Состояние пострадавших при ЧП в Курской области сотрудников РЖД удовлетворительное,https://www.interfax.ru/russia/1028966,life_expectancy;mortality_rate,hospitals,,hospitals,life_expectancy;mortality_rate,2,1,0.0,0.0,True
+39,"В Турции заявили, что танкер Virat подвергся повторной атаке в Черном море",https://www.interfax.ru/world/1060587,air_pollution;crime_count,international_outflow,,international_outflow,air_pollution;crime_count,2,1,0.0,0.0,True
+53,"Что произошло за день: понедельник, 1 декабря",https://www.interfax.ru/russia/1060876,international_inflow;life_expectancy,crime_count,,crime_count,international_inflow;life_expectancy,2,1,0.0,0.0,True
+121,Проект о передаче под контроль ЦБ регулирования сервисов покупок в рассрочку принят в I чтении,https://www.interfax.ru/russia/1016396,per_capita_income;real_income_index,consumer_price_index,,consumer_price_index,per_capita_income;real_income_index,2,1,0.0,0.0,True
+129,"Что произошло за день: вторник, 13 мая",https://www.interfax.ru/world/1025425,air_pollution;crime_count,international_inflow,,international_inflow,air_pollution;crime_count,2,1,0.0,0.0,True
+140,"Что произошло за день: четверг, 3 апреля",https://www.interfax.ru/russia/1018179,consumer_price_index;mortality_rate,crime_count;industrial_production_index,,crime_count;industrial_production_index,consumer_price_index;mortality_rate,2,2,0.0,0.0,True
+145,Госдума утвердила отчет об исполнении бюджетов ФОМС и Социального фонда за 2024 год,https://www.interfax.ru/russia/1035392,children_benefits;hospitals,,,,children_benefits;hospitals,2,0,0.0,0.0,True
+159,"""АвтоВАЗ"" возобновил производство после корпоративного отпуска и майских праздников",https://www.interfax.ru/business/1025077,industrial_production_index;unemployment_rate,enterprises_count,,enterprises_count,industrial_production_index;unemployment_rate,2,1,0.0,0.0,True
+166,"Bloomberg сообщил, что ЕС может ограничить экспорт в США",https://www.interfax.ru/world/1021481,enterprises_count;industrial_production_index,international_inflow,,international_inflow,enterprises_count;industrial_production_index,2,1,0.0,0.0,True
+173,"Роснедра заявили, что РФ выполняет обязательства по работе на дне Мирового океана",https://www.interfax.ru/forumspb/1031761,air_pollution;industrial_production_index,,,,air_pollution;industrial_production_index,2,0,0.0,0.0,True
+180,Нидерланды намерены продлить срок службы АЭС после 2033 года,https://www.interfax.ru/world/1053337,air_pollution;industrial_production_index,,,,air_pollution;industrial_production_index,2,0,0.0,0.0,True
+195,"В МИД РФ заявили о рисках для АЭС ""Бушер"" на фоне конфликта Ирана и Израиля",https://www.interfax.ru/world/1031453,air_pollution;crime_count,international_inflow,,international_inflow,air_pollution;crime_count,2,1,0.0,0.0,True
+199,Потери бюджета из-за нелегального табака оценены в 150 млрд рублей в год,https://www.interfax.ru/business/1029239,crime_count;per_capita_income,consumer_price_index,,consumer_price_index,crime_count;per_capita_income,2,1,0.0,0.0,True
+200,Тяжело раненная в среду при обстреле Лисичанска девочка скончалась в больнице,https://www.interfax.ru/russia/1022870,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+202,Военные нанесли удары по украинским аэродромам и сбили более 70 дронов ВСУ,https://www.interfax.ru/russia/1017321,crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+211,Число жертв ударов США и Израиля по Ирану выросло до 787 человек,https://www.interfax.ru/world/1075821,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+238,В Курской области в результате удара по энергообъекту есть погибший и раненые,https://www.interfax.ru/russia/1075014,crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+250,Гросси готов взаимодействовать с Израилем и Ираном для обеспечения безопасности ядерных объектов,https://www.interfax.ru/world/1031125,air_pollution;crime_count,,,,air_pollution;crime_count,2,0,0.0,0.0,True
+252,Пять человек спасены при пожаре в Москве,https://www.interfax.ru/world/1004042,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+265,Хакеры могут спровоцировать в японской рознице дефицит самого популярного пива,https://www.interfax.ru/business/1050742,consumer_price_index;enterprises_count,industrial_production_index,,industrial_production_index,consumer_price_index;enterprises_count,2,1,0.0,0.0,True
+270,"Законопроект о ""периоде охлаждения"" в потребительском кредитовании прошел I чтение",https://www.interfax.ru/business/1003012,per_capita_income;real_income_index,consumer_price_index,,consumer_price_index,per_capita_income;real_income_index,2,1,0.0,0.0,True
+278,Себестоимость строительства многоквартирных домов вырастет в 2025 году более чем на 6%,https://www.interfax.ru/business/1042173,housing_area_per_capita;primary_housing_price_index,consumer_price_index,,consumer_price_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+281,Путин отметил снижение кредитного портфеля банков в первом квартале,https://www.interfax.ru/russia/1022547,enterprises_count;per_capita_income,industrial_production_index,,industrial_production_index,enterprises_count;per_capita_income,2,1,0.0,0.0,True
+299,Обнаружены пропавшие в горах на севере Пермского края туристы,https://www.interfax.ru/russia/1063394,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+317,Владельцы пострадавших от атаки БПЛА домов в Анапе получат помощь властей,https://www.interfax.ru/russia/1023899,housing_area_per_capita;per_capita_income,crime_count,,crime_count,housing_area_per_capita;per_capita_income,2,1,0.0,0.0,True
+321,"Более 18,7 трлн рублей направят в 2026 г. на обеспечение мер поддержки и выплату пенсий",https://www.interfax.ru/russia/1049802,children_benefits;per_capita_income,consumer_price_index,,consumer_price_index,children_benefits;per_capita_income,2,1,0.0,0.0,True
+361,"РФ может направить часть замороженных активов на восстановление территорий, пострадавших в ходе СВО",https://www.interfax.ru/russia/1068869,housing_area_per_capita;per_capita_income,industrial_production_index,,industrial_production_index,housing_area_per_capita;per_capita_income,2,1,0.0,0.0,True
+399,"СКР проводит выемку документов в авиакомпании ""Ангара"" после крушения Ан-24",https://www.interfax.ru/russia/1037881,crime_count;mortality_rate,industrial_production_index,,industrial_production_index,crime_count;mortality_rate,2,1,0.0,0.0,True
+418,В США ставки по ипотеке находятся на минимуме за год,https://www.interfax.ru/business/1051929,housing_area_per_capita;primary_housing_price_index,consumer_price_index,,consumer_price_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+420,В Израиле 16 человек пострадали в результате ракетного удара Ирана,https://www.interfax.ru/world/1032570,crime_count;life_expectancy,,,,crime_count;life_expectancy,2,0,0.0,0.0,True
+424,Белый дом хочет задействовать 200 агентов Иммиграционной и таможенной полиции против нелегалов в Чикаго,https://www.interfax.ru/world/1044643,international_inflow;international_outflow,crime_count,,crime_count,international_inflow;international_outflow,2,1,0.0,0.0,True
+453,Три человека погибли и один пострадал при пожаре на базе отдыха в Хакасии,https://www.interfax.ru/russia/1070487,life_expectancy;mortality_rate,crime_count,,crime_count,life_expectancy;mortality_rate,2,1,0.0,0.0,True
+461,В Брянской области в результате атаки БПЛА сгорели жилой дом и семь машин,https://www.interfax.ru/russia/1023068,crime_count;housing_area_per_capita,air_pollution,,air_pollution,crime_count;housing_area_per_capita,2,1,0.0,0.0,True
+517,Президент заявил о сложной ситуации в жилищном строительстве в РФ,https://www.interfax.ru/russia/1022542,housing_area_per_capita;primary_housing_price_index,industrial_production_index,,industrial_production_index,housing_area_per_capita;primary_housing_price_index,2,1,0.0,0.0,True
+528,Нефтепродукты загорелись в Воронежской области после атаки беспилотников,https://www.interfax.ru/russia/1069813,air_pollution;crime_count,industrial_production_index,,industrial_production_index,air_pollution;crime_count,2,1,0.0,0.0,True
+573,Глава Роспотребнадзора рассказала про зарубежный интерес к противоэпидемическим разработкам РФ,https://www.interfax.ru/russia/1032824,life_expectancy;qualified_doctors,international_inflow,,international_inflow,life_expectancy;qualified_doctors,2,1,0.0,0.0,True
+578,Четырех человек спасли во время пожара в многоквартирном доме во Владивостоке,https://www.interfax.ru/russia/1070939,life_expectancy;mortality_rate,,,,life_expectancy;mortality_rate,2,0,0.0,0.0,True
+636,G7 планирует объявить о готовности к работе над усилением санкционного давления на РФ,https://www.interfax.ru/world/1050286,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+666,Пять домов повреждены в Краснодарском крае после падения обломков сбитых дронов,https://www.interfax.ru/russia/1006960,crime_count;housing_area_per_capita,,,,crime_count;housing_area_per_capita,2,0,0.0,0.0,True
+720,Кремль принял к сведению заявление сенатора Грэма по санкциям против РФ,https://www.interfax.ru/russia/1033684,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+732,Нежилая многоэтажка и частный дом повреждены в Липецкой области после атаки БПЛА,https://www.interfax.ru/russia/1034874,crime_count;housing_area_per_capita,air_pollution,,air_pollution,crime_count;housing_area_per_capita,2,1,0.0,0.0,True
+790,Зерноград в Ростовской области остался без воды из-за аварии,https://www.interfax.ru/russia/1040277,housing_area_per_capita;wastewater_discharge,,,,housing_area_per_capita;wastewater_discharge,2,0,0.0,0.0,True
+799,Окна жилых домов повреждены обломками БПЛА в Курске,https://www.interfax.ru/russia/1070441,crime_count;housing_area_per_capita,,,,crime_count;housing_area_per_capita,2,0,0.0,0.0,True
+805,КС РФ допустил взыскание компенсации морального вреда с наследников обвиняемого,https://www.interfax.ru/russia/1028518,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+809,ЛЭП и здание предприятия повреждены атаками ВСУ в Белгородской области,https://www.interfax.ru/russia/1033604,housing_area_per_capita;industrial_production_index,,,,housing_area_per_capita;industrial_production_index,2,0,0.0,0.0,True
+841,"ФАС возбудила дело о картеле на 4,6 млрд рублей при закупках средств очистки воды",https://www.interfax.ru/russia/1041814,crime_count;wastewater_discharge,air_pollution,,air_pollution,crime_count;wastewater_discharge,2,1,0.0,0.0,True
+855,В России ожидают осуждения мировыми лидерами удара по селу в Херсонской области,https://www.interfax.ru/russia/1066030,crime_count;mortality_rate,,,,crime_count;mortality_rate,2,0,0.0,0.0,True
+868,"Режим ЧС введен на месте пожара в Каменске-Шахтинском, где сгорели дома",https://www.interfax.ru/russia/1047870,housing_area_per_capita;life_expectancy,crime_count,,crime_count,housing_area_per_capita;life_expectancy,2,1,0.0,0.0,True
+876,Бренд Loro Piana помещен под судебный контроль из-за обвинений в трудовых нарушениях,https://www.interfax.ru/world/1036133,crime_count;unemployment_rate,enterprises_count,,enterprises_count,crime_count;unemployment_rate,2,1,0.0,0.0,True
+892,"Премьер Эстонии заявил, что НАТО увеличит свое присутствие в Балтийском море",https://www.interfax.ru/world/1001546,crime_count;industrial_production_index,international_inflow,,international_inflow,crime_count;industrial_production_index,2,1,0.0,0.0,True
+897,"Подведена дорога к севшему на мель танкеру ""Волгонефть 239"" в Керченском проливе",https://www.interfax.ru/russia/1002816,air_pollution;wastewater_discharge,industrial_production_index,,industrial_production_index,air_pollution;wastewater_discharge,2,1,0.0,0.0,True
+918,"Рынок БАДов в России за пять лет вырос в 2,5 раза",https://www.interfax.ru/russia/1028025,enterprises_count;life_expectancy,consumer_price_index,,consumer_price_index,enterprises_count;life_expectancy,2,1,0.0,0.0,True
+942,Этот январь в Москве станет самым теплым за всю историю метеонаблюдений,https://www.interfax.ru/world/1004948,air_pollution;life_expectancy,,,,air_pollution;life_expectancy,2,0,0.0,0.0,True
+949,В результате ДТП в Египте погибла российская туристка,https://www.interfax.ru/world/1057319,life_expectancy;mortality_rate,,,,life_expectancy;mortality_rate,2,0,0.0,0.0,True
+954,Министр коммерции КНР обвинил США в препятствовании развитию мировой торговли,https://www.interfax.ru/world/1049173,enterprises_count;industrial_production_index,international_inflow,,international_inflow,enterprises_count;industrial_production_index,2,1,0.0,0.0,True
+985,В соглашении с Киевом оговорен контроль США над инвестициями в природные ресурсы,https://www.interfax.ru/world/1017006,enterprises_count;industrial_production_index,,,,enterprises_count;industrial_production_index,2,0,0.0,0.0,True
+986,Котельные Пятигорска могут временно приостановить работу из-за отсутствия воды,https://www.interfax.ru/russia/1007041,housing_area_per_capita;wastewater_discharge,air_pollution;industrial_production_index,,air_pollution;industrial_production_index,housing_area_per_capita;wastewater_discharge,2,2,0.0,0.0,True
+1,Путин поручил разработать план подъема двух затонувших в Черном море танкеров,https://www.interfax.ru/russia/1002123,air_pollution,industrial_production_index,,industrial_production_index,air_pollution,1,1,0.0,0.0,True
+13,Колокольцев указал на ухудшение обстановки в мире на фоне смягчения наркоконтроля в ряде стран,https://www.interfax.ru/russia/1068672,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+17,Работающие россияне смогут получить налоговый вычет за оплату спортивных занятий родителям,https://www.interfax.ru/russia/1058203,per_capita_income,child_living_wage,,child_living_wage,per_capita_income,1,1,0.0,0.0,True
+23,Сорвалась очередная ротация экспертов МАГАТЭ на Запорожской АЭС,https://www.interfax.ru/world/1007562,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+24,Авария на водоканале оставила без воды около пяти тысяч жителей Саратова,https://www.interfax.ru/russia/1049648,wastewater_discharge,,,,wastewater_discharge,1,0,0.0,0.0,True
+31,"Что произошло за день: вторник, 17 июня",https://www.interfax.ru/russia/1031699,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+47,"СД ""Полюса"" рекомендовал финальные дивиденды за 2024 год в 730 руб. на акцию",https://www.interfax.ru/business/1012826,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+50,"Потребрасходы во Франции в декабре выросли на 0,7%, лучше прогноза",https://www.interfax.ru/world/1005384,real_income_index,consumer_price_index,,consumer_price_index,real_income_index,1,1,0.0,0.0,True
+55,"ГК ""Абрау-Дюрсо"" планирует производить винные напитки в Индии",https://www.interfax.ru/business/1061839,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+59,Brookfield за пять лет инвестирует 20 млрд евро в ЦОД и ИИ-инфраструктуру во Франции,https://www.interfax.ru/world/1007128,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+61,Глава комитета Госдумы Боярский призвал РКН не допустить распространения видео и фото с трагедией в Одинцове,https://www.interfax.ru/russia/1063540,crime_count,,,,crime_count,1,0,0.0,0.0,True
+63,"Авианосец ВМС США ""Карл Винсон"" находится вблизи Ирана с почти 50 истребителями",https://www.interfax.ru/world/1031109,crime_count,,,,crime_count,1,0,0.0,0.0,True
+65,Жители двух белгородских сел остались без света после атаки дронов ВСУ,https://www.interfax.ru/russia/1010395,crime_count,,,,crime_count,1,0,0.0,0.0,True
+75,Введение уголовного наказания за отрицание геноцида советского народа одобрено в I чтении,https://www.interfax.ru/russia/1074758,crime_count,,,,crime_count,1,0,0.0,0.0,True
+81,Роспотребнадзор не исключил роста заболеваемости геморрагической лихорадкой в РФ,https://www.interfax.ru/russia/1020526,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+82,"Палата представителей США одобрила законопроект, прекращающий шатдаун",https://www.interfax.ru/world/1070920,unemployment_rate,industrial_production_index,,industrial_production_index,unemployment_rate,1,1,0.0,0.0,True
+84,Три человека погибли в аварии в Орловской области,https://www.interfax.ru/russia/1048331,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+90,Трамп объявил о заключении торгового соглашения с Южной Кореей,https://www.interfax.ru/world/1038896,consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+91,На подлете к Севастополю сбито три воздушные цели,https://www.interfax.ru/russia/1044363,crime_count,air_pollution,,air_pollution,crime_count,1,1,0.0,0.0,True
+104,В Литву прибыли 52 освобожденных в Белоруссии заключенных,https://www.interfax.ru/world/1046720,international_inflow,crime_count,,crime_count,international_inflow,1,1,0.0,0.0,True
+117,"Бенефициар ""Облкоммунэнерго"" Алексей Бобров задержан в Екатеринбурге",https://www.interfax.ru/russia/1048749,crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+131,На поддержку российской анимации предложено передавать 10% от сборов иностранной,https://www.interfax.ru/russia/1016499,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+135,Ассоциация садоводов сообщила о возможности запрета импорта в РФ плодовых саженцев,https://www.interfax.ru/russia/1016269,industrial_production_index,international_outflow,,international_outflow,industrial_production_index,1,1,0.0,0.0,True
+136,Дума во вторник рассмотрит обращение по вопросу эскалации у границ Венесуэлы,https://www.interfax.ru/russia/1057215,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+147,"ЕС расширил санкции против платежных сервисов, в том числе СБП и карт ""Мир""",https://www.interfax.ru/business/1054264,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+148,В Эстонии заявили о готовности направить военных на Украину,https://www.interfax.ru/world/1023499,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+165,Лидеры США и Австралии обсудили по телефону пошлины,https://www.interfax.ru/business/1024068,consumer_price_index,international_inflow,,international_inflow,consumer_price_index,1,1,0.0,0.0,True
+176,Пожар в бизнес-центре во Владивостоке потушен,https://www.interfax.ru/russia/1067880,mortality_rate,industrial_production_index,,industrial_production_index,mortality_rate,1,1,0.0,0.0,True
+177,"FT узнала, что Иран в случае удара США намерен начать полноценную контратаку",https://www.interfax.ru/world/1074630,crime_count,,,,crime_count,1,0,0.0,0.0,True
+181,Минобороны РФ заявило о продвижении войск после взятия под контроль Песчаного в Харьковской области,https://www.interfax.ru/russia/1053288,crime_count,,,,crime_count,1,0,0.0,0.0,True
+182,Трамп потребовал от ХАМАС вернуть всех израильских заложников,https://www.interfax.ru/world/1045547,crime_count,,,,crime_count,1,0,0.0,0.0,True
+184,Израиль нанес удар по району расположения офиса Хаменеи,https://www.interfax.ru/world/1075139,crime_count,,,,crime_count,1,0,0.0,0.0,True
+186,Booking во II квартале сократил чистую прибыль на 41%,https://www.interfax.ru/business/1038722,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+190,Минобороны сообщило о поражении в течение суток более 170 беспилотников ВСУ,https://www.interfax.ru/russia/1074028,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+193,Наследный принц Саудовской Аравии запустил ИИ-компанию при суверенном фонде страны,https://www.interfax.ru/world/1025225,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+198,Чрезвычайное положение на юге Израиля снято впервые за два года,https://www.interfax.ru/world/1054987,crime_count,,,,crime_count,1,0,0.0,0.0,True
+203,В РФ не зарегистрированы случаи заболевания парапоксвирусной инфекцией,https://www.interfax.ru/russia/1072425,life_expectancy,air_pollution,,air_pollution,life_expectancy,1,1,0.0,0.0,True
+204,Китай в ноябре неожиданно снизил импорт газа на фоне подорожания СПГ,https://www.interfax.ru/business/1003720,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+212,Закон об особенностях продажи БАДов в РФ подписан президентом РФ,https://www.interfax.ru/russia/1030187,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+224,"Глава Роснедр уверен, что главным бенефициаром развития зеленой энергетики в мире станет медь",https://www.interfax.ru/business/1027227,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+226,В Армении завершились совместные с США военные учения,https://www.interfax.ru/world/1043214,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+236,Москва выразила протест Токио в связи с военными учениями близ российских рубежей,https://www.interfax.ru/russia/1055835,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+241,"Трамп намерен вернуться к идее сокращения ядерных арсеналов США, РФ и Китая",https://www.interfax.ru/world/1004382,crime_count,,,,crime_count,1,0,0.0,0.0,True
+243,ЦБ не ждет проблем на валютном рынке из-за санкций против крупнейших экспортеров,https://www.interfax.ru/business/1060240,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+255,Представители России и Киргизии подписали изменения в протокол о развитии ВТС,https://www.interfax.ru/russia/1059972,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+261,"США, страны Европы, Украина создали рабочую группу для разработки гарантий безопасности Киеву",https://www.interfax.ru/world/1043004,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+262,"Военные РФ заявили, что комплексом ""Искандер"" нанесен удар ВСУ в Сумской области",https://www.interfax.ru/russia/1014116,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+264,ОАЭ отрицают обвинения Эр-Рияда в попытках обострения конфликта в Йемене,https://www.interfax.ru/world/1065875,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+266,"Военные РФ сообщили, что Купянск находится под их контролем",https://www.interfax.ru/russia/1065411,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+269,Пепловый шлейф от камчатского вулкана Шивелуч протянулся на 40 км,https://www.interfax.ru/russia/1002718,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+275,"Прокуратура подтвердила отмену возбуждения уголовных дел по ЖК ""СПб Реновация""",https://www.interfax.ru/russia/1043528,housing_area_per_capita,crime_count,,crime_count,housing_area_per_capita,1,1,0.0,0.0,True
+280,"Отклонена апелляция структуры Rio Tinto на взыскание в пользу ""Русала"" 105 млрд рублей",https://www.interfax.ru/russia/1074378,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+283,Иран готов рассмотреть новые предложения о сотрудничестве от МАГАТЭ,https://www.interfax.ru/world/1053668,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+285,В Свердловской области объявлен режим ракетной опасности,https://www.interfax.ru/russia/1074997,crime_count,,,,crime_count,1,0,0.0,0.0,True
+286,Беспилотник атаковал гражданский автомобиль в Курской области,https://www.interfax.ru/russia/1027889,crime_count,,,,crime_count,1,0,0.0,0.0,True
+297,Эрдоган и Трамп обсудят поставки истребителей F-35,https://www.interfax.ru/world/1048641,crime_count,,,,crime_count,1,0,0.0,0.0,True
+315,Генерал Дэн Кейн заявил о полном превосходстве США над Ираном в воздухе,https://www.interfax.ru/world/1075587,crime_count,,,,crime_count,1,0,0.0,0.0,True
+318,Вашингтон разрешил поставки в Китай ИИ-чипов Nvidia H200 с рядом условий,https://www.interfax.ru/world/1067575,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+320,Глава ХДС призвал власти ФРГ повысить траты на оборону как минимум до 2% от ВВП,https://www.interfax.ru/world/1004037,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+331,"Китай считает, что все стороны должны способствовать украинскому урегулированию",https://www.interfax.ru/world/1009073,crime_count,,,,crime_count,1,0,0.0,0.0,True
+333,КНДР запустила несколько баллистических ракет малой дальности,https://www.interfax.ru/world/1053921,crime_count,,,,crime_count,1,0,0.0,0.0,True
+334,В Минздраве увидели необходимость профилактики покупки некачественных БАДов из-за рубежа,https://www.interfax.ru/russia/1028050,life_expectancy,consumer_price_index,,consumer_price_index,life_expectancy,1,1,0.0,0.0,True
+348,Силы самообороны Тринидада и Тобаго привели в состояние повышенной боеготовности,https://www.interfax.ru/world/1055885,crime_count,international_outflow,,international_outflow,crime_count,1,1,0.0,0.0,True
+350,Законопроект о скидке для родственников при удостоверении договора дарения внесен в ГД,https://www.interfax.ru/russia/1017484,per_capita_income,,,,per_capita_income,1,0,0.0,0.0,True
+352,Дюмин предложил пересмотреть некоторые механизмы поддержки участников СВО,https://www.interfax.ru/russia/1049817,per_capita_income,international_inflow,,international_inflow,per_capita_income,1,1,0.0,0.0,True
+353,Три украинских дрона были сбиты над Мурманской областью,https://www.interfax.ru/russia/1023947,crime_count,,,,crime_count,1,0,0.0,0.0,True
+359,"В ЕС призвали гарантировать Киеву отсутствие ограничений на военную поддержку, численность ВСУ",https://www.interfax.ru/world/1040662,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+360,Мишустин пообещал помочь Амурской области в борьбе с пожарами и паводками,https://www.interfax.ru/russia/1037199,air_pollution,industrial_production_index,,industrial_production_index,air_pollution,1,1,0.0,0.0,True
+363,"ЕС намерен ввести санкции против ""Северных потоков"" и снизить ""потолок"" цен на нефть из РФ",https://www.interfax.ru/world/1025988,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+364,В Бразилии локализовали пожар на климатической конференции COP30,https://www.interfax.ru/world/1059117,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+370,"Российские дальние бомбардировщики Ту-22М3 нанесли удар в ходе учения ""Запад-2025""",https://www.interfax.ru/russia/1047073,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+374,The Miami Herald сообщила о решении США нанести удары по военным объектам Венесуэлы,https://www.interfax.ru/world/1055811,crime_count,,,,crime_count,1,0,0.0,0.0,True
+377,Три человека погибли от отравления угарным газом в Дагестане,https://www.interfax.ru/russia/1006123,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+383,"Нефть ускорила рост, Brent подорожала до $65,72 за баррель",https://www.interfax.ru/business/1029361,consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+392,"Мурашко сообщил, что ожирением в РФ страдают 480 тыс. школьников",https://www.interfax.ru/russia/1030807,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+393,"""Уральские авиалинии"" в I полугодии увеличили чистую прибыль по РСБУ в 1,8 раза",https://www.interfax.ru/business/1040103,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+395,Лула да Силва предложил использовать возможности ООН в украинском урегулировании,https://www.interfax.ru/world/1030201,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+401,Селевые потоки сошли в нескольких районах Киргизии,https://www.interfax.ru/world/1016333,mortality_rate,air_pollution;wastewater_discharge,,air_pollution;wastewater_discharge,mortality_rate,1,2,0.0,0.0,True
+403,Фермерская продукция в РФ получила собственный ГОСТ,https://www.interfax.ru/russia/1042106,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+407,Военные РФ уничтожили пусковые установки РСЗО HIMARS и ЗРК Patriot ВСУ,https://www.interfax.ru/russia/1045149,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+417,Инспекторы МАГАТЭ покидают Иран,https://www.interfax.ru/world/1034617,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+421,"""Европлан"" может выплатить дивиденды за 9 месяцев в размере около 7 млрд руб.",https://www.interfax.ru/business/1055738,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+423,Песков заявил о готовности РФ содействовать переговорам по иранскому ядерному досье,https://www.interfax.ru/russia/1011973,crime_count,,,,crime_count,1,0,0.0,0.0,True
+425,"Ростехнадзор не выявил недостатков, влияющих на эксплуатацию энергоблока №1 ЗАЭС",https://www.interfax.ru/russia/1070418,air_pollution,,,,air_pollution,1,0,0.0,0.0,True
+427,DuPont ускорит выделение электронного бизнеса и отказалась выделять водный,https://www.interfax.ru/world/1003187,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+429,Renault увеличил квартальную выручку чуть хуже прогноза,https://www.interfax.ru/business/1054255,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+435,В РФ планируют сделать распорядок дня школьников более сбалансированным,https://www.interfax.ru/russia/1030844,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+441,Минобороны сообщило о трех сбитых дронах над Крымом,https://www.interfax.ru/russia/1009629,crime_count,,,,crime_count,1,0,0.0,0.0,True
+444,Новые истцы вступили в дело о взыскании холдинга КДВ в доход РФ,https://www.interfax.ru/russia/1048450,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+448,"Судебный процесс по возврату в госсобственность ""Саянскхимпласта"" начнется 13 мая",https://www.interfax.ru/russia/1022739,enterprises_count,crime_count,,crime_count,enterprises_count,1,1,0.0,0.0,True
+459,Заявления Трампа по Газе могут повлиять на ход переговоров Израиля и ХАМАС,https://www.interfax.ru/world/1006553,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+460,"Microsoft оштрафован на 3,5 млн рублей за нарушение законодательства России",https://www.interfax.ru/russia/1050039,crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+462,ВМС КНР вытеснили американский эсминец из спорной акватории в Южно-Китайском море,https://www.interfax.ru/world/1041989,crime_count,,,,crime_count,1,0,0.0,0.0,True
+463,"Трамп 13 января приказал готовиться к удару по Ирану, но передумал из-за возражений",https://www.interfax.ru/world/1068090,crime_count,,,,crime_count,1,0,0.0,0.0,True
+464,"РФ за 11 месяцев увеличила импорт рыбы из Чили на 40%, до $327 млн",https://www.interfax.ru/business/1064548,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+465,Нефтегазовая Sinopec в I полугодии сократила чистую прибыль на 36%,https://www.interfax.ru/world/1043310,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+473,Вэнс заявил о недопустимости создания Ираном ядерного оружия,https://www.interfax.ru/world/1073307,crime_count,,,,crime_count,1,0,0.0,0.0,True
+478,"""Аэрофлот"" при открытии аэропортов юга мог бы перевезти в 2025 г. около 60 млн человек",https://www.interfax.ru/russia/1030552,enterprises_count,international_inflow,,international_inflow,enterprises_count,1,1,0.0,0.0,True
+479,"Россияне в 2024 г. подали 606 тыс. заявлений на шенгенские визы, доля отказов - 7,5%",https://www.interfax.ru/russia/1026545,international_outflow,international_inflow,,international_inflow,international_outflow,1,1,0.0,0.0,True
+483,Законопроект о заочной сделке с недвижимостью по биометрии принят в I чтении,https://www.interfax.ru/russia/1011905,housing_area_per_capita,enterprises_count,,enterprises_count,housing_area_per_capita,1,1,0.0,0.0,True
+484,"В Кремле надеются, что заявления о ядерных испытаниях не скажутся на отношениях с США",https://www.interfax.ru/russia/1056508,crime_count,,,,crime_count,1,0,0.0,0.0,True
+497,В США в I квартале производительность труда упала сильнее прогноза,https://www.interfax.ru/business/1029805,industrial_production_index,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,industrial_production_index,1,2,0.0,0.0,True
+502,Белый дом назвал продуктивными переговоры США и Украины в Саудовской Аравии,https://www.interfax.ru/world/1013116,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+507,Чистая прибыль S7 в 2024 году упала на 34% при небольшом росте выручки и сокращении затрат,https://www.interfax.ru/business/1017623,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+511,Беспилотник уничтожен в Ленинградской области,https://www.interfax.ru/russia/1043664,crime_count,,,,crime_count,1,0,0.0,0.0,True
+512,На платформе подтверждения ИТ-компетенций получены уже более 36 тыс. сертификатов,https://www.interfax.ru/russia/1044728,unemployment_rate,,,,unemployment_rate,1,0,0.0,0.0,True
+516,Роспотребнадзор не выявил в образцах рыбы из Черного моря несоответствия гигиеническим нормам,https://www.interfax.ru/russia/1004437,life_expectancy,air_pollution;wastewater_discharge,,air_pollution;wastewater_discharge,life_expectancy,1,2,0.0,0.0,True
+519,В пострадавшем от взрыва газа доме под Тулой восстановили газоснабжение,https://www.interfax.ru/russia/1057045,housing_area_per_capita,crime_count,,crime_count,housing_area_per_capita,1,1,0.0,0.0,True
+520,"Путин сообщил, что ВСУ пытаются двигаться в сторону российской границы",https://www.interfax.ru/russia/1026796,crime_count,,,,crime_count,1,0,0.0,0.0,True
+530,"В Германии могут внести поправки, позволяющие сбивать неидентифицированные дроны",https://www.interfax.ru/world/1051529,crime_count,,,,crime_count,1,0,0.0,0.0,True
+534,Банк Японии допустил негативное влияние тарифной политики США на рост японской экономики,https://www.interfax.ru/world/1021350,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+535,"Землетрясение магнитудой 5,9 произошло в Индонезии",https://www.interfax.ru/world/1018008,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+536,В Ростовской области отразили атаку беспилотников,https://www.interfax.ru/russia/1054648,crime_count,,,,crime_count,1,0,0.0,0.0,True
+538,Россия не будет менять преференции для отечественных компаний при возвращении иностранных,https://www.interfax.ru/russia/1010030,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+549,"""Газпром"" зафиксировал объем размещения флоатера на уровне 40 млрд рублей",https://www.interfax.ru/business/1059247,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+553,"Международный аэропорт Каракаса и военная база ""Форт-Тиуна"" подверглись атакам",https://www.interfax.ru/world/1066175,crime_count,,,,crime_count,1,0,0.0,0.0,True
+555,Президент РФ назвал пиратством атаки Украины на суда в Черном море,https://www.interfax.ru/russia/1061087,crime_count,,,,crime_count,1,0,0.0,0.0,True
+557,Совет государств Персидского залива принял решение об общих оборонительных мерах,https://www.interfax.ru/world/1047471,crime_count,,,,crime_count,1,0,0.0,0.0,True
+562,Трамп с Си Цзиньпином обсудили украинское урегулирование,https://www.interfax.ru/world/1048238,crime_count,,,,crime_count,1,0,0.0,0.0,True
+569,Суд заменил девелоперу Худояну неотбытый срок в колонии исправительными работами,https://www.interfax.ru/russia/1047818,crime_count,,,,crime_count,1,0,0.0,0.0,True
+572,В Роспотребнадзоре назвали стабильной ситуацию с менингококковой инфекцией в РФ,https://www.interfax.ru/russia/1036559,life_expectancy,mortality_rate,,mortality_rate,life_expectancy,1,1,0.0,0.0,True
+574,"Землетрясение магнитудой 5,6 зарегистрировано на Соломоновых островах",https://www.interfax.ru/world/1004763,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+575,"Совфед одобрил закон, регламентирующий порядок изъятия криптовалюты в уголовных делах",https://www.interfax.ru/russia/1073369,crime_count,,,,crime_count,1,0,0.0,0.0,True
+576,"В Роспотребнадзоре заявили, что не выявили никаких ""ужасающих"" мутаций COVID-19",https://www.interfax.ru/russia/1064642,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+580,"""Аэрофлот"" вернулся к штатному расписанию после ограничений из-за беспилотников",https://www.interfax.ru/russia/1037534,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+592,Прямые иностранные инвестиции в мире упали на 11% в 2024 году,https://www.interfax.ru/world/1032095,enterprises_count,international_inflow,,international_inflow,enterprises_count,1,1,0.0,0.0,True
+612,В Токио заявили об опасных маневрах истребителей КНР над Тихим океаном,https://www.interfax.ru/world/1030953,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+614,Российские военные сообщили об отражении двух контратак ВСУ в районе Купянска,https://www.interfax.ru/russia/1068217,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+617,Аэропорт Саратова возобновил работу,https://www.interfax.ru/russia/1062072,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+618,СМИ связали возможность отправки Британией и Францией военных на Украину с поддержкой США,https://www.interfax.ru/world/1010349,crime_count,,,,crime_count,1,0,0.0,0.0,True
+619,"Аэропорт ""Жуковский"" временно не принимает и не отправляет рейсы",https://www.interfax.ru/russia/1027001,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+622,Главы МИД РФ и Венгрии обсудили двустороннюю повестку,https://www.interfax.ru/russia/1029154,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+623,Четыре человека погибли при пожаре в жилом комплексе в Гонконге,https://www.interfax.ru/world/1059986,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+629,"""Новабев Групп"" в 2024 году снизила отгрузки алкогольной продукции на 4,2%",https://www.interfax.ru/business/1003181,industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+633,"Путин заявил, что РФ и Китай практически не используют в торговле евро и доллар",https://www.interfax.ru/russia/1044852,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+637,Число жертв авиаударов США по Йемену выросло до 19 человек,https://www.interfax.ru/world/1013876,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+638,Четыре БПЛА уничтожены над Орловской областью,https://www.interfax.ru/russia/1066403,crime_count,,,,crime_count,1,0,0.0,0.0,True
+639,Военные с 12:00 до 17:40 уничтожили 37 дронов ВСУ над шестью регионами,https://www.interfax.ru/russia/1037137,crime_count,,,,crime_count,1,0,0.0,0.0,True
+646,Рефрижераторы с телами погибших военных для передачи Украине находятся под Брянском,https://www.interfax.ru/russia/1030200,mortality_rate,international_inflow,,international_inflow,mortality_rate,1,1,0.0,0.0,True
+649,В ближайшие дни на 85-90% территории России будет теплее нормы,https://www.interfax.ru/russia/1002282,life_expectancy,air_pollution,,air_pollution,life_expectancy,1,1,0.0,0.0,True
+657,Поиски пропавшего вертолета возобновились в Хабаровском крае,https://www.interfax.ru/world/1036188,life_expectancy,crime_count,,crime_count,life_expectancy,1,1,0.0,0.0,True
+662,Суд запретил в РФ деятельность разработчика игры World of Tanks,https://www.interfax.ru/russia/1029350,crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+670,Трамп и Рамафоса поспорили о ситуации с белыми землевладельцами в ЮАР,https://www.interfax.ru/world/1026999,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+673,В США министра внутренней безопасности проверят после убийств в Миннесоте,https://www.interfax.ru/world/1069741,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+675,ЦБ РФ обсудит с банками создание помощников на базе ИИ для сложных продуктов,https://www.interfax.ru/business/1052009,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+696,В Минфине сравнили состояние фондового рынка России со сжатой пружиной,https://www.interfax.ru/business/1061224,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+697,Выездной туризм из России на майские праздники вырос на 30%,https://www.interfax.ru/russia/1026062,per_capita_income,international_inflow,,international_inflow,per_capita_income,1,1,0.0,0.0,True
+699,RTX в III квартале увеличила чистую прибыль на 30% и повысила прогноз на 2025 год,https://www.interfax.ru/world/1053834,industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+702,Аэропортам хотят запретить компенсировать скидки авиакомпаниям за счет сборов с операторов,https://www.interfax.ru/russia/1076249,consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+706,Отчет о конкурсном производстве должны публиковать в течение 10 дней с момента решения суда о его завершении,https://www.interfax.ru/russia/1005530,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+721,Росреестр напомнил об изменении с марта порядка регистрации сделок с землей,https://www.interfax.ru/russia/1007591,housing_area_per_capita,,,,housing_area_per_capita,1,0,0.0,0.0,True
+723,Закон о штрафах до 500 тыс. руб. за продажу детям энергетиков принят Госдумой,https://www.interfax.ru/russia/1027128,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+728,Ограничения в аэропорту Калуги сняты,https://www.interfax.ru/russia/1038507,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+733,"Китай введет пошлины на поставки свинины из ЕС в размере до 62,4% с 10 сентября",https://www.interfax.ru/world/1045863,consumer_price_index,international_inflow,,international_inflow,consumer_price_index,1,1,0.0,0.0,True
+736,Канадская Allied Gold продаст 12% акций и 50% в золотых рудниках Мали инвестору из ОАЭ,https://www.interfax.ru/world/1010948,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+745,"Пошлина на экспорт пшеницы из РФ с 12 марта повысится на 12,2%",https://www.interfax.ru/business/1012596,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+747,Суд оставил в силе приговор и.о. вице-премьера Башкирии Марзаеву,https://www.interfax.ru/russia/1073728,crime_count,,,,crime_count,1,0,0.0,0.0,True
+750,HSBC сократил доналоговую прибыль во II квартале на 29%,https://www.interfax.ru/business/1038744,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+753,"Politico сообщает, что в ЕС вряд ли откажутся от энергоносителей из РФ до 2027 г.",https://www.interfax.ru/world/1047544,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+754,Ограничения сняты в аэропорту Тамбова,https://www.interfax.ru/russia/1055902,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+755,МосБиржа в марте 2026 года изменит время клиринга на срочном рынке,https://www.interfax.ru/business/1056411,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+756,Греф заявил о прекращении роста безналичных платежей из-за налоговых новаций,https://www.interfax.ru/business/1074824,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+758,ВС Таиланда пообещали не допустить эскалации на границе с Камбоджей,https://www.interfax.ru/world/1074384,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+764,Литва пригрозила Белоруссии повторным закрытием границы,https://www.interfax.ru/world/1070023,international_inflow,international_outflow,,international_outflow,international_inflow,1,1,0.0,0.0,True
+765,РФ рассчитывает на расширение научно-технического сотрудничества с Индией в сфере АПК,https://www.interfax.ru/russia/1061447,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+767,Крупнейшая товарная биржа Индии столкнулась с самой продолжительной в своей истории приостановкой торгов,https://www.interfax.ru/world/1055187,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+768,"Авария произошла на магистральной линии ""Ростелекома"" в Карелии",https://www.interfax.ru/russia/1064701,enterprises_count,international_outflow,,international_outflow,enterprises_count,1,1,0.0,0.0,True
+769,"В ""СИБУРе"" ждут удачного момента для проведения IPO",https://www.interfax.ru/business/1026609,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+770,В Новошахтинске при пожаре в торговом центре погибли как минимум два человека,https://www.interfax.ru/russia/1037847,mortality_rate,crime_count,,crime_count,mortality_rate,1,1,0.0,0.0,True
+772,"Доля прибыльных хозяйств в растениеводстве и животноводстве в I квартале выросла до 79,4%",https://www.interfax.ru/business/1029610,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+777,Трамп объявил о снятии блокады воздушного пространства Венесуэлы,https://www.interfax.ru/world/1070198,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+778,Число сбитых на подлете к Москве БПЛА увеличилось до 19,https://www.interfax.ru/russia/1072916,crime_count,,,,crime_count,1,0,0.0,0.0,True
+781,Начальные классы перевели на дистант из-за морозов в Воронеже,https://www.interfax.ru/russia/1070514,preschool_coverage,,,,preschool_coverage,1,0,0.0,0.0,True
+783,Ставки по ипотеке в США слабо выросли впервые за четыре недели,https://www.interfax.ru/world/1043121,primary_housing_price_index,consumer_price_index;real_income_index,,consumer_price_index;real_income_index,primary_housing_price_index,1,2,0.0,0.0,True
+785,Goldman Sachs понизил прогноз S&P 500 на конец года до 6200 с 6500 пунктов,https://www.interfax.ru/world/1013230,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+788,Временные ограничения сняты в аэропорту Котласа,https://www.interfax.ru/russia/1059119,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+791,"Самозапрет на кредиты оформили на ""Госуслугах"" 13,5 млн россиян",https://www.interfax.ru/russia/1037698,per_capita_income,consumer_price_index,,consumer_price_index,per_capita_income,1,1,0.0,0.0,True
+797,Белоусов назвал главной угрозой Центральной Азии афганские радикальные группировки,https://www.interfax.ru/russia/1028214,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+801,"Сбербанк в ноябре нарастил корпоративные кредиты по РСБУ на 0,4%",https://www.interfax.ru/business/1062146,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+804,Уолл-стрит закрылась в плюсе в пятницу,https://www.interfax.ru/business/1055895,enterprises_count,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+806,В НАТО запросили от ФРГ 40 тыс. солдат для укрепления обороны альянса,https://www.interfax.ru/world/1028414,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+810,"Банк Англии считает, что действия Трампа могут негативно повлиять на финстабильность в Британии",https://www.interfax.ru/world/1068560,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+811,"Минэнерго подало иск о приостановке корпправ у кипрского совладельца ""РН-Холдинга"" из перечня ЭЗО",https://www.interfax.ru/business/1026324,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+813,Глава Минобрнауки отметил дефицит квалифицированных кадров в СМИ,https://www.interfax.ru/russia/1070997,unemployment_rate,qualified_doctors,,qualified_doctors,unemployment_rate,1,1,0.0,0.0,True
+814,"Китайская Anta Sports покупает 29% акций Puma за 1,5 млрд евро",https://www.interfax.ru/business/1069634,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+816,Временные ограничения в аэропорту Нижнего Новгорода сняты,https://www.interfax.ru/russia/1038287,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+817,"Директор Нацразведки США видит угрозу в сотрудничестве КНР, России, Ирана и КНДР",https://www.interfax.ru/world/1016482,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+819,"Трамп считает, что низкие цены на нефть побудят РФ пойти на перемирие на Украине",https://www.interfax.ru/world/1033717,consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+820,В Брянской области реактивный снаряд повредил мост,https://www.interfax.ru/russia/1018341,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+823,Венгрия не намерена участвовать в инициативах ЕС по использованию российских активов,https://www.interfax.ru/world/1050522,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+824,Правительство Литвы не планирует снова закрывать границу с Белоруссией,https://www.interfax.ru/world/1060941,international_inflow,international_outflow,,international_outflow,international_inflow,1,1,0.0,0.0,True
+825,"ЗАЭС потеряла внешнее электроснабжение из-за отключения линии ""Днепровская""",https://www.interfax.ru/russia/1034648,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+827,"В России с 1 апреля на 4,5% проиндексируют размеры финансовой помощи пострадавшим в ЧС",https://www.interfax.ru/russia/1017261,per_capita_income,consumer_price_index,,consumer_price_index,per_capita_income,1,1,0.0,0.0,True
+828,Минобороны РФ сообщило о поражении утром 6 БПЛА над Брянской и Курской областями,https://www.interfax.ru/russia/1061830,crime_count,,,,crime_count,1,0,0.0,0.0,True
+830,"Рынок акций РФ открылся в основную сессию ростом индексов МосБиржи и РТС на 0,9%",https://www.interfax.ru/business/1030506,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+831,Землетрясение произошло в Краснодарском крае,https://www.interfax.ru/russia/1071897,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+833,Аэропорт Саратова приостановил работу,https://www.interfax.ru/russia/1073322,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+834,"Главы МИД стран ""евротройки"" призвали прекратить угрозы в адрес главы МАГАТЭ",https://www.interfax.ru/world/1033788,crime_count,,,,crime_count,1,0,0.0,0.0,True
+836,РФ может вновь продлить обязательную продажу части валютной выручки на год,https://www.interfax.ru/business/1011918,enterprises_count,international_outflow,,international_outflow,enterprises_count,1,1,0.0,0.0,True
+840,Застрявшие в Белоруссии фуры начали выезжать в Литву,https://www.interfax.ru/world/1059490,industrial_production_index,international_outflow,,international_outflow,industrial_production_index,1,1,0.0,0.0,True
+845,Фьючерс на Nasdaq подешевел на 3% вслед за акциями чипмейкеров,https://www.interfax.ru/business/1004832,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+848,Фондовые индексы США завершили торги снижением,https://www.interfax.ru/business/1049406,enterprises_count,secondary_housing_price_index;unemployment_rate,,secondary_housing_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+850,"Котировки Brent стабилизировались около $63,4 за баррель",https://www.interfax.ru/business/1020457,consumer_price_index,,,,consumer_price_index,1,0,0.0,0.0,True
+853,В США цены производителей в апреле упали максимально за 5 лет,https://www.interfax.ru/world/1025869,consumer_price_index,industrial_production_index,,industrial_production_index,consumer_price_index,1,1,0.0,0.0,True
+857,"Российские военные применили в ДНР против ВСУ роботизированный комплекс ""Крот""",https://www.interfax.ru/russia/1017392,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+861,Рынок акций РФ поднялся к 3020 п. по индексу МосБиржи после локальной коррекции,https://www.interfax.ru/business/1007415,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+862,"Британские истребители присоединятся к операции НАТО ""Восточный страж"" в Польше",https://www.interfax.ru/world/1047475,crime_count,,,,crime_count,1,0,0.0,0.0,True
+869,США перебросили в Европу два бомбардировщика B-52H,https://www.interfax.ru/world/1007464,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+873,"Трамп считает, что Иран ответственен за обострение на Ближнем Востоке",https://www.interfax.ru/world/1018538,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+882,"Пошлина на экспорт пшеницы из РФ с 25 июня снижается в 2,3 раза",https://www.interfax.ru/russia/1032971,industrial_production_index,consumer_price_index,,consumer_price_index,industrial_production_index,1,1,0.0,0.0,True
+885,Пленум ЦК КПК: эффективный рынок с деятельным правительством и снятие ряда генералов с должностей,https://www.interfax.ru/world/1055029,industrial_production_index,enterprises_count,,enterprises_count,industrial_production_index,1,1,0.0,0.0,True
+887,В ЕС предложили создать фонд добровольной военной помощи Украине,https://www.interfax.ru/world/1013629,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+888,Европейские рынки акций не показали единой динамики во вторник,https://www.interfax.ru/world/1052666,enterprises_count,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,enterprises_count,1,2,0.0,0.0,True
+890,Количество пострадавших в ДТП в Тульской области увеличилось до 14,https://www.interfax.ru/russia/1066254,life_expectancy,hospitals,,hospitals,life_expectancy,1,1,0.0,0.0,True
+893,"Суд изберет меру пресечения основателю и экс-директору холдинга ""Русагро""",https://www.interfax.ru/russia/1016770,crime_count,enterprises_count,,enterprises_count,crime_count,1,1,0.0,0.0,True
+894,Калужский аэропорт временно не принимает самолеты,https://www.interfax.ru/russia/1067006,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+895,"Птицефабрика ""Окское"" в 2024 году увеличила чистую прибыль в 1,5 раза",https://www.interfax.ru/russia/1018810,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+910,Байден обвинил ХАМАС в препятствовании достижению соглашения по Газе,https://www.interfax.ru/world/1002199,crime_count,,,,crime_count,1,0,0.0,0.0,True
+911,Индекс Мосбиржи опустился ниже 2800п из-за геополитической неопределенности,https://www.interfax.ru/business/1024097,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+916,Военные КНДР провели учения по запуску дальнобойных крылатых ракет,https://www.interfax.ru/world/1065575,crime_count,,,,crime_count,1,0,0.0,0.0,True
+919,Военные РФ сообщили об уничтожении за сутки 124 дронов ВСУ,https://www.interfax.ru/russia/1066180,crime_count,,,,crime_count,1,0,0.0,0.0,True
+920,В Екатеринбурге из-за сошедшего с рельсов трамвая образовался затор,https://www.interfax.ru/russia/1067113,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+922,"Минобороны России сообщило, что за сутки сбиты 370 дронов ВСУ",https://www.interfax.ru/russia/1065502,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+925,Банк России сохранил прогноз роста ВВП в 2025 году в интервале 1-2%,https://www.interfax.ru/business/1022772,industrial_production_index,consumer_price_index;unemployment_rate,,consumer_price_index;unemployment_rate,industrial_production_index,1,2,0.0,0.0,True
+926,"Префы ""Татнефти"" подорожали на 4,3% на новости о рекомендации по дивидендам",https://www.interfax.ru/business/1020273,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+932,Минобороны РФ сообщило о взятии под контроль 24 зданий в Димитрове,https://www.interfax.ru/russia/1056812,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+934,"Курс биткойна достиг нового рекорда, превысив $118 тысяч",https://www.interfax.ru/business/1035694,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+938,Премьер Польши назвал задачей НАТО противостояние России,https://www.interfax.ru/world/1060585,crime_count,,,,crime_count,1,0,0.0,0.0,True
+940,РСПП пока не ознакомлен с позицией правительства по деприватизации,https://www.interfax.ru/russia/1018249,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+941,Несколько украинских БПЛА уничтожены в Воронежской области,https://www.interfax.ru/russia/1027905,crime_count,air_pollution,,air_pollution,crime_count,1,1,0.0,0.0,True
+945,Уолл-стрит упала на новых ИИ-опасениях,https://www.interfax.ru/world/1063873,enterprises_count,consumer_price_index,,consumer_price_index,enterprises_count,1,1,0.0,0.0,True
+950,Режим беспилотной опасности объявили в Челябинской области,https://www.interfax.ru/russia/1052705,crime_count,,,,crime_count,1,0,0.0,0.0,True
+956,Десятилетний максимум по числу магнитных бурь побит в 2025 году,https://www.interfax.ru/russia/1064821,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+958,"Аэропорты Внуково, Домодедово и Жуковский приостановили работу",https://www.interfax.ru/russia/1018201,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+959,"Журналистка ""Дождя"" Монгайт стала фигурантом дела о фейках о ВС РФ",https://www.interfax.ru/russia/1037312,crime_count,,,,crime_count,1,0,0.0,0.0,True
+961,"Землетрясение магнитудой 5,9 произошло в Чили у границы с Аргентиной",https://www.interfax.ru/world/1021506,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+962,Акционеры МТС-банка утвердили дивиденды за 2024 год,https://www.interfax.ru/business/1033963,enterprises_count,,,,enterprises_count,1,0,0.0,0.0,True
+964,Герасимов проинформировал Путина об освобождении 24 курских населенных пунктов,https://www.interfax.ru/russia/1013320,crime_count,,,,crime_count,1,0,0.0,0.0,True
+966,Сводный индекс Stoxx Europe 600 обновил исторический максимум,https://www.interfax.ru/business/1006761,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+967,Аэропорт Волгограда вернулся к штатной работе,https://www.interfax.ru/russia/1054830,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+970,Количество задержанных поездов в Крым и обратно сократилось до четырех,https://www.interfax.ru/russia/1043507,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+974,"Четыре землетрясения магнитудой до 4,2 произошли у берегов Камчатки за сутки",https://www.interfax.ru/russia/1058753,life_expectancy,,,,life_expectancy,1,0,0.0,0.0,True
+977,Иран ввел запрет на полеты на небольшой высоте над территорией страны,https://www.interfax.ru/world/1069391,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+980,Рынок акций РФ поднялся до 2685п по индексу МосБиржи на геополитических надеждах,https://www.interfax.ru/business/1059298,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+981,Число жертв землетрясения в Мьянме превысило 3 тыс. человек,https://www.interfax.ru/world/1018037,mortality_rate,,,,mortality_rate,1,0,0.0,0.0,True
+982,Калужский аэропорт вновь закрыт для полетов,https://www.interfax.ru/russia/1054205,industrial_production_index,,,,industrial_production_index,1,0,0.0,0.0,True
+983,Аналитики Piper Sandler прогнозируют рост котировок Nvidia еще на 20%,https://www.interfax.ru/business/1042082,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+987,МИД Израиля подверг критике Лондон за санкции против двух министров,https://www.interfax.ru/world/1030686,crime_count,international_inflow,,international_inflow,crime_count,1,1,0.0,0.0,True
+988,ВСУ к концу месяца могут получить ракеты большой дальности по германо-украинскому проекту,https://www.interfax.ru/world/1035869,crime_count,industrial_production_index,,industrial_production_index,crime_count,1,1,0.0,0.0,True
+990,"""ФосАгро"" во II квартале увеличила скорректированную EBITDA на 28% до 50 млрд руб.",https://www.interfax.ru/business/1040192,enterprises_count,industrial_production_index,,industrial_production_index,enterprises_count,1,1,0.0,0.0,True
+995,США облегчили компаниям условия поставки ПО для производства чипов в Китай,https://www.interfax.ru/world/1034240,industrial_production_index,international_inflow,,international_inflow,industrial_production_index,1,1,0.0,0.0,True
+996,Минобороны РФ сообщило о поражении девяти беспилотников ВСУ,https://www.interfax.ru/russia/1057474,crime_count,,,,crime_count,1,0,0.0,0.0,True
+1000,Путин проводит совещание по развитию обстановки в зоне СВО,https://www.interfax.ru/russia/1065680,crime_count,,,,crime_count,1,0,0.0,0.0,True
+2,Мозамбик пригласил российские компании добывать газ в стране,https://www.interfax.ru/world/1037462,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+5,Шторм в Великобритании и Ирландии привел к сбоям в работе транспортной системы,https://www.interfax.ru/world/1004448,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+6,Консерватор Каст одержал победу на выборах президента Чили,https://www.interfax.ru/world/1063290,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+8,"Скидки на нефть Urals и ESPO в мае упали на $0,6-1 за баррель к апрелю",https://www.interfax.ru/business/1029111,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+11,Очереди из более чем 4 тысяч машин образовались перед Крымским мостом,https://www.interfax.ru/russia/1039596,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+18,Морской пассажирский транспорт возобновил работу в Севастополе,https://www.interfax.ru/russia/1064644,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+19,ЕГЭ по истории в ближайшие два года не планируют делать обязательным для поступления в вузы,https://www.interfax.ru/russia/1034913,,marriage_rate,,marriage_rate,,0,1,0.0,0.0,True
+20,"Ограничения сняты в аэропортах Казани, Нижнекамска, Оренбурга, Перми и Ижевска",https://www.interfax.ru/russia/1075013,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+27,Морской пассажирский транспорт приостановил работу в Севастополе,https://www.interfax.ru/russia/1054712,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+28,Судебные власти Франции разрешили Дурову на время переехать в Дубай,https://www.interfax.ru/world/1013848,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+37,Песков отметил замедление в процессе нормализации отношений РФ и США,https://www.interfax.ru/russia/1038563,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+38,Рынок акций РФ в четверг сбавил темпы снижения благодаря заявлениям Путина,https://www.interfax.ru/business/1011220,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+41,Россия и Китай проведут в начале августа военные учения в Японском море,https://www.interfax.ru/russia/1038772,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+45,"Уолтц уверен, что Зеленский скоро подпишет соглашение по редкоземельным металлам",https://www.interfax.ru/world/1010239,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+51,"Трамп пригрозил принять меры против Делси Родригес, если она не будет сотрудничать",https://www.interfax.ru/world/1066370,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+62,"Оверчук заявил, что открытие рынка Армении с ЕС будет означать его закрытие с ЕАЭС",https://www.interfax.ru/russia/1005265,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+66,Лукашенко обвинил Польшу в срыве обмена задержанными по обвинению в шпионаже,https://www.interfax.ru/world/1055829,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+68,Больше тысячи машин скопилось в очереди на досмотр перед Крымским мостом со стороны Керчи,https://www.interfax.ru/russia/1044295,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+74,Дмитриев анонсировал новые российско-американские контакты на следующей неделе,https://www.interfax.ru/russia/1018497,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+76,Уиткофф и Кушнер в субботу отправятся в Израиль на встречу с Нетаньяху,https://www.interfax.ru/world/1069311,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+80,Президент Сирии аш-Шараа прибыл в Россию,https://www.interfax.ru/russia/1069865,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+87,Американские эксперты сообщили об усилении защиты подземного объекта в Натанзе,https://www.interfax.ru/world/1072488,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+96,Сложная погода прогнозируется в регионах Дальнего Востока,https://www.interfax.ru/russia/1017046,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+100,"Под британские санкции попало ООО ""Росатом Аддитивные технологии""",https://www.interfax.ru/russia/1008955,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+101,Совет Федерации одобрил закон о параметрах размещения рекламы в космосе,https://www.interfax.ru/business/1049001,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+103,Военно-Грузинскую дорогу открыли для всех видов транспорта,https://www.interfax.ru/russia/1010966,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+106,"Кремль отметил, что рассматривает Стамбул как место для продолжения переговоров с Киевом",https://www.interfax.ru/russia/1028318,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+108,В Кремле оценивают возможную продолжительность саммита РФ-США в 6-7 часов,https://www.interfax.ru/world/1042475,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+110,Конституционный суд Болгарии утвердил отставку президента страны,https://www.interfax.ru/world/1069200,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+112,Трамп заявил об успехах своей экономической политики,https://www.interfax.ru/world/1063870,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+113,Очередь на Крымский мост со стороны Тамани выросла до 757 машин,https://www.interfax.ru/russia/1033829,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+115,Лавров 17 июня встретится в Москве с главой МИД Индонезии,https://www.interfax.ru/russia/1030784,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+116,Лавров едет с визитом в Узбекистан,https://www.interfax.ru/world/1021983,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+120,"Каллас предложила меры против танкеров, перевозящих нефть РФ, вне санкционных пакетов",https://www.interfax.ru/business/1059096,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+122,Радиационная нагрузка на спутники увеличилась после солнечной вспышки высшего класса,https://www.interfax.ru/russia/1068285,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+124,Аэропорт Внуково вернулся к штатной работе,https://www.interfax.ru/russia/1065474,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+126,Запуск ракеты Atlas V с первой группой интернет-спутников Amazon отменен из-за непогоды,https://www.interfax.ru/world/1020166,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+128,"Аэропорты Волгограда, Геленджика и Краснодара возобновили работу",https://www.interfax.ru/russia/1069814,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+130,Авиакомпания Qantas запустит 19-часовые беспосадочные рейсы в 2027 году,https://www.interfax.ru/world/1016502,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+132,"Акции ""М.Видео"" заметно дорожают второй день подряд на слухах о продаже торговой сети",https://www.interfax.ru/business/1004968,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+134,"Рынок акций РФ просел к 3220 пунктам по индексу МосБиржи во главе с ""ВК""",https://www.interfax.ru/business/1015762,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+137,Частные пилоты просят отложить создание отдельного воздушного пространства для дронов,https://www.interfax.ru/russia/1003394,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+143,ЦБ РФ хочет собирать с банков данные о числе клиентов для целей формирования списка СЗКО,https://www.interfax.ru/business/1067521,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+153,Минпромторгу и Минцифры поручено проработать применение криптоалгоритмов для сетей 5G,https://www.interfax.ru/russia/1033649,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+156,Британский регулятор отметил слабость конкуренции в облачных сервисах из-за Microsoft и Amazon,https://www.interfax.ru/world/1005115,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+167,Авиация НАТО проводит в Эстонии учения на малой высоте,https://www.interfax.ru/world/1060837,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+169,В КНР предупредили об ответственности за следование мерам США против китайских чипов,https://www.interfax.ru/world/1026768,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+172,Тигров не осталось в Ленинградском зоопарке,https://www.interfax.ru/russia/1074389,,mortality_rate,,mortality_rate,,0,1,0.0,0.0,True
+183,Аэропорт Волгограда возобновил работу,https://www.interfax.ru/russia/1071199,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+187,"Запрет на импорт в ЕС очищенных нефтепродуктов из нефти РФ не коснется США, Британии, Канады и Норвегии",https://www.interfax.ru/world/1036892,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+188,General Motors запускает обратный выкуп акций на $6 млрд,https://www.interfax.ru/business/1010936,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+189,Главы МИД России и Турции подтвердили обоюдный настрой на дальнейшую координацию,https://www.interfax.ru/russia/1035036,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+208,"Лавров заявил, что видит Стамбул площадкой для второго раунда переговоров РФ и Украины",https://www.interfax.ru/world/1027997,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+209,"Рынок акций открылся в основную сессию снижением индексов МосБиржи и РТС на 0,1%",https://www.interfax.ru/world/1036618,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+210,"Что произошло за день: пятница, 28 марта",https://www.interfax.ru/russia/1017234,,crime_count,,crime_count,,0,1,0.0,0.0,True
+222,Авиарейсы задерживаются в аэропорту Хабаровска из-за последствий циклона,https://www.interfax.ru/russia/1074298,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+233,Инвесткомпания Permira собралась продать Neuraxpharm за 3-4 млрд евро,https://www.interfax.ru/world/1050109,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+239,Из Конституционного суда Грузии отозван иск об отмене закона об иноагентах,https://www.interfax.ru/world/1016222,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+258,Движение всех видов транспорта приостановлено на Военно-Грузинской дороге,https://www.interfax.ru/russia/1020559,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+263,Аэропорт Волгограда временно не обслуживает рейсы,https://www.interfax.ru/russia/1040010,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+279,Штрафы для иноагентов за неправильную маркировку одобрены к первому чтению,https://www.interfax.ru/russia/1010493,,crime_count,,crime_count,,0,1,0.0,0.0,True
+288,Поток автомобилей по Крымскому мосту вырос в 2025 году более чем на 20%,https://www.interfax.ru/russia/1042919,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+295,Эстония готова сдавать в аренду свои тюрьмы Швеции и Нидерландам,https://www.interfax.ru/world/1013448,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+298,Падение S&P 500 на 10% с возвращения Трампа показало худший старт президентства с 2001 г.,https://www.interfax.ru/business/1018276,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+301,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 1,1%",https://www.interfax.ru/russia/1055051,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+313,"Доходность размещения ФНБ в валюте и золоте в 2024 году составила 0,21%",https://www.interfax.ru/business/1029090,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+319,Задержка движения поездов в Приамурье из-за схода вагона превысила девять часов,https://www.interfax.ru/russia/1073325,,internal_departures,,internal_departures,,0,1,0.0,0.0,True
+322,"Что случилось этой ночью: воскресенье, 14 сентября",https://www.interfax.ru/world/1047173,,crime_count,,crime_count,,0,1,0.0,0.0,True
+340,Высшая квалификационная коллегия судей прекратила полномочия судьи Момотова,https://www.interfax.ru/russia/1049560,,crime_count,,crime_count,,0,1,0.0,0.0,True
+342,Глава ФРБ Атланты ждет лишь одного снижения ставки ФРС в этом году,https://www.interfax.ru/business/1016341,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+345,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 0,2%",https://www.interfax.ru/russia/1068430,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+346,"Что произошло за день: вторник, 18 февраля",https://www.interfax.ru/russia/1009617,,international_inflow;international_outflow,,international_inflow;international_outflow,,0,2,0.0,0.0,True
+349,"США, Европа и Украина планируют выстроить общую позицию на переговорах с Путиным",https://www.interfax.ru/world/1040418,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+356,Рынок акций открылся в основную сессию снижением индексов МосБиржи и РТС на 1%,https://www.interfax.ru/business/1017081,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+357,Китай вывел на орбиту группу исследовательских спутников,https://www.interfax.ru/world/1058744,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+358,Путин встретится с главой Сбербанка,https://www.interfax.ru/russia/1038566,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+362,"Рынок акций РФ открылся в утреннюю сессию снижением индекса IMOEX2 на 0,9%",https://www.interfax.ru/world/1029214,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+365,"Назначен новый гендиректор новосибирского аэропорта ""Толмачево""",https://www.interfax.ru/russia/1003864,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+368,"В ""Союзмультфильме"" заявили, что соглашение с американской компанией о Чебурашке давно истекло",https://www.interfax.ru/russia/1038525,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+373,"Минобрнауки сообщило, что от 15% до 40% студентов не завершают обучение в вузах",https://www.interfax.ru/russia/1029319,,unemployment_rate,,unemployment_rate,,0,1,0.0,0.0,True
+380,Рынок акций РФ в среду упал ниже 2700п по индексу МосБиржи на опасениях новых санкций,https://www.interfax.ru/business/1035418,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+387,"WSJ узнала, что в США могут обязать банки собирать данные о гражданстве клиентов",https://www.interfax.ru/world/1074530,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+391,Путин примет участие в саммите ОДКБ в Бишкеке,https://www.interfax.ru/world/1060112,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+400,Запуск проверки наличия полисов ОСАГО через камеры могут отложить на 4 месяца,https://www.interfax.ru/russia/1010892,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+402,Температура на юге европейской части России понизится,https://www.interfax.ru/russia/1047494,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+408,ЦБ РФ продлил еще на полгода ограничения на перевод средств за рубеж,https://www.interfax.ru/business/1049533,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+432,Крикалев выразил надежду на дальнейшее сотрудничество с США по космосу,https://www.interfax.ru/russia/1036354,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+440,Уолл-стрит закрылась практически без изменений в ожидании выступления Пауэлла,https://www.interfax.ru/world/1042855,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+447,Трамп попросил президента Израиля помиловать премьера Нетаньяху,https://www.interfax.ru/world/1057585,,crime_count,,crime_count,,0,1,0.0,0.0,True
+450,Каллас поедет в США с идеей участия Киева и ЕС в мирных переговорах по Украине,https://www.interfax.ru/world/1010598,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+452,"Работа сайтов Coinbase, Signal, McDonald's и Disney нарушена из-за сбоя у AWS",https://www.interfax.ru/digital/1053561,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+454,Аэропорт Ярославля временно не обслуживает рейсы,https://www.interfax.ru/russia/1062292,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+456,"В Goldman Sachs считают, что цена золота может подскочить до $5 тыс. из-за ситуации с ФРС",https://www.interfax.ru/business/1045696,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+468,Аэропорт Калуги возобновил работу,https://www.interfax.ru/russia/1074653,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+471,Аэропорт Волгограда возобновил работу,https://www.interfax.ru/russia/1034477,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+482,Военные США задержали в Индийском океане танкер,https://www.interfax.ru/world/1072887,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+486,Аэропорт Самары возобновил прием и выпуск рейсов,https://www.interfax.ru/russia/1066041,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+488,Путин потребовал исключить чрезмерный набор платных студентов на ненужные специальности,https://www.interfax.ru/russia/1006746,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+490,Дума приняла в I чтении проект об информировании призывниками о переезде в течение всего года,https://www.interfax.ru/russia/1057395,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+503,Путин и Трамп провели телефонный разговор,https://www.interfax.ru/russia/1065541,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+504,В аэропорту Нижнего Новгорода отменили ограничения,https://www.interfax.ru/russia/1056263,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+506,ЦБ 2 сентября проведет пресс-конференцию Заботкина по проекту основных направлений ДКП,https://www.interfax.ru/business/1044289,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+508,В Кремле в понедельник ждут доклада Дмитриева Путину о результатах переговоров в Майами,https://www.interfax.ru/russia/1064415,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+509,Уолл-стрит начала декабрь со снижения,https://www.interfax.ru/world/1060928,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+515,Перенос на 2028 год валютных расчетов через казначейство одобрен в I чтении,https://www.interfax.ru/russia/1049013,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+521,"""Мосбиржа"" приостановила торги на срочном рынке",https://www.interfax.ru/business/1046748,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+523,Лидеры БРИКС выступили за территориальную целостность Сирии,https://www.interfax.ru/world/1034846,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+542,Минфин РФ 19 февраля проведет аукционы по размещению ОФЗ 26245 и 26247,https://www.interfax.ru/business/1009554,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+543,"Аэропорт ""Домодедово"" возобновил работу",https://www.interfax.ru/moscow/1024030,,crime_count,,crime_count,,0,1,0.0,0.0,True
+544,В Москве отреставрируют фасады Пречистенской аптеки XVIII века,https://www.interfax.ru/russia/1037230,,housing_area_per_capita,,housing_area_per_capita,,0,1,0.0,0.0,True
+546,Лавров проинформировал Минск об итогах консультаций с США в Саудовской Аравии,https://www.interfax.ru/russia/1016514,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+547,"Банк Англии ожидаемо сохранил ставку на уровне 4,25%",https://www.interfax.ru/business/1032080,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+551,Дубай оказался местом проведения запрещенного судом РФ разбирательства Wintershall против России,https://www.interfax.ru/world/1053420,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+556,"Рынки акций Европы закрылись в плюсе, кроме французского",https://www.interfax.ru/world/1069607,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+559,Дело американца Татера будет рассмотрено судом в Москве в закрытом режиме,https://www.interfax.ru/world/1020796,,crime_count,,crime_count,,0,1,0.0,0.0,True
+584,Goldman Sachs ухудшил прогноз для индекса акций европейских компаний Stoxx Europe 600,https://www.interfax.ru/world/1017674,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+595,Тирасполь будет добиваться скорейших переговоров с Кишиневом,https://www.interfax.ru/world/1005243,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+597,"Доллар США слабеет к евро, иене и фунту",https://www.interfax.ru/business/1056578,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+598,"В аэропортах Нижнего Новгорода, Тамбова, Ярославля сняли ограничения",https://www.interfax.ru/russia/1024487,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+613,Выборы в Госдуму в 2026 году будут проходить по новой схеме одномандатных округов,https://www.interfax.ru/russia/1022741,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+651,Японские инвесторы продали иностранные облигации на $21 млрд за две недели,https://www.interfax.ru/business/1022086,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+653,Лавров во вторник встретится с президентом Республики Сербской,https://www.interfax.ru/russia/1046147,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+658,"Главы МИД стран НАТО обсудят в Брюсселе вопросы обороны, Украину и партнерство с ЕС и АТР",https://www.interfax.ru/world/1018002,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+660,Закон о создании национального мессенджера одобрен российскими сенаторами,https://www.interfax.ru/russia/1031787,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+665,"Крупнейшие банки в июле снизили долю покупок на аукционах ОФЗ до 58,7%",https://www.interfax.ru/business/1040352,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+667,"Путин заявил, что цена газа для поставок по ""Силе Сибири 2"" рассчитывается по той же формуле, как и при поставках в Европу",https://www.interfax.ru/business/1045808,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+685,"Что произошло за день: пятница, 1 августа",https://www.interfax.ru/russia/1039312,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+687,РФ и Буркина-Фасо подпишут соглашение об основах отношений,https://www.interfax.ru/russia/1060583,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+709,Выплату в 400 тыс. руб. предложили распространить на контрактников за участие в КТО в трех областях РФ,https://www.interfax.ru/russia/1022565,,crime_count,,crime_count,,0,1,0.0,0.0,True
+711,Путин и Си Цзиньпин обсудили последние российско-американские контакты,https://www.interfax.ru/world/1045010,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+714,Путин назвал бредом сообщения о планах России напасть на Европу,https://www.interfax.ru/russia/1031952,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+718,"В ЕС осудили решение Каракаса сократить дипперсонал посольств Нидерландов, Италии и Франции",https://www.interfax.ru/world/1003065,,international_outflow,,international_outflow,,0,1,0.0,0.0,True
+727,"Орбан посоветовал ЕС вкладывать деньги в свою экономику, а не тратить на Украину",https://www.interfax.ru/world/1072447,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+742,Иран будет добиваться от США и Израиля компенсаций через ООН,https://www.interfax.ru/world/1033593,,crime_count,,crime_count,,0,1,0.0,0.0,True
+744,"Словакия и Венгрия оспорят в суде план, предусматривающий отказ ЕС от газа РФ",https://www.interfax.ru/world/1069717,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+760,"Уитакер заявил, что Трамп ищет способы надавить на Россию и Украину",https://www.interfax.ru/world/1054426,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+773,В Думе смягчили законопроект об обязанности букмекеров рекламировать альтернативы ставкам,https://www.interfax.ru/russia/1071470,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+774,"Котировки Brent замедлили рост до $81,34 за баррель",https://www.interfax.ru/business/1003450,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+794,Таможня РФ с 1 сентября получила полномочия по ветсанконтролю в ряде пропускных пунктов,https://www.interfax.ru/russia/1045074,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+822,Спикер парламента Армении возразил против слов о смене полюса в политике Еревана,https://www.interfax.ru/world/1071301,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+829,Медсправки для водителей останутся в прежнем формате до 2027 года,https://www.interfax.ru/russia/1038953,,living_wage,,living_wage,,0,1,0.0,0.0,True
+842,В Москве не ждут последствий для отношений с Пекином из-за тарифных войн,https://www.interfax.ru/world/1018812,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+846,"Что случилось этой ночью: суббота, 4 октября",https://www.interfax.ru/world/1050840,,crime_count,,crime_count,,0,1,0.0,0.0,True
+856,В Армянской церкви назвали дело против католикоса политически мотивированным,https://www.interfax.ru/world/1072818,,crime_count,,crime_count,,0,1,0.0,0.0,True
+889,Путин во вторник проведет большое заседание Совбеза РФ,https://www.interfax.ru/russia/1030539,,hospitals,,hospitals,,0,1,0.0,0.0,True
+896,Япония в следующем фингоду получит профицит бюджета впервые за 28 лет,https://www.interfax.ru/business/1065333,,industrial_production_index,,industrial_production_index,,0,1,0.0,0.0,True
+905,Кремль заявил о поддержке предложения Путина возобновить переговоры с Украиной многими мировыми лидерами,https://www.interfax.ru/russia/1025165,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+913,Трамп назвал своей конечной целью встречу Путина и Зеленского,https://www.interfax.ru/world/1041741,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+914,Обсуждаются планы визитов Ким Чен Ына в Москву и Лаврова в Пхеньян,https://www.interfax.ru/russia/1016820,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+927,Медведев сообщил о прибытии в воинские части в 2025 г. свыше 400 тыс. военных,https://www.interfax.ru/russia/1062502,,enterprises_count,,enterprises_count,,0,1,0.0,0.0,True
+933,Сайт Белого дома сменил оформление после инаугурации Трампа,https://www.interfax.ru/world/1003829,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+953,Мерц призывает Си Цзиньпина поддержать усилия Запада по украинскому урегулированию,https://www.interfax.ru/world/1027395,,international_inflow,,international_inflow,,0,1,0.0,0.0,True
+955,"Что произошло за день: суббота, 25 января",https://www.interfax.ru/russia/1004666,,air_pollution,,air_pollution,,0,1,0.0,0.0,True
+989,Правительство внесло в Госдуму проект бюджета на трехлетку. Обобщение,https://www.interfax.ru/business/1049879,,consumer_price_index,,consumer_price_index,,0,1,0.0,0.0,True
+30,"Что произошло за день: пятница, 3 октября",https://www.interfax.ru/russia/1050795,consumer_price_index;crime_count;mortality_rate,consumer_price_index;industrial_production_index,consumer_price_index,industrial_production_index,crime_count;mortality_rate,3,2,0.4,0.25,True
+149,"Что произошло за день: воскресенье, 2 февраля",https://www.interfax.ru/russia/1005909,crime_count;life_expectancy;mortality_rate,crime_count,crime_count,,life_expectancy;mortality_rate,3,1,0.5,0.3333333333333333,True
+168,Минстрой оценил в 415 млрд рублей просроченную задолженность за ЖКУ в РФ,https://www.interfax.ru/russia/1057611,consumer_price_index;living_wage;per_capita_income,consumer_price_index,consumer_price_index,,living_wage;per_capita_income,3,1,0.5,0.3333333333333333,True
+273,КТК сообщил о повреждении выносного причала N2 в результате террористической атаки,https://www.interfax.ru/russia/1060561,air_pollution;crime_count;industrial_production_index,air_pollution,air_pollution,,crime_count;industrial_production_index,3,1,0.5,0.3333333333333333,True
+306,"МИД РФ осудил атаку на танкеры, зафрахтованные для перевозки казахстанской нефти",https://www.interfax.ru/russia/1067647,air_pollution;crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution;crime_count,3,1,0.5,0.3333333333333333,True
+431,"Что произошло за день: вторник, 18 марта",https://www.interfax.ru/world/1015297,crime_count;industrial_production_index;mortality_rate,industrial_production_index,industrial_production_index,,crime_count;mortality_rate,3,1,0.5,0.3333333333333333,True
+568,Правительство выделит 2 млрд рублей на системы здравоохранения регионов,https://www.interfax.ru/russia/1052388,hospitals;outpatient_clinics;qualified_doctors,hospitals,hospitals,,outpatient_clinics;qualified_doctors,3,1,0.5,0.3333333333333333,True
+290,"Квартальная выручка УК сети клиник ""Мать и дитя"" выросла на 40,3%",https://www.interfax.ru/business/1055520,enterprises_count;hospitals,hospitals;outpatient_clinics,hospitals,outpatient_clinics,enterprises_count,2,2,0.5,0.3333333333333333,True
+343,"Семейную налоговую выплату в 2026 г. получат 7,3 млн работающих родителей двух и более детей",https://www.interfax.ru/russia/1052472,children_benefits;per_capita_income,child_living_wage;children_benefits,children_benefits,child_living_wage,per_capita_income,2,2,0.5,0.3333333333333333,True
+442,Власти Кузбасса обсуждают с банками отсрочку гашения кредитов для угольщиков,https://www.interfax.ru/russia/1017871,industrial_production_index;unemployment_rate,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,unemployment_rate,2,2,0.5,0.3333333333333333,True
+496,"Кузбасс в январе-августе сократил добычу угля на 6%, экспорт – на 3,4%",https://www.interfax.ru/business/1048158,industrial_production_index;unemployment_rate,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,unemployment_rate,2,2,0.5,0.3333333333333333,True
+548,Белгородская область получила 400 млн рублей для пострадавшего от ВСУ бизнеса,https://www.interfax.ru/business/1066291,crime_count;enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,crime_count,2,2,0.5,0.3333333333333333,True
+560,"Военные РФ сообщили, что ВСУ ночью атаковали энергообъект на Кубани, обеспечивающий перевалку нефти в КТК",https://www.interfax.ru/russia/1015423,crime_count;industrial_production_index,air_pollution;industrial_production_index,industrial_production_index,air_pollution,crime_count,2,2,0.5,0.3333333333333333,True
+837,ЕС продлил санкции против РФ на полгода,https://www.interfax.ru/world/1033707,enterprises_count;industrial_production_index,industrial_production_index;international_outflow,industrial_production_index,international_outflow,enterprises_count,2,2,0.5,0.3333333333333333,True
+899,МЧС поставит в Белгородскую область 176 передвижных электростанций,https://www.interfax.ru/russia/1073271,housing_area_per_capita;industrial_production_index,air_pollution;industrial_production_index,industrial_production_index,air_pollution,housing_area_per_capita,2,2,0.5,0.3333333333333333,True
+874,"Продажи российских IT-продуктов и IT-услуг в 2024 году выросли до 3,6 трлн рублей",https://www.interfax.ru/russia/1021423,enterprises_count,consumer_price_index;enterprises_count;industrial_production_index,enterprises_count,consumer_price_index;industrial_production_index,,1,3,0.5,0.3333333333333333,True
+10,"""Москвич"" в 2025 году планирует начать сборку новой модели на базе китайского SAIC",https://www.interfax.ru/russia/1052673,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+15,Байден заблокировал сделку между US Steel и Nippon Steel,https://www.interfax.ru/business/1001633,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+69,Росрыболовство назвало черноморскую рыбу в районе разлива мазута безопасной для здоровья,https://www.interfax.ru/russia/1004103,air_pollution;life_expectancy,air_pollution,air_pollution,,life_expectancy,2,1,0.6666666666666666,0.5,True
+70,Число алиментных соглашений в 2024 году увеличилось на 21%,https://www.interfax.ru/russia/1021884,children_benefits;divorce_rate,divorce_rate,divorce_rate,,children_benefits,2,1,0.6666666666666666,0.5,True
+83,В Петербурге легальным мигрантам запретили работать курьерами,https://www.interfax.ru/russia/1041735,international_inflow;unemployment_rate,international_inflow,international_inflow,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+99,Число пострадавших при взрыве на заводе в Копейске выросло до 29,https://www.interfax.ru/russia/1054488,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+119,"Минэнерго ждет снижения добычи угля в 2025 г. в Кузбассе на 5-6%, если ситуация не изменится",https://www.interfax.ru/business/1045197,industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+151,Более 100 человек обратились в больницу с острой кишечной инфекцией в Дагестане,https://www.interfax.ru/russia/1035087,hospitals;life_expectancy,hospitals,hospitals,,life_expectancy,2,1,0.6666666666666666,0.5,True
+155,"""Автотор"" запустил семь новых заводов по выпуску электромобилей и автокомпонентов",https://www.interfax.ru/business/1070280,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+161,"МВФ снизил прогноз роста ВВП РФ на 2025 год до 0,9%",https://www.interfax.ru/business/1038610,industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+163,ФАС выявила действовавший более 10 лет сговор при поставке угля и дизеля на Камчатку,https://www.interfax.ru/business/1063311,consumer_price_index;crime_count,consumer_price_index,consumer_price_index,,crime_count,2,1,0.6666666666666666,0.5,True
+164,Два человека ранены при атаках беспилотников под Белгородом,https://www.interfax.ru/russia/1052161,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+191,"РФ в январе сократила выпуск стального проката на 6,8% м/м и на 9,1% г/г",https://www.interfax.ru/business/1075066,industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+192,В Омане порт Дукм подвергся атаке беспилотника,https://www.interfax.ru/world/1075712,air_pollution;crime_count,air_pollution,air_pollution,,crime_count,2,1,0.6666666666666666,0.5,True
+194,Практику долгосрочных соглашений на поставку продукции могут распространить на маркетплейсы,https://www.interfax.ru/business/1057549,consumer_price_index;enterprises_count,consumer_price_index,consumer_price_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+206,Арбитражный суд Петербурга передал в пользу государства имущество СПбГУП,https://www.interfax.ru/russia/1052109,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+216,"Судоверфь ""Звезда"" передала Совкомфлоту головной СПГ-газовоз ""Алексей Косыгин""",https://www.interfax.ru/business/1064804,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+230,"Первый электромобиль ""Атом"" выпущен на конвейере ""Москвича"" в рамках подготовки серийного производства",https://www.interfax.ru/russia/1060177,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+231,Президент США намерен в ближайшие дни объявить о пошлинах в сфере автопрома,https://www.interfax.ru/world/1016311,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+248,В результате обстрела пострадал житель Шебекина,https://www.interfax.ru/russia/1043821,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+274,"Индия может снизить пошлины на импорт, включая автомобили и химикаты",https://www.interfax.ru/business/1011136,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+276,Запасы газа в хранилищах Европы опустились ниже 30%,https://www.interfax.ru/business/1075407,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+291,Песков назвал повышение пошлин на удобрения из России выстрелом ЕС себе в ногу,https://www.interfax.ru/business/1027138,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+300,Восемь жителей Донецка пострадали при обстреле ВСУ,https://www.interfax.ru/russia/1016132,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+302,В Туле после гибели пяти человек в октябрьской аварии трамвая возбудили дело о халатности,https://www.interfax.ru/russia/1067716,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+308,Пять жителей Горловки пострадали в результате боевых действий со стороны Украины,https://www.interfax.ru/russia/1039984,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+312,Новак обсудил с министром торговли Турции перспективы экономического сотрудничества,https://www.interfax.ru/business/1073961,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+314,Путин поручил проработать вопрос о целесообразности введения экспортных пошлин на рыбу,https://www.interfax.ru/business/1061520,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+316,Stellantis во II квартале сократил продажи в США на 10%,https://www.interfax.ru/world/1034265,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+337,Оренбургский губернатор сообщил о попытке атаки БПЛА на предприятие,https://www.interfax.ru/russia/1050696,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+338,"""Уралмашзавод"" за 9 месяцев увеличил чистую прибыль по РСБУ в 2,4 раза",https://www.interfax.ru/russia/1056576,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+354,"Военные США преследуют нефтяной танкер, связанный с Венесуэлой",https://www.interfax.ru/world/1064429,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+355,Инвесторам в МТОР в ДФО компенсируют до 100% ставки ЦБ по инфраструктурным кредитам,https://www.interfax.ru/russia/1036725,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+378,"Cochilco повысила прогноз цен на медь до $4,45 за фунт в 2025 году и до $4,55 в 2026 году",https://www.interfax.ru/business/1059991,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+381,СК России возбудил уголовное дело по факту гибели подростка в Подмосковье,https://www.interfax.ru/russia/1064356,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+396,ФАС выявила сговор на торгах по поставке жизненно важных лекарств,https://www.interfax.ru/russia/1004439,consumer_price_index;crime_count,consumer_price_index,consumer_price_index,,crime_count,2,1,0.6666666666666666,0.5,True
+398,"Более 24 БПЛА сбито в Севастополе, ранен ребенок",https://www.interfax.ru/russia/1073132,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+404,Российские производители мяса озабочены резким ростом импорта курятины из Китая,https://www.interfax.ru/business/1068542,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+406,Жительница Грайворонского округа пострадала в результате атаки дрона,https://www.interfax.ru/russia/1004786,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+413,"МЧС уточнило, что при опрокидывании ""вахтовки"" в Якутии погибли 13 человек",https://www.interfax.ru/russia/1037172,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+449,"Выручка ГК ""Русагро"" в IV квартале выросла на 19%, до 141,6 млрд руб., в 2024 г - на 20%, до 367 млрд руб.",https://www.interfax.ru/business/1006531,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+451,Американская Exxon сократит 2 тыс. рабочих мест в рамках реорганизации,https://www.interfax.ru/world/1050044,enterprises_count;unemployment_rate,enterprises_count,enterprises_count,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+457,В Кузбассе все шахты возобновили работу после энергоаварии,https://www.interfax.ru/business/1026038,industrial_production_index;unemployment_rate,industrial_production_index,industrial_production_index,,unemployment_rate,2,1,0.6666666666666666,0.5,True
+466,"Фондовые рынки Европы выросли вслед за акциями оборонных компаний, Stoxx Europe 600 обновил рекорд",https://www.interfax.ru/business/1011802,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+474,Toyota намерена инвестировать в Китай $2 млрд,https://www.interfax.ru/business/1022300,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+476,Несколько электроподстанций повреждены при атаке БПЛА в Крыму,https://www.interfax.ru/russia/1053186,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+477,"Что произошло за день: среда, 22 октября",https://www.interfax.ru/russia/1054118,consumer_price_index;crime_count,crime_count,crime_count,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+480,В Грузии усилят борьбу с незаконной миграцией,https://www.interfax.ru/world/1030592,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+492,Минпромторг предложил ограничить госзакупки импортных дизелей для поддержки двигателестроителей,https://www.interfax.ru/business/1035851,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+498,"В компании ""УАЗ"" заявили, что пожар в индустриальном парке не повлиял на работу предприятий",https://www.interfax.ru/russia/1029211,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+505,FT отметила быстрый рост возобновляемой энергетики на Ближнем Востоке,https://www.interfax.ru/business/1005111,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+522,Операция против Ирана может помешать международным спортивным мероприятиям,https://www.sport-interfax.ru/1075627,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+529,"Совкомбанк получил суборд из ФНБ под проект ВСМ на 29,6 млрд рублей",https://www.interfax.ru/russia/1028470,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+533,США запускают серийное производство модернизированной мощной ядерной авиабомбы,https://www.interfax.ru/world/1028501,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+537,"""РусГидро"" получило контроль в операторе геотермального проекта ""Зарубежнефти"" на Камчатке",https://www.interfax.ru/business/1035135,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+539,В больнице Видного остаются четверо пострадавших от атак БПЛА,https://www.interfax.ru/russia/1013026,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+581,Число пострадавших из-за атаки БПЛА в Курске увеличилось до десяти человек,https://www.interfax.ru/russia/1042330,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+587,Президент Ирана предложил перенести столицу из Тегерана,https://www.interfax.ru/world/1051940,air_pollution;housing_area_per_capita,air_pollution,air_pollution,,housing_area_per_capita,2,1,0.6666666666666666,0.5,True
+591,Французская судоходная CMA CGM купила долю в американском производителе биогаза,https://www.interfax.ru/business/1043549,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+593,Нефтяные компании передумали строить НПЗ в Ненецком автономном округе,https://www.interfax.ru/russia/1053096,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+600,"МИД Франции заявил, что наступление Израиля еще больше ухудшит ситуацию в Газе",https://www.interfax.ru/world/1037394,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+605,Индекс потребдоверия в США в апреле упал до минимума с июня 2022 года,https://www.interfax.ru/business/1020494,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+611,"На Кубе миллион человек остаются две недели без света после урагана ""Мелисса""",https://www.interfax.ru/world/1057464,housing_area_per_capita;industrial_production_index,industrial_production_index,industrial_production_index,,housing_area_per_capita,2,1,0.6666666666666666,0.5,True
+615,Лавров и Белоусов доложили Путину о несоблюдении Киевом моратория на удары по энергообъектам,https://www.interfax.ru/russia/1017733,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+625,Женщина ранена в Брянской области после атаки БПЛА,https://www.interfax.ru/russia/1064982,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+626,"Военные РФ нанесли удары по портовым сооружениям, энергоинфраструктуре и хранилищам горючего ВСУ",https://www.interfax.ru/russia/1051720,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+648,"Brent подешевела до $64,31 за баррель",https://www.interfax.ru/business/1023388,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+674,На иностранцев в России за год составили более 3 млн административных протоколов,https://www.interfax.ru/russia/1013042,crime_count;international_inflow,international_inflow,international_inflow,,crime_count,2,1,0.6666666666666666,0.5,True
+676,Премьер-министр Дании не исключает любых версий инцидента с дронами в аэропорту столицы,https://www.interfax.ru/world/1048698,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+678,Десять человек стали жертвами стрельбы в школе в Канаде,https://www.interfax.ru/world/1072116,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+679,Минздрав выдал разрешение для противоопухолевой мРНК-вакцины Центра Блохина,https://www.interfax.ru/russia/1072034,hospitals;life_expectancy,hospitals,hospitals,,life_expectancy,2,1,0.6666666666666666,0.5,True
+684,"УК сети клиник ""Мать и дитя"" ожидает в 2025 году роста выручки на 28%",https://www.interfax.ru/business/1030674,enterprises_count;hospitals,enterprises_count,enterprises_count,,hospitals,2,1,0.6666666666666666,0.5,True
+689,Здание больницы в калужском Козельске повреждено в результате атаки БПЛА,https://www.interfax.ru/russia/1072875,crime_count;hospitals,crime_count,crime_count,,hospitals,2,1,0.6666666666666666,0.5,True
+701,Росприроднадзор допустил взыскание ущерба от утечки мазута в Керченском проливе через суд,https://www.interfax.ru/russia/1009544,air_pollution;wastewater_discharge,wastewater_discharge,wastewater_discharge,,air_pollution,2,1,0.6666666666666666,0.5,True
+710,"Нанесены удары по объектам ж/д инфраструктуры, по которым перебрасывали вооружения для ВСУ",https://www.interfax.ru/russia/1050020,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+715,В Волгореченске после атаки БПЛА школы и детские сады закрыли на сутки,https://www.interfax.ru/russia/1056577,crime_count;preschool_coverage,crime_count,crime_count,,preschool_coverage,2,1,0.6666666666666666,0.5,True
+717,"Более 87% детей иностранцев, подавших заявки, не зачислены в российские школы в 2025",https://www.interfax.ru/russia/1046504,international_inflow;preschool_coverage,international_inflow,international_inflow,,preschool_coverage,2,1,0.6666666666666666,0.5,True
+726,Не менее 14 человек погибли в Мексике в столкновениях после гибели лидера наркокартеля,https://www.interfax.ru/world/1074224,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+734,Индекс потребдоверия в США в августе упал сильнее прогноза,https://www.interfax.ru/world/1044755,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+748,"Два человека стали жертвами обстрелов в Херсонской области, шестеро ранены",https://www.interfax.ru/russia/1002138,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+752,Власти Болгарии ждут помощи ЕС в тушении сотен лесных пожаров,https://www.interfax.ru/world/1038316,air_pollution;life_expectancy,air_pollution,air_pollution,,life_expectancy,2,1,0.6666666666666666,0.5,True
+771,"Патрушев предложил увеличить число портов в Арктике и на Дальнем Востоке, куда разрешен заход иностранных туристских судов",https://www.interfax.ru/russia/1037460,industrial_production_index;international_inflow,international_inflow,international_inflow,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+808,"Нанесён удар по заводу по производству БПЛА и энергообъектам, используемым в интересах ВПК Украины",https://www.interfax.ru/russia/1069296,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+835,Минфин РФ оценил влияние повышения НДС на инфляцию в 1 процентный пункт,https://www.interfax.ru/business/1051056,consumer_price_index;real_income_index,consumer_price_index,consumer_price_index,,real_income_index,2,1,0.6666666666666666,0.5,True
+844,"Обжалован арест главы совета директоров ""Корпорации СТС"" Татьяны Черных",https://www.interfax.ru/russia/1049823,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+867,"""АвтоВАЗ"" снизил план продаж Lada в феврале на 15%",https://www.interfax.ru/business/1073137,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+871,"Иранское агентство ""Тасним"" сообщает, что в Тегеране вновь слышны взрывы",https://www.interfax.ru/world/1075428,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+872,Глава МАГАТЭ попросил о временном прекращении огня для устранения ущерба на ЗАЭС,https://www.interfax.ru/world/1073793,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+877,"Герасимов заявил, что по объектам ВПК и энергетики Украины наносятся ответные массированные удары",https://www.interfax.ru/russia/1059118,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+879,Семь американских военных получили ранения в ходе операции в Венесуэле,https://www.interfax.ru/world/1066616,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+881,Отклонение экономики России вверх от траектории сбалансированного роста уменьшается,https://www.interfax.ru/business/1030008,consumer_price_index;industrial_production_index,industrial_production_index,industrial_production_index,,consumer_price_index,2,1,0.6666666666666666,0.5,True
+883,Иностранцев по прибытии в Россию предлагается проверять на гепатит С,https://www.interfax.ru/russia/1009368,international_inflow;life_expectancy,international_inflow,international_inflow,,life_expectancy,2,1,0.6666666666666666,0.5,True
+901,Два человека пострадали при ракетном ударе по Белгороду,https://www.interfax.ru/russia/1049743,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+902,Пилот разбившегося в 2024 году на Колыме вертолета предстанет перед судом,https://www.interfax.ru/russia/1072328,crime_count;life_expectancy,crime_count,crime_count,,life_expectancy,2,1,0.6666666666666666,0.5,True
+906,"Мурашко заявил, что 25,4% населения РФ к 2030 г. составят люди в возрасте 60 лет и старше",https://www.interfax.ru/russia/1049565,life_expectancy;population_size,life_expectancy,life_expectancy,,population_size,2,1,0.6666666666666666,0.5,True
+917,США представили первый построенный для Финляндии истребитель F-35A,https://www.interfax.ru/world/1063629,crime_count;industrial_production_index,industrial_production_index,industrial_production_index,,crime_count,2,1,0.6666666666666666,0.5,True
+929,Google будет закупать энергию с термоядерной электростанции в Вирджинии,https://www.interfax.ru/business/1033901,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+931,В Манчестере в Йом Кипур совершено нападение на людей у синагоги,https://www.interfax.ru/world/1050480,crime_count;mortality_rate,crime_count,crime_count,,mortality_rate,2,1,0.6666666666666666,0.5,True
+935,"В ""АвтоВАЗе"" заявили, что индексация цен на Lada в 2026 г. должна учитывать НДС и рост себестоимости",https://www.interfax.ru/russia/1059157,consumer_price_index;industrial_production_index,consumer_price_index,consumer_price_index,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+939,В Орловской области после атаки БПЛА произошло возгорание на объектах ТЭК,https://www.interfax.ru/russia/1060934,air_pollution;industrial_production_index,industrial_production_index,industrial_production_index,,air_pollution,2,1,0.6666666666666666,0.5,True
+946,"Суд запретил экс-предправления московского банка ""Легион"" Сокеркину выезжать из РФ",https://www.interfax.ru/russia/1004880,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+969,Гросси не видит возможности выяснить происхождение найденных на ЗАЭС обломков БПЛА,https://www.interfax.ru/world/1006851,crime_count;industrial_production_index,crime_count,crime_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+971,Генпрокуратура планирует взыскать в доход РФ нефтебазу семьи госсекретаря Дагестана,https://www.interfax.ru/russia/1033191,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+972,"Акции ""Группы Русагро"" упали на 15,6% на новостях об обысках в компании",https://www.interfax.ru/business/1016698,crime_count;enterprises_count,enterprises_count,enterprises_count,,crime_count,2,1,0.6666666666666666,0.5,True
+984,"Путин прибыл в Самару, где проведет совещание, посетит предприятие и встретится с губернатором",https://www.interfax.ru/russia/1045933,enterprises_count;industrial_production_index,industrial_production_index,industrial_production_index,,enterprises_count,2,1,0.6666666666666666,0.5,True
+998,Иркутская электросетевая компания в I квартале недополучила 800 млн руб. из-за запрета майнинга,https://www.interfax.ru/business/1021332,enterprises_count;industrial_production_index,enterprises_count,enterprises_count,,industrial_production_index,2,1,0.6666666666666666,0.5,True
+388,Более 20 ученых будут искать эффективные методы утилизации мазута на Кубани,https://www.interfax.ru/russia/1001608,air_pollution,air_pollution;wastewater_discharge,air_pollution,wastewater_discharge,,1,2,0.6666666666666666,0.5,True
+419,В Китае в декабре рост розничных продаж и промпроизводства ускорился,https://www.interfax.ru/business/1003360,industrial_production_index,industrial_production_index;unemployment_rate,industrial_production_index,unemployment_rate,,1,2,0.6666666666666666,0.5,True
+481,Пять выбросов мазута обнаружили на побережье Крыма за сутки,https://www.interfax.ru/russia/1002709,air_pollution,air_pollution;wastewater_discharge,air_pollution,wastewater_discharge,,1,2,0.6666666666666666,0.5,True
+531,"Чистая прибыль Калужского завода ""Кристалл"" в I квартале выросла на 37%",https://www.interfax.ru/business/1027945,enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,,1,2,0.6666666666666666,0.5,True
+567,"Золоторудная компания ""Павлик"" открыла месторождение с запасами 43 т золота",https://www.interfax.ru/business/1003939,industrial_production_index,enterprises_count;industrial_production_index,industrial_production_index,enterprises_count,,1,2,0.6666666666666666,0.5,True
+875,"Племянник Карапетяна заявил о давлении властей Армении на компании группы ""Ташир""",https://www.interfax.ru/world/1035136,enterprises_count,crime_count;enterprises_count,enterprises_count,crime_count,,1,2,0.6666666666666666,0.5,True
+908,"Ford выделит 4,4 млрд евро на помощь германскому подразделению",https://www.interfax.ru/business/1012876,enterprises_count,enterprises_count;industrial_production_index,enterprises_count,industrial_production_index,,1,2,0.6666666666666666,0.5,True
+963,"ВВП Германии во II квартале сократился на 0,1% кв/кв, как и ожидалось",https://www.interfax.ru/business/1038739,industrial_production_index,consumer_price_index;industrial_production_index,industrial_production_index,consumer_price_index,,1,2,0.6666666666666666,0.5,True
+282,"ВЭБ и ПСБ выдадут синдицированный кредит на 24 млрд руб. на электромобиль ""Атом""",https://www.interfax.ru/forumspb/1032339,enterprises_count;industrial_production_index,enterprises_count;industrial_production_index,enterprises_count;industrial_production_index,,,2,2,1.0,1.0,False
+335,Мурманский губернатор предупредил о трудностях регионов Арктики после повышения МРОТ,https://www.interfax.ru/business/1055779,living_wage;per_capita_income,living_wage;per_capita_income,living_wage;per_capita_income,,,2,2,1.0,1.0,False
+12,"Цены на бензин в РФ с 17 по 23 июня выросли на 0,22%",https://www.interfax.ru/business/1033102,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+25,Польша открыла дополнительные пункты пропуска на границе с Белоруссией,https://www.interfax.ru/world/1058331,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+26,В МИД РФ связали атаку беспилотников с визитом генсека ОБСЕ в Москву,https://www.interfax.ru/russia/1012995,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+32,Армия обороны Израиля сообщила о новой ракетной атаке Ирана,https://www.interfax.ru/world/1031172,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+33,"Oersted спишет $1,7 млрд из-за роста ставок, обесценения земли и проблем в ветроэнергетике в США",https://www.interfax.ru/business/1003955,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+34,"США разрешили Venture Globаl допэкспорт 0,5 млрд куб. м СПГ в год с проекта Calcasieu Pass",https://www.interfax.ru/world/1039740,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+36,В Венгрии открыли новое месторождение нефти,https://www.interfax.ru/business/1046558,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+40,"""Газпром"" и ""ЛУКОЙЛ"" ликвидируют сбытовое СП ""Газ-Ойл Трейдинг""",https://www.interfax.ru/business/1006489,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+42,"РФ к концу 2025 года введет в оборот около 3 млн га по программе ""Земля""",https://www.interfax.ru/business/1028008,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+43,США возобновили атаки на Йемен,https://www.interfax.ru/world/1013961,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+44,Страны ОПЕК+ обсуждают увеличение добычи в ноябре на 137 тыс. б/с или более,https://www.interfax.ru/world/1050790,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+46,"Чистая прибыль ""Интер РАО"" по МСФО в I полугодии выросла на 4,3%, до 82,9 млрд руб.",https://www.interfax.ru/business/1042188,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+52,Глава Минпромторга сообщил о запросах из-за рубежа на поставки Ил-76,https://www.interfax.ru/russia/1006407,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+54,Срок предоставления рыбных инвестквот предлагается продлить с 15 до 20 лет,https://www.interfax.ru/russia/1037511,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+58,Миротворцы ООН обнаружили широкую сеть тоннелей с вооружением на юге Ливана,https://www.interfax.ru/world/1040175,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+60,"Мировые цены на продовольствие в июле выросли на 1,6%",https://www.interfax.ru/world/1040270,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+64,Отец и сын Васины арестованы по делу о покушении на генерала Алексеева,https://www.interfax.ru/russia/1072254,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+67,"Нефть усилила падение, Brent теряет 5,6% и торгуется у $70,8 за баррель",https://www.interfax.ru/business/1018114,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+71,"ОПЕК сохранила прогноз роста добычи нефти в странах не-ОПЕК+ в 2025 г. на 0,81 млн б/с",https://www.interfax.ru/world/1052359,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+72,В правительстве заявили о готовности предложить Китаю поставки авиакомплектующих,https://www.interfax.ru/russia/1046085,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+73,"Суд по заявлению АСВ признал банкротом экс-предправления банка ""Холдинг-кредит"" Горош",https://www.interfax.ru/business/1020992,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+77,"""Полюс"" увеличил EBITDA на 49% в 2024 году, до $5,7 млрд - лучше прогноза",https://www.interfax.ru/business/1012028,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+78,Производитель электромобилей Lucid сократил квартальный чистый убыток,https://www.interfax.ru/business/1039850,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+79,Mercedes-Benz в III квартале снизил продажи автомобилей на 12%,https://www.interfax.ru/business/1051320,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+85,"В ""Южной"" группировке сообщили о поражении 63 пунктов дислокации и блиндажей ВСУ",https://www.interfax.ru/russia/1068415,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+86,Костин не увидел большого пространства для дальнейшего укрепления рубля,https://www.interfax.ru/business/1014190,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+89,В РФ изменят процедуру контроля за соблюдением требований к проведению экзамена для мигрантов,https://www.interfax.ru/russia/1028828,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+92,"Суд по иску конкурсного управляющего российского ""Гугла"" взыскал с Google Ireland Limited 101,6 млрд руб.",https://www.interfax.ru/business/1073196,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+93,"Минобороны РФ сообщило о продвижении группировки ""Восток"" в глубину обороны ВСУ",https://www.interfax.ru/russia/1061784,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+94,Газпромбанк увеличил годовую чистую прибыль по МСФО до 195 млрд рублей,https://www.interfax.ru/business/1022846,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+95,Военные заявили о продвижении в Запорожской и Днепропетровской областях,https://www.interfax.ru/russia/1051260,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+97,Цивилев заявил об обсуждении вхождения Китая в СПГ-проекты в РФ на саммите в Кремле,https://www.interfax.ru/russia/1024704,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+98,Финская Gasum завершила первую бункеровку СПГ рядом с НПЗ Порвоо,https://www.interfax.ru/business/1044247,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+102,По итогам 2024-2025 годов Индия вошла в топ-10 стран по въездному в РФ туризму,https://www.interfax.ru/russia/1061665,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+105,Инвестиции в нефтегазовый сектор Норвегии достигнут пика в 2025 г. и снизятся в 2026 г.,https://www.interfax.ru/business/1042308,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+107,Россия в 2025 году увеличила выручку от экспорта чая на 11%,https://www.interfax.ru/russia/1075619,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+109,Штрафы за нарушение границы РФ предлагается увеличить,https://www.interfax.ru/russia/1060103,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+111,Рост цен на новые автомобили в США из-за пошлин может составить до $15 тысяч,https://www.interfax.ru/business/1018111,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+114,"В Минске заявили, что дальнейшие переговоры с Литвой по границе будут идти на уровне МИД",https://www.interfax.ru/world/1057556,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+123,Palo Alto Networks покупает поставщика решений для кибербезопасности CyberArk,https://www.interfax.ru/business/1038848,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+125,"Цены на хлеб в РФ в ноябре выросли на 0,7%, курятина подешевела на 0,2%",https://www.interfax.ru/business/1062536,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+127,"ФНС сообщила, что активы российского бизнеса в ОАЭ превысили 1 трлн рублей",https://www.interfax.ru/business/1059223,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+133,Президент и госсекретарь США внимательно следят за конфликтом Таиланда и Камбоджи,https://www.interfax.ru/world/1038345,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+138,Власти Севастополя национализировали имущество ряда компаний и физлиц,https://www.interfax.ru/russia/1023623,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+139,"Глава МАГАТЭ отметил, что уровень радиации в регионе Персидского залива в норме",https://www.interfax.ru/world/1033447,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+142,ЦБ задумался о смягчении требований по инвестпроектам с госдолей,https://www.interfax.ru/business/1026582,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+150,"Путин заявил, что Часов Яр был взят под контроль несколько дней назад",https://www.interfax.ru/russia/1039242,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+152,"В Туле оцепили часть улицы, где найдены опасные обломки БПЛА",https://www.interfax.ru/russia/1027058,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+154,"NBC сообщил о задержании в США почти 1,2 тыс. нелегалов в воскресенье",https://www.interfax.ru/world/1004986,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+157,"""СПБ биржа"" сообщила о регуляторных сложностях с запуском торгов заблокированными акциями",https://www.interfax.ru/business/1051524,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+158,Brent остается в минусе и торгуется у $69 за баррель,https://www.interfax.ru/business/1036301,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+160,Украинец и россиянин осуждены за подготовку теракта против военнослужащего,https://www.interfax.ru/russia/1028490,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+162,В Британии рассчитывают справиться с разливом топлива в Северном море,https://www.interfax.ru/world/1013023,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+170,В России проинфляционные риски по-прежнему преобладают над дезинфляционными,https://www.interfax.ru/business/1046946,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+171,Польская PERN договорилась о подключении к трубопроводной системе НАТО,https://www.interfax.ru/business/1050676,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+174,Глава Совета судей готов предоставить пояснения в суде по иску Генпрокуратуры,https://www.interfax.ru/russia/1048781,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+185,Под российский контроль перешло село Иванополье в ДНР,https://www.interfax.ru/russia/1059769,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+197,В Москве заявили о готовности принимать туристов из США при возобновлении авиасообщения,https://www.interfax.ru/russia/1046541,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+201,Путин сообщил о сотрудничестве с Индией в производстве вооружений,https://www.interfax.ru/russia/1050599,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+205,Производитель электрогрузовиков Nikola подал заявление о банкротстве,https://www.interfax.ru/business/1009809,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+207,Более 160 тонн загрязненного мазутом грунта вывезли с пляжей Севастополя,https://www.interfax.ru/russia/1002976,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+215,В ОДКБ призвали к дипломатическому урегулированию афгано-пакистанского конфликта,https://www.interfax.ru/world/1074939,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+217,"Экспорт продукции АПК из России в январе-июле снизился на 14,2%",https://www.interfax.ru/business/1046731,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+218,ФАС изучит обоснованность закупок региональных госкомпаний у единственного поставщика,https://www.interfax.ru/business/1050544,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+220,Число физлиц с брокерскими счетами на Мосбирже в марте выросло на 280 тыс.,https://www.interfax.ru/business/1018576,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+223,"""Коммерсантъ"" сообщил о возможном повышении тарифов на передачу электроэнергии в 4 регионах",https://www.interfax.ru/business/1034267,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+225,"Рост цен на бензин в РФ с 11 по 17 февраля ускорился до 0,21%",https://www.interfax.ru/business/1009843,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+227,Промышленный PMI в Китае в июле неожиданно снизился,https://www.interfax.ru/business/1038912,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+228,"Производство пива и пивных напитков в РФ в январе-феврале выросло на 5,7%",https://www.interfax.ru/business/1013609,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+232,Восемь дронов ВСУ сбито над Крымом и Брянской областью,https://www.interfax.ru/russia/1011252,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+234,"РСТ заявил, что обострение конфликта между Таиландом и Камбоджей не повлияло на отдых россиян",https://www.interfax.ru/world/1061880,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+237,Китай в 2025 году снизил импорт нефти из РФ на 7%,https://www.interfax.ru/world/1068436,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+240,"Оборот ювелирного холдинга Sokolov в 2024 году вырос на 34%, до 68,1 млрд рублей",https://www.interfax.ru/business/1012300,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+244,Российские военные отразили две атаки ВСУ с целью прорыва в Купянск,https://www.interfax.ru/russia/1065820,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+245,Решетников ожидает восстановления экономики РФ в конце этого года или в 2027 году,https://www.interfax.ru/business/1072361,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+247,В I чтении принят проект об увеличении сроков геологоразведки для двух районов ХМАО,https://www.interfax.ru/russia/1017884,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+253,ЦБ РФ рассмотрит вопрос о ставке,https://www.interfax.ru/russia/1022662,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+254,"Прогноз по инфляции в РФ в 2025 году повышен с 4,5% до 7,6%",https://www.interfax.ru/russia/1021802,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+256,Китай в августе заметно сократил импорт нефти из РФ и Саудовской Аравии к июлю,https://www.interfax.ru/business/1048486,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+259,ФАС не считает актуальным расширение порогов отклонения индикаторов в топливном демпфере,https://www.interfax.ru/russia/1015612,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+260,"JPMorgan увеличил выручку в I квартале на 8%, лучше прогнозов",https://www.interfax.ru/business/1020450,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+268,Рост цен на огурцы в РФ ускорился в два раза,https://www.interfax.ru/business/1033099,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+271,Экспорт пшеницы из России в 2025/26 сельхозгоду может вырасти до 44 млн т,https://www.interfax.ru/business/1062525,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+277,Kraft Heinz рассматривает потенциальные стратегические сделки,https://www.interfax.ru/business/1026806,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+287,Рубль в пятницу заметно опустился в паре с юанем,https://www.interfax.ru/business/1070359,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+292,Минсельхоз призвал аграриев не сопротивляться использованию отечественных семян,https://www.interfax.ru/russia/1005305,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+293,В США назвали состоявшийся обмен заключенными жестом доброй воли со стороны России,https://www.interfax.ru/world/1020340,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+294,Решетников сообщил об упрощении визового режима для иностранных туристов,https://www.interfax.ru/russia/1052831,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+303,Принят закон об ужесточении наказания за дезертирство,https://www.interfax.ru/russia/1063544,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+304,Хуситы сообщили о запуске баллистической ракеты по аэропорту Тель-Авива,https://www.interfax.ru/world/1037378,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+305,"До 32 выросло число сбитых БПЛА, летевших на Москву в понедельник",https://www.interfax.ru/russia/1055028,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+311,Польша по-прежнему не будет принимать на границе с Белоруссией заявления на международную защиту,https://www.interfax.ru/world/1066963,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+323,Google выплатит 326 млн евро для урегулирования налогового спора с Италией,https://www.interfax.ru/world/1009829,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+324,"""Аэрофлот"" 1 марта отменяет рейсы в Дубай и Абу-Даби",https://www.interfax.ru/russia/1075303,international_outflow,international_outflow,international_outflow,,,1,1,1.0,1.0,False
+325,"Продажи чипов в мире в 2024 году выросли на 19,1% и достигли рекорда",https://www.interfax.ru/world/1007174,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+326,Набиуллина связала ускорение недельной инфляции в РФ с волатильными компонентами,https://www.interfax.ru/business/1051753,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+327,"Субхолдинг ""Софтлайна"" получил публичный статус в преддверии возможного IPO",https://www.interfax.ru/business/1057497,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+328,"Военные РФ сбили пять дронов над Белгородской областью, Черным морем и Крымом",https://www.interfax.ru/russia/1061521,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+329,"Мужчине, пытавшемуся отравить 70 летчиков РФ, ужесточили приговор до пожизненного",https://www.interfax.ru/russia/1050068,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+330,Рубль в четверг незначительно снизился к юаню перед заседанием ЦБ РФ по ставке,https://www.interfax.ru/business/1015763,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+341,Введение санкций США в отношении сербской энергокомпании NIS отложено на 30 дней,https://www.interfax.ru/world/1011062,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+366,Казахстан уведомил ОПЕК об отсутствии планов сокращения добычи нефти,https://www.interfax.ru/business/1028562,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+367,Госдума усилила ответственность за одобрение насилия и возбуждение вражды,https://www.interfax.ru/russia/1031629,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+369,ВТБ запланировал выйти в новые сегменты розничного банкинга,https://www.interfax.ru/business/1022458,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+371,Paramount продлила срок предложения акционерам Warner Bros. Discovery до 20 февраля,https://www.interfax.ru/business/1069061,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+375,Российские военные отразили две контратаки ВСУ в районе Купянска,https://www.interfax.ru/russia/1066615,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+376,Эквадор готов принять российских проверяющих для аудита производителей бананов,https://www.interfax.ru/business/1042436,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+379,"Запасы нефти в США снизились на 1,02 млн баррелей за неделю",https://www.interfax.ru/business/1004380,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+382,Лувр открылся после ограбления,https://www.interfax.ru/world/1053550,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+384,Начальник инженерных войск РФ сообщил о создании специальных подразделений с роботами,https://www.interfax.ru/russia/1068612,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+385,"Рубль утром немного понижается в паре с юанем, несмотря на укрепление нефти",https://www.interfax.ru/business/1074929,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+390,Росстат сможет получать от ФНС данные с кассовых аппаратов для расчета инфляции,https://www.interfax.ru/business/1007251,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+397,ВС Израиля продолжают готовить масштабное наступление в Газе,https://www.interfax.ru/world/1021213,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+409,"ФТС в 2025 г. пресекла контрабанду драгоценных металлов и камней на 1,2 млрд руб.",https://www.interfax.ru/russia/1073629,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+410,Мать и дочь получили в Севастополе по 12 лет колонии за госизмену,https://www.interfax.ru/russia/1039749,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+411,Кишинев передал Тирасполю предложения по преодолению энергокризиса,https://www.interfax.ru/world/1005130,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+412,"Частный акционер остался во главе совета директоров ""Петербургского нефтетерминала""",https://www.interfax.ru/business/1051579,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+415,"ФСБ сообщила о задержании москвича, готовившего диверсию на железной дороге",https://www.interfax.ru/russia/1057099,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+416,Эксперты Citi ждут продолжения роста цен на медь в 2026 году,https://www.interfax.ru/business/1063397,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+426,"В США в IV квартале производительность труда выросла на 1,2%, слабее прогноза",https://www.interfax.ru/business/1006691,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+428,"Малоликвидные акции ПАО ""Лензолото"" дешевеют на новостях о планах ликвидации компании",https://www.interfax.ru/business/1035410,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+433,"Глава ГК ""Ташир"" Карапетян освобожден из-под стражи и помещен под домашний арест",https://www.interfax.ru/world/1065885,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+434,"Объем грузоперевозок по сети РЖД снизился за 7 месяцев на 6,2%, до 739,3 млн т",https://www.interfax.ru/business/1041916,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+436,Потребительские цены в Германии в июне выросли на 2%,https://www.interfax.ru/world/1035469,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+437,"МИД Киргизии призвал своих граждан из ""черного списка"" в РФ легализовать правовой статус",https://www.interfax.ru/world/1024949,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+438,Хакеры атаковали сайты госструктур Бельгии,https://www.interfax.ru/digital/1016280,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+446,Финтех-подразделение Ozon размещает ЦФА на 3 млрд рублей,https://www.interfax.ru/business/1025538,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+458,"Число сбитых БПЛА, летевших на Москву, увеличилось до 26",https://www.interfax.ru/russia/1027039,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+467,"""Аэрофлот"" в июле привлек 40 млрд рублей заемных средств",https://www.interfax.ru/business/1038828,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+469,В Москве возбуждено дело об ограблении отделения почты почти на 5 млн рублей,https://www.interfax.ru/moscow/1040297,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+470,Клинические исследования импортных ветеринарных препаратов будут возможны только в РФ,https://www.interfax.ru/russia/1070230,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+472,Жители Ингушетии получили 25 лет на двоих за подготовку к диверсии,https://www.interfax.ru/russia/1069981,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+475,Рубль утром немного дешевеет к юаню,https://www.interfax.ru/business/1072977,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+487,Число сбитых на подлете к столице беспилотников достигло 25,https://www.interfax.ru/moscow/1074159,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+489,"Орбан не видит препятствий для возобновления поставок нефти по ""Дружбе""",https://www.interfax.ru/world/1075721,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+493,"В ""НОВАТЭКе"" посоветовали Европе сначала найти, на что заменить газ с ""Ямала СПГ""",https://www.interfax.ru/russia/1057840,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+494,Эстонские криптомошенники согласились вернуть $400 млн в США,https://www.interfax.ru/world/1009069,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+495,"Площадь лесных пожаров в Якутии увеличилась до 21,4 тыс. га",https://www.interfax.ru/russia/1038537,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+499,"""Мегафон"" в I полугодии нарастил выручку до 241,3 млрд рублей",https://www.interfax.ru/business/1042483,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+500,"Прирост запасов ""Сургутнефтегаза"" восполнил добычу в 2024 году",https://www.interfax.ru/business/1022775,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+501,"Акционеры ""Полюса"" одобрили финальные дивиденды за 2024 год в 73 руб. на акцию",https://www.interfax.ru/business/1020937,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+510,Росфинмониторинг и ЦБ обсуждают уточнение критериев подозрительных операций по линии незаконного оборота наркотиков,https://www.interfax.ru/russia/1060861,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+513,Страны ОТГ договорились активизировать усилия по сотрудничеству в оборонной промышленности,https://www.interfax.ru/world/1026997,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+518,В Таганроге после ночной атаки обнаружены обломки БПЛА,https://www.interfax.ru/russia/1060531,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+527,Ритейлер Costco увеличил квартальную выручку сильнее прогнозов,https://www.interfax.ru/business/1012457,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+532,"Нефть слабо дешевеет, Brent торгуется у $63,2 за баррель",https://www.interfax.ru/business/1061566,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+550,Саудовская Аравия нанесла удары по порту Эль-Мукалла в Йемене,https://www.interfax.ru/world/1065772,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+554,Тридцать три беспилотника нейтрализованы с 09:00 до 16:00 над регионами России,https://www.interfax.ru/russia/1066990,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+558,Ведется опрос водителя фуры после атаки дронов в Иркутской области,https://www.interfax.ru/russia/1028975,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+563,"Владислав Бакальчук зарегистрировал компанию ""ВБ Тех"" в сфере разработки ПО",https://www.interfax.ru/business/1013684,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+564,"Brent подешевела до $76,38 за баррель",https://www.interfax.ru/business/1010107,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+565,Российская армия взяла под контроль населенный пункт Липовое в ДНР,https://www.interfax.ru/russia/1024542,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+579,В Польше проведут заседание Комитета нацбезопасности после взрыва на железной дороге,https://www.interfax.ru/world/1058464,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+582,Дума рассмотрит поправки о спецмерах для борьбы с терроризмом во II чтении 2 декабря,https://www.interfax.ru/russia/1060853,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+586,Бразилия предлагает создать Совет ООН по изменению климата на базе Генассамблеи,https://www.interfax.ru/world/1056562,air_pollution,air_pollution,air_pollution,,,1,1,1.0,1.0,False
+588,"Ирландский ЦБ оштрафовал Coinbase на 21,5 млн евро",https://www.interfax.ru/business/1056694,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+590,"РФ остается крупнейшим поставщиком газа, нефти и нефтепродуктов в Турцию",https://www.interfax.ru/business/1073962,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+594,Бывшего свердловского вице-губернатора Чемезова могут перевести под домашний арест,https://www.interfax.ru/russia/1065712,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+596,Цены на российских АЗС значительно выросли в новогодние каникулы,https://www.interfax.ru/business/1067219,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+599,Рубль утром понижается в паре с юанем перед пятничным заседанием ЦБ РФ по ставке,https://www.interfax.ru/business/1015599,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+601,Добыча ОПЕК+ в декабре отстала от плана на 780 тыс. б/с,https://www.interfax.ru/business/1067602,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+602,Военно-Грузинскую дорогу закрыли из-за угрозы схода селей,https://www.interfax.ru/world/1037198,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+603,"Глава ЕЦБ сообщила, что темп роста экономики еврозоны, вероятно, замедлится в III квартале",https://www.interfax.ru/business/1043084,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+604,Китайская СNNC возглавит консорциум по строительству еще одной АЭС в Казахстане,https://www.interfax.ru/world/1031211,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+606,"""Газпром"" и Минсельхоз подготовили пилот внедрения автономной генерации в АПК",https://www.interfax.ru/business/1061496,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+607,"Проект закона о наказании для водителей за ""лекарственное опьянение"" принят в I чтении",https://www.interfax.ru/russia/1028044,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+616,Участок федеральной трассы Р-239 в Оренбуржье перекрыт из-за непогоды,https://www.interfax.ru/russia/1001987,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+621,Саудовская Аравия в феврале снизит цены на нефть для всех регионов,https://www.interfax.ru/business/1066560,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+624,Аэропорты Иванова и Ярославля возобновили работу,https://www.interfax.ru/russia/1064308,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+627,Военно-Грузинскую дорогу открыли для легкового транспорта и автобусов,https://www.interfax.ru/russia/1066995,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+628,РФ в 2024 году увеличила экспорт макаронных изделий более чем на 10%,https://www.interfax.ru/business/1013635,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+630,Герасимов доложил президенту о наступлении на всех направлениях в зоне СВО,https://www.interfax.ru/russia/1065452,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+631,"Moody's подтвердило рейтинги Китая на уровне ""A1"" с ""негативным"" прогнозом",https://www.interfax.ru/business/1027777,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+634,Российские военные сбили 37 беспилотников ВСУ над тремя областями,https://www.interfax.ru/russia/1061335,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+643,Минэнерго России и Белоруссии обсудили формирование общих энергорынков,https://www.interfax.ru/russia/1052782,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+647,"Товарооборот между РФ и КНР в первом квартале 2025 года сократился на 6,6%",https://www.interfax.ru/business/1020684,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+650,Superjet 100 с иностранными двигателями смогут летать до 2028-2029 годов,https://www.interfax.ru/russia/1051291,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+652,Amplats в 2024 году снизила выпуск платиноидов на 7%,https://www.interfax.ru/business/1006645,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+654,Правительство сохранило статус государственных научных центров за 43 организациями,https://www.interfax.ru/russia/1041816,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+655,"Лондон продлил лицензию на операции с зарубежными дочками ""ЛУКОЙЛа"" до 25 августа",https://www.interfax.ru/business/1074612,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+656,Матвиенко заявила об импортонезависимости от целого ряда важных позиций,https://www.interfax.ru/russia/1013952,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+659,Девелопер Glorax установил цену IPO в 64 рубля за акцию,https://www.interfax.ru/business/1054206,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+661,В пяти регионах юга России более 50% детей мигрантов сдали тест по русскому,https://www.interfax.ru/russia/1054549,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+663,ЭКГ-рейтинг может быть расширен для внедрения в систему закупок госкомпаний,https://www.interfax.ru/forumspb/1032398,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+664,В КНР сообщили об опасных маневрах пограничных кораблей Филиппин в Южно-Китайском море,https://www.interfax.ru/world/1042386,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+668,Рубль утром понижается в паре с юанем на фоне относительно стабильной нефти,https://www.interfax.ru/business/1012032,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+671,Украинский военный осужден на 15 лет за преступления в курском приграничье,https://www.interfax.ru/russia/1016609,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+672,Anglo American начала переговоры с банками о возможном IPO De Beers,https://www.interfax.ru/business/1016556,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+681,Суд РФ отменил обеспечительные меры по иску о запрете американской NCH Capital,https://www.interfax.ru/russia/1068491,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+682,"Венгерская MOL в 2,5 раза увеличит поставки нефти в Сербию",https://www.interfax.ru/world/1060097,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+683,Глава ЦБ сообщила о продолжении обсуждения идеи субсидировать выход на рынок капитала,https://www.interfax.ru/russia/1055072,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+686,Нигерия планирует закупить у России сельхозтехнику на более чем 10 млрд рублей,https://www.interfax.ru/business/1052369,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+688,"Что произошло за день: понедельник, 24 ноября",https://www.interfax.ru/russia/1059652,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+692,Минэнерго РФ настаивает на ускорении строительства Хабаровской ТЭЦ-4,https://www.interfax.ru/russia/1013596,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+693,"Стоимость порта ""Лавна"" превысила 87 млрд рублей",https://www.interfax.ru/russia/1017031,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+694,Мишустин пообещал стимулировать спрос на разработки в станкостроении для поддержки отрасли,https://www.interfax.ru/russia/1028303,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+700,ФАС продолжит донастройку дифференцированных тарифов в энергетике,https://www.interfax.ru/business/1051241,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+703,"На ""Мосбирже"" рубль заметно подорожал к юаню",https://www.interfax.ru/business/1010787,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+704,"Парламент Египта одобрил присуждение ""ЛУКОЙЛу"" двух концессий",https://www.interfax.ru/business/1023415,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+707,"""Ростелеком"" предложил строить общие для крупных компаний электростанции под ЦОД для ИИ",https://www.interfax.ru/business/1030065,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+708,"Цена размещения в рамках SPO МТС-банка составит 1380,5 руб./АО",https://www.interfax.ru/business/1036041,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+712,В Севастополе возобновил работу морской пассажирский транспорт,https://www.interfax.ru/russia/1057084,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+713,Аэропорт Саратова временно не обслуживает рейсы,https://www.interfax.ru/russia/1051635,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+716,Китай ввел независимый таможенный режим для острова Хайнань,https://www.interfax.ru/world/1063966,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+719,"Аэропорты в Ярославле, Нижнем Новгороде и Иванове возобновили работу",https://www.interfax.ru/russia/1023453,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+722,"В России повысились минимальные цены на водку, коньяк и бренди",https://www.interfax.ru/russia/1066027,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+724,Руандийская армия при поддержке повстанцев наступает на востоке Демократической Республики Конго,https://www.interfax.ru/world/1004747,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+730,Доля продовольственной пшеницы в урожае-2025 в РФ остается на уровне прошлого года,https://www.interfax.ru/business/1046886,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+731,"""Ростелеком"" размещает ЦФА на 2 млрд рублей на платформе Альфа-банка",https://www.interfax.ru/business/1016830,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+737,Российские военные уничтожили за сутки 178 украинских беспилотников,https://www.interfax.ru/world/1012645,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+738,"Несколько дронов ВСУ сбито в Белгородской области, пострадавших нет",https://www.interfax.ru/russia/1002390,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+739,Поставку в Россию 40 кг кокаина из Латинской Америки пресекли в Петербурге,https://www.interfax.ru/russia/1066430,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+740,"""Мираторг"" сообщил о штатной работе предприятий в Брянской области после атак БПЛА",https://www.interfax.ru/russia/1043169,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+741,Продажи чипов в мире в 2026 году приблизятся к $1 трлн,https://www.interfax.ru/business/1061730,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+743,Полиция Италии задержала 384 человека в рамках антинаркотической операции,https://www.interfax.ru/world/1064350,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+749,Путин заявил о загрузке мощностей ОПК по максимуму,https://www.interfax.ru/russia/1048241,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+751,"""Малый порт"" в Приморье в январе увеличил перевалку угля на экспорт на 20%",https://www.interfax.ru/business/1007456,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+757,БПЛА атаковал автомобиль председателя белгородского избиркома,https://www.interfax.ru/russia/1061752,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+759,ВТБ не исключает покупки других банков при благоприятных условиях,https://www.interfax.ru/business/1047730,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+761,ВТБ вновь попытается получить согласие держателей валютных субордов на рублификацию выпусков,https://www.interfax.ru/business/1057398,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+762,"""Яндекс Драйв"" за два года планирует запустить франшизу каршеринга в городах с населением от 500 тыс.",https://www.interfax.ru/business/1035549,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+763,В Тегусигальпе произошли беспорядки из-за задержки итогов президентских выборов,https://www.interfax.ru/world/1063494,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+766,SEC подала иск против Илона Маска в связи с обстоятельствами покупки им Twitter,https://www.interfax.ru/world/1002964,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+776,Число заявок на пособие по безработице в США выросло больше прогнозов,https://www.interfax.ru/business/1028548,unemployment_rate,unemployment_rate,unemployment_rate,,,1,1,1.0,1.0,False
+779,Австралийская Woodside и Hyundai оценят возможности СПГ-сотрудничества,https://www.interfax.ru/business/1036675,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+780,"Brent подешевела до $68,24 за баррель",https://www.interfax.ru/business/1044617,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+782,В Евросоюзе число банкротств в I квартале снизилось,https://www.interfax.ru/business/1026036,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+789,TSMC в III квартале увеличила чистую прибыль на 39% до рекорда,https://www.interfax.ru/business/1052975,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+792,"Ритейлер ""О`Кей"" в IV кв. увеличил выручку на 5,3%, в целом за 2024 г. - на 5,5%",https://www.interfax.ru/business/1005623,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+793,"""АБ Холдинг"" отсудил у кипрской ABH Financial ее пакет в Альфа-банке",https://www.interfax.ru/russia/1010537,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+795,Глава Банка Англии по-прежнему обеспокоен динамикой британского ВВП,https://www.interfax.ru/business/1009349,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+802,Китай приостанавливает действие ограничений на экспорт некоторых РЗМ в США,https://www.interfax.ru/world/1057199,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+803,Пензенский аэропорт вновь обслуживает рейсы,https://www.interfax.ru/russia/1040607,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+812,Disney отчитался о квартальной чистой прибыли,https://www.interfax.ru/business/1024544,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+815,МВД Германии продлит пограничный контроль до сентября,https://www.interfax.ru/world/1073000,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+821,"Прорабатывается возможность для россиян расплачиваться в Китае картами ""Мир"" и по QR-кодам",https://www.interfax.ru/world/1045288,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+826,Полиция Южной Кореи вновь не сумела обыскать офис службы безопасности Юн Сок Ёля,https://www.interfax.ru/world/1003737,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+832,Поставки газа из РФ в Армению приостановлены из-за ремонта на газопроводе в Грузии,https://www.interfax.ru/world/1014180,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+838,"Hyatt купит Playa Hotels за $2,6 млрд",https://www.interfax.ru/world/1007216,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+839,Росфинмониторинг внес Леонида Гозмана в перечень террористов и экстремистов,https://www.interfax.ru/russia/1004128,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+843,"""Объединенные пивоварни"" сменили название на ""Пивоварни Бочкарев""",https://www.interfax.ru/business/1055297,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+851,В случае непубличного признания компании ЭЗО ее владельца будут об этом информировать,https://www.interfax.ru/russia/1053623,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+858,В Удмуртии отменили введенный после атаки БПЛА в Ижевске режим ЧС,https://www.interfax.ru/russia/1034993,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+863,"Министры ОПЕК+ и ""восьмерки"" подтвердили ранее принятые решения об уровнях добычи на 2026 г. и I кв.",https://www.interfax.ru/business/1060669,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+864,Госдума приняла закон о дистанционном открытии счетов в рамках ЭПР,https://www.interfax.ru/russia/1017655,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+865,"План ""Ковер"" действует в Пензенской области",https://www.interfax.ru/russia/1056537,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+866,"Нетаньяху заявил, что Израиль должен сам обеспечивать себя вооружениями",https://www.interfax.ru/world/1047668,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+878,"В АПК доля российских семян сахарной свеклы в 2025 году выросла в 2,4 раза до 19%",https://www.interfax.ru/business/1067197,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+880,Аэропорт Владикавказа возобновил работу,https://www.interfax.ru/russia/1043878,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+884,Военные РФ заявили об уничтожении 20 украинских дронов над Белгородской областью,https://www.interfax.ru/russia/1054395,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+886,Президент заявил о росте в РФ числа преступлений экстремистской направленности,https://www.interfax.ru/russia/1076013,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+891,"Грузооборот морских портов РФ в январе сократился на 7% г/г, до 67 млн тонн",https://www.interfax.ru/business/1072362,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+898,"Финтех-подразделение Ozon разместит ЦФА на 1,5 млрд рублей",https://www.interfax.ru/business/1011360,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+903,ЦБ ужесточит требования к оценке банками финансового положения компаний,https://www.interfax.ru/business/1076269,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+904,На комиссии в Госдуме заявили о трудностях с легализацией граждан Киргизии,https://www.interfax.ru/russia/1025795,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+909,ЦАХАЛ сообщил о новой волне ударов по Тегерану,https://www.interfax.ru/world/1076159,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+912,В Пензенской области возбудили уголовное дело из-за нападения на главу района,https://www.interfax.ru/russia/1044401,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+915,"Brent подешевела до $60,99 за баррель",https://www.interfax.ru/business/1062998,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+921,Малому бизнесу профинансируют восстановление памятников на 9 млрд рублей,https://www.interfax.ru/business/1053203,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+923,КНР проходит летний пик потребления газа на уровне прошлогодних значений,https://www.interfax.ru/business/1040070,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+924,Движение по Крымскому мосту возобновлено,https://www.interfax.ru/russia/1072751,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+928,"Brent подешевела до $77,3 за баррель",https://www.interfax.ru/business/1005175,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+930,"Оборот ""Софтлайна"" в 2025 году вырос на 9% до 131,8 млрд рублей",https://www.interfax.ru/business/1070966,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+936,"Первые два причальных устройства КТК будут заменены на импортные, ВПУ-3 - на отечественный",https://www.interfax.ru/forumspb/1031889,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+937,"Pfizer близок к покупке Metsera за сумму до $7,3 млрд",https://www.interfax.ru/business/1048461,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+943,Аналитики прогнозируют сохранение ставки ЦБ РФ на уровне 21%,https://www.interfax.ru/business/1015532,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+944,Неквалифицированным инвесторам откроют доступ к ЦФА через традиционные биржи,https://www.interfax.ru/business/1021220,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+947,"Ритейлер Henderson в 2024 году увеличил выручку на 24,2%, до 20,8 млрд рублей",https://www.interfax.ru/business/1003176,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+951,Рубль утром вырос к юаню на фоне активно дорожающей нефти,https://www.interfax.ru/business/1028461,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+952,Аэропорт Пулково возобновил обслуживание рейсов,https://www.interfax.ru/russia/1043728,industrial_production_index,industrial_production_index,industrial_production_index,,,1,1,1.0,1.0,False
+960,Участники рынка обсуждают запрет экспорта бензина для производителей на фоне роста цен,https://www.interfax.ru/business/1033089,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+973,ГАИ будет проверять иностранцев по реестру контролируемых лиц перед экзаменами на права,https://www.interfax.ru/russia/1010562,international_inflow,international_inflow,international_inflow,,,1,1,1.0,1.0,False
+975,Полиция в грузинском Батуми провела задержания на акции протеста,https://www.interfax.ru/russia/1002467,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+976,"Суд удовлетворил иск Сбера о взыскании с его бывшей британской ""дочки"" 12,5 млн фунтов",https://www.interfax.ru/business/1006207,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+978,"Brent торгуется у $65,84 за баррель",https://www.interfax.ru/business/1042227,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+979,Более 30 БПЛА уничтожено за сутки над Белгородской областью,https://www.interfax.ru/russia/1061791,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+991,Рубль утром слабеет в паре с юанем на фоне небольшого снижения цен на нефть,https://www.interfax.ru/business/1047708,consumer_price_index,consumer_price_index,consumer_price_index,,,1,1,1.0,1.0,False
+992,Арестован второй соответчик по иску к председателю Совета судей Момотову,https://www.interfax.ru/russia/1050197,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+993,Суд оштрафовал Apple и WhatsApp на миллионы рублей,https://www.interfax.ru/russia/1030623,crime_count,crime_count,crime_count,,,1,1,1.0,1.0,False
+994,Торги акциями LG Electronics India после IPO начнутся 14 октября,https://www.interfax.ru/business/1051104,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+999,Объем закупок крупнейших госкомпаний у самозанятых за 9 месяцев вырос почти в 3 раза,https://www.interfax.ru/russia/1054215,enterprises_count,enterprises_count,enterprises_count,,,1,1,1.0,1.0,False
+3,Старт вечерней сессии на срочном рынке Мосбиржи задерживается,https://www.interfax.ru/business/1023197,,,,,,0,0,1.0,1.0,False
+4,Аэропорты Волгограда и Краснодара приостановили работу,https://www.interfax.ru/russia/1060536,,,,,,0,0,1.0,1.0,False
+9,В посольстве РФ рассказали о планах Британии отказаться от российского урана к 2028 году,https://www.interfax.ru/world/1058497,,,,,,0,0,1.0,1.0,False
+14,Президент РФ считает несправедливым перекладывание на сегодняшних немцев вины за прошлое,https://www.interfax.ru/world/1005877,,,,,,0,0,1.0,1.0,False
+22,Памятник - символ идеи русской Свободы появится в Нижнем Новгороде,https://www.interfax.ru/russia/1058596,,,,,,0,0,1.0,1.0,False
+29,Парламент Эстонии принял закон о церквях и приходах вопреки рекомендациям президента,https://www.interfax.ru/world/1047842,,,,,,0,0,1.0,1.0,False
+35,"Кремль не стал конкретизировать, какие документы привез Дмитриев после переговоров в Майами",https://www.interfax.ru/world/1064865,,,,,,0,0,1.0,1.0,False
+48,Страны G7 обсудили введение дополнительных санкций в отношении России,https://www.interfax.ru/world/1048862,,,,,,0,0,1.0,1.0,False
+49,Путин поздравил Лукашенко с днем рождения,https://www.interfax.ru/russia/1044948,,,,,,0,0,1.0,1.0,False
+56,Российские ледоколы помогают финским судам в Финском заливе,https://www.interfax.ru/russia/1074855,,,,,,0,0,1.0,1.0,False
+57,"Резкое понижение температуры произойдет в регионах Поволжья, Урала и запада Сибири",https://www.interfax.ru/russia/1061760,,,,,,0,0,1.0,1.0,False
+88,"Песков заявил, что Россия обдумает предложение о 30-дневном перемирии на Украине",https://www.interfax.ru/russia/1024983,,,,,,0,0,1.0,1.0,False
+118,Шеф Пентагона распорядился на 20% сократить число четырехзвездных генералов в армии,https://www.interfax.ru/world/1024225,,,,,,0,0,1.0,1.0,False
+141,Лавров в понедельник проведет заседание комиссии по прикаспийскому сотрудничеству,https://www.interfax.ru/russia/1061895,,,,,,0,0,1.0,1.0,False
+144,Премьер Польши попросит парламент проголосовать о доверии его правительству,https://www.interfax.ru/world/1029188,,,,,,0,0,1.0,1.0,False
+146,Минфин США разрешил операции с нефтью из Венесуэлы для американских юрлиц,https://www.interfax.ru/world/1070207,,,,,,0,0,1.0,1.0,False
+175,"Си Цзиньпин приглашен в Москву на 9 мая, Путина ждут в сентябре в Пекине",https://www.interfax.ru/russia/1003965,,,,,,0,0,1.0,1.0,False
+178,Игорю Стрелкову не удалось обжаловать отказ суда смягчить наказание,https://www.interfax.ru/russia/1013225,,,,,,0,0,1.0,1.0,False
+179,"Международные резервы РФ в январе увеличились на 1,9% до $620,8 млрд",https://www.interfax.ru/business/1006895,,,,,,0,0,1.0,1.0,False
+196,Синоптики спрогнозировали ночные заморозки в регионах европейской части РФ,https://www.interfax.ru/russia/1023833,,,,,,0,0,1.0,1.0,False
+213,Уиткофф заявил о намерении США получить бессрочное соглашение с Ираном по атому,https://www.interfax.ru/world/1074634,,,,,,0,0,1.0,1.0,False
+214,РСА определил 10 регионов с максимальной долей судебных издержек по ОСАГО,https://www.interfax.ru/russia/1032715,,,,,,0,0,1.0,1.0,False
+219,"Трамп обещал назначить новым главой ФРС человека, выступающего за снижение ключевой ставки",https://www.interfax.ru/world/1063871,,,,,,0,0,1.0,1.0,False
+221,"США хотят ликвидации ядерной программы Ирана, но готовы на компромиссы",https://www.interfax.ru/world/1020535,,,,,,0,0,1.0,1.0,False
+229,На Солнце произошла самая крупная вспышка с 19 июня,https://www.interfax.ru/world/1049723,,,,,,0,0,1.0,1.0,False
+235,"Песков назвал создание системы ПРО ""Золотой купол"" суверенным делом США",https://www.interfax.ru/russia/1026872,,,,,,0,0,1.0,1.0,False
+242,Сенатор Джонсон начинает расследование о состоянии здоровья Байдена во время его президентства,https://www.interfax.ru/world/1027026,,,,,,0,0,1.0,1.0,False
+246,"Премьер Словакии заявил, что Зеленский не разрешил инспекцию нефтепровода ""Дружба""",https://www.interfax.ru/world/1075079,,,,,,0,0,1.0,1.0,False
+249,Временные ограничения сняты в аэропортах Самары и Ульяновска,https://www.interfax.ru/russia/1061573,,,,,,0,0,1.0,1.0,False
+251,"Что случилось этой ночью: понедельник, 13 января",https://www.interfax.ru/world/1002539,,,,,,0,0,1.0,1.0,False
+257,Песков заявил об отсутствии решений по Эр-Рияду как месту встречи Путина и Трампа,https://www.interfax.ru/russia/1008825,,,,,,0,0,1.0,1.0,False
+267,Доля крупнейших банков на аукционах ОФЗ в августе упала до минимума в 2025 г.,https://www.interfax.ru/business/1045840,,,,,,0,0,1.0,1.0,False
+272,"Трамп заявил, что открыт к идее встречи с Путиным и Зеленским",https://www.interfax.ru/world/1028394,,,,,,0,0,1.0,1.0,False
+284,Очереди автомашин перед Крымским мостом устранены,https://www.interfax.ru/russia/1033814,,,,,,0,0,1.0,1.0,False
+289,OFAC продлило лицензию для обязательных платежей в РФ на очередной квартал,https://www.interfax.ru/business/1035207,,,,,,0,0,1.0,1.0,False
+296,"Лавров отметил необходимость понять, что стоит за словами Трампа о 50 днях на сделку по Украине",https://www.interfax.ru/russia/1036318,,,,,,0,0,1.0,1.0,False
+307,Президент Панамы назвал ложью слова о восстановлении контроля США над Панамским каналом,https://www.interfax.ru/world/1012144,,,,,,0,0,1.0,1.0,False
+309,"SoftBank Group намерена привлечь $4,1 млрд от размещения бондов",https://www.interfax.ru/business/1018654,,,,,,0,0,1.0,1.0,False
+310,Аэропорт Ижевска временно не обслуживает рейсы,https://www.interfax.ru/russia/1058147,,,,,,0,0,1.0,1.0,False
+332,"Что произошло за день: понедельник, 19 мая",https://www.interfax.ru/russia/1026474,,,,,,0,0,1.0,1.0,False
+336,Разработчик японского зонда назвал причину неудачной посадки на Луну,https://www.interfax.ru/world/1030003,,,,,,0,0,1.0,1.0,False
+339,"Задержка поездов на КрасЖД из-за перебоев с энергоснабжением составила 2,5 часа",https://www.interfax.ru/russia/1018416,,,,,,0,0,1.0,1.0,False
+344,Сильное землетрясение произошло у тихоокеанского побережья Мексики,https://www.interfax.ru/world/1066124,,,,,,0,0,1.0,1.0,False
+347,"Ушаков заявил, что ему неизвестно о запросах со стороны США на разговор Трампа и Путина",https://www.interfax.ru/russia/1045799,,,,,,0,0,1.0,1.0,False
+351,"ЦИК РФ введет ГАС ""Выборы"" версии 2.0 в постоянную эксплуатацию с 6 февраля",https://www.interfax.ru/russia/1069850,,,,,,0,0,1.0,1.0,False
+372,Ограничения в аэропорту Ижевска сняты,https://www.interfax.ru/russia/1031295,,,,,,0,0,1.0,1.0,False
+386,"Песков заявил, что разговор Путина и Трампа не запланирован, но может быть быстро организован",https://www.interfax.ru/russia/1056507,,,,,,0,0,1.0,1.0,False
+389,"""Репортеры без границ"" внесены в перечень нежелательных в России организаций",https://www.interfax.ru/russia/1042291,,,,,,0,0,1.0,1.0,False
+394,Ушаков назвал целью Зеленского в Европе срыв переговоров,https://www.interfax.ru/russia/1062913,,,,,,0,0,1.0,1.0,False
+405,Meta представила новые ИИ-очки,https://www.interfax.ru/world/1032422,,,,,,0,0,1.0,1.0,False
+414,Минобороны Южной Кореи опровергло сообщение о переговорах по сокращению сил США в стране,https://www.interfax.ru/world/1027322,,,,,,0,0,1.0,1.0,False
+422,Глава Пентагона исключил отправку американских военных на Украину,https://www.interfax.ru/world/1007416,,,,,,0,0,1.0,1.0,False
+430,"Рубио заявил, что сроки и место возможной встречи Трампа и Путина не определены",https://www.interfax.ru/world/1025931,,,,,,0,0,1.0,1.0,False
+439,Законопроект о долговых ЦФА внесен в Госдуму,https://www.interfax.ru/russia/1054579,,,,,,0,0,1.0,1.0,False
+443,"Ограничения сняты в петербургском аэропорту ""Пулково""",https://www.interfax.ru/russia/1007037,,,,,,0,0,1.0,1.0,False
+445,Суд рассмотрит прошение об освобождении Саркози из тюрьмы 10 ноября,https://www.interfax.ru/world/1055855,,,,,,0,0,1.0,1.0,False
+455,Лавров встретился с главами МИД Кубы и Доминиканы,https://www.interfax.ru/world/1049154,,,,,,0,0,1.0,1.0,False
+485,Переговоры Путина с эмиром Катара пройдут 17 апреля,https://www.interfax.ru/russia/1021185,,,,,,0,0,1.0,1.0,False
+491,На церемонии открытия Олимпиады в Милане зажгли олимпийский огонь,https://www.interfax.ru/world/1071555,,,,,,0,0,1.0,1.0,False
+514,"Премьер Госсовета КНР уверен, что США и Китаю нужно сотрудничать, а не соперничать",https://www.interfax.ru/world/1016112,,,,,,0,0,1.0,1.0,False
+524,Путин назвал отношения с Трампом деловыми и доверительными,https://www.interfax.ru/russia/1004572,,,,,,0,0,1.0,1.0,False
+525,Умер британский актер Теренс Стэмп,https://www.interfax.ru/world/1042670,,,,,,0,0,1.0,1.0,False
+526,Путин в четверг встретится в Сочи с президентом Республики Сербской Додиком,https://www.interfax.ru/russia/1050439,,,,,,0,0,1.0,1.0,False
+540,Самыми популярными предметами для сдачи ЕГЭ-2026 стали профильная математика и физика,https://www.interfax.ru/russia/1076089,,,,,,0,0,1.0,1.0,False
+541,"Создатели ""Бруталиста"" и ""Конклава"" стали обладателями ""Золотых глобусов""",https://www.interfax.ru/culture/1001795,,,,,,0,0,1.0,1.0,False
+545,Умер сооснователь группы Beach Boys Брайан Уилсон,https://www.interfax.ru/world/1030897,,,,,,0,0,1.0,1.0,False
+552,Крупнейший банк Италии впервые купил биткойны на спотовом рынке,https://www.interfax.ru/business/1002804,,,,,,0,0,1.0,1.0,False
+561,Госдума утвердила состав делегации для переговоров с конгрессменами США,https://www.interfax.ru/russia/1072926,,,,,,0,0,1.0,1.0,False
+566,Москва рассчитывает на принятие важных документов на саммите ШОС,https://www.interfax.ru/russia/1044718,,,,,,0,0,1.0,1.0,False
+570,"Лавров отметил важность инициатив, запущенных в ходе председательств РФ и Бразилии в БРИКС",https://www.interfax.ru/world/1049593,,,,,,0,0,1.0,1.0,False
+571,Совет ЕС и Европарламент согласовали бюджет Евросоюза на 2026 год,https://www.interfax.ru/business/1058196,,,,,,0,0,1.0,1.0,False
+577,Морской пассажирский транспорт возобновил работу в Севастополе,https://www.interfax.ru/russia/1046633,,,,,,0,0,1.0,1.0,False
+583,Бельгия не поддержит идею использовать замороженные активы РФ без распределения рисков,https://www.interfax.ru/world/1054231,,,,,,0,0,1.0,1.0,False
+585,"На ""Госуслугах"" может появиться сервис для подачи заявления в отряд космонавтов",https://www.interfax.ru/russia/1075948,,,,,,0,0,1.0,1.0,False
+589,Аэропорт Перми закрыт из-за снегопада,https://www.interfax.ru/russia/1023061,,,,,,0,0,1.0,1.0,False
+608,"Россия прекратит бои на Украине, когда переговоры дадут твердый результат",https://www.interfax.ru/russia/1010498,,,,,,0,0,1.0,1.0,False
+609,Путин напомнил о важности данных разведки для принятия решений властями РФ,https://www.interfax.ru/russia/1056370,,,,,,0,0,1.0,1.0,False
+610,Путин передал послание для аятоллы Хаменеи через главу иранского МИД,https://www.interfax.ru/russia/1021574,,,,,,0,0,1.0,1.0,False
+620,ХАМАС согласился передать сектор Газа под управление Палестинской национальной администрации,https://www.interfax.ru/world/1009260,,,,,,0,0,1.0,1.0,False
+632,Путин в четверг примет главу ЦИК,https://www.interfax.ru/russia/1049223,,,,,,0,0,1.0,1.0,False
+635,Трамп передаст ВВС США подаренный Катаром Boeing-747-8,https://www.interfax.ru/world/1025458,,,,,,0,0,1.0,1.0,False
+640,Россия призвала Японию признать итоги Второй мировой войны в полном объеме,https://www.interfax.ru/russia/1045895,,,,,,0,0,1.0,1.0,False
+641,Володин посетил Музей военной истории Вьетнама,https://www.interfax.ru/world/1049731,,,,,,0,0,1.0,1.0,False
+642,Отряд кораблей Тихоокеанского флота прибыл в Камбоджу,https://www.interfax.ru/russia/1023227,,,,,,0,0,1.0,1.0,False
+644,Дефицит бюджета США в октябре вырос на 10%,https://www.interfax.ru/world/1060001,,,,,,0,0,1.0,1.0,False
+645,В МИД Израиля обвинили Макрона в антиизраильской политике,https://www.interfax.ru/world/1028793,,,,,,0,0,1.0,1.0,False
+669,К Шри-Ланке направился еще один иранский корабль,https://www.interfax.ru/world/1076239,,,,,,0,0,1.0,1.0,False
+677,"Трамп заявил, что отправится в Рим на похороны папы римского",https://www.interfax.ru/world/1021981,,,,,,0,0,1.0,1.0,False
+680,Лавров исключил иностранное военное присутствие на Украине в будущем,https://www.interfax.ru/russia/1025818,,,,,,0,0,1.0,1.0,False
+690,Совет Федерации назначил Калиновского и Тарибо судьями КС,https://www.interfax.ru/russia/1036425,,,,,,0,0,1.0,1.0,False
+691,Небольшое землетрясение произошло в Сочи,https://www.interfax.ru/russia/1002402,,,,,,0,0,1.0,1.0,False
+695,Си Цзиньпин провел телефонный разговор с Трампом,https://www.interfax.ru/world/1003479,,,,,,0,0,1.0,1.0,False
+698,Ким Чен Ын посетил учения по отражению атак БПЛА,https://www.interfax.ru/world/1026148,,,,,,0,0,1.0,1.0,False
+705,"Землетрясение магнитудой 5,2 зарегистрировано возле Камчатки",https://www.interfax.ru/russia/1034033,,,,,,0,0,1.0,1.0,False
+725,Президент Армении подписал закон о намерении страны вступить в ЕС,https://www.interfax.ru/world/1018340,,,,,,0,0,1.0,1.0,False
+729,"Руководство ""Реала"" может продать миноритарную долю клуба сторонним инвесторам",https://www.interfax.ru/business/1059594,,,,,,0,0,1.0,1.0,False
+735,"Что произошло за день: четверг, 5 февраля",https://www.interfax.ru/russia/1071313,,,,,,0,0,1.0,1.0,False
+746,Путин поддержал решение губернатора Пермского края переизбираться,https://www.interfax.ru/russia/1013027,,,,,,0,0,1.0,1.0,False
+775,В Кремле заявили о нежелании Киева продолжать переговоры,https://www.interfax.ru/russia/1050512,,,,,,0,0,1.0,1.0,False
+784,Премьер Канады назначит парламентские выборы на 28 апреля,https://www.interfax.ru/world/1015671,,,,,,0,0,1.0,1.0,False
+786,Президент Чехии утвердил правительство во главе с Андреем Бабишем,https://www.interfax.ru/world/1063365,,,,,,0,0,1.0,1.0,False
+787,Корабль Crew Dragon с четырьмя туристами состыковался с МКС,https://www.interfax.ru/world/1033200,,,,,,0,0,1.0,1.0,False
+796,Путин подписал закон о ратификации договора между РФ и Белоруссией о гарантиях безопасности,https://www.interfax.ru/russia/1011431,,,,,,0,0,1.0,1.0,False
+798,"Спецпредставитель Трампа заявил, что конфликт на Украине был спровоцирован",https://www.interfax.ru/world/1010429,,,,,,0,0,1.0,1.0,False
+800,Путин встретится с главой ДНР и проведет международный телефонный разговор,https://www.interfax.ru/russia/1039549,,,,,,0,0,1.0,1.0,False
+807,"Что произошло за день: среда, 12 февраля",https://www.interfax.ru/russia/1007620,,,,,,0,0,1.0,1.0,False
+818,Путин предложил назначить судьями КС Константина Калиновского и Евгения Тарибо,https://www.interfax.ru/russia/1035008,,,,,,0,0,1.0,1.0,False
+847,Президентский указ вводит государство в орган управления ДОСААФ,https://www.interfax.ru/russia/1006087,,,,,,0,0,1.0,1.0,False
+849,Ушаков и Уолтц накануне поговорили по телефону,https://www.interfax.ru/russia/1013404,,,,,,0,0,1.0,1.0,False
+852,Новый состав ЦИК России приступит к работе в конце марта,https://www.interfax.ru/russia/1074697,,,,,,0,0,1.0,1.0,False
+854,Кароль Навроцкий приведен к присяге в качестве президента Польши,https://www.interfax.ru/world/1039868,,,,,,0,0,1.0,1.0,False
+859,"Россия задействовала авиацию и атомную подлодку на учении ""Запад-2025"" в Баренцевом море",https://www.interfax.ru/russia/1047365,,,,,,0,0,1.0,1.0,False
+860,Путин 8 мая проведет переговоры с Си Цзиньпином,https://www.interfax.ru/russia/1024317,,,,,,0,0,1.0,1.0,False
+870,В американскую библиотеку вернули книгу с опозданием в 82 года,https://www.interfax.ru/world/1043740,,,,,,0,0,1.0,1.0,False
+900,Глава МИД Турции пока остался в зале переговоров между делегациями РФ и Украины,https://www.interfax.ru/world/1026019,,,,,,0,0,1.0,1.0,False
+907,Что произошло в мире науки. Вечерний дайджест,https://www.interfax.ru/world/1039572,,,,,,0,0,1.0,1.0,False
+948,В президентском указе русский язык назван одной из основ государственности,https://www.interfax.ru/russia/1035815,,,,,,0,0,1.0,1.0,False
+957,МОК отменил ограничения для молодых спортсменов из России и Белоруссии,https://www.interfax.ru/russia/1062801,,,,,,0,0,1.0,1.0,False
+965,"Трамп заявил, что США всегда будут вместе с НАТО",https://www.interfax.ru/world/1066676,,,,,,0,0,1.0,1.0,False
+968,Моди приветствует стремление Трампа урегулировать украинский конфликт,https://www.interfax.ru/world/1008895,,,,,,0,0,1.0,1.0,False
+997,Мусульмане отмечают Курбан-байрам,https://www.interfax.ru/world/1029889,,,,,,0,0,1.0,1.0,False

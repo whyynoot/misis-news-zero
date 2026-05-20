@@ -1,0 +1,23 @@
+{"dataset": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\v3_clean_broad_weak_dataset_1000.csv", "prompt_file": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\FINAL_v4_prompt_social_signal_high_recall_ru.md", "n_eval_ids": 237, "gold_pairs": 656, "mean_gold_labels": 2.7679324894514767, "model": "gemma4:e2b", "think": false, "batch_size": 1, "timeout": 600.0, "max_tokens": 4096, "num_ctx": 16384, "text_limit": 1800}
+v4_prompt: completed=0, pending=237
+v4_prompt:    1/237 news; elapsed=1.9s; errors=0
+v4_prompt:    2/237 news; elapsed=3.8s; errors=0
+v4_prompt:    3/237 news; elapsed=5.0s; errors=0
+v4_prompt:    4/237 news; elapsed=7.0s; errors=0
+v4_prompt:    5/237 news; elapsed=8.3s; errors=0
+v4_prompt:    6/237 news; elapsed=9.4s; errors=0
+v4_prompt:    7/237 news; elapsed=11.4s; errors=0
+v4_prompt:    8/237 news; elapsed=12.7s; errors=0
+v4_prompt:    9/237 news; elapsed=14.7s; errors=0
+v4_prompt:   10/237 news; elapsed=16.0s; errors=0
+v4_prompt:   11/237 news; elapsed=17.2s; errors=0
+v4_prompt:   12/237 news; elapsed=18.4s; errors=0
+v4_prompt:   13/237 news; elapsed=19.8s; errors=0
+v4_prompt:   14/237 news; elapsed=21.0s; errors=0
+v4_prompt:   15/237 news; elapsed=22.2s; errors=0
+v4_prompt:   16/237 news; elapsed=24.0s; errors=0
+v4_prompt:   17/237 news; elapsed=42.8s; errors=0
+v4_prompt:   18/237 news; elapsed=62.1s; errors=0
+v4_prompt:   19/237 news; elapsed=80.6s; errors=0
+v4_prompt:   20/237 news; elapsed=98.9s; errors=0
+v4_prompt:   21/237 news; elapsed=118.7s; errors=0

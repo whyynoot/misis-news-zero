@@ -1,0 +1,9 @@
+saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\FINAL_v4_clean_social_signal_dataset_965_normalized.csv
+rows=965
+factors=36
+strength counts:
+direct     1153
+context    1012
+weak        594
+saved 11 prompts to C:\Users\whynot\VSCodeProjects\news-zero-shot\prompts\v4_direct_search
+RUN qwen3.5:9b direct_strict limit=237

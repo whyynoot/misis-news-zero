@@ -1,0 +1,227 @@
+{
+  "dataset_path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv",
+  "dataset_stats": {
+    "rows": 1000,
+    "columns": 215,
+    "factor_count": 36,
+    "positive_factor_pairs": 915,
+    "not_relevant_news": 275,
+    "relevant_news": 725,
+    "multi_label_news": 182,
+    "supported_factor_count": 23,
+    "zero_support_factor_count": 13,
+    "mean_labels_per_news": 0.915,
+    "mean_labels_per_relevant_news": 1.2620689655172415,
+    "relevant_count_mismatch": 0
+  },
+  "catalog_audit": {
+    "factor_catalog_version": "social-risk-factors-v2",
+    "factor_count": 36,
+    "single_label_classes_with_not_relevant": 37,
+    "duplicate_factor_keys": [],
+    "display_order_min": 1,
+    "display_order_max": 36
+  },
+  "encoding_audit": [
+    {
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv",
+      "bytes": 5903801,
+      "bom_utf8": true,
+      "utf8_ok": true,
+      "replacement_chars": 0,
+      "cyrillic_chars": 1769120,
+      "mojibake_repairable_lines": 0
+    },
+    {
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analyzer\\factors.py",
+      "bytes": 23403,
+      "bom_utf8": false,
+      "utf8_ok": true,
+      "replacement_chars": 0,
+      "cyrillic_chars": 6963,
+      "mojibake_repairable_lines": 0
+    },
+    {
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analyzer\\llm_prompts.py",
+      "bytes": 6821,
+      "bom_utf8": false,
+      "utf8_ok": true,
+      "replacement_chars": 0,
+      "cyrillic_chars": 2088,
+      "mojibake_repairable_lines": 0
+    }
+  ],
+  "available_prediction_files": [
+    {
+      "split": "search",
+      "variant": "production_v1",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_search_production_v1_gemma4-e2b_5df03950348d_b6a2d2f27b85.csv",
+      "bytes": 1648036
+    },
+    {
+      "split": "search",
+      "variant": "balanced_recall_v2",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_search_balanced_recall_v2_gemma4-e2b_5df03950348d_e98b1a3c5abc.csv",
+      "bytes": 1566337
+    },
+    {
+      "split": "search",
+      "variant": "primary_first_v2",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_search_primary_first_v2_gemma4-e2b_5df03950348d_5f153b0981f2.csv",
+      "bytes": 1559910
+    },
+    {
+      "split": "search",
+      "variant": "hard_negative_v2",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_search_hard_negative_v2_gemma4-e2b_5df03950348d_1a35bcd28344.csv",
+      "bytes": 1558855
+    },
+    {
+      "split": "search",
+      "variant": "few_shot_major_v3",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_search_few_shot_major_v3_gemma4-e2b_5df03950348d_0c3d39008fbb.csv",
+      "bytes": 1575959
+    },
+    {
+      "split": "full",
+      "variant": "production_v1",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_full_production_v1_gemma4-e2b_5df03950348d_b6a2d2f27b85.csv",
+      "bytes": 5489230
+    },
+    {
+      "split": "full",
+      "variant": "balanced_recall_v2",
+      "path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\prompt_search_full_balanced_recall_v2_gemma4-e2b_5df03950348d_e98b1a3c5abc.csv",
+      "bytes": 5233009
+    }
+  ],
+  "metric_policy": {
+    "primary": "factor_micro_f1 over 36 binary factor labels",
+    "secondary": [
+      "factor_macro_f1_supported",
+      "per-factor F1",
+      "sample_f1_empty_correct",
+      "sentiment accuracy/F1 on relevant news-factor pairs",
+      "any_relevant_f1 for relevance gate"
+    ],
+    "not_headline": "single-label macro-F1 over not_relevant + 36 factors"
+  },
+  "best_prompt": "balanced_recall_v2",
+  "best_full_run": "balanced_recall_v2__threshold_0.15",
+  "best_full_metrics": {
+    "threshold": 0.15,
+    "n_news": 1000.0,
+    "true_positive_pairs": 915.0,
+    "pred_positive_pairs": 783.0,
+    "pred_relevant_news": 751.0,
+    "mean_true_labels_per_news": 0.915,
+    "mean_pred_labels_per_news": 0.783,
+    "factor_micro_f1": 0.48881036513545345,
+    "factor_micro_precision": 0.5300127713920817,
+    "factor_micro_recall": 0.453551912568306,
+    "factor_macro_f1_supported": 0.260526325976351,
+    "factor_macro_f1_all36": 0.1664473749293354,
+    "factor_macro_f1_head_ge25": 0.3841449671667304,
+    "factor_weighted_f1": 0.4684099935153847,
+    "sample_f1_empty_correct": 0.4879,
+    "sample_jaccard_empty_correct": 0.46625,
+    "exact_match": 0.404,
+    "hamming_loss": 0.02411111111111111,
+    "any_relevant_f1": 0.8089430894308943,
+    "any_relevant_precision": 0.7949400798934754,
+    "any_relevant_recall": 0.8234482758620689,
+    "empty_specificity": 0.44,
+    "sentiment_accuracy_all_true_pairs_missed_wrong": 0.25792349726775954,
+    "sentiment_macro_f1_all_true_pairs_missed_wrong": 0.2887794734344356,
+    "sentiment_accuracy_on_predicted_true_pairs": 0.5686746987951807,
+    "sentiment_macro_f1_on_predicted_true_pairs": 0.47935277489647093,
+    "sentiment_true_pair_coverage": 0.453551912568306,
+    "sentiment_eval_true_pairs": 915.0,
+    "sentiment_eval_predicted_true_pairs": 415.0
+  },
+  "production_default_metrics": {
+    "n_news": 1000.0,
+    "true_positive_pairs": 915.0,
+    "pred_positive_pairs": 319.0,
+    "pred_relevant_news": 308.0,
+    "mean_true_labels_per_news": 0.915,
+    "mean_pred_labels_per_news": 0.319,
+    "factor_micro_f1": 0.24311183144246354,
+    "factor_micro_precision": 0.4702194357366771,
+    "factor_micro_recall": 0.16393442622950818,
+    "factor_macro_f1_supported": 0.14971118617148418,
+    "factor_macro_f1_all36": 0.09564881338733712,
+    "factor_macro_f1_head_ge25": 0.21816767611603288,
+    "factor_weighted_f1": 0.23777007495802976,
+    "sample_f1_empty_correct": 0.3678333333333333,
+    "sample_jaccard_empty_correct": 0.3575,
+    "exact_match": 0.327,
+    "hamming_loss": 0.025944444444444444,
+    "any_relevant_f1": 0.5285575992255567,
+    "any_relevant_precision": 0.8863636363636364,
+    "any_relevant_recall": 0.37655172413793103,
+    "empty_specificity": 0.8727272727272727,
+    "sentiment_accuracy_all_true_pairs_missed_wrong": 0.1431693989071038,
+    "sentiment_macro_f1_all_true_pairs_missed_wrong": 0.16725697954497235,
+    "sentiment_accuracy_on_predicted_true_pairs": 0.8733333333333333,
+    "sentiment_macro_f1_on_predicted_true_pairs": 0.5875246548323472,
+    "sentiment_true_pair_coverage": 0.16393442622950818,
+    "sentiment_eval_true_pairs": 915.0,
+    "sentiment_eval_predicted_true_pairs": 150.0
+  },
+  "balanced_default_metrics": {
+    "n_news": 1000.0,
+    "true_positive_pairs": 915.0,
+    "pred_positive_pairs": 504.0,
+    "pred_relevant_news": 483.0,
+    "mean_true_labels_per_news": 0.915,
+    "mean_pred_labels_per_news": 0.504,
+    "factor_micro_f1": 0.43269908386187456,
+    "factor_micro_precision": 0.6091269841269841,
+    "factor_micro_recall": 0.3355191256830601,
+    "factor_macro_f1_supported": 0.25915396467160745,
+    "factor_macro_f1_all36": 0.16557058854019363,
+    "factor_macro_f1_head_ge25": 0.3472268454430095,
+    "factor_weighted_f1": 0.41219435222825224,
+    "sample_f1_empty_correct": 0.4784,
+    "sample_jaccard_empty_correct": 0.45975,
+    "exact_match": 0.406,
+    "hamming_loss": 0.02236111111111111,
+    "any_relevant_f1": 0.695364238410596,
+    "any_relevant_precision": 0.8695652173913043,
+    "any_relevant_recall": 0.5793103448275863,
+    "empty_specificity": 0.7709090909090909,
+    "sentiment_accuracy_all_true_pairs_missed_wrong": 0.2502732240437158,
+    "sentiment_macro_f1_all_true_pairs_missed_wrong": 0.26083536165798854,
+    "sentiment_accuracy_on_predicted_true_pairs": 0.745928338762215,
+    "sentiment_macro_f1_on_predicted_true_pairs": 0.5347932188748515,
+    "sentiment_true_pair_coverage": 0.3355191256830601,
+    "sentiment_eval_true_pairs": 915.0,
+    "sentiment_eval_predicted_true_pairs": 307.0
+  },
+  "zero_support_factor_keys": [
+    "marriage_rate",
+    "internal_arrivals",
+    "internal_departures",
+    "infant_mortality",
+    "male_population",
+    "female_population",
+    "child_living_wage",
+    "abortions",
+    "maternity_capital",
+    "childcare_allowance",
+    "large_families_housing",
+    "secondary_housing_price_index",
+    "birth_rate_per_1000"
+  ],
+  "output_paths": {
+    "summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_llm_evaluation_summary.json",
+    "prompt_search_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_prompt_search_metrics.csv",
+    "full_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_full_metrics.csv",
+    "threshold_sweep": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_threshold_sweep.csv",
+    "factor_report": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_per_factor_report.csv",
+    "sentiment_pairs": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_sentiment_pairs.csv",
+    "sentiment_by_factor": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_sentiment_by_factor.csv",
+    "news_errors": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\final_multilabel_news_errors.csv"
+  }
+}

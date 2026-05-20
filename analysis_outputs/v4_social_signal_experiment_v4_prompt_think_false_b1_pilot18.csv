@@ -1,0 +1,649 @@
+﻿dataset_row_id,factor_key,factor_name,relevance,sentiment_score,pressure,confidence,sentiment_label,is_relevant,evidence,reason,raw_factor_returned,exclude,exclude_reason,no_factor_reason,call_status,raw_text_chars
+1,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,industrial_production_index,Индексы промышленного производства,0.85,0.0,0.3,0.9,neutral,True,пресечь утечки из них нефтепродуктов,связь с нефтепродуктами и производственной безопасностью,True,False,,,batch,784
+1,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,784
+1,wastewater_discharge,Сброс загрязненных сточных вод,0.6,-0.5,0.4,0.8,negative,True,пресечь утечки из них нефтепродуктов,связь с разливом нефтепродуктов,True,False,,,batch,784
+9,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,international_outflow,Число выбывших из страны,0.95,0.0,0.55,0.9,neutral,True,Великобритания намерена отказаться от импорта российского урана к 2028 году,Указано намерение отказаться от импорта российского урана,True,False,,,batch,512
+9,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+9,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,512
+16,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,crime_count,Количество преступлений,0.3,-0.5,0.45,0.6,negative,True,ЧП на ж/д мосту,"событие, повлекшее травмы и необходимость экстренной помощи",True,False,,,batch,1371
+16,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,hospitals,Число больничных организаций,0.95,0.0,0.5,0.95,neutral,True,были доставлены в Железногорскую больницу,упоминание госпитализации пострадавших,True,False,,,batch,1371
+16,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,life_expectancy,Ожидаемая продолжительность жизни,0.75,0.0,0.3,0.85,neutral,True,Состояние удовлетворительное,оценка общего состояния здоровья пострадавших,True,False,,,batch,1371
+16,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,mortality_rate,Коэффициент смертности на 1000 человек,0.85,0.0,0.3,0.9,neutral,True,Их жизни ничто не угрожает,прямое указание на отсутствие угрозы жизни пострадавшим,True,False,,,batch,1371
+16,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+16,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1371
+17,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.55,0.5,0.15,0.8,positive,True,позволяющую работающим гражданам получать налоговый вычет за оплату спортивных занятий своим родителям,"связь через социальный вычет, касающийся расходов на родителей (потенциально затраты на детей/семью)",True,False,,,batch,582
+17,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+17,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,582
+18,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,international_outflow,Число выбывших из страны,0.55,0.0,0.1,0.75,neutral,True,Движение морского пассажирского транспорта в Севастополе возобновилось после приостановки,Возобновление работы транспорта после приостановки может быть связано с логистическими или внешними,True,False,,,batch,567
+18,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+18,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,567
+19,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,population_size,Численность населения,0.55,0.0,0.15,0.75,neutral,True,"Министр просвещения РФ Сергей Кравцов заявил, что в течение двух ближайших лет",связь через образовательную политику и структуру подготовки школьников,True,False,,,batch,608
+19,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+19,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,608
+24,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,housing_area_per_capita,Общая площадь жилья на одного жителя,0.85,-0.5,0.6,0.88,negative,True,"Без воды осталось 15 многоэтажных домов, около пяти тысяч человек","указание на количество домов, пострадавших от отсутствия воды",True,False,,,batch,914
+24,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,914
+24,wastewater_discharge,Сброс загрязненных сточных вод,0.95,0.0,0.4,0.9,neutral,True,"Авария произошла в Кировском районе города. Без воды осталось 15 многоэтажных домов,",прямое указание на аварию на водоканале и отсутствие воды,True,False,,,batch,914
+35,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,international_inflow,Число прибывших в страну,0.55,0.0,0.1,0.8,neutral,True,привез Дмитриев после состоявшихся переговоров,"упоминание о привозе документов спецпредставителем, связанном с переговорами",True,False,,,batch,502
+35,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+35,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,502
+40,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,enterprises_count,Число предприятий и организаций,0.85,0.0,0.2,0.9,neutral,True,В компании (по данным на 2023 год) было трудоустроено 15 сотрудников.,Упомянуто трудоустройство сотрудников в рамках ликвидации СП,True,False,,,batch,929
+40,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,industrial_production_index,Индексы промышленного производства,0.6,0.0,0.3,0.75,neutral,True,По итогам 2023 года выручка превысила 3 млрд рублей – все за,"Выручка связана с реализацией газа, что является производственной деятельностью",True,False,,,batch,929
+40,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+40,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,929
+41,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,industrial_production_index,Индексы промышленного производства,0.55,0.0,0.1,0.6,neutral,True,совместное военно-морское учение,учения затрагивают военную и морскую инфраструктуру,True,False,,,batch,470
+41,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+41,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,470
+49,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,international_inflow,Число прибывших в страну,0.55,0.0,0.1,0.9,neutral,True,наращиванию двусторонних связей,упоминание сотрудничества между странами,True,False,,,batch,451
+49,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+49,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,451
+54,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,industrial_production_index,Индексы промышленного производства,0.6,0.0,0.1,0.75,neutral,True,стоимость судов драматичной для инвесторов,связь через финансовое давление на инвесторов и стоимость активов,True,False,,,batch,494
+54,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+54,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,494
+56,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,international_inflow,Число прибывших в страну,0.55,0.0,0.1,0.8,neutral,True,Российские ледоколы оказывают помощь финским грузовым суднам,связь через международное морское сотрудничество и помощь судам,True,False,,,batch,503
+56,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+56,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,503
+57,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.55,0.0,0.3,0.75,neutral,True,"Температура в регионах Приволжского, Уральского и Сибирского федеральных округов понизится","Упоминание резкого понижения температуры как погодного явления, которое может быть связано с",True,False,,,batch,597
+57,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+57,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,597
+61,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,crime_count,Количество преступлений,0.85,-0.5,0.55,0.9,negative,True,трагедия в Одинцове,"ссылка на событие, требующее внимания правоохранительных органов",True,False,,,batch,417
+61,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+61,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,417
+65,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.85,-0.5,0.6,0.88,negative,True,временно отсутствует электроснабжение,отсутствие электроснабжения как следствие атаки,True,False,,,batch,1142
+65,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,crime_count,Количество преступлений,0.95,-0.5,0.75,0.9,negative,True,подверглись атакам украинских беспилотников,прямое указание на военную атаку,True,False,,,batch,1142
+65,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,housing_area_per_capita,Общая площадь жилья на одного жителя,0.7,-0.5,0.55,0.8,negative,True,повреждены автомобиль и линия электропередачи. На девяти улицах временно отсутствует электроснабжение,повреждение инфраструктуры жилых зон,True,False,,,batch,1142
+65,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+65,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,1142
+67,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,consumer_price_index,Индексы потребительских цен,0.95,-0.5,0.75,0.9,negative,True,Цены на нефть усилили падение днем в четверг на новостях об изменении,Связь через сырьевые цены и их влияние на экономику/потребителей,True,False,,,batch,885
+67,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,industrial_production_index,Индексы промышленного производства,0.8,0.0,0.5,0.85,neutral,True,увеличить добычу с мая на 411 тыс. баррелей в сутки,Связь через изменение добычи нефти и промышленное производство,True,False,,,batch,885
+67,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,real_income_index,Реальные денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+67,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,885
+70,abortions,Число абортов,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,air_pollution,Выбросы загрязняющих веществ в атмосферный воздух,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,birth_rate_per_1000,Коэффициент рождаемости на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,child_living_wage,Величина прожиточного минимума на ребенка,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,childcare_allowance,Ежемесячное пособие по уходу за первым ребенком,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,children_benefits,"Численность детей до 18 лет, на которых назначено пособие",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,consumer_price_index,Индексы потребительских цен,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,crime_count,Количество преступлений,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,divorce_rate,Число зарегистрированных разводов на 1000 населения,0.95,0.5,0.15,0.9,positive,True,количество таких соглашений выросло на 21%,увеличение числа соглашений о разделе имущества указывает на рост разводов или необходимость,True,False,,,batch,955
+70,enterprises_count,Число предприятий и организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,female_population,Число женщин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,hospitals,Число больничных организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,housing_area_per_capita,Общая площадь жилья на одного жителя,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,industrial_production_index,Индексы промышленного производства,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,infant_mortality,Коэффициент младенческой смертности,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,internal_arrivals,Число прибытий внутри региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,internal_departures,Число выбытий из региона,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,international_inflow,Число прибывших в страну,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,international_outflow,Число выбывших из страны,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,large_families_housing,"Многодетные семьи, улучшившие жилищные условия",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,life_expectancy,Ожидаемая продолжительность жизни,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,living_wage,Величина прожиточного минимума на душу населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,male_population,Число мужчин,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,marriage_rate,Число зарегистрированных браков на 1000 населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,maternity_capital,"Численность лиц, получивших сертификат на материнский капитал",0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,mortality_rate,Коэффициент смертности на 1000 человек,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,outpatient_clinics,Число амбулаторно-поликлинических организаций,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,per_capita_income,Среднедушевые денежные доходы населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,population_size,Численность населения,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,preschool_coverage,Охват детей до 6 лет дошкольным образованием,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,primary_housing_price_index,Индексы цен на первичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,qualified_doctors,Численность врачей высшей и первой квалификационных категорий,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,real_income_index,Реальные денежные доходы населения,0.6,0.0,0.3,0.75,neutral,True,"решение вопроса через суд - ориентировочно в 140 тыс. рублей, и это",упоминание судебных расходов и стоимости раздела имущества косвенно связано с финансовым давлением,True,False,,,batch,955
+70,secondary_housing_price_index,Индексы цен на вторичном рынке жилья,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,unemployment_rate,Уровень безработицы,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955
+70,wastewater_discharge,Сброс загрязненных сточных вод,0.0,0.0,0.0,0.0,neutral,False,,,False,False,,,batch,955

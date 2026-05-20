@@ -1,0 +1,237 @@
+{"variant": "grouped_event_v1_search_think_true", "dataset": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv", "split": "search", "n_ids": 300, "think": true, "model": "gemma4:e2b", "groups": {"safety_mortality": ["crime_count", "mortality_rate", "life_expectancy", "infant_mortality"], "healthcare": ["hospitals", "outpatient_clinics", "qualified_doctors", "abortions"], "economy_income_prices": ["consumer_price_index", "per_capita_income", "real_income_index", "unemployment_rate", "living_wage", "child_living_wage"], "family_children_support": ["children_benefits", "maternity_capital", "childcare_allowance", "preschool_coverage", "large_families_housing"], "production_enterprises_housing": ["industrial_production_index", "enterprises_count", "housing_area_per_capita", "primary_housing_price_index", "secondary_housing_price_index"], "ecology_utilities": ["air_pollution", "wastewater_discharge"], "demography_migration": ["population_size", "birth_rate_per_1000", "marriage_rate", "divorce_rate", "international_inflow", "international_outflow", "internal_arrivals", "internal_departures", "male_population", "female_population"]}}
+grouped_event_v1_search_think_true: group=safety_mortality units=  10/2100; news_batch=1-32; elapsed=12.2s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  20/2100; news_batch=33-57; elapsed=20.5s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  30/2100; news_batch=61-82; elapsed=29.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  40/2100; news_batch=83-105; elapsed=39.0s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  50/2100; news_batch=106-147; elapsed=51.7s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  60/2100; news_batch=152-183; elapsed=60.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  70/2100; news_batch=186-214; elapsed=67.2s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  80/2100; news_batch=221-247; elapsed=79.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units=  90/2100; news_batch=250-274; elapsed=91.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 100/2100; news_batch=275-308; elapsed=100.9s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 110/2100; news_batch=317-346; elapsed=110.2s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 120/2100; news_batch=349-370; elapsed=121.9s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 130/2100; news_batch=374-399; elapsed=135.4s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 140/2100; news_batch=404-432; elapsed=152.8s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 150/2100; news_batch=434-472; elapsed=168.8s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 160/2100; news_batch=474-522; elapsed=179.2s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 170/2100; news_batch=524-562; elapsed=196.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 180/2100; news_batch=564-583; elapsed=214.5s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 190/2100; news_batch=591-613; elapsed=233.4s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 200/2100; news_batch=617-655; elapsed=245.8s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 210/2100; news_batch=657-689; elapsed=261.4s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 220/2100; news_batch=694-717; elapsed=280.3s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 230/2100; news_batch=720-742; elapsed=295.3s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 240/2100; news_batch=749-778; elapsed=307.0s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 250/2100; news_batch=780-808; elapsed=321.1s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 260/2100; news_batch=809-843; elapsed=338.9s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 270/2100; news_batch=847-864; elapsed=358.2s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 280/2100; news_batch=867-897; elapsed=376.9s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 290/2100; news_batch=898-944; elapsed=392.8s; errors=0
+grouped_event_v1_search_think_true: group=safety_mortality units= 300/2100; news_batch=946-990; elapsed=416.5s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 310/2100; news_batch=1-32; elapsed=433.9s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 320/2100; news_batch=33-57; elapsed=448.6s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 330/2100; news_batch=61-82; elapsed=468.4s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 340/2100; news_batch=83-105; elapsed=482.1s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 350/2100; news_batch=106-147; elapsed=498.6s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 360/2100; news_batch=152-183; elapsed=510.8s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 370/2100; news_batch=186-214; elapsed=527.5s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 380/2100; news_batch=221-247; elapsed=544.8s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 390/2100; news_batch=250-274; elapsed=556.6s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 400/2100; news_batch=275-308; elapsed=570.5s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 410/2100; news_batch=317-346; elapsed=586.7s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 420/2100; news_batch=349-370; elapsed=602.5s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 430/2100; news_batch=374-399; elapsed=619.9s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 440/2100; news_batch=404-432; elapsed=635.2s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 450/2100; news_batch=434-472; elapsed=650.0s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 460/2100; news_batch=474-522; elapsed=676.4s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 470/2100; news_batch=524-562; elapsed=695.0s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 480/2100; news_batch=564-583; elapsed=710.6s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 490/2100; news_batch=591-613; elapsed=725.3s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 500/2100; news_batch=617-655; elapsed=746.4s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 510/2100; news_batch=657-689; elapsed=766.3s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 520/2100; news_batch=694-717; elapsed=782.4s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 530/2100; news_batch=720-742; elapsed=797.2s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 540/2100; news_batch=749-778; elapsed=811.1s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 550/2100; news_batch=780-808; elapsed=822.2s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 560/2100; news_batch=809-843; elapsed=840.4s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 570/2100; news_batch=847-864; elapsed=859.0s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 580/2100; news_batch=867-897; elapsed=880.9s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 590/2100; news_batch=898-944; elapsed=904.0s; errors=0
+grouped_event_v1_search_think_true: group=healthcare units= 600/2100; news_batch=946-990; elapsed=926.3s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 610/2100; news_batch=1-32; elapsed=938.6s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 620/2100; news_batch=33-57; elapsed=951.9s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 630/2100; news_batch=61-82; elapsed=967.3s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 640/2100; news_batch=83-105; elapsed=979.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 650/2100; news_batch=106-147; elapsed=996.5s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 660/2100; news_batch=152-183; elapsed=1,010.8s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 670/2100; news_batch=186-214; elapsed=1,025.7s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 680/2100; news_batch=221-247; elapsed=1,038.8s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 690/2100; news_batch=250-274; elapsed=1,054.7s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 700/2100; news_batch=275-308; elapsed=1,066.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 710/2100; news_batch=317-346; elapsed=1,087.1s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 720/2100; news_batch=349-370; elapsed=1,097.3s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 730/2100; news_batch=374-399; elapsed=1,174.9s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 740/2100; news_batch=404-432; elapsed=1,186.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 750/2100; news_batch=434-472; elapsed=1,198.7s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 760/2100; news_batch=474-522; elapsed=1,217.7s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 770/2100; news_batch=524-562; elapsed=1,230.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 780/2100; news_batch=564-583; elapsed=1,243.3s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 790/2100; news_batch=591-613; elapsed=1,320.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 800/2100; news_batch=617-655; elapsed=1,334.2s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 810/2100; news_batch=657-689; elapsed=1,353.0s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 820/2100; news_batch=694-717; elapsed=1,366.6s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 830/2100; news_batch=720-742; elapsed=1,380.6s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 840/2100; news_batch=749-778; elapsed=1,394.7s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 850/2100; news_batch=780-808; elapsed=1,408.9s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 860/2100; news_batch=809-843; elapsed=1,426.2s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 870/2100; news_batch=847-864; elapsed=1,440.4s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 880/2100; news_batch=867-897; elapsed=1,511.0s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 890/2100; news_batch=898-944; elapsed=1,529.1s; errors=0
+grouped_event_v1_search_think_true: group=economy_income_prices units= 900/2100; news_batch=946-990; elapsed=1,540.2s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 910/2100; news_batch=1-32; elapsed=1,557.1s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 920/2100; news_batch=33-57; elapsed=1,570.5s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 930/2100; news_batch=61-82; elapsed=1,588.7s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 940/2100; news_batch=83-105; elapsed=1,608.2s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 950/2100; news_batch=106-147; elapsed=1,622.3s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 960/2100; news_batch=152-183; elapsed=1,633.3s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 970/2100; news_batch=186-214; elapsed=1,647.5s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 980/2100; news_batch=221-247; elapsed=1,665.1s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units= 990/2100; news_batch=250-274; elapsed=1,677.9s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1000/2100; news_batch=275-308; elapsed=1,690.0s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1010/2100; news_batch=317-346; elapsed=1,703.9s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1020/2100; news_batch=349-370; elapsed=1,717.1s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1030/2100; news_batch=374-399; elapsed=1,731.3s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1040/2100; news_batch=404-432; elapsed=1,745.9s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1050/2100; news_batch=434-472; elapsed=1,757.2s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1060/2100; news_batch=474-522; elapsed=1,775.8s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1070/2100; news_batch=524-562; elapsed=1,794.1s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1080/2100; news_batch=564-583; elapsed=1,810.2s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1090/2100; news_batch=591-613; elapsed=1,828.7s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1100/2100; news_batch=617-655; elapsed=1,843.4s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1110/2100; news_batch=657-689; elapsed=1,860.6s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1120/2100; news_batch=694-717; elapsed=1,874.8s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1130/2100; news_batch=720-742; elapsed=1,888.9s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1140/2100; news_batch=749-778; elapsed=1,903.5s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1150/2100; news_batch=780-808; elapsed=1,916.4s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1160/2100; news_batch=809-843; elapsed=1,932.7s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1170/2100; news_batch=847-864; elapsed=1,951.7s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1180/2100; news_batch=867-897; elapsed=1,967.3s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1190/2100; news_batch=898-944; elapsed=1,987.1s; errors=0
+grouped_event_v1_search_think_true: group=family_children_support units=1200/2100; news_batch=946-990; elapsed=2,003.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1210/2100; news_batch=1-32; elapsed=2,016.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1220/2100; news_batch=33-57; elapsed=2,029.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1230/2100; news_batch=61-82; elapsed=2,046.2s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1240/2100; news_batch=83-105; elapsed=2,063.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1250/2100; news_batch=106-147; elapsed=2,081.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1260/2100; news_batch=152-183; elapsed=2,095.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1270/2100; news_batch=186-214; elapsed=2,110.9s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1280/2100; news_batch=221-247; elapsed=2,126.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1290/2100; news_batch=250-274; elapsed=2,143.0s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1300/2100; news_batch=275-308; elapsed=2,155.4s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1310/2100; news_batch=317-346; elapsed=2,174.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1320/2100; news_batch=349-370; elapsed=2,188.2s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1330/2100; news_batch=374-399; elapsed=2,261.8s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1340/2100; news_batch=404-432; elapsed=2,276.9s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1350/2100; news_batch=434-472; elapsed=2,289.0s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1360/2100; news_batch=474-522; elapsed=2,307.0s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1370/2100; news_batch=524-562; elapsed=2,327.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1380/2100; news_batch=564-583; elapsed=2,348.8s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1390/2100; news_batch=591-613; elapsed=2,362.0s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1400/2100; news_batch=617-655; elapsed=2,379.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1410/2100; news_batch=657-689; elapsed=2,395.8s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1420/2100; news_batch=694-717; elapsed=2,412.0s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1430/2100; news_batch=720-742; elapsed=2,426.7s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1440/2100; news_batch=749-778; elapsed=2,439.1s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1450/2100; news_batch=780-808; elapsed=2,459.4s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1460/2100; news_batch=809-843; elapsed=2,477.6s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1470/2100; news_batch=847-864; elapsed=2,492.8s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1480/2100; news_batch=867-897; elapsed=2,506.9s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1490/2100; news_batch=898-944; elapsed=2,525.3s; errors=0
+grouped_event_v1_search_think_true: group=production_enterprises_housing units=1500/2100; news_batch=946-990; elapsed=2,543.5s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1510/2100; news_batch=1-32; elapsed=2,559.0s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1520/2100; news_batch=33-57; elapsed=2,573.2s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1530/2100; news_batch=61-82; elapsed=2,592.1s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1540/2100; news_batch=83-105; elapsed=2,607.1s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1550/2100; news_batch=106-147; elapsed=2,623.5s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1560/2100; news_batch=152-183; elapsed=2,639.2s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1570/2100; news_batch=186-214; elapsed=2,660.9s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1580/2100; news_batch=221-247; elapsed=2,676.3s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1590/2100; news_batch=250-274; elapsed=2,690.6s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1600/2100; news_batch=275-308; elapsed=2,701.5s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1610/2100; news_batch=317-346; elapsed=2,716.9s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1620/2100; news_batch=349-370; elapsed=2,729.9s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1630/2100; news_batch=374-399; elapsed=2,746.6s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1640/2100; news_batch=404-432; elapsed=2,762.4s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1650/2100; news_batch=434-472; elapsed=2,778.2s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1660/2100; news_batch=474-522; elapsed=2,798.6s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1670/2100; news_batch=524-562; elapsed=2,816.8s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1680/2100; news_batch=564-583; elapsed=2,826.8s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1690/2100; news_batch=591-613; elapsed=2,840.0s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1700/2100; news_batch=617-655; elapsed=2,853.8s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1710/2100; news_batch=657-689; elapsed=2,869.6s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1720/2100; news_batch=694-717; elapsed=2,883.3s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1730/2100; news_batch=720-742; elapsed=2,895.7s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1740/2100; news_batch=749-778; elapsed=2,909.8s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1750/2100; news_batch=780-808; elapsed=2,926.2s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1760/2100; news_batch=809-843; elapsed=2,938.5s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1770/2100; news_batch=847-864; elapsed=2,954.2s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1780/2100; news_batch=867-897; elapsed=2,968.3s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1790/2100; news_batch=898-944; elapsed=2,987.8s; errors=0
+grouped_event_v1_search_think_true: group=ecology_utilities units=1800/2100; news_batch=946-990; elapsed=3,008.1s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1810/2100; news_batch=1-32; elapsed=3,026.3s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1820/2100; news_batch=33-57; elapsed=3,093.7s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1830/2100; news_batch=61-82; elapsed=3,162.0s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1840/2100; news_batch=83-105; elapsed=3,174.3s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1850/2100; news_batch=106-147; elapsed=3,189.8s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1860/2100; news_batch=152-183; elapsed=3,198.9s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1870/2100; news_batch=186-214; elapsed=3,216.7s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1880/2100; news_batch=221-247; elapsed=3,233.5s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1890/2100; news_batch=250-274; elapsed=3,298.2s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1900/2100; news_batch=275-308; elapsed=3,316.4s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1910/2100; news_batch=317-346; elapsed=3,330.1s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1920/2100; news_batch=349-370; elapsed=3,341.2s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1930/2100; news_batch=374-399; elapsed=3,408.1s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1940/2100; news_batch=404-432; elapsed=3,480.6s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1950/2100; news_batch=434-472; elapsed=3,497.6s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1960/2100; news_batch=474-522; elapsed=3,570.9s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1970/2100; news_batch=524-562; elapsed=3,581.3s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1980/2100; news_batch=564-583; elapsed=3,652.5s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=1990/2100; news_batch=591-613; elapsed=3,719.7s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2000/2100; news_batch=617-655; elapsed=3,740.4s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2010/2100; news_batch=657-689; elapsed=3,817.0s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2020/2100; news_batch=694-717; elapsed=3,883.6s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2030/2100; news_batch=720-742; elapsed=3,899.3s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2040/2100; news_batch=749-778; elapsed=3,917.5s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2050/2100; news_batch=780-808; elapsed=3,934.8s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2060/2100; news_batch=809-843; elapsed=3,950.6s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2070/2100; news_batch=847-864; elapsed=4,017.1s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2080/2100; news_batch=867-897; elapsed=4,082.4s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2090/2100; news_batch=898-944; elapsed=4,167.5s; errors=0
+grouped_event_v1_search_think_true: group=demography_migration units=2100/2100; news_batch=946-990; elapsed=4,242.4s; errors=0
+
+TOP METRICS
+                           variant  split      mode  threshold  factor_micro_f1  factor_micro_precision  factor_micro_recall  factor_macro_f1_supported  sample_f1_empty_correct  any_relevant_f1  mean_pred_labels_per_news  false_relevant_news  missed_all_relevant_news
+grouped_event_v1_search_think_true search threshold       0.35           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.40           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.45           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.50           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.55           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.60           0.3390                  0.4848               0.2606                     0.2778                   0.4071           0.5921                     0.5500                    6                       129
+grouped_event_v1_search_think_true search threshold       0.05           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search threshold       0.10           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search threshold       0.15           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search threshold       0.20           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search threshold       0.25           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search threshold       0.30           0.3330                  0.2469               0.5114                     0.2675                   0.3570           0.8333                     2.1200                   46                        32
+grouped_event_v1_search_think_true search   default        NaN           0.3221                  0.5143               0.2345                     0.2397                   0.3883           0.5483                     0.4667                    6                       139
+grouped_event_v1_search_think_true search threshold       0.65           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.70           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.75           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.80           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.85           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.90           0.1749                  0.8333               0.0977                     0.2189                   0.3217           0.2538                     0.1200                    0                       194
+grouped_event_v1_search_think_true search threshold       0.95           0.0129                  1.0000               0.0065                     0.0502                   0.2478           0.0175                     0.0067                    0                       225
+predictions=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\grouped_event_v1_search_think_true.csv
+metrics=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\grouped_event_v1_search_think_true_metrics.csv
+summary=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\grouped_event_v1_search_think_true_summary.json

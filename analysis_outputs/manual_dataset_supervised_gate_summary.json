@@ -1,0 +1,20 @@
+{
+  "task": "supervised primary-class gate sanity check",
+  "cv": "5-fold StratifiedKFold",
+  "best_model": "char_word_tfidf_linearsvc",
+  "best_primary_class_supported_macro_f1": 0.31746274193286805,
+  "best_primary_class_macro_f1_all37": 0.18018155623216833,
+  "best_primary_class_head_macro_f1_support_ge_25": 0.6094332665302274,
+  "best_primary_class_weighted_f1": 0.615402823196942,
+  "best_primary_class_accuracy": 0.627,
+  "best_applicability_precision": 0.8569444444444444,
+  "best_applicability_recall_relevant": 0.8510344827586207,
+  "best_applicability_specificity_not_relevant": 0.6254545454545455,
+  "llm_prompt_search_summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_summary.json",
+  "output_paths": {
+    "results": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_supervised_gate_results.csv",
+    "predictions": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_supervised_gate_predictions.csv",
+    "best_class_report": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_supervised_gate_best_class_report.csv",
+    "summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_supervised_gate_summary.json"
+  }
+}

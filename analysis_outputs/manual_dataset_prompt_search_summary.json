@@ -1,0 +1,24 @@
+{
+  "main_metric": "primary_class_supported_macro_f1",
+  "main_metric_definition": "single-label macro-F1 over supported classes from not_relevant + 36 primary factor classes",
+  "search_sample_size": 300,
+  "full_size": 1000,
+  "search_best_variant": "balanced_recall_v2",
+  "full_best_variant": "balanced_recall_v2",
+  "full_best_main_primary_class_supported_macro_f1": 0.22042870422427444,
+  "full_best_primary_class_macro_f1_all37": 0.12510818347864225,
+  "full_best_primary_class_head_macro_f1_support_ge_25": 0.3639062927626232,
+  "full_best_primary_class_weighted_f1": 0.448831851578405,
+  "full_best_applicability_precision": 0.8695652173913043,
+  "full_best_applicability_recall_relevant": 0.5793103448275863,
+  "full_best_applicability_specificity_not_relevant": 0.7709090909090909,
+  "full_best_factor_micro_f1": 0.43269908386187456,
+  "full_best_true_factor_recall": 0.36551724137931035,
+  "full_best_signal_accuracy_when_true_factor_returned": 0.7396226415094339,
+  "output_paths": {
+    "search_results": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_results.csv",
+    "full_results": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_full_results.csv",
+    "best_full_predictions": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_best_balanced_recall_v2.csv",
+    "summary_json": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_summary.json"
+  }
+}

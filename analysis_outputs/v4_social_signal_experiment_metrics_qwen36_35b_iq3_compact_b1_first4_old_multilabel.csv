@@ -1,0 +1,11 @@
+﻿variant,gold_dataset,threshold,n_news,gold_positive_pairs,pred_positive_pairs,pred_mean_labels,micro_precision,micro_recall,micro_f1,macro_f1_supported,sample_f1_empty_correct,any_relevant_precision,any_relevant_recall,any_relevant_f1,false_relevant_news,missed_all_relevant_news,error_rows,eval_ids
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.40,4,4,6,1.5,0.16666666666666666,0.25,0.2,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.45,4,4,6,1.5,0.16666666666666666,0.25,0.2,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,default,4,4,7,1.75,0.14285714285714285,0.25,0.18181818181818182,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.05,4,4,7,1.75,0.14285714285714285,0.25,0.18181818181818182,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.10,4,4,7,1.75,0.14285714285714285,0.25,0.18181818181818182,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.20,4,4,7,1.75,0.14285714285714285,0.25,0.18181818181818182,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.30,4,4,7,1.75,0.14285714285714285,0.25,0.18181818181818182,0.25,0.125,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.50,4,4,5,1.25,0.0,0.0,0.0,0.0,0.0,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.60,4,4,5,1.25,0.0,0.0,0.0,0.0,0.0,0.75,1.0,0.8571428571428571,1,0,0,"1,9,16,17"
+v4_prompt_qwen36_35b_iq3_compact_first4,old_multilabel_wide,0.70,4,4,1,0.25,0.0,0.0,0.0,0.0,0.25,1.0,0.3333333333333333,0.5,0,2,0,"1,9,16,17"

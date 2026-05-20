@@ -1,0 +1,29 @@
+{
+  "dataset_rows": 1000,
+  "manual_applicable_rows": 725,
+  "manual_not_relevant_rows": 275,
+  "model_checkpoint": "cointegrated/rubert-base-cased-nli-threeway",
+  "bert_model_name": "cointegrated/rubert-base-cased-nli-threeway",
+  "bert_prompt_version": "bert-zero-shot-v1",
+  "factor_catalog_version": "social-risk-factors-v2",
+  "default_threshold": 0.2,
+  "best_threshold_by_factor_micro_f1": 0.9,
+  "applicability_f1_at_default": 0.8405797101449275,
+  "factor_micro_f1_at_default": 0.06559069156423009,
+  "primary_factor_top1_accuracy": 0.08137931034482758,
+  "primary_factor_top3_hit_rate": 0.23586206896551723,
+  "signal_accuracy_on_true_factor": 0.39586206896551723,
+  "daily_risk_index_rmse": 0.12841998564909846,
+  "daily_average_sentiment_rmse": 0.11578947891415105,
+  "output_paths": {
+    "predictions": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_bert_predictions_full_text_5df03950348d.csv",
+    "metrics_summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_metrics_summary.csv",
+    "factor_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_factor_metrics.csv",
+    "threshold_sweep": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_threshold_sweep.csv",
+    "regression_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_regression_metrics.csv",
+    "graph_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_graph_metrics.csv",
+    "daily_compare": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_daily_aggregate_comparison.csv",
+    "factor_error": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_factor_aggregate_errors.csv",
+    "eval_rows": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_eval_rows.csv"
+  }
+}

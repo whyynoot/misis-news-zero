@@ -106,6 +106,7 @@ def parse_json_object(text: str) -> dict:
 class LLMClient:
     def __init__(self, settings: LLMSettings | None = None):
         self.settings = settings or get_llm_settings()
+        self.last_response_data: dict[str, Any] | None = None
 
     def complete_json(self, system_prompt: str, user_prompt: str) -> tuple[dict, str]:
         if not self.settings.enabled:
@@ -133,6 +134,7 @@ class LLMClient:
             headers["Authorization"] = f"Bearer {self.settings.api_key}"
 
         payload = self._payload(endpoint, system_prompt, user_prompt)
+        self.last_response_data = None
         try:
             response = requests.post(
                 endpoint,
@@ -147,6 +149,7 @@ class LLMClient:
             raise LLMRequestError(f"LLM request failed: {exc}") from exc
 
         data = response.json()
+        self.last_response_data = data
         content = self._extract_content(endpoint, data)
         if not content:
             raise LLMRequestError("LLM returned an empty response")

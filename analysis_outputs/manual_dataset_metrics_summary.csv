@@ -1,0 +1,8 @@
+metric_group,accuracy,precision,recall,f1,support_positive,section,value,n
+applicability_any_factor,0.725,0.725,1.0,0.8405797101449275,725.0,applicability,,
+primary_factor_top1_accuracy,,,,,,primary_factor,0.08137931034482758,725.0
+primary_factor_top3_hit_rate,,,,,,primary_factor,0.23586206896551723,725.0
+primary_factor_top5_hit_rate,,,,,,primary_factor,0.33379310344827584,725.0
+primary_factor_macro_f1,,,,,,primary_factor,0.029760579802496367,725.0
+signal_on_true_factor_accuracy,,,,,,signal,0.39586206896551723,725.0
+signal_on_true_factor_macro_f1,,,,,,signal,0.3080718054269001,725.0

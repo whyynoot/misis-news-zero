@@ -1,0 +1,57 @@
+{"dataset": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv", "n_ids": 300, "variants": ["latent_candidate_v2_think_true"], "model": "gemma4:e2b", "base_url": "http://localhost:11434", "batch_size": 10, "timeout": 600.0, "max_tokens": 8192}
+latent_candidate_v2_think_true: completed=0, pending=300, think=True
+latent_candidate_v2_think_true:   10/300 news; elapsed=2.3s; errors=0
+latent_candidate_v2_think_true:   20/300 news; elapsed=4.9s; errors=0
+latent_candidate_v2_think_true:   30/300 news; elapsed=7.3s; errors=0
+latent_candidate_v2_think_true:   40/300 news; elapsed=9.9s; errors=0
+latent_candidate_v2_think_true:   50/300 news; elapsed=12.2s; errors=0
+latent_candidate_v2_think_true:   60/300 news; elapsed=118.3s; errors=0
+latent_candidate_v2_think_true:   70/300 news; elapsed=121.2s; errors=0
+latent_candidate_v2_think_true:   80/300 news; elapsed=124.2s; errors=0
+latent_candidate_v2_think_true:   90/300 news; elapsed=126.8s; errors=0
+latent_candidate_v2_think_true:  100/300 news; elapsed=129.6s; errors=0
+latent_candidate_v2_think_true:  110/300 news; elapsed=132.3s; errors=0
+latent_candidate_v2_think_true:  120/300 news; elapsed=134.7s; errors=0
+latent_candidate_v2_think_true:  130/300 news; elapsed=138.1s; errors=0
+latent_candidate_v2_think_true:  140/300 news; elapsed=140.6s; errors=0
+latent_candidate_v2_think_true:  150/300 news; elapsed=143.2s; errors=0
+latent_candidate_v2_think_true:  160/300 news; elapsed=145.9s; errors=0
+latent_candidate_v2_think_true:  170/300 news; elapsed=148.8s; errors=0
+latent_candidate_v2_think_true:  180/300 news; elapsed=259.1s; errors=0
+latent_candidate_v2_think_true:  190/300 news; elapsed=261.5s; errors=0
+latent_candidate_v2_think_true:  200/300 news; elapsed=264.4s; errors=0
+latent_candidate_v2_think_true:  210/300 news; elapsed=266.9s; errors=0
+latent_candidate_v2_think_true:  220/300 news; elapsed=269.4s; errors=0
+latent_candidate_v2_think_true:  230/300 news; elapsed=409.9s; errors=0
+latent_candidate_v2_think_true:  240/300 news; elapsed=412.8s; errors=0
+latent_candidate_v2_think_true:  250/300 news; elapsed=415.3s; errors=0
+latent_candidate_v2_think_true:  260/300 news; elapsed=417.6s; errors=0
+latent_candidate_v2_think_true:  270/300 news; elapsed=420.0s; errors=0
+latent_candidate_v2_think_true:  280/300 news; elapsed=422.4s; errors=0
+latent_candidate_v2_think_true:  290/300 news; elapsed=424.7s; errors=0
+latent_candidate_v2_think_true:  300/300 news; elapsed=427.1s; errors=0
+latent_candidate_v2_think_true: saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_latent_candidate_v2_think_true.csv
+
+TOP METRICS
+                       variant      mode  threshold  factor_micro_f1  factor_micro_precision  factor_micro_recall  factor_macro_f1_supported  sample_f1_empty_correct  any_relevant_f1  mean_pred_labels_per_news
+latent_candidate_v2_think_true threshold       0.35           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.40           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.45           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.50           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.55           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.60           0.0767                  0.4062               0.0423                     0.0471                   0.2544           0.1575                     0.1067
+latent_candidate_v2_think_true threshold       0.10           0.0756                  0.3514               0.0423                     0.0440                   0.2472           0.1562                     0.1233
+latent_candidate_v2_think_true threshold       0.15           0.0756                  0.3514               0.0423                     0.0440                   0.2472           0.1562                     0.1233
+latent_candidate_v2_think_true threshold       0.20           0.0756                  0.3514               0.0423                     0.0440                   0.2472           0.1562                     0.1233
+latent_candidate_v2_think_true threshold       0.25           0.0756                  0.3514               0.0423                     0.0440                   0.2472           0.1562                     0.1233
+latent_candidate_v2_think_true threshold       0.30           0.0756                  0.3514               0.0423                     0.0440                   0.2472           0.1562                     0.1233
+latent_candidate_v2_think_true   default        NaN           0.0606                  0.4348               0.0326                     0.0308                   0.2550           0.1143                     0.0767
+latent_candidate_v2_think_true threshold       0.65           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.70           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.75           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.80           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.85           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.90           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+latent_candidate_v2_think_true threshold       0.95           0.0000                  0.0000               0.0000                     0.0000                   0.2433           0.0000                     0.0000
+metrics=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_metrics.csv
+summary=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_summary.json

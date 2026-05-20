@@ -1,0 +1,131 @@
+{
+  "dataset_path": "C:\\Users\\whynot\\Downloads\\interfax_news_multilabel_factor_dataset_1000_wide.csv",
+  "llm_predictions_path": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_prompt_search_best_balanced_recall_v2.csv",
+  "dataset_encoding": {
+    "bytes": 5903801,
+    "bom_utf8": true,
+    "utf8_ok": true,
+    "replacement_chars": 0,
+    "cyrillic_chars": 1769120
+  },
+  "dataset_stats": {
+    "rows": 1000,
+    "columns": 215,
+    "factor_count": 36,
+    "positive_factor_pairs": 915,
+    "not_relevant_news": 275,
+    "relevant_news": 725,
+    "multi_label_news": 182,
+    "supported_factor_count": 23,
+    "zero_support_factor_count": 13,
+    "mean_labels_per_news": 0.915,
+    "mean_labels_per_relevant_news": 1.2620689655172415,
+    "relevant_count_mismatch": 0
+  },
+  "prediction_integrity": {
+    "rows": 36000,
+    "expected_rows": 36000,
+    "news_id_count": 1000,
+    "factor_key_count": 36,
+    "missing_factor_keys": [],
+    "extra_factor_keys": [],
+    "duplicate_news_factor_rows": 0
+  },
+  "recommended_metric_dashboard": {
+    "primary_metric": "factor_micro_f1",
+    "secondary_metrics": [
+      "sample_f1_empty_correct",
+      "any_relevant_f1",
+      "factor_macro_f1_supported",
+      "exact_match"
+    ],
+    "why": "Multilabel task with sparse labels and zero-support factors; strict all-class macro-F1 is diagnostic, not headline."
+  },
+  "default_is_relevant_metrics": {
+    "pred_positive_pairs": 504.0,
+    "pred_relevant_news": 483.0,
+    "mean_pred_labels_per_news": 0.504,
+    "exact_match": 0.406,
+    "sample_f1_empty_correct": 0.4784,
+    "sample_jaccard_empty_correct": 0.45975,
+    "factor_micro_f1": 0.43269908386187456,
+    "factor_micro_precision": 0.6091269841269841,
+    "factor_micro_recall": 0.3355191256830601,
+    "factor_macro_f1_all36": 0.16557058854019363,
+    "factor_macro_f1_supported": 0.25915396467160745,
+    "factor_macro_f1_head_ge25": 0.3472268454430095,
+    "factor_weighted_f1": 0.41219435222825224,
+    "hamming_loss": 0.02236111111111111,
+    "any_relevant_precision": 0.8695652173913043,
+    "any_relevant_recall": 0.5793103448275863,
+    "any_relevant_f1": 0.695364238410596,
+    "empty_specificity": 0.7709090909090909
+  },
+  "recommended_threshold_variant": "threshold_0.30",
+  "recommended_threshold_metrics": {
+    "pred_positive_pairs": 783.0,
+    "pred_relevant_news": 751.0,
+    "mean_pred_labels_per_news": 0.783,
+    "exact_match": 0.404,
+    "sample_f1_empty_correct": 0.4879,
+    "sample_jaccard_empty_correct": 0.46625,
+    "factor_micro_f1": 0.48881036513545345,
+    "factor_micro_precision": 0.5300127713920817,
+    "factor_micro_recall": 0.453551912568306,
+    "factor_macro_f1_all36": 0.1664473749293354,
+    "factor_macro_f1_supported": 0.260526325976351,
+    "factor_macro_f1_head_ge25": 0.3841449671667304,
+    "factor_weighted_f1": 0.4684099935153847,
+    "hamming_loss": 0.02411111111111111,
+    "any_relevant_precision": 0.7949400798934754,
+    "any_relevant_recall": 0.8234482758620689,
+    "any_relevant_f1": 0.8089430894308943,
+    "empty_specificity": 0.44
+  },
+  "topk_results": [
+    {
+      "k": 1,
+      "label_recall_at_k_on_relevant_news": 0.47356321839080456,
+      "news_hit_any_at_k_on_relevant_news": 0.5572413793103448,
+      "precision_at_k_all_news": 0.404
+    },
+    {
+      "k": 2,
+      "label_recall_at_k_on_relevant_news": 0.4859770114942529,
+      "news_hit_any_at_k_on_relevant_news": 0.5710344827586207,
+      "precision_at_k_all_news": 0.208
+    },
+    {
+      "k": 3,
+      "label_recall_at_k_on_relevant_news": 0.4891954022988505,
+      "news_hit_any_at_k_on_relevant_news": 0.5737931034482758,
+      "precision_at_k_all_news": 0.1403333333333333
+    },
+    {
+      "k": 5,
+      "label_recall_at_k_on_relevant_news": 0.4898850574712643,
+      "news_hit_any_at_k_on_relevant_news": 0.5737931034482758,
+      "precision_at_k_all_news": 0.08439999999999999
+    },
+    {
+      "k": 10,
+      "label_recall_at_k_on_relevant_news": 0.5255172413793103,
+      "news_hit_any_at_k_on_relevant_news": 0.6137931034482759,
+      "precision_at_k_all_news": 0.046099999999999995
+    },
+    {
+      "k": 15,
+      "label_recall_at_k_on_relevant_news": 0.8804597701149425,
+      "news_hit_any_at_k_on_relevant_news": 0.9296551724137931,
+      "precision_at_k_all_news": 0.052066666666666664
+    }
+  ],
+  "output_paths": {
+    "summary": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_metrics_summary.json",
+    "dashboard_metrics": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_dashboard_metrics.csv",
+    "threshold_sweep": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_threshold_sweep.csv",
+    "topk_results": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_topk_results.csv",
+    "factor_report": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_factor_report.csv",
+    "news_errors": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\manual_dataset_multilabel_news_errors.csv"
+  }
+}

@@ -1,0 +1,150 @@
+{"dataset": "C:\\Users\\whynot\\VSCodeProjects\\news-zero-shot\\analysis_outputs\\interfax_news_multilabel_factor_dataset_1000_wide.csv", "n_ids": 300, "variants": ["recall_max_v1_think_false", "recall_max_v1_think_true"], "model": "gemma4:e2b", "base_url": "http://localhost:11434", "batch_size": 5, "timeout": 420.0, "max_tokens": 8192}
+recall_max_v1_think_false: completed=0, pending=300, think=False
+recall_max_v1_think_false:    5/300 news; elapsed=4.8s; errors=0
+recall_max_v1_think_false:   10/300 news; elapsed=8.6s; errors=0
+recall_max_v1_think_false:   15/300 news; elapsed=10.8s; errors=0
+recall_max_v1_think_false:   20/300 news; elapsed=12.9s; errors=0
+recall_max_v1_think_false:   25/300 news; elapsed=14.8s; errors=0
+recall_max_v1_think_false:   30/300 news; elapsed=18.7s; errors=0
+recall_max_v1_think_false:   35/300 news; elapsed=23.0s; errors=0
+recall_max_v1_think_false:   40/300 news; elapsed=26.8s; errors=0
+recall_max_v1_think_false:   45/300 news; elapsed=31.2s; errors=0
+recall_max_v1_think_false:   50/300 news; elapsed=35.2s; errors=0
+recall_max_v1_think_false:   55/300 news; elapsed=39.2s; errors=0
+recall_max_v1_think_false:   60/300 news; elapsed=43.7s; errors=0
+recall_max_v1_think_false:   65/300 news; elapsed=45.4s; errors=0
+recall_max_v1_think_false:   70/300 news; elapsed=48.6s; errors=0
+recall_max_v1_think_false:   75/300 news; elapsed=52.0s; errors=0
+recall_max_v1_think_false:   80/300 news; elapsed=55.9s; errors=0
+recall_max_v1_think_false:   85/300 news; elapsed=59.8s; errors=0
+recall_max_v1_think_false:   90/300 news; elapsed=63.1s; errors=0
+recall_max_v1_think_false:   95/300 news; elapsed=68.0s; errors=0
+recall_max_v1_think_false:  100/300 news; elapsed=70.6s; errors=0
+recall_max_v1_think_false:  105/300 news; elapsed=74.5s; errors=0
+recall_max_v1_think_false:  110/300 news; elapsed=77.7s; errors=0
+recall_max_v1_think_false:  115/300 news; elapsed=81.5s; errors=0
+recall_max_v1_think_false:  120/300 news; elapsed=82.6s; errors=0
+recall_max_v1_think_false:  125/300 news; elapsed=85.9s; errors=0
+recall_max_v1_think_false:  130/300 news; elapsed=91.0s; errors=0
+recall_max_v1_think_false:  135/300 news; elapsed=95.2s; errors=0
+recall_max_v1_think_false:  140/300 news; elapsed=99.1s; errors=0
+recall_max_v1_think_false:  145/300 news; elapsed=104.3s; errors=0
+recall_max_v1_think_false:  150/300 news; elapsed=107.1s; errors=0
+recall_max_v1_think_false:  155/300 news; elapsed=109.0s; errors=0
+recall_max_v1_think_false:  160/300 news; elapsed=113.5s; errors=0
+recall_max_v1_think_false:  165/300 news; elapsed=116.8s; errors=0
+recall_max_v1_think_false:  170/300 news; elapsed=121.7s; errors=0
+recall_max_v1_think_false:  175/300 news; elapsed=126.2s; errors=0
+recall_max_v1_think_false:  180/300 news; elapsed=130.7s; errors=0
+recall_max_v1_think_false:  185/300 news; elapsed=135.3s; errors=0
+recall_max_v1_think_false:  190/300 news; elapsed=139.9s; errors=0
+recall_max_v1_think_false:  195/300 news; elapsed=143.8s; errors=0
+recall_max_v1_think_false:  200/300 news; elapsed=145.6s; errors=0
+recall_max_v1_think_false:  205/300 news; elapsed=148.4s; errors=0
+recall_max_v1_think_false:  210/300 news; elapsed=152.6s; errors=0
+recall_max_v1_think_false:  215/300 news; elapsed=156.3s; errors=0
+recall_max_v1_think_false:  220/300 news; elapsed=160.1s; errors=0
+recall_max_v1_think_false:  225/300 news; elapsed=164.1s; errors=0
+recall_max_v1_think_false:  230/300 news; elapsed=168.0s; errors=0
+recall_max_v1_think_false:  235/300 news; elapsed=171.9s; errors=0
+recall_max_v1_think_false:  240/300 news; elapsed=173.6s; errors=0
+recall_max_v1_think_false:  245/300 news; elapsed=175.4s; errors=0
+recall_max_v1_think_false:  250/300 news; elapsed=179.9s; errors=0
+recall_max_v1_think_false:  255/300 news; elapsed=184.3s; errors=0
+recall_max_v1_think_false:  260/300 news; elapsed=187.5s; errors=0
+recall_max_v1_think_false:  265/300 news; elapsed=192.8s; errors=0
+recall_max_v1_think_false:  270/300 news; elapsed=194.8s; errors=0
+recall_max_v1_think_false:  275/300 news; elapsed=198.9s; errors=0
+recall_max_v1_think_false:  280/300 news; elapsed=203.0s; errors=0
+recall_max_v1_think_false:  285/300 news; elapsed=207.6s; errors=0
+recall_max_v1_think_false:  290/300 news; elapsed=211.6s; errors=0
+recall_max_v1_think_false:  295/300 news; elapsed=215.6s; errors=0
+recall_max_v1_think_false:  300/300 news; elapsed=219.5s; errors=0
+recall_max_v1_think_false: saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_recall_max_v1_think_false.csv
+recall_max_v1_think_true: completed=0, pending=300, think=True
+recall_max_v1_think_true:    5/300 news; elapsed=9.7s; errors=0
+recall_max_v1_think_true:   10/300 news; elapsed=18.2s; errors=0
+recall_max_v1_think_true:   15/300 news; elapsed=24.0s; errors=0
+recall_max_v1_think_true:   20/300 news; elapsed=30.3s; errors=0
+recall_max_v1_think_true:   25/300 news; elapsed=36.6s; errors=0
+recall_max_v1_think_true:   30/300 news; elapsed=44.7s; errors=0
+recall_max_v1_think_true:   35/300 news; elapsed=52.9s; errors=0
+recall_max_v1_think_true:   40/300 news; elapsed=60.8s; errors=0
+recall_max_v1_think_true:   45/300 news; elapsed=68.1s; errors=0
+recall_max_v1_think_true:   50/300 news; elapsed=76.9s; errors=0
+recall_max_v1_think_true:   55/300 news; elapsed=85.5s; errors=0
+recall_max_v1_think_true:   60/300 news; elapsed=93.9s; errors=0
+recall_max_v1_think_true:   65/300 news; elapsed=102.9s; errors=0
+recall_max_v1_think_true:   70/300 news; elapsed=114.4s; errors=0
+recall_max_v1_think_true:   75/300 news; elapsed=125.0s; errors=0
+recall_max_v1_think_true:   80/300 news; elapsed=136.9s; errors=0
+recall_max_v1_think_true:   85/300 news; elapsed=152.1s; errors=0
+recall_max_v1_think_true:   90/300 news; elapsed=164.8s; errors=0
+recall_max_v1_think_true:   95/300 news; elapsed=174.3s; errors=0
+recall_max_v1_think_true:  100/300 news; elapsed=184.1s; errors=0
+recall_max_v1_think_true:  105/300 news; elapsed=195.4s; errors=0
+recall_max_v1_think_true:  110/300 news; elapsed=206.3s; errors=0
+recall_max_v1_think_true:  115/300 news; elapsed=219.1s; errors=0
+recall_max_v1_think_true:  120/300 news; elapsed=227.8s; errors=0
+recall_max_v1_think_true:  125/300 news; elapsed=238.5s; errors=0
+recall_max_v1_think_true:  130/300 news; elapsed=252.8s; errors=0
+recall_max_v1_think_true:  135/300 news; elapsed=266.3s; errors=0
+recall_max_v1_think_true:  140/300 news; elapsed=279.5s; errors=0
+recall_max_v1_think_true:  145/300 news; elapsed=294.4s; errors=0
+recall_max_v1_think_true:  150/300 news; elapsed=303.3s; errors=0
+recall_max_v1_think_true:  155/300 news; elapsed=310.5s; errors=0
+recall_max_v1_think_true:  160/300 news; elapsed=319.3s; errors=0
+recall_max_v1_think_true:  165/300 news; elapsed=329.6s; errors=0
+recall_max_v1_think_true:  170/300 news; elapsed=339.6s; errors=0
+recall_max_v1_think_true:  175/300 news; elapsed=350.6s; errors=0
+recall_max_v1_think_true:  180/300 news; elapsed=361.3s; errors=0
+recall_max_v1_think_true:  185/300 news; elapsed=370.5s; errors=0
+recall_max_v1_think_true:  190/300 news; elapsed=383.0s; errors=0
+recall_max_v1_think_true:  195/300 news; elapsed=395.0s; errors=0
+recall_max_v1_think_true:  200/300 news; elapsed=405.8s; errors=0
+recall_max_v1_think_true:  205/300 news; elapsed=416.8s; errors=0
+recall_max_v1_think_true:  210/300 news; elapsed=429.1s; errors=0
+recall_max_v1_think_true:  215/300 news; elapsed=440.4s; errors=0
+recall_max_v1_think_true:  220/300 news; elapsed=451.3s; errors=0
+recall_max_v1_think_true:  225/300 news; elapsed=463.4s; errors=0
+recall_max_v1_think_true:  230/300 news; elapsed=473.2s; errors=0
+recall_max_v1_think_true:  235/300 news; elapsed=486.9s; errors=0
+recall_max_v1_think_true:  240/300 news; elapsed=497.8s; errors=0
+recall_max_v1_think_true:  245/300 news; elapsed=506.4s; errors=0
+recall_max_v1_think_true:  250/300 news; elapsed=521.4s; errors=0
+recall_max_v1_think_true:  255/300 news; elapsed=534.8s; errors=0
+recall_max_v1_think_true:  260/300 news; elapsed=548.9s; errors=0
+recall_max_v1_think_true:  265/300 news; elapsed=563.4s; errors=0
+recall_max_v1_think_true:  270/300 news; elapsed=572.8s; errors=0
+recall_max_v1_think_true:  275/300 news; elapsed=587.3s; errors=0
+recall_max_v1_think_true:  280/300 news; elapsed=602.5s; errors=0
+recall_max_v1_think_true:  285/300 news; elapsed=615.4s; errors=0
+recall_max_v1_think_true:  290/300 news; elapsed=628.3s; errors=0
+recall_max_v1_think_true:  295/300 news; elapsed=640.8s; errors=0
+recall_max_v1_think_true:  300/300 news; elapsed=654.0s; errors=0
+recall_max_v1_think_true: saved=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_recall_max_v1_think_true.csv
+
+TOP METRICS
+                  variant      mode  threshold  factor_micro_f1  factor_micro_precision  factor_micro_recall  factor_macro_f1_supported  sample_f1_empty_correct  any_relevant_f1  mean_pred_labels_per_news
+ recall_max_v1_think_true threshold       0.10           0.4786                  0.5296               0.4365                     0.1798                   0.4859           0.8522                     0.8433
+ recall_max_v1_think_true threshold       0.15           0.4786                  0.5296               0.4365                     0.1798                   0.4859           0.8522                     0.8433
+ recall_max_v1_think_true threshold       0.20           0.4786                  0.5296               0.4365                     0.1798                   0.4859           0.8522                     0.8433
+ recall_max_v1_think_true threshold       0.25           0.4786                  0.5296               0.4365                     0.1798                   0.4859           0.8522                     0.8433
+ recall_max_v1_think_true threshold       0.30           0.4786                  0.5296               0.4365                     0.1798                   0.4859           0.8522                     0.8433
+ recall_max_v1_think_true threshold       0.35           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true threshold       0.40           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true threshold       0.45           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true threshold       0.50           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true threshold       0.55           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true threshold       0.60           0.4758                  0.6726               0.3681                     0.1897                   0.5187           0.7552                     0.5600
+ recall_max_v1_think_true   default        NaN           0.4662                  0.7039               0.3485                     0.1801                   0.5187           0.7283                     0.5067
+recall_max_v1_think_false threshold       0.10           0.4583                  0.5039               0.4202                     0.1894                   0.4593           0.8437                     0.8533
+recall_max_v1_think_false threshold       0.15           0.4583                  0.5039               0.4202                     0.1894                   0.4593           0.8437                     0.8533
+recall_max_v1_think_false threshold       0.20           0.4583                  0.5039               0.4202                     0.1894                   0.4593           0.8437                     0.8533
+recall_max_v1_think_false threshold       0.25           0.4583                  0.5039               0.4202                     0.1894                   0.4593           0.8437                     0.8533
+recall_max_v1_think_false threshold       0.30           0.4583                  0.5039               0.4202                     0.1894                   0.4593           0.8437                     0.8533
+recall_max_v1_think_false threshold       0.35           0.4530                  0.6584               0.3453                     0.1902                   0.5104           0.7487                     0.5367
+recall_max_v1_think_false threshold       0.40           0.4530                  0.6584               0.3453                     0.1902                   0.5104           0.7487                     0.5367
+recall_max_v1_think_false threshold       0.45           0.4530                  0.6584               0.3453                     0.1902                   0.5104           0.7487                     0.5367
+metrics=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_metrics.csv
+summary=C:\Users\whynot\VSCodeProjects\news-zero-shot\analysis_outputs\thinking_recall_experiment_summary.json
