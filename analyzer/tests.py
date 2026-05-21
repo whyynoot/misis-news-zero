@@ -57,6 +57,7 @@ def llm_test_settings():
         batch_news_size=4,
         concurrency=1,
         think=False,
+        json_mode=True,
         classification_prompt_version="social-risk-classification-v1",
         summary_prompt_version="social-risk-summary-v1",
     )

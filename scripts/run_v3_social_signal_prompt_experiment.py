@@ -37,8 +37,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-tokens", type=int, default=4096)
     parser.add_argument("--num-ctx", type=int, default=0, help="Optional Ollama num_ctx override; 0 keeps model/default context.")
     parser.add_argument("--model", default="", help="Override LLM model from .env for this run.")
+    parser.add_argument("--text-limit", type=int, default=1800, help="Max news text characters passed to the prompt.")
     parser.add_argument("--tag", default="", help="Optional output filename tag for pilots and reruns.")
     parser.add_argument("--think", action="store_true")
+    parser.add_argument("--print-thinking", action="store_true", help="Print per-request thinking/content counters from Ollama debug payloads.")
+    parser.add_argument("--thinking-tail-chars", type=int, default=0, help="Print this many trailing thinking characters after each request; 0 disables tails.")
     parser.add_argument("--force", action="store_true")
     return parser.parse_args()
 
@@ -96,6 +99,38 @@ def build_gold_examples(df: pd.DataFrame, eval_ids: set[int], factor_keys: list[
         if len(rows) >= max_examples + 4:
             break
     return rows[:max_examples]
+
+
+def normalize_input_dataset(df: pd.DataFrame, factor_keys: list[str] | None = None) -> pd.DataFrame:
+    """Support both normalized benchmark CSVs and the older wide gold export."""
+    df = df.copy()
+    old_column_map = {
+        "dataset_row_id": "Номер строки в датасете 1000",
+        "published_at": "Дата и время публикации",
+        "title": "Заголовок новости",
+        "full_text": "Полный текст новости",
+        "url": "Ссылка на новость",
+        "v3_factor_count": "Количество релевантных факторов",
+    }
+    for normalized, old_name in old_column_map.items():
+        if normalized not in df.columns and old_name in df.columns:
+            df[normalized] = df[old_name]
+
+    if "full_text" not in df.columns:
+        text_parts = [name for name in ["Описание новости", "Первый абзац новости", "Заголовок новости"] if name in df.columns]
+        if text_parts:
+            df["full_text"] = df[text_parts].fillna("").astype(str).agg(" ".join, axis=1)
+    if "title" not in df.columns:
+        df["title"] = ""
+    if "url" not in df.columns:
+        df["url"] = ""
+    if "published_at" not in df.columns:
+        df["published_at"] = ""
+    if "v3_factor_count" not in df.columns and factor_keys:
+        factor_cols = [f"factor__{key}" for key in factor_keys if f"factor__{key}" in df.columns]
+        if factor_cols:
+            df["v3_factor_count"] = df[factor_cols].apply(pd.to_numeric, errors="coerce").fillna(0).astype(int).clip(0, 1).sum(axis=1)
+    return df
 
 
 def build_factor_catalog(factor_config: list[dict[str, Any]], event_taxonomy: dict[str, dict[str, str]]) -> list[dict[str, Any]]:
@@ -478,11 +513,11 @@ def main() -> None:
     from analyzer.llm_prompts import CLASSIFICATION_SYSTEM_PROMPT
     from analyzer.llm_services import normalize_classification_response
 
-    df = pd.read_csv(args.dataset, encoding="utf-8-sig")
+    factor_keys = [item["key"] for item in FACTOR_CONFIG]
+    df = normalize_input_dataset(pd.read_csv(args.dataset, encoding="utf-8-sig"), factor_keys)
     df["dataset_row_id"] = pd.to_numeric(df["dataset_row_id"], errors="raise").astype(int)
     df["published_at"] = pd.to_datetime(df["published_at"], errors="coerce")
 
-    factor_keys = [item["key"] for item in FACTOR_CONFIG]
     factors = [SimpleNamespace(id=i + 1, **item) for i, item in enumerate(FACTOR_CONFIG)]
     factor_catalog = build_factor_catalog(FACTOR_CONFIG, EVENT_FACTOR_TAXONOMY)
     eval_ids = load_eval_ids(df, args.ids_from, args.limit)
@@ -508,7 +543,7 @@ def main() -> None:
             published_at=published_at.to_pydatetime(),
             title=clean_text(row.get("title", "")),
             summary="",
-            text=text[:1800],
+            text=text[: max(int(args.text_limit), 200)],
             url=clean_text(row.get("url", "")),
         )
 
@@ -522,7 +557,7 @@ def main() -> None:
                     "news_id": str(item.id),
                     "date": item.published_at.date().isoformat(),
                     "title": item.title,
-                    "text": item.text[:1800],
+                    "text": item.text[: max(int(args.text_limit), 200)],
                     "url": item.url,
                 }
             )
@@ -549,10 +584,12 @@ def main() -> None:
                 "variants": args.variants,
                 "model": settings.model,
                 "think": settings.think,
+                "json_mode": settings.json_mode,
                 "batch_size": args.batch_size,
                 "timeout": settings.timeout_seconds,
                 "max_tokens": settings.max_tokens,
                 "num_ctx": settings.num_ctx,
+                "text_limit": max(int(args.text_limit), 200),
             },
             ensure_ascii=False,
         ),
@@ -597,8 +634,9 @@ def main() -> None:
         final_path = OUTPUT_DIR / f"v3_social_signal_experiment_{suffix}.csv"
         partial_path = OUTPUT_DIR / f"v3_social_signal_experiment_{suffix}.partial.csv"
         raw_path = OUTPUT_DIR / f"v3_social_signal_experiment_{suffix}.raw.jsonl"
+        raw_response_path = OUTPUT_DIR / f"v3_social_signal_experiment_{suffix}.ollama_response.jsonl"
         if args.force:
-            for path in [final_path, partial_path, raw_path]:
+            for path in [final_path, partial_path, raw_path, raw_response_path]:
                 if path.exists():
                     path.unlink()
         if final_path.exists() and not args.force:
@@ -615,6 +653,51 @@ def main() -> None:
 
         errors: list[dict[str, Any]] = []
 
+        def response_debug_payload(client: LLMClient, batch_ids: list[int], status: str, **extra: Any) -> dict[str, Any]:
+            data = getattr(client, "last_response_data", None) or {}
+            message = data.get("message") if isinstance(data, dict) else {}
+            if not isinstance(message, dict):
+                message = {}
+            content = message.get("content") or data.get("response") if isinstance(data, dict) else ""
+            thinking = message.get("thinking") or ""
+            return {
+                "ids": batch_ids,
+                "status": status,
+                "content_chars": len(str(content or "")),
+                "thinking_chars": len(str(thinking or "")),
+                "done_reason": data.get("done_reason") if isinstance(data, dict) else None,
+                "total_duration": data.get("total_duration") if isinstance(data, dict) else None,
+                "load_duration": data.get("load_duration") if isinstance(data, dict) else None,
+                "prompt_eval_count": data.get("prompt_eval_count") if isinstance(data, dict) else None,
+                "eval_count": data.get("eval_count") if isinstance(data, dict) else None,
+                "raw_response": data,
+                **extra,
+            }
+
+        def print_response_debug(payload: dict[str, Any]) -> None:
+            if not args.print_thinking and args.thinking_tail_chars <= 0:
+                return
+            data = payload.get("raw_response") or {}
+            message = data.get("message") if isinstance(data, dict) else {}
+            if not isinstance(message, dict):
+                message = {}
+            thinking = str(message.get("thinking") or "")
+            summary = {
+                "ids": payload.get("ids"),
+                "status": payload.get("status"),
+                "done_reason": payload.get("done_reason"),
+                "content_chars": payload.get("content_chars"),
+                "thinking_chars": payload.get("thinking_chars"),
+                "eval_count": payload.get("eval_count"),
+                "duration_s": round(float(payload.get("total_duration") or 0) / 1_000_000_000, 1),
+                "error_type": payload.get("error_type"),
+                "error": payload.get("error"),
+            }
+            print("thinking_debug=" + json.dumps(summary, ensure_ascii=False), flush=True)
+            if args.thinking_tail_chars > 0 and thinking:
+                tail = re.sub(r"\s+", " ", thinking[-args.thinking_tail_chars:]).strip()
+                print(f"thinking_tail ids={payload.get('ids')}: {tail}", flush=True)
+
         def request_batch(batch_ids: list[int], status: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
             batch_news = [news_by_id[item_id] for item_id in batch_ids]
             prompt = social_signal_prompt(
@@ -623,8 +706,14 @@ def main() -> None:
                 catalog=factor_catalog,
                 examples=examples,
             )
+            thinking_guard = os.environ.get("LLM_THINKING_GUARD", "").strip()
+            if args.think and thinking_guard:
+                prompt = f"{thinking_guard}\n\n{prompt}"
             try:
                 raw_text = client.complete(CLASSIFICATION_SYSTEM_PROMPT, prompt)
+                debug_payload = response_debug_payload(client, batch_ids, "ok")
+                append_jsonl(raw_response_path, debug_payload)
+                print_response_debug(debug_payload)
                 response = normalize_response_shape(parse_llm_json(raw_text), batch_ids)
                 validate_response_schema(response, batch_ids)
                 rows = normalize_rows(response, batch_news, raw_text, status)
@@ -642,6 +731,16 @@ def main() -> None:
                     return good_rows + fallback_rows, fallback_errors
                 return rows, []
             except Exception as exc:
+                debug_payload = response_debug_payload(
+                    client,
+                    batch_ids,
+                    "error",
+                    error_type=type(exc).__name__,
+                    error=str(exc),
+                    raw_text=locals().get("raw_text", ""),
+                )
+                append_jsonl(raw_response_path, debug_payload)
+                print_response_debug(debug_payload)
                 append_jsonl(
                     raw_path,
                     {

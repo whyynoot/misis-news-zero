@@ -45,10 +45,14 @@ def sample_f1_empty_correct(y_true: np.ndarray, y_pred: np.ndarray) -> float:
 
 def model_guess(name: str) -> str:
     normalized = name.lower().replace("-", "_")
+    if "qwen36_35b_iq4" in normalized:
+        return "qwen3.6-35b:iq4"
     if "qwen36_35b_iq3" in normalized or "qwen3.6_35b" in normalized:
         return "qwen3.6-35b:iq3"
     if "qwen35_9b" in normalized:
         return "qwen35-9b"
+    if "gemma4_26b" in normalized:
+        return "gemma4:26b"
     if "gemma4_e4b" in normalized:
         return "gemma4:e4b"
     if "gemma4_e2b" in normalized or "gemma4_e2b" in normalized or "gemma4-e2b" in name.lower():

@@ -20,6 +20,11 @@ DATASET = OUT / "FINAL_v4_clean_social_signal_dataset_965_normalized.csv"
 THRESHOLDS = [None] + [round(float(value), 2) for value in np.arange(0.05, 1.00, 0.05)]
 SCOPES = ["all", "direct", "context", "weak", "direct_context"]
 SEARCH_PROMPT_TOKENS = [
+    "social_signal_v9_f1_balanced",
+    "social_signal_v5",
+    "high_recall_minimal_v3",
+    "high_recall_minimal_v2",
+    "high_recall_minimal_v1",
     "direct_strict",
     "direct_recall",
     "direct_checklist",
@@ -44,8 +49,24 @@ SEARCH_PROMPT_TOKENS = [
 ]
 
 
+def df_to_markdown(df: pd.DataFrame) -> str:
+    try:
+        return df.to_markdown(index=False)
+    except ImportError:
+        rows = [list(df.columns)] + df.fillna("").astype(str).values.tolist()
+        if not rows:
+            return ""
+        widths = [max(len(row[i]) for row in rows) for i in range(len(rows[0]))]
+        header = "| " + " | ".join(rows[0][i].ljust(widths[i]) for i in range(len(widths))) + " |"
+        sep = "| " + " | ".join("-" * widths[i] for i in range(len(widths))) + " |"
+        body = ["| " + " | ".join(row[i].ljust(widths[i]) for i in range(len(widths))) + " |" for row in rows[1:]]
+        return "\n".join([header, sep] + body)
+
+
 def infer_model(name: str) -> str:
     lowered = name.lower()
+    if "qwen36_35b_iq4" in lowered:
+        return "batiai/qwen3.6-35b:iq4"
     if "qwen36_35b" in lowered or "qwen3.6-35b" in lowered:
         return "batiai/qwen3.6-35b:iq3"
     if "qwen36_27b" in lowered or "qwen3.6_27b" in lowered:
@@ -60,6 +81,8 @@ def infer_model(name: str) -> str:
         return "gemma4:e4b"
     if "gemma4_e2b" in lowered or "gemma4-e2b" in lowered:
         return "gemma4:e2b"
+    if "gemma4_26b" in lowered or "gemma4-26b" in lowered:
+        return "gemma4:26b"
     if "gemma3n_e4b" in lowered or "gemma3n-e4b" in lowered:
         return "gemma3n:e4b"
     return "unknown"
@@ -68,6 +91,11 @@ def infer_model(name: str) -> str:
 def infer_prompt(name: str) -> str:
     lowered = name.lower()
     known = [
+        "social_signal_v9_f1_balanced",
+        "social_signal_v5",
+        "high_recall_minimal_v3",
+        "high_recall_minimal_v2",
+        "high_recall_minimal_v1",
         "direct_strict",
         "direct_recall",
         "direct_checklist",
@@ -282,17 +310,21 @@ def main() -> None:
         else:
             top = metrics[metrics["scope"].eq(scope)].head(20)
             summary.append(
-                top[[
-                    "model",
-                    "prompt",
-                    "n_news",
-                    "threshold",
-                    "micro_precision",
-                    "micro_recall",
-                    "micro_f1",
-                    "mean_pred_labels",
-                    "file_name",
-                ]].round(4).to_markdown(index=False)
+                df_to_markdown(
+                    top[
+                        [
+                            "model",
+                            "prompt",
+                            "n_news",
+                            "threshold",
+                            "micro_precision",
+                            "micro_recall",
+                            "micro_f1",
+                            "mean_pred_labels",
+                            "file_name",
+                        ]
+                    ].round(4)
+                )
             )
         summary.append("")
     (OUT / "v4_strength_summary.md").write_text("\n".join(summary), encoding="utf-8")

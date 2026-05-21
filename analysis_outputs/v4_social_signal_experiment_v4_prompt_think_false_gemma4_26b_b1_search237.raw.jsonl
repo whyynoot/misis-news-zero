@@ -1,0 +1,15 @@
+{"ids": [1], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [9], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [16], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [17], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [18], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [19], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [24], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [35], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [40], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [41], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [49], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [54], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [56], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [57], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [61], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 503 Server Error: Service Unavailable for url: http://localhost:11434/api/chat", "raw_text": ""}

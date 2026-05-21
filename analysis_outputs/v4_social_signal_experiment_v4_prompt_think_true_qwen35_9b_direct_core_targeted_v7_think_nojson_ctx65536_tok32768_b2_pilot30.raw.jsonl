@@ -1,0 +1,3 @@
+{"ids": [1, 2], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [1], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat", "raw_text": ""}
+{"ids": [2], "status": "error", "error_type": "LLMRequestError", "error": "LLM request failed: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat", "raw_text": ""}

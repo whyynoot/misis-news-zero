@@ -43,6 +43,7 @@ class LLMSettings:
     batch_news_size: int
     concurrency: int
     think: bool
+    json_mode: bool
     classification_prompt_version: str
     summary_prompt_version: str
 
@@ -61,6 +62,7 @@ def get_llm_settings() -> LLMSettings:
         batch_news_size=max(config("LLM_BATCH_NEWS_SIZE", default=1, cast=int), 1),
         concurrency=max(config("LLM_CONCURRENCY", default=1, cast=int), 1),
         think=config("LLM_THINK", default=False, cast=bool),
+        json_mode=config("LLM_JSON_MODE", default=True, cast=bool),
         classification_prompt_version=config(
             "LLM_CLASSIFICATION_PROMPT_VERSION",
             default=prompt_version or LLM_CLASSIFICATION_PROMPT_VERSION,
@@ -171,13 +173,15 @@ class LLMClient:
             {"role": "user", "content": user_prompt},
         ]
         if endpoint.endswith("/chat/completions"):
-            return {
+            payload = {
                 "model": self.settings.model,
                 "messages": messages,
                 "temperature": self.settings.temperature,
                 "max_tokens": self.settings.max_tokens,
-                "response_format": {"type": "json_object"},
             }
+            if self.settings.json_mode:
+                payload["response_format"] = {"type": "json_object"}
+            return payload
         options = {
             "temperature": self.settings.temperature,
             "num_predict": self.settings.max_tokens,
@@ -185,14 +189,16 @@ class LLMClient:
         if self.settings.num_ctx:
             options["num_ctx"] = self.settings.num_ctx
 
-        return {
+        payload = {
             "model": self.settings.model,
             "messages": messages,
             "stream": False,
-            "format": "json",
             "think": self.settings.think,
             "options": options,
         }
+        if self.settings.json_mode:
+            payload["format"] = "json"
+        return payload
 
     def _extract_content(self, endpoint: str, data: dict[str, Any]) -> str:
         if endpoint.endswith("/chat/completions"):

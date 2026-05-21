@@ -26,6 +26,20 @@ SCOPES = ["all", "direct", "context", "weak", "direct_context"]
 SENTIMENT_LABELS = ["negative", "neutral", "positive"]
 
 
+def df_to_markdown(df: pd.DataFrame) -> str:
+    try:
+        return df.to_markdown(index=False)
+    except ImportError:
+        rows = [list(df.columns)] + df.fillna("").astype(str).values.tolist()
+        if not rows:
+            return ""
+        widths = [max(len(row[i]) for row in rows) for i in range(len(rows[0]))]
+        header = "| " + " | ".join(rows[0][i].ljust(widths[i]) for i in range(len(widths))) + " |"
+        sep = "| " + " | ".join("-" * widths[i] for i in range(len(widths))) + " |"
+        body = ["| " + " | ".join(row[i].ljust(widths[i]) for i in range(len(widths))) + " |" for row in rows[1:]]
+        return "\n".join([header, sep] + body)
+
+
 def normalize_bool_series(series: pd.Series) -> pd.Series:
     if pd.api.types.is_bool_dtype(series):
         return series.fillna(False)
@@ -82,6 +96,8 @@ def infer_model(name: str) -> str:
         return "batiai/qwen3.6-35b:iq3"
     if "qwen35_9b" in lowered or "qwen3.5" in lowered:
         return "qwen3.5:9b"
+    if "gemma4_26b" in lowered or "gemma4:26b" in lowered:
+        return "gemma4:26b"
     if "gemma4_e4b" in lowered or "gemma4:e4b" in lowered:
         return "gemma4:e4b"
     if "gemma4-e2b" in lowered or "gemma4_e2b" in lowered or "gemma4:e2b" in lowered:
@@ -672,39 +688,17 @@ def main() -> None:
         .agg(runs=("run_id", "count"), min_news=("n_news", "min"), max_news=("n_news", "max"))
         .sort_values(["model", "prompt"])
     )
-    summary_md.append(inventory.to_markdown(index=False))
+    summary_md.append(df_to_markdown(inventory))
     summary_md.append("")
     summary_md.append("## Candidate File Audit")
     audit_summary = audit.groupby("reason", as_index=False).size().rename(columns={"size": "files"}).sort_values("reason")
-    summary_md.append(audit_summary.to_markdown(index=False))
+    summary_md.append(df_to_markdown(audit_summary))
     summary_md.append("")
     summary_md.append("## Top All-Scope Micro-F1")
     top_all = metrics[metrics["scope"].eq("all")].sort_values(["micro_f1", "micro_recall", "n_news"], ascending=False).head(20)
     summary_md.append(
-        top_all[
-            [
-                "run_id",
-                "family",
-                "model",
-                "prompt",
-                "n_news",
-                "threshold",
-                "micro_precision",
-                "micro_recall",
-                "micro_f1",
-                "mean_pred_labels",
-                "json_errors",
-            ]
-        ]
-        .round(4)
-        .to_markdown(index=False)
-    )
-    for scope in ["direct", "context", "weak"]:
-        summary_md.append("")
-        summary_md.append(f"## Top {scope} Recall")
-        top_scope = metrics[metrics["scope"].eq(scope)].sort_values(["micro_recall", "micro_f1", "n_news"], ascending=False).head(15)
-        summary_md.append(
-            top_scope[
+        df_to_markdown(
+            top_all[
                 [
                     "run_id",
                     "family",
@@ -715,12 +709,34 @@ def main() -> None:
                     "micro_precision",
                     "micro_recall",
                     "micro_f1",
-                    "true_hit_news_coverage",
                     "mean_pred_labels",
+                    "json_errors",
                 ]
-            ]
-            .round(4)
-            .to_markdown(index=False)
+            ].round(4)
+        )
+    )
+    for scope in ["direct", "context", "weak"]:
+        summary_md.append("")
+        summary_md.append(f"## Top {scope} Recall")
+        top_scope = metrics[metrics["scope"].eq(scope)].sort_values(["micro_recall", "micro_f1", "n_news"], ascending=False).head(15)
+        summary_md.append(
+            df_to_markdown(
+                top_scope[
+                    [
+                        "run_id",
+                        "family",
+                        "model",
+                        "prompt",
+                        "n_news",
+                        "threshold",
+                        "micro_precision",
+                        "micro_recall",
+                        "micro_f1",
+                        "true_hit_news_coverage",
+                        "mean_pred_labels",
+                    ]
+                ].round(4)
+            )
         )
     if not ensemble_metrics.empty:
         summary_md.append("")
@@ -729,21 +745,21 @@ def main() -> None:
             ["micro_f1", "micro_recall", "n_news"], ascending=False
         ).head(15)
         summary_md.append(
-            top_ens_all[
-                [
-                    "run_id",
-                    "n_news",
-                    "ensemble_op",
-                    "micro_precision",
-                    "micro_recall",
-                    "micro_f1",
-                    "mean_pred_labels",
-                    "ensemble_left",
-                    "ensemble_right",
-                ]
-            ]
-            .round(4)
-            .to_markdown(index=False)
+            df_to_markdown(
+                top_ens_all[
+                    [
+                        "run_id",
+                        "n_news",
+                        "ensemble_op",
+                        "micro_precision",
+                        "micro_recall",
+                        "micro_f1",
+                        "mean_pred_labels",
+                        "ensemble_left",
+                        "ensemble_right",
+                    ]
+                ].round(4)
+            )
         )
 
     manifest.to_csv(OUT / "v3_all_runs_manifest.csv", index=False, encoding="utf-8-sig")
